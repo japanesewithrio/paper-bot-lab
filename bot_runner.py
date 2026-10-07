@@ -43,6 +43,11 @@ REPORT_PATH = Path("reports/latest.md")
 SLIPPAGE_BPS = 5.0
 MAX_POSITIONS = 3
 
+# Portfolio-level risk controls. These apply independently to every virtual bot.
+HARD_FLOOR_PCT = 0.80          # Permanently stop at 80% of starting equity (-20%).
+MAX_PEAK_DRAWDOWN_PCT = 0.15  # Permanently stop after a 15% drawdown from peak equity.
+DAILY_PAUSE_LOSS_PCT = 0.05   # Pause NEW entries for the rest of the day after a 5% daily equity loss.
+
 POS_WORDS = {
     "beat", "beats", "growth", "strong", "record", "upgrade", "upgraded",
     "partnership", "deal", "approval", "launch", "demand", "contract",
@@ -54,11 +59,13 @@ NEG_WORDS = {
     "restriction", "decline", "loss", "risk", "warning", "guidance cut",
 }
 
+# New entries scale with CURRENT equity so winners can compound while losing bots
+# naturally shrink their position sizes. There is intentionally no profit ceiling.
 BOT_CONFIG = {
-    "BOT_A": {"strategy": "Trend / Breakout", "position_size": 2500.0},
-    "BOT_B": {"strategy": "Dip / Mean Reversion", "position_size": 2500.0},
-    "BOT_C": {"strategy": "News + Momentum", "position_size": 2500.0},
-    "BOT_D": {"strategy": "Conservative Confirmation", "position_size": 2000.0},
+    "BOT_A": {"strategy": "Trend / Breakout", "position_fraction": 0.25},
+    "BOT_B": {"strategy": "Dip / Mean Reversion", "position_fraction": 0.25},
+    "BOT_C": {"strategy": "News + Momentum", "position_fraction": 0.25},
+    "BOT_D": {"strategy": "Conservative Confirmation", "position_fraction": 0.20},
 }
 
 
@@ -99,9 +106,13 @@ def atomic_json_write(path: Path, data: dict[str, Any]) -> None:
 def load_state(path: Path = STATE_PATH) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as fh:
         state = json.load(fh)
-    state.setdefault("schema_version", 1)
+
+    # Schema v2 adds portfolio risk state while remaining backward compatible
+    # with the state imported from Colab/schema v1.
+    state["schema_version"] = max(2, int(state.get("schema_version", 1)))
     state.setdefault("trades", [])
     state.setdefault("last_run", None)
+
     for name, cfg in BOT_CONFIG.items():
         bot = state.setdefault("bots", {}).setdefault(name, {})
         bot.setdefault("strategy", cfg["strategy"])
@@ -111,6 +122,18 @@ def load_state(path: Path = STATE_PATH) -> dict[str, Any]:
         bot.setdefault("positions", {})
         bot.setdefault("trade_count", 0)
         bot.setdefault("last_exit_date", {})
+
+        # Portfolio-level risk bookkeeping.
+        start = _f(bot.get("starting_cash"), 10000.0)
+        bot.setdefault("status", "ACTIVE")
+        bot.setdefault("peak_equity", start)
+        bot.setdefault("last_equity", start)
+        bot.setdefault("risk_date", None)
+        bot.setdefault("day_start_equity", start)
+        bot.setdefault("entry_paused_date", None)
+        bot.setdefault("stop_reason", None)
+        bot.setdefault("stopped_at", None)
+
     return state
 
 
@@ -130,8 +153,12 @@ def rsi14(closes: pd.Series) -> float:
     return float(100 - (100 / (1 + rs)))
 
 
-def calculate_signal(df: pd.DataFrame, current_price: float, news_score: int = 0,
-                     headlines: tuple[str, ...] = ()) -> Signal:
+def calculate_signal(
+    df: pd.DataFrame,
+    current_price: float,
+    news_score: int = 0,
+    headlines: tuple[str, ...] = (),
+) -> Signal:
     if len(df) < 55:
         raise ValueError("Need at least 55 completed daily bars")
     closes = df["close"].astype(float)
@@ -174,29 +201,47 @@ def should_enter(bot: str, s: Signal) -> bool:
 def should_exit(bot: str, s: Signal, position_pl_pct: float) -> tuple[bool, str]:
     reasons: list[str] = []
     if bot == "BOT_A":
-        if s.price < s.sma20: reasons.append("price<SMA20")
-        if position_pl_pct <= -6: reasons.append("stop -6%")
-        if position_pl_pct >= 12: reasons.append("take +12%")
+        if s.price < s.sma20:
+            reasons.append("price<SMA20")
+        if position_pl_pct <= -6:
+            reasons.append("stop -6%")
+        if position_pl_pct >= 12:
+            reasons.append("take +12%")
     elif bot == "BOT_B":
-        if s.price >= s.sma20: reasons.append("mean reversion to SMA20")
-        if position_pl_pct <= -7: reasons.append("stop -7%")
-        if position_pl_pct >= 8: reasons.append("take +8%")
+        if s.price >= s.sma20:
+            reasons.append("mean reversion to SMA20")
+        if position_pl_pct <= -7:
+            reasons.append("stop -7%")
+        if position_pl_pct >= 8:
+            reasons.append("take +8%")
     elif bot == "BOT_C":
-        if s.news_score < 0: reasons.append("negative news")
-        if s.price < s.sma20: reasons.append("price<SMA20")
-        if position_pl_pct <= -6: reasons.append("stop -6%")
-        if position_pl_pct >= 10: reasons.append("take +10%")
+        if s.news_score < 0:
+            reasons.append("negative news")
+        if s.price < s.sma20:
+            reasons.append("price<SMA20")
+        if position_pl_pct <= -6:
+            reasons.append("stop -6%")
+        if position_pl_pct >= 10:
+            reasons.append("take +10%")
     elif bot == "BOT_D":
-        if s.price < s.sma20: reasons.append("price<SMA20")
-        if s.rsi14 > 75: reasons.append("RSI>75")
-        if position_pl_pct <= -4: reasons.append("stop -4%")
-        if position_pl_pct >= 8: reasons.append("take +8%")
+        if s.price < s.sma20:
+            reasons.append("price<SMA20")
+        if s.rsi14 > 75:
+            reasons.append("RSI>75")
+        if position_pl_pct <= -4:
+            reasons.append("stop -4%")
+        if position_pl_pct >= 8:
+            reasons.append("take +8%")
     else:
         raise KeyError(bot)
     return bool(reasons), ", ".join(reasons)
 
 
 def can_open_position(bot_state: dict[str, Any], symbol: str, today: str) -> bool:
+    if bot_state.get("status", "ACTIVE") != "ACTIVE":
+        return False
+    if bot_state.get("entry_paused_date") == today:
+        return False
     if symbol in bot_state["positions"]:
         return False
     if len(bot_state["positions"]) >= MAX_POSITIONS:
@@ -293,8 +338,14 @@ def score_news(news_client: NewsClient, symbol: str, now_et: datetime) -> tuple[
     headlines: list[str] = []
     total = 0
     for item in raw:
-        headline = str(getattr(item, "headline", "") or (item.get("headline", "") if isinstance(item, dict) else "")).strip()
-        summary = str(getattr(item, "summary", "") or (item.get("summary", "") if isinstance(item, dict) else "")).strip()
+        headline = str(
+            getattr(item, "headline", "")
+            or (item.get("headline", "") if isinstance(item, dict) else "")
+        ).strip()
+        summary = str(
+            getattr(item, "summary", "")
+            or (item.get("summary", "") if isinstance(item, dict) else "")
+        ).strip()
         key = headline.lower()
         if not headline or key in seen:
             continue
@@ -313,19 +364,31 @@ def score_news(news_client: NewsClient, symbol: str, now_et: datetime) -> tuple[
     return max(-3, min(3, total)), tuple(headlines)
 
 
-def append_trade(state: dict[str, Any], bot: str, action: str, symbol: str, qty: float,
-                 fill: float, notional: float, realized_pl: float, reason: str, now_et: datetime) -> None:
-    state["trades"].append({
-        "timestamp": now_et.isoformat(),
-        "bot": bot,
-        "action": action,
-        "symbol": symbol,
-        "qty": round(qty, 10),
-        "fill_price": round(fill, 6),
-        "notional": round(notional, 2),
-        "realized_pl": round(realized_pl, 2),
-        "reason": reason,
-    })
+def append_trade(
+    state: dict[str, Any],
+    bot: str,
+    action: str,
+    symbol: str,
+    qty: float,
+    fill: float,
+    notional: float,
+    realized_pl: float,
+    reason: str,
+    now_et: datetime,
+) -> None:
+    state["trades"].append(
+        {
+            "timestamp": now_et.isoformat(),
+            "bot": bot,
+            "action": action,
+            "symbol": symbol,
+            "qty": round(qty, 10),
+            "fill_price": round(fill, 6),
+            "notional": round(notional, 2),
+            "realized_pl": round(realized_pl, 2),
+            "reason": reason,
+        }
+    )
     if len(state["trades"]) > 2000:
         state["trades"] = state["trades"][-2000:]
 
@@ -348,8 +411,96 @@ def mark_bot(bot_state: dict[str, Any], prices: dict[str, float]) -> dict[str, f
     }
 
 
-def write_report(state: dict[str, Any], prices: dict[str, float], signals: dict[str, Signal],
-                 actions: list[str], now_et: datetime) -> None:
+def refresh_daily_risk(bot: dict[str, Any], equity: float, today: str) -> None:
+    """Roll the daily baseline and clear an old one-day entry pause."""
+    if bot.get("risk_date") != today:
+        previous_equity = _f(bot.get("last_equity"), equity)
+        bot["risk_date"] = today
+        bot["day_start_equity"] = previous_equity if previous_equity > 0 else equity
+        if bot.get("entry_paused_date") != today:
+            bot["entry_paused_date"] = None
+
+
+def portfolio_stop_reason(bot: dict[str, Any], equity: float) -> str | None:
+    """Return a permanent-stop reason, or None when portfolio risk remains valid."""
+    start = _f(bot.get("starting_cash"), 10000.0)
+    peak = max(_f(bot.get("peak_equity"), start), equity)
+    bot["peak_equity"] = peak
+
+    if equity <= start * HARD_FLOOR_PCT:
+        return f"hard floor: equity <= {HARD_FLOOR_PCT:.0%} of starting equity"
+    if peak > 0 and equity <= peak * (1 - MAX_PEAK_DRAWDOWN_PCT):
+        return f"peak drawdown >= {MAX_PEAK_DRAWDOWN_PCT:.0%}"
+    return None
+
+
+def update_daily_pause(bot: dict[str, Any], equity: float, today: str) -> bool:
+    """Pause only NEW entries for the current day after a large daily loss."""
+    start = _f(bot.get("day_start_equity"), equity)
+    if start > 0 and equity <= start * (1 - DAILY_PAUSE_LOSS_PCT):
+        bot["entry_paused_date"] = today
+        return True
+    return bot.get("entry_paused_date") == today
+
+
+def liquidate_virtual_bot(
+    state: dict[str, Any],
+    bot_name: str,
+    bot: dict[str, Any],
+    prices: dict[str, float],
+    reason: str,
+    now_et: datetime,
+    actions: list[str],
+) -> None:
+    """Close every virtual position and permanently stop one bot. No broker order is sent."""
+    today = now_et.date().isoformat()
+    for symbol in list(bot["positions"].keys()):
+        pos = bot["positions"][symbol]
+        current = prices.get(symbol)
+        if current is None or current <= 0:
+            # Fail safe: do not invent a price. Leave the position and retry next run.
+            logging.warning("Cannot risk-liquidate %s %s: no valid price", bot_name, symbol)
+            continue
+        qty = _f(pos.get("qty"))
+        avg = _f(pos.get("avg_price"))
+        fill = simulated_fill(current, "SELL")
+        proceeds = qty * fill
+        realized = qty * (fill - avg)
+        bot["cash"] = round(_f(bot.get("cash")) + proceeds, 8)
+        bot["realized_pl"] = round(_f(bot.get("realized_pl")) + realized, 8)
+        bot["trade_count"] = int(bot.get("trade_count", 0)) + 1
+        bot.setdefault("last_exit_date", {})[symbol] = today
+        del bot["positions"][symbol]
+        append_trade(
+            state,
+            bot_name,
+            "SELL",
+            symbol,
+            qty,
+            fill,
+            proceeds,
+            realized,
+            f"portfolio stop — {reason}",
+            now_et,
+        )
+        actions.append(f"{bot_name} SELL {symbol} @ {fill:.2f} — portfolio stop: {reason}")
+
+    # Mark STOPPED only when every virtual position has been safely closed.
+    if not bot["positions"]:
+        bot["status"] = "STOPPED"
+        bot["stop_reason"] = reason
+        bot["stopped_at"] = now_et.isoformat()
+        bot["entry_paused_date"] = today
+        actions.append(f"{bot_name} STOPPED — {reason}")
+
+
+def write_report(
+    state: dict[str, Any],
+    prices: dict[str, float],
+    signals: dict[str, Signal],
+    actions: list[str],
+    now_et: datetime,
+) -> None:
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     rows = []
     for bot_name, bot in state["bots"].items():
@@ -366,17 +517,35 @@ def write_report(state: dict[str, Any], prices: dict[str, float], signals: dict[
         "",
         "## Leaderboard",
         "",
-        "| Rank | Bot | Strategy | Equity | Return | Cash | Realized P/L | Unrealized P/L | Open positions |",
-        "|---:|---|---|---:|---:|---:|---:|---:|---|",
+        "| Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |",
+        "|---:|---|---|---|---:|---:|---:|---:|---:|---:|---|",
     ]
     for i, (_, bot_name, bot, m) in enumerate(rows, 1):
         positions = ", ".join(sorted(bot["positions"].keys())) or "—"
+        status = bot.get("status", "ACTIVE")
+        if bot.get("entry_paused_date") == now_et.date().isoformat() and status == "ACTIVE":
+            status = "PAUSED-ENTRIES"
         lines.append(
-            f"| {i} | {bot_name} | {bot['strategy']} | ${m['equity']:,.2f} | {m['return_pct']:.2f}% | "
-            f"${_f(bot['cash']):,.2f} | ${_f(bot['realized_pl']):,.2f} | ${m['unrealized_pl']:,.2f} | {positions} |"
+            f"| {i} | {bot_name} | {status} | {bot['strategy']} | ${m['equity']:,.2f} | "
+            f"{m['return_pct']:.2f}% | ${_f(bot['cash']):,.2f} | ${_f(bot.get('peak_equity')):,.2f} | "
+            f"${_f(bot['realized_pl']):,.2f} | ${m['unrealized_pl']:,.2f} | {positions} |"
         )
 
-    lines += ["", "## Current signals", "", "| Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |", "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
+    lines += [
+        "",
+        "## Portfolio risk rules",
+        "",
+        f"- Permanent stop at {HARD_FLOOR_PCT:.0%} of starting equity (20% total loss).",
+        f"- Permanent stop after a {MAX_PEAK_DRAWDOWN_PCT:.0%} drawdown from the bot's peak equity.",
+        f"- Pause new entries for the rest of the trading day after a {DAILY_PAUSE_LOSS_PCT:.0%} daily equity loss.",
+        "- No profit ceiling: active bots may continue compounding.",
+        "- New position sizes are a percentage of current equity: A/B/C 25%, D 20%.",
+        "",
+        "## Current signals",
+        "",
+        "| Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
+    ]
     for symbol in WATCHLIST:
         s = signals.get(symbol)
         if not s:
@@ -389,7 +558,16 @@ def write_report(state: dict[str, Any], prices: dict[str, float], signals: dict[
 
     lines += ["", "## Actions this run", ""]
     lines += [f"- {x}" for x in actions] if actions else ["- No virtual trades this run."]
-    lines += ["", "## Notes", "", "- Prices use IEX market data when available.", "- Entries include 5 bps simulated slippage; exits also include 5 bps.", "- Completed daily bars are used for rolling indicators; current market price is used for live comparisons and P/L.", ""]
+    lines += [
+        "",
+        "## Notes",
+        "",
+        "- Prices use IEX market data when available.",
+        "- Entries include 5 bps simulated slippage; exits also include 5 bps.",
+        "- Completed daily bars are used for rolling indicators; current market price is used for live comparisons and P/L.",
+        "- Portfolio stops are virtual risk controls only; this program does not submit broker orders.",
+        "",
+    ]
     REPORT_PATH.write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -403,6 +581,7 @@ def run() -> int:
     if not key or not secret:
         raise RuntimeError("Missing ALPACA_API_KEY or ALPACA_SECRET_KEY")
 
+    # TradingClient is used ONLY for the market clock. This project never sends an order.
     trading = TradingClient(key, secret, paper=True)
     clock = trading.get_clock()
     if not bool(clock.is_open):
@@ -423,15 +602,20 @@ def run() -> int:
             continue
         try:
             score, headlines = score_news(news, symbol, now_et)
-            signals[symbol] = calculate_signal(bars_by_symbol[symbol], prices[symbol], score, headlines)
+            signals[symbol] = calculate_signal(
+                bars_by_symbol[symbol], prices[symbol], score, headlines
+            )
         except Exception as exc:
             logging.warning("Signal calculation failed for %s: %s", symbol, exc)
 
     actions: list[str] = []
     today = now_et.date().isoformat()
 
-    # 1) Risk exits first.
+    # 1) Strategy/position risk exits first. Permanently stopped bots should normally
+    # have no positions; if a prior run could not price one, portfolio liquidation below retries it.
     for bot_name, bot in state["bots"].items():
+        if bot.get("status", "ACTIVE") != "ACTIVE":
+            continue
         for symbol in list(bot["positions"].keys()):
             s = signals.get(symbol)
             if not s:
@@ -451,10 +635,31 @@ def run() -> int:
             bot["trade_count"] = int(bot.get("trade_count", 0)) + 1
             bot.setdefault("last_exit_date", {})[symbol] = today
             del bot["positions"][symbol]
-            append_trade(state, bot_name, "SELL", symbol, qty, fill, proceeds, realized, reason, now_et)
+            append_trade(
+                state, bot_name, "SELL", symbol, qty, fill, proceeds, realized, reason, now_et
+            )
             actions.append(f"{bot_name} SELL {symbol} @ {fill:.2f} — {reason}")
 
-    # 2) Entries only in a safer session window.
+    # 2) Portfolio-level risk layer. It can stop a bot independently of its strategy.
+    # Exits remain allowed even on a daily entry pause.
+    for bot_name, bot in state["bots"].items():
+        m = mark_bot(bot, prices)
+        equity = m["equity"]
+        refresh_daily_risk(bot, equity, today)
+
+        if bot.get("status", "ACTIVE") == "ACTIVE":
+            reason = portfolio_stop_reason(bot, equity)
+            if reason:
+                liquidate_virtual_bot(state, bot_name, bot, prices, reason, now_et, actions)
+            else:
+                if update_daily_pause(bot, equity, today):
+                    logging.info("%s new entries paused for %s after daily loss limit", bot_name, today)
+        elif bot["positions"]:
+            # Retry a previously incomplete virtual liquidation if market data was missing.
+            reason = bot.get("stop_reason") or "previous portfolio stop"
+            liquidate_virtual_bot(state, bot_name, bot, prices, reason, now_et, actions)
+
+    # 3) Entries only in a safer session window, and only for ACTIVE/non-paused bots.
     next_close = clock.next_close.astimezone(NY)
     earliest_entry = datetime.combine(now_et.date(), time(9, 45), tzinfo=NY)
     latest_entry = next_close - timedelta(minutes=30)
@@ -462,13 +667,22 @@ def run() -> int:
 
     if entry_window:
         for bot_name, bot in state["bots"].items():
-            target = float(BOT_CONFIG[bot_name]["position_size"])
+            if bot.get("status", "ACTIVE") != "ACTIVE":
+                continue
+            if bot.get("entry_paused_date") == today:
+                continue
+
+            fraction = float(BOT_CONFIG[bot_name]["position_fraction"])
             for symbol in WATCHLIST:
                 if len(bot["positions"]) >= MAX_POSITIONS:
                     break
                 s = signals.get(symbol)
                 if not s or not can_open_position(bot, symbol, today) or not should_enter(bot_name, s):
                     continue
+
+                # Dynamic sizing: target a fraction of CURRENT marked equity, not a fixed dollar amount.
+                equity_now = mark_bot(bot, prices)["equity"]
+                target = max(0.0, equity_now * fraction)
                 fill = simulated_fill(s.price, "BUY")
                 spend = min(target, _f(bot["cash"]))
                 if spend < min(100.0, target * 0.25):
@@ -489,14 +703,25 @@ def run() -> int:
     else:
         logging.info("Outside new-entry window; exits only.")
 
+    # 4) Persist mark-to-market risk state after all virtual actions.
+    for bot_name, bot in state["bots"].items():
+        m = mark_bot(bot, prices)
+        bot["last_equity"] = round(m["equity"], 8)
+        bot["peak_equity"] = round(max(_f(bot.get("peak_equity")), m["equity"]), 8)
+
     state["last_run"] = now_et.isoformat()
     state["last_prices"] = {k: round(v, 6) for k, v in prices.items()}
     state["last_signals"] = {
         sym: {
-            "price": round(s.price, 6), "sma20": round(s.sma20, 6), "sma50": round(s.sma50, 6),
-            "rsi14": round(s.rsi14, 4), "ret5_pct": round(s.ret5_pct, 4),
-            "prior20_high": round(s.prior20_high, 6), "zscore20": round(s.zscore20, 4),
-            "news_score": s.news_score, "news_headlines": list(s.news_headlines),
+            "price": round(s.price, 6),
+            "sma20": round(s.sma20, 6),
+            "sma50": round(s.sma50, 6),
+            "rsi14": round(s.rsi14, 4),
+            "ret5_pct": round(s.ret5_pct, 4),
+            "prior20_high": round(s.prior20_high, 6),
+            "zscore20": round(s.zscore20, 4),
+            "news_score": s.news_score,
+            "news_headlines": list(s.news_headlines),
         }
         for sym, s in signals.items()
     }
@@ -506,7 +731,15 @@ def run() -> int:
     logging.info("Virtual actions: %s", actions or "none")
     for bot_name, bot in state["bots"].items():
         m = mark_bot(bot, prices)
-        logging.info("%s equity=$%.2f return=%.2f%% cash=$%.2f", bot_name, m["equity"], m["return_pct"], _f(bot["cash"]))
+        logging.info(
+            "%s status=%s equity=$%.2f return=%.2f%% cash=$%.2f peak=$%.2f",
+            bot_name,
+            bot.get("status", "ACTIVE"),
+            m["equity"],
+            m["return_pct"],
+            _f(bot["cash"]),
+            _f(bot.get("peak_equity")),
+        )
     return 0
 
 
