@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9935.47259939,
+      "last_equity": 9932.41355844,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -57,10 +57,10 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 4982.35208368,
+      "cash": 2496.49574679,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9953.93225245,
+      "last_equity": 9942.18304056,
       "last_exit_date": {
         "NVDA": "2026-10-07"
       },
@@ -79,6 +79,13 @@
           "entry_time": "imported-from-colab",
           "imported": true,
           "qty": 3.8495888639
+        },
+        "MSFT": {
+          "avg_price": 527.233485,
+          "entry_notional": 2485.86,
+          "entry_time": "2026-10-07T10:07:35.733971-04:00",
+          "imported": false,
+          "qty": 4.7149060286
         }
       },
       "realized_pl": -17.64791632,
@@ -88,15 +95,15 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 4
+      "trade_count": 5
     },
     "BOT_D": {
       "cash": 8000.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 10007.01375776,
+      "last_equity": 10008.0628241,
       "last_exit_date": {},
-      "peak_equity": 10007.01375776,
+      "peak_equity": 10008.0628241,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -118,80 +125,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 334.8,
-    "AMD": 639.76,
-    "MSFT": 526.985,
-    "NVDA": 237.67
+    "AAPL": 334.975,
+    "AMD": 636.69,
+    "MSFT": 526.97,
+    "NVDA": 238.515
   },
-  "last_run": "2026-10-07T09:41:32.283616-04:00",
+  "last_run": "2026-10-07T10:07:35.733971-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
         "Most Undervalued Chip Stocks In October 2026: Four Are Cheaper Than The S&P 500",
         "Reported Oct. 6: 'Apple to Launch Doorbell, Lock, Thermostat Developed With LG' - Bloomberg",
         "Performance Comparison: Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-        "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags",
-        "Dan Ives Names 5 Potential Tech Winners for 2027 as Investors Underestimate $4 Trillion Spending Wave"
+        "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags"
       ],
-      "news_score": 2,
-      "price": 334.8,
+      "news_score": 3,
+      "price": 334.975,
       "prior20_high": 345.28,
-      "ret5_pct": 1.3195,
-      "rsi14": 46.8598,
-      "sma20": 334.402,
-      "sma50": 322.2482,
-      "zscore20": 0.1123
+      "ret5_pct": 1.3724,
+      "rsi14": 47.3107,
+      "sma20": 334.41825,
+      "sma50": 322.2547,
+      "zscore20": 0.157
     },
     "AMD": {
       "news_headlines": [
+        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
         "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’",
         "AMD CEO Su Says Firm Exploring Memory And Foundry Opportunities With Samsung Electronics, Will Invest Tens Of Billions Across Global Supply Chain",
         "'Diversification is Dying' — Nvidia, Apple Lead 10 Stocks Taking 41 Cents Of Every Dollar Invested In S&P 500, Says This Commentator",
-        "AMD, Constellation Energy, Marvell Technology, Option Care Health and FuelCell Energy: Why These 5 Stocks Are on Investors' Radars Today",
-        "The S&P 500 Is Partying at Record Highs: Only 3% of Its Stocks Were Invited"
+        "AMD, Constellation Energy, Marvell Technology, Option Care Health and FuelCell Energy: Why These 5 Stocks Are on Investors' Radars Today"
       ],
       "news_score": 1,
-      "price": 639.76,
+      "price": 636.69,
       "prior20_high": 658.45,
-      "ret5_pct": 3.8942,
-      "rsi14": 76.7733,
-      "sma20": 587.41325,
-      "sma50": 522.6372,
-      "zscore20": 0.9931
+      "ret5_pct": 3.3957,
+      "rsi14": 75.0984,
+      "sma20": 587.21225,
+      "sma50": 522.5568,
+      "zscore20": 0.9422
     },
     "MSFT": {
       "news_headlines": [
+        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
         "Evercore ISI Group Maintains Outperform on Microsoft, Raises Price Target to $635",
         "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags",
         "'Godfather of AI' Geoffrey Hinton on Regrets Over Inventing AI: Calls for FDA-Like Rules Before Releasing Models, Says Public Pressure Like Climate Change Could Drive Action",
-        "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’",
-        "Dan Ives Names 5 Potential Tech Winners for 2027 as Investors Underestimate $4 Trillion Spending Wave"
+        "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’"
       ],
-      "news_score": 2,
-      "price": 526.985,
+      "news_score": 3,
+      "price": 526.97,
       "prior20_high": 535.69,
-      "ret5_pct": 2.7842,
-      "rsi14": 71.069,
-      "sma20": 506.464,
-      "sma50": 496.0856,
-      "zscore20": 1.7523
+      "ret5_pct": 2.7813,
+      "rsi14": 70.3841,
+      "sma20": 506.4295,
+      "sma50": 496.0718,
+      "zscore20": 1.7632
     },
     "NVDA": {
       "news_headlines": [
+        "Nvidia, Micron and Other 5 S&P 500 Stocks With +100% Revenue Growth",
+        "Marvell Just Found Nvidia’s Biggest AI Weak Spot — and It’s a $30 Billion Business",
+        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
         "Arthur Hayes Says AI 'Crash' and Subsequent 'Bailout' Could Spark Bitcoin's Best Performance: 'Just Have to Be Patient'",
-        "SpaceX Reportedly Seeks $40 Billion in Loans, Debt to Buy Nvidia Chips",
-        "Most Undervalued Chip Stocks In October 2026: Four Are Cheaper Than The S&P 500",
-        "Jim Cramer Says Investors Are Overlooking Elon Musk’s $40 Billion ‘Pot of Gold’ For Nvidia — Intel Terafab Exit Rumors ‘Squashed,’ Dismisses ‘Weakness’ In Korea’s Kospi",
-        "Nebius Group Stock Is Falling Wednesday: What's Going On?"
+        "SpaceX Reportedly Seeks $40 Billion in Loans, Debt to Buy Nvidia Chips"
       ],
-      "news_score": -2,
-      "price": 237.67,
+      "news_score": 1,
+      "price": 238.515,
       "prior20_high": 243.34,
-      "ret5_pct": 2.8696,
-      "rsi14": 78.3384,
-      "sma20": 225.6035,
-      "sma50": 220.6028,
-      "zscore20": 1.4738
+      "ret5_pct": 3.2354,
+      "rsi14": 79.625,
+      "sma20": 225.63,
+      "sma50": 220.6134,
+      "zscore20": 1.566
     }
   },
   "schema_version": 2,
@@ -283,6 +290,17 @@
       "reason": "negative news",
       "symbol": "NVDA",
       "timestamp": "2026-10-07T09:41:32.283616-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 527.233485,
+      "notional": 2485.86,
+      "qty": 4.7149060286,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "MSFT",
+      "timestamp": "2026-10-07T10:07:35.733971-04:00"
     }
   ]
 }
