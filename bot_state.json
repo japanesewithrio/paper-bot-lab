@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-07T00:00:00Z",
+  "last_run": null,
+  "bots": {
+    "BOT_A": {
+      "strategy": "Trend / Breakout",
+      "starting_cash": 10000.0,
+      "cash": 2500.0,
+      "realized_pl": 0.0,
+      "trade_count": 3,
+      "last_exit_date": {},
+      "positions": {
+        "NVDA": {"qty": 10.4497575656, "avg_price": 239.24, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
+        "AMD": {"qty": 3.8495888639, "avg_price": 649.42, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
+        "MSFT": {"qty": 4.7232193463, "avg_price": 529.30, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true}
+      }
+    },
+    "BOT_B": {
+      "strategy": "Dip / Mean Reversion",
+      "starting_cash": 10000.0,
+      "cash": 10000.0,
+      "realized_pl": 0.0,
+      "trade_count": 0,
+      "last_exit_date": {},
+      "positions": {}
+    },
+    "BOT_C": {
+      "strategy": "News + Momentum",
+      "starting_cash": 10000.0,
+      "cash": 2500.0,
+      "realized_pl": 0.0,
+      "trade_count": 3,
+      "last_exit_date": {},
+      "positions": {
+        "AAPL": {"qty": 7.4933309355, "avg_price": 333.63, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
+        "NVDA": {"qty": 10.4497575656, "avg_price": 239.24, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
+        "AMD": {"qty": 3.8495888639, "avg_price": 649.42, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true}
+      }
+    },
+    "BOT_D": {
+      "strategy": "Conservative Confirmation",
+      "starting_cash": 10000.0,
+      "cash": 8000.0,
+      "realized_pl": 0.0,
+      "trade_count": 1,
+      "last_exit_date": {},
+      "positions": {
+        "AAPL": {"qty": 5.9946647484, "avg_price": 333.63, "entry_notional": 2000.0, "entry_time": "imported-from-colab", "imported": true}
+      }
+    }
+  },
+  "trades": [
+    {"timestamp":"imported-from-colab","bot":"BOT_A","action":"BUY","symbol":"NVDA","qty":10.4497575656,"fill_price":239.24,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
+    {"timestamp":"imported-from-colab","bot":"BOT_A","action":"BUY","symbol":"AMD","qty":3.8495888639,"fill_price":649.42,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
+    {"timestamp":"imported-from-colab","bot":"BOT_A","action":"BUY","symbol":"MSFT","qty":4.7232193463,"fill_price":529.30,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
+    {"timestamp":"imported-from-colab","bot":"BOT_C","action":"BUY","symbol":"AAPL","qty":7.4933309355,"fill_price":333.63,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
+    {"timestamp":"imported-from-colab","bot":"BOT_C","action":"BUY","symbol":"NVDA","qty":10.4497575656,"fill_price":239.24,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
+    {"timestamp":"imported-from-colab","bot":"BOT_C","action":"BUY","symbol":"AMD","qty":3.8495888639,"fill_price":649.42,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
+    {"timestamp":"imported-from-colab","bot":"BOT_D","action":"BUY","symbol":"AAPL","qty":5.9946647484,"fill_price":333.63,"notional":2000.0,"realized_pl":0.0,"reason":"legacy import"}
+  ]
+}
