@@ -102,7 +102,7 @@ jobs:
 
       - name: Run tests
         if: steps.secrets.outputs.ready == 'true'
-        run: pytest -q
+        run: python -m pytest -q
 
       - name: Run Paper Bot Lab
         if: steps.secrets.outputs.ready == 'true'
