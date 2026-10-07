@@ -1,62 +1,288 @@
 {
-  "schema_version": 1,
-  "created_at": "2026-10-07T00:00:00Z",
-  "last_run": null,
   "bots": {
     "BOT_A": {
-      "strategy": "Trend / Breakout",
-      "starting_cash": 10000.0,
       "cash": 2500.0,
-      "realized_pl": 0.0,
-      "trade_count": 3,
+      "day_start_equity": 10000.0,
+      "entry_paused_date": null,
+      "last_equity": 9935.47259939,
       "last_exit_date": {},
+      "peak_equity": 10000.0,
       "positions": {
-        "NVDA": {"qty": 10.4497575656, "avg_price": 239.24, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
-        "AMD": {"qty": 3.8495888639, "avg_price": 649.42, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
-        "MSFT": {"qty": 4.7232193463, "avg_price": 529.30, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true}
-      }
+        "AMD": {
+          "avg_price": 649.42,
+          "entry_notional": 2500.0,
+          "entry_time": "imported-from-colab",
+          "imported": true,
+          "qty": 3.8495888639
+        },
+        "MSFT": {
+          "avg_price": 529.3,
+          "entry_notional": 2500.0,
+          "entry_time": "imported-from-colab",
+          "imported": true,
+          "qty": 4.7232193463
+        },
+        "NVDA": {
+          "avg_price": 239.24,
+          "entry_notional": 2500.0,
+          "entry_time": "imported-from-colab",
+          "imported": true,
+          "qty": 10.4497575656
+        }
+      },
+      "realized_pl": 0.0,
+      "risk_date": "2026-10-07",
+      "starting_cash": 10000.0,
+      "status": "ACTIVE",
+      "stop_reason": null,
+      "stopped_at": null,
+      "strategy": "Trend / Breakout",
+      "trade_count": 3
     },
     "BOT_B": {
-      "strategy": "Dip / Mean Reversion",
-      "starting_cash": 10000.0,
       "cash": 10000.0,
-      "realized_pl": 0.0,
-      "trade_count": 0,
+      "day_start_equity": 10000.0,
+      "entry_paused_date": null,
+      "last_equity": 10000.0,
       "last_exit_date": {},
-      "positions": {}
+      "peak_equity": 10000.0,
+      "positions": {},
+      "realized_pl": 0.0,
+      "risk_date": "2026-10-07",
+      "starting_cash": 10000.0,
+      "status": "ACTIVE",
+      "stop_reason": null,
+      "stopped_at": null,
+      "strategy": "Dip / Mean Reversion",
+      "trade_count": 0
     },
     "BOT_C": {
-      "strategy": "News + Momentum",
-      "starting_cash": 10000.0,
-      "cash": 2500.0,
-      "realized_pl": 0.0,
-      "trade_count": 3,
-      "last_exit_date": {},
+      "cash": 4982.35208368,
+      "day_start_equity": 10000.0,
+      "entry_paused_date": null,
+      "last_equity": 9953.93225245,
+      "last_exit_date": {
+        "NVDA": "2026-10-07"
+      },
+      "peak_equity": 10000.0,
       "positions": {
-        "AAPL": {"qty": 7.4933309355, "avg_price": 333.63, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
-        "NVDA": {"qty": 10.4497575656, "avg_price": 239.24, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true},
-        "AMD": {"qty": 3.8495888639, "avg_price": 649.42, "entry_notional": 2500.0, "entry_time": "imported-from-colab", "imported": true}
-      }
+        "AAPL": {
+          "avg_price": 333.63,
+          "entry_notional": 2500.0,
+          "entry_time": "imported-from-colab",
+          "imported": true,
+          "qty": 7.4933309355
+        },
+        "AMD": {
+          "avg_price": 649.42,
+          "entry_notional": 2500.0,
+          "entry_time": "imported-from-colab",
+          "imported": true,
+          "qty": 3.8495888639
+        }
+      },
+      "realized_pl": -17.64791632,
+      "risk_date": "2026-10-07",
+      "starting_cash": 10000.0,
+      "status": "ACTIVE",
+      "stop_reason": null,
+      "stopped_at": null,
+      "strategy": "News + Momentum",
+      "trade_count": 4
     },
     "BOT_D": {
-      "strategy": "Conservative Confirmation",
-      "starting_cash": 10000.0,
       "cash": 8000.0,
-      "realized_pl": 0.0,
-      "trade_count": 1,
+      "day_start_equity": 10000.0,
+      "entry_paused_date": null,
+      "last_equity": 10007.01375776,
       "last_exit_date": {},
+      "peak_equity": 10007.01375776,
       "positions": {
-        "AAPL": {"qty": 5.9946647484, "avg_price": 333.63, "entry_notional": 2000.0, "entry_time": "imported-from-colab", "imported": true}
-      }
+        "AAPL": {
+          "avg_price": 333.63,
+          "entry_notional": 2000.0,
+          "entry_time": "imported-from-colab",
+          "imported": true,
+          "qty": 5.9946647484
+        }
+      },
+      "realized_pl": 0.0,
+      "risk_date": "2026-10-07",
+      "starting_cash": 10000.0,
+      "status": "ACTIVE",
+      "stop_reason": null,
+      "stopped_at": null,
+      "strategy": "Conservative Confirmation",
+      "trade_count": 1
     }
   },
+  "created_at": "2026-10-07T00:00:00Z",
+  "last_prices": {
+    "AAPL": 334.8,
+    "AMD": 639.76,
+    "MSFT": 526.985,
+    "NVDA": 237.67
+  },
+  "last_run": "2026-10-07T09:41:32.283616-04:00",
+  "last_signals": {
+    "AAPL": {
+      "news_headlines": [
+        "Most Undervalued Chip Stocks In October 2026: Four Are Cheaper Than The S&P 500",
+        "Reported Oct. 6: 'Apple to Launch Doorbell, Lock, Thermostat Developed With LG' - Bloomberg",
+        "Performance Comparison: Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+        "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags",
+        "Dan Ives Names 5 Potential Tech Winners for 2027 as Investors Underestimate $4 Trillion Spending Wave"
+      ],
+      "news_score": 2,
+      "price": 334.8,
+      "prior20_high": 345.28,
+      "ret5_pct": 1.3195,
+      "rsi14": 46.8598,
+      "sma20": 334.402,
+      "sma50": 322.2482,
+      "zscore20": 0.1123
+    },
+    "AMD": {
+      "news_headlines": [
+        "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’",
+        "AMD CEO Su Says Firm Exploring Memory And Foundry Opportunities With Samsung Electronics, Will Invest Tens Of Billions Across Global Supply Chain",
+        "'Diversification is Dying' — Nvidia, Apple Lead 10 Stocks Taking 41 Cents Of Every Dollar Invested In S&P 500, Says This Commentator",
+        "AMD, Constellation Energy, Marvell Technology, Option Care Health and FuelCell Energy: Why These 5 Stocks Are on Investors' Radars Today",
+        "The S&P 500 Is Partying at Record Highs: Only 3% of Its Stocks Were Invited"
+      ],
+      "news_score": 1,
+      "price": 639.76,
+      "prior20_high": 658.45,
+      "ret5_pct": 3.8942,
+      "rsi14": 76.7733,
+      "sma20": 587.41325,
+      "sma50": 522.6372,
+      "zscore20": 0.9931
+    },
+    "MSFT": {
+      "news_headlines": [
+        "Evercore ISI Group Maintains Outperform on Microsoft, Raises Price Target to $635",
+        "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags",
+        "'Godfather of AI' Geoffrey Hinton on Regrets Over Inventing AI: Calls for FDA-Like Rules Before Releasing Models, Says Public Pressure Like Climate Change Could Drive Action",
+        "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’",
+        "Dan Ives Names 5 Potential Tech Winners for 2027 as Investors Underestimate $4 Trillion Spending Wave"
+      ],
+      "news_score": 2,
+      "price": 526.985,
+      "prior20_high": 535.69,
+      "ret5_pct": 2.7842,
+      "rsi14": 71.069,
+      "sma20": 506.464,
+      "sma50": 496.0856,
+      "zscore20": 1.7523
+    },
+    "NVDA": {
+      "news_headlines": [
+        "Arthur Hayes Says AI 'Crash' and Subsequent 'Bailout' Could Spark Bitcoin's Best Performance: 'Just Have to Be Patient'",
+        "SpaceX Reportedly Seeks $40 Billion in Loans, Debt to Buy Nvidia Chips",
+        "Most Undervalued Chip Stocks In October 2026: Four Are Cheaper Than The S&P 500",
+        "Jim Cramer Says Investors Are Overlooking Elon Musk’s $40 Billion ‘Pot of Gold’ For Nvidia — Intel Terafab Exit Rumors ‘Squashed,’ Dismisses ‘Weakness’ In Korea’s Kospi",
+        "Nebius Group Stock Is Falling Wednesday: What's Going On?"
+      ],
+      "news_score": -2,
+      "price": 237.67,
+      "prior20_high": 243.34,
+      "ret5_pct": 2.8696,
+      "rsi14": 78.3384,
+      "sma20": 225.6035,
+      "sma50": 220.6028,
+      "zscore20": 1.4738
+    }
+  },
+  "schema_version": 2,
   "trades": [
-    {"timestamp":"imported-from-colab","bot":"BOT_A","action":"BUY","symbol":"NVDA","qty":10.4497575656,"fill_price":239.24,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
-    {"timestamp":"imported-from-colab","bot":"BOT_A","action":"BUY","symbol":"AMD","qty":3.8495888639,"fill_price":649.42,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
-    {"timestamp":"imported-from-colab","bot":"BOT_A","action":"BUY","symbol":"MSFT","qty":4.7232193463,"fill_price":529.30,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
-    {"timestamp":"imported-from-colab","bot":"BOT_C","action":"BUY","symbol":"AAPL","qty":7.4933309355,"fill_price":333.63,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
-    {"timestamp":"imported-from-colab","bot":"BOT_C","action":"BUY","symbol":"NVDA","qty":10.4497575656,"fill_price":239.24,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
-    {"timestamp":"imported-from-colab","bot":"BOT_C","action":"BUY","symbol":"AMD","qty":3.8495888639,"fill_price":649.42,"notional":2500.0,"realized_pl":0.0,"reason":"legacy import"},
-    {"timestamp":"imported-from-colab","bot":"BOT_D","action":"BUY","symbol":"AAPL","qty":5.9946647484,"fill_price":333.63,"notional":2000.0,"realized_pl":0.0,"reason":"legacy import"}
+    {
+      "action": "BUY",
+      "bot": "BOT_A",
+      "fill_price": 239.24,
+      "notional": 2500.0,
+      "qty": 10.4497575656,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "NVDA",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_A",
+      "fill_price": 649.42,
+      "notional": 2500.0,
+      "qty": 3.8495888639,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "AMD",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_A",
+      "fill_price": 529.3,
+      "notional": 2500.0,
+      "qty": 4.7232193463,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "MSFT",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 333.63,
+      "notional": 2500.0,
+      "qty": 7.4933309355,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "AAPL",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 239.24,
+      "notional": 2500.0,
+      "qty": 10.4497575656,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "NVDA",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 649.42,
+      "notional": 2500.0,
+      "qty": 3.8495888639,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "AMD",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_D",
+      "fill_price": 333.63,
+      "notional": 2000.0,
+      "qty": 5.9946647484,
+      "realized_pl": 0.0,
+      "reason": "legacy import",
+      "symbol": "AAPL",
+      "timestamp": "imported-from-colab"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 237.551165,
+      "notional": 2482.35,
+      "qty": 10.4497575656,
+      "realized_pl": -17.65,
+      "reason": "negative news",
+      "symbol": "NVDA",
+      "timestamp": "2026-10-07T09:41:32.283616-04:00"
+    }
   ]
 }
