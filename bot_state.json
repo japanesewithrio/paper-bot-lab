@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9932.41355844,
+      "last_equity": 9947.31087598,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 2496.49574679,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9942.18304056,
+      "last_equity": 9961.34885806,
       "last_exit_date": {
         "NVDA": "2026-10-07"
       },
@@ -101,9 +101,9 @@
       "cash": 8000.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 10008.0628241,
+      "last_equity": 10008.42250398,
       "last_exit_date": {},
-      "peak_equity": 10008.0628241,
+      "peak_equity": 10008.42250398,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -125,12 +125,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 334.975,
-    "AMD": 636.69,
-    "MSFT": 526.97,
-    "NVDA": 238.515
+    "AAPL": 335.035,
+    "AMD": 642.25,
+    "MSFT": 526.4,
+    "NVDA": 238.15
   },
-  "last_run": "2026-10-07T10:07:35.733971-04:00",
+  "last_run": "2026-10-07T10:41:39.702775-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -141,13 +141,13 @@
         "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags"
       ],
       "news_score": 3,
-      "price": 334.975,
+      "price": 335.035,
       "prior20_high": 345.28,
-      "ret5_pct": 1.3724,
-      "rsi14": 47.3107,
-      "sma20": 334.41825,
-      "sma50": 322.2547,
-      "zscore20": 0.157
+      "ret5_pct": 1.3906,
+      "rsi14": 47.3725,
+      "sma20": 334.4205,
+      "sma50": 322.2556,
+      "zscore20": 0.1733
     },
     "AMD": {
       "news_headlines": [
@@ -158,13 +158,13 @@
         "AMD, Constellation Energy, Marvell Technology, Option Care Health and FuelCell Energy: Why These 5 Stocks Are on Investors' Radars Today"
       ],
       "news_score": 1,
-      "price": 636.69,
+      "price": 642.25,
       "prior20_high": 658.45,
-      "ret5_pct": 3.3957,
-      "rsi14": 75.0984,
-      "sma20": 587.21225,
-      "sma50": 522.5568,
-      "zscore20": 0.9422
+      "ret5_pct": 4.2986,
+      "rsi14": 76.4699,
+      "sma20": 587.3775,
+      "sma50": 522.6229,
+      "zscore20": 1.0417
     },
     "MSFT": {
       "news_headlines": [
@@ -175,30 +175,30 @@
         "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’"
       ],
       "news_score": 3,
-      "price": 526.97,
+      "price": 526.4,
       "prior20_high": 535.69,
-      "ret5_pct": 2.7813,
-      "rsi14": 70.3841,
-      "sma20": 506.4295,
-      "sma50": 496.0718,
-      "zscore20": 1.7632
+      "ret5_pct": 2.6701,
+      "rsi14": 69.7605,
+      "sma20": 506.3975,
+      "sma50": 496.059,
+      "zscore20": 1.7252
     },
     "NVDA": {
       "news_headlines": [
+        "SpaceX Is Becoming a Test of How Much Debt the AI Boom Can Absorb",
+        "Penguin's Mystery 36,000-GPU Norway Deal Appears to Be Volta's $10B Anthropic AI Project",
         "Nvidia, Micron and Other 5 S&P 500 Stocks With +100% Revenue Growth",
         "Marvell Just Found Nvidia’s Biggest AI Weak Spot — and It’s a $30 Billion Business",
-        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
-        "Arthur Hayes Says AI 'Crash' and Subsequent 'Bailout' Could Spark Bitcoin's Best Performance: 'Just Have to Be Patient'",
-        "SpaceX Reportedly Seeks $40 Billion in Loans, Debt to Buy Nvidia Chips"
+        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud"
       ],
-      "news_score": 1,
-      "price": 238.515,
+      "news_score": 2,
+      "price": 238.15,
       "prior20_high": 243.34,
-      "ret5_pct": 3.2354,
-      "rsi14": 79.625,
-      "sma20": 225.63,
-      "sma50": 220.6134,
-      "zscore20": 1.566
+      "ret5_pct": 3.0774,
+      "rsi14": 78.3862,
+      "sma20": 225.6045,
+      "sma50": 220.6032,
+      "zscore20": 1.5321
     }
   },
   "schema_version": 2,
