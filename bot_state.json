@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9973.43945681,
+      "last_equity": 9964.66341687,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 4991.1540235,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 10002.99257657,
+      "last_equity": 10001.70935317,
       "last_exit_date": {
         "MSFT": "2026-10-07",
         "NVDA": "2026-10-07"
@@ -95,9 +95,9 @@
       "cash": 8000.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 10016.7850613,
+      "last_equity": 10019.96223362,
       "last_exit_date": {},
-      "peak_equity": 10019.90228697,
+      "peak_equity": 10019.96223362,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -119,12 +119,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 336.43,
-    "AMD": 647.045,
-    "MSFT": 530.9,
-    "NVDA": 236.85
+    "AAPL": 336.96,
+    "AMD": 645.68,
+    "MSFT": 530.785,
+    "NVDA": 236.565
   },
-  "last_run": "2026-10-07T14:45:48.679617-04:00",
+  "last_run": "2026-10-07T15:08:23.168802-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -135,13 +135,13 @@
         "Reported Oct. 6: 'Apple to Launch Doorbell, Lock, Thermostat Developed With LG' - Bloomberg"
       ],
       "news_score": 2,
-      "price": 336.43,
+      "price": 336.96,
       "prior20_high": 345.28,
-      "ret5_pct": 1.8127,
-      "rsi14": 49.1944,
-      "sma20": 334.48925,
-      "sma50": 322.2831,
-      "zscore20": 0.5434
+      "ret5_pct": 1.9731,
+      "rsi14": 49.9876,
+      "sma20": 334.52075,
+      "sma50": 322.2957,
+      "zscore20": 0.6791
     },
     "AMD": {
       "news_headlines": [
@@ -152,13 +152,13 @@
         "AMD CEO Su Says Firm Exploring Memory And Foundry Opportunities With Samsung Electronics, Will Invest Tens Of Billions Across Global Supply Chain"
       ],
       "news_score": 2,
-      "price": 647.045,
+      "price": 645.68,
       "prior20_high": 658.45,
-      "ret5_pct": 5.0773,
-      "rsi14": 78.5759,
-      "sma20": 587.62,
-      "sma50": 522.7199,
-      "zscore20": 1.1227
+      "ret5_pct": 4.8556,
+      "rsi14": 76.8436,
+      "sma20": 587.4215,
+      "sma50": 522.6405,
+      "zscore20": 1.105
     },
     "MSFT": {
       "news_headlines": [
@@ -169,13 +169,13 @@
         "Microsoft Exec Says RTX Spark-Based Machines With NVIDIA Chips Will Begin Shipping Next Week"
       ],
       "news_score": 1,
-      "price": 530.9,
+      "price": 530.785,
       "prior20_high": 535.69,
-      "ret5_pct": 3.5478,
-      "rsi14": 73.5561,
-      "sma20": 506.634,
-      "sma50": 496.1536,
-      "zscore20": 2.0161
+      "ret5_pct": 3.5254,
+      "rsi14": 73.496,
+      "sma20": 506.626,
+      "sma50": 496.1504,
+      "zscore20": 2.01
     },
     "NVDA": {
       "news_headlines": [
@@ -186,13 +186,13 @@
         "Why Is AST SpaceMobile Stock Falling on Wednesday?"
       ],
       "news_score": -1,
-      "price": 236.85,
+      "price": 236.565,
       "prior20_high": 243.34,
-      "ret5_pct": 2.5147,
-      "rsi14": 75.7294,
-      "sma20": 225.547,
-      "sma50": 220.5802,
-      "zscore20": 1.3946
+      "ret5_pct": 2.3914,
+      "rsi14": 75.0877,
+      "sma20": 225.5325,
+      "sma50": 220.5744,
+      "zscore20": 1.3646
     }
   },
   "schema_version": 2,
