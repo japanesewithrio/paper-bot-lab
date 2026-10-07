@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9939.38721283,
+      "last_equity": 9958.02097924,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 2496.49574679,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 9972.56885061,
+      "last_equity": 9992.00785729,
       "last_exit_date": {
         "NVDA": "2026-10-07"
       },
@@ -101,9 +101,9 @@
       "cash": 8000.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 10013.54794234,
+      "last_equity": 10015.19647515,
       "last_exit_date": {},
-      "peak_equity": 10013.54794234,
+      "peak_equity": 10015.19647515,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -125,12 +125,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 335.89,
-    "AMD": 641.755,
-    "MSFT": 527.825,
-    "NVDA": 236.93
+    "AAPL": 336.165,
+    "AMD": 646.055,
+    "MSFT": 528.0,
+    "NVDA": 237.05
   },
-  "last_run": "2026-10-07T12:43:37.497561-04:00",
+  "last_run": "2026-10-07T13:16:10.664718-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -141,13 +141,13 @@
         "Ray Dalio Says AI Bubble Is ‘Close’ to Bursting as Debt and Rising Rates Raise Red Flags"
       ],
       "news_score": 3,
-      "price": 335.89,
+      "price": 336.165,
       "prior20_high": 345.28,
-      "ret5_pct": 1.6493,
-      "rsi14": 48.3425,
-      "sma20": 334.4565,
-      "sma50": 322.27,
-      "zscore20": 0.403
+      "ret5_pct": 1.7325,
+      "rsi14": 49.0404,
+      "sma20": 334.48325,
+      "sma50": 322.2807,
+      "zscore20": 0.4713
     },
     "AMD": {
       "news_headlines": [
@@ -158,13 +158,13 @@
         "'Diversification is Dying' — Nvidia, Apple Lead 10 Stocks Taking 41 Cents Of Every Dollar Invested In S&P 500, Says This Commentator"
       ],
       "news_score": 2,
-      "price": 641.755,
+      "price": 646.055,
       "prior20_high": 658.45,
-      "ret5_pct": 4.2182,
-      "rsi14": 77.4652,
-      "sma20": 587.49375,
-      "sma50": 522.6694,
-      "zscore20": 1.0277
+      "ret5_pct": 4.9165,
+      "rsi14": 78.5447,
+      "sma20": 587.6165,
+      "sma50": 522.7185,
+      "zscore20": 1.1041
     },
     "MSFT": {
       "news_headlines": [
@@ -175,13 +175,13 @@
         "'Godfather of AI' Geoffrey Hinton on Regrets Over Inventing AI: Calls for FDA-Like Rules Before Releasing Models, Says Public Pressure Like Climate Change Could Drive Action"
       ],
       "news_score": 3,
-      "price": 527.825,
+      "price": 528.0,
       "prior20_high": 535.69,
-      "ret5_pct": 2.9481,
-      "rsi14": 71.3507,
-      "sma20": 506.478,
-      "sma50": 496.0912,
-      "zscore20": 1.8189
+      "ret5_pct": 2.9822,
+      "rsi14": 71.5228,
+      "sma20": 506.4865,
+      "sma50": 496.0946,
+      "zscore20": 1.8307
     },
     "NVDA": {
       "news_headlines": [
@@ -192,13 +192,13 @@
         "Penguin's Mystery 36,000-GPU Norway Deal Appears to Be Volta's $10B Anthropic AI Project"
       ],
       "news_score": 3,
-      "price": 236.93,
+      "price": 237.05,
       "prior20_high": 243.34,
-      "ret5_pct": 2.5493,
-      "rsi14": 75.987,
-      "sma20": 225.55275,
-      "sma50": 220.5825,
-      "zscore20": 1.4023
+      "ret5_pct": 2.6013,
+      "rsi14": 76.2237,
+      "sma20": 225.558,
+      "sma50": 220.5846,
+      "zscore20": 1.4152
     }
   },
   "schema_version": 2,
