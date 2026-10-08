@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9881.12807577,
+      "last_equity": 9787.32189902,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 4991.29171562,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9959.68058584,
+      "last_equity": 9920.77648017,
       "last_exit_date": {
         "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
@@ -95,9 +95,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10029.88340378,
+      "last_equity": 10031.6818032,
       "last_exit_date": {},
-      "peak_equity": 10029.88340378,
+      "peak_equity": 10031.6818032,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -119,80 +119,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 338.615,
-    "AMD": 631.505,
-    "MSFT": 528.745,
-    "NVDA": 234.715
+    "AAPL": 338.915,
+    "AMD": 620.815,
+    "MSFT": 523.46,
+    "NVDA": 232.065
   },
-  "last_run": "2026-10-08T12:44:14.103685-04:00",
+  "last_run": "2026-10-08T13:07:56.413324-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
         "Bloomberg's Mark Gurman Posts On X \"t's official: Apple has sent out invitations for a \"Welcome home\" product launch on Oct. 13 in New York.\"",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
-        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
-        "What Is Going on With Palantir Tech Stock on Thursday?"
+        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul"
       ],
-      "news_score": 3,
-      "price": 338.615,
+      "news_score": 1,
+      "price": 338.915,
       "prior20_high": 345.28,
-      "ret5_pct": 1.4577,
-      "rsi14": 53.2074,
-      "sma20": 335.0805,
-      "sma50": 322.2873,
-      "zscore20": 1.1141
+      "ret5_pct": 1.5476,
+      "rsi14": 54.3426,
+      "sma20": 335.1305,
+      "sma50": 322.3073,
+      "zscore20": 1.1716
     },
     "AMD": {
       "news_headlines": [
+        "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
         "Here's How Much $100 Invested In Advanced Micro Devices 5 Years Ago Would Be Worth Today",
         "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
         "What's Going On With Marvell Technology Stock Thursday?",
-        "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "Elon Musk, Jensen Huang, Satya Nadella Reportedly to Be Awarded Medals By Trump — White House Says They Help America Lead 'the World in Innovation'"
+        "Stock Market: Will S&P 500 Open Up or Down Today?"
       ],
       "news_score": 3,
-      "price": 631.505,
+      "price": 620.815,
       "prior20_high": 658.45,
-      "ret5_pct": -0.3535,
-      "rsi14": 70.621,
-      "sma20": 594.04175,
-      "sma50": 526.7814,
-      "zscore20": 0.7479
+      "ret5_pct": -2.0403,
+      "rsi14": 66.2831,
+      "sma20": 593.46925,
+      "sma50": 526.5524,
+      "zscore20": 0.55
     },
     "MSFT": {
       "news_headlines": [
+        "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
+        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
+        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
         "What's Going On With Microsoft Stock Thursday?",
-        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley",
-        "Anthropic Is Deepening Its Support For American Scientific Research By Committing $150M Over Three Years To The Genesis Mission",
-        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
-        "OpenAI Says Recently Banned 2 IO One From Russia And One From Iran That Used Our Models In Combination With More Traditional Techniques And Technologies To Support Sophisticated “False Front” Entities"
+        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley"
       ],
-      "news_score": -2,
-      "price": 528.745,
+      "news_score": -1,
+      "price": 523.46,
       "prior20_high": 535.69,
-      "ret5_pct": 2.2085,
-      "rsi14": 76.7752,
-      "sma20": 508.3705,
-      "sma50": 498.878,
-      "zscore20": 1.6487
+      "ret5_pct": 1.1869,
+      "rsi14": 71.5334,
+      "sma20": 508.1285,
+      "sma50": 498.7812,
+      "zscore20": 1.2772
     },
     "NVDA": {
       "news_headlines": [
+        "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
+        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
+        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
         "Why Is AST SpaceMobile Stock Falling Thursday?",
-        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley",
-        "8 Of 11 Sectors Fall In Thursday Trading As Energy Leads",
-        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
-        "Nvidia Announces Commitments Valued At $1B To Advance U.S. Science Over The Next Five Years"
+        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley"
       ],
-      "news_score": 2,
-      "price": 234.715,
+      "news_score": 0,
+      "price": 232.065,
       "prior20_high": 243.34,
-      "ret5_pct": 0.3056,
-      "rsi14": 69.2134,
-      "sma20": 226.3975,
-      "sma50": 221.4858,
-      "zscore20": 1.0136
+      "ret5_pct": -0.8269,
+      "rsi14": 63.1125,
+      "sma20": 226.2365,
+      "sma50": 221.4214,
+      "zscore20": 0.7223
     }
   },
   "schema_version": 2,
