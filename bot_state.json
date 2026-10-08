@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9787.32189902,
+      "last_equity": 9770.95514964,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -57,23 +57,17 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 4991.29171562,
+      "cash": 7525.80448052,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9920.77648017,
+      "last_equity": 9907.46811884,
       "last_exit_date": {
+        "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
       "positions": {
-        "AAPL": {
-          "avg_price": 333.63,
-          "entry_notional": 2500.0,
-          "entry_time": "imported-from-colab",
-          "imported": true,
-          "qty": 7.4933309355
-        },
         "AMD": {
           "avg_price": 649.42,
           "entry_notional": 2500.0,
@@ -82,20 +76,20 @@
           "qty": 3.8495888639
         }
       },
-      "realized_pl": -8.70828203,
+      "realized_pl": 25.80448286,
       "risk_date": "2026-10-08",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 8
+      "trade_count": 9
     },
     "BOT_D": {
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10031.6818032,
+      "last_equity": 10028.62452418,
       "last_exit_date": {},
       "peak_equity": 10031.6818032,
       "positions": {
@@ -119,80 +113,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 338.915,
-    "AMD": 620.815,
-    "MSFT": 523.46,
-    "NVDA": 232.065
+    "AAPL": 338.405,
+    "AMD": 618.68,
+    "MSFT": 523.35,
+    "NVDA": 231.335
   },
-  "last_run": "2026-10-08T13:07:56.413324-04:00",
+  "last_run": "2026-10-08T13:41:18.118258-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "'Apple fixed The Trade Desk’s Safari ad problem—but broader ad tech restrictions could be next'- AdAge",
+        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran",
         "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
         "Bloomberg's Mark Gurman Posts On X \"t's official: Apple has sent out invitations for a \"Welcome home\" product launch on Oct. 13 in New York.\"",
-        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
-        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
-        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul"
+        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street"
       ],
-      "news_score": 1,
-      "price": 338.915,
+      "news_score": -1,
+      "price": 338.405,
       "prior20_high": 345.28,
-      "ret5_pct": 1.5476,
-      "rsi14": 54.3426,
-      "sma20": 335.1305,
-      "sma50": 322.3073,
-      "zscore20": 1.1716
+      "ret5_pct": 1.3948,
+      "rsi14": 53.4043,
+      "sma20": 335.089,
+      "sma50": 322.2907,
+      "zscore20": 1.0423
     },
     "AMD": {
       "news_headlines": [
+        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran",
         "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
         "Here's How Much $100 Invested In Advanced Micro Devices 5 Years Ago Would Be Worth Today",
         "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
-        "What's Going On With Marvell Technology Stock Thursday?",
-        "Stock Market: Will S&P 500 Open Up or Down Today?"
+        "What's Going On With Marvell Technology Stock Thursday?"
       ],
       "news_score": 3,
-      "price": 620.815,
+      "price": 618.68,
       "prior20_high": 658.45,
-      "ret5_pct": -2.0403,
-      "rsi14": 66.2831,
-      "sma20": 593.46925,
-      "sma50": 526.5524,
-      "zscore20": 0.55
+      "ret5_pct": -2.3771,
+      "rsi14": 65.9998,
+      "sma20": 593.42925,
+      "sma50": 526.5364,
+      "zscore20": 0.5081
     },
     "MSFT": {
       "news_headlines": [
+        "Microsoft On U.S. Government Suspending Perm Program, Says \"We Look Forward To Providing The Administration With Additional Information\"; We Pay Our H-1B Employees The Same As Any Other Employees Doing Comparable Work; Vast Majority Of Microsoft Employees In The United States Are Americans; About 80% Of H-1B Visa Applications Co Submitted Last Fiscal Year Were To Extend/Change Status Of Existing Microsoft Employees",
+        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
         "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
         "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
-        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
-        "What's Going On With Microsoft Stock Thursday?",
-        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley"
+        "What's Going On With Microsoft Stock Thursday?"
       ],
-      "news_score": -1,
-      "price": 523.46,
+      "news_score": -2,
+      "price": 523.35,
       "prior20_high": 535.69,
-      "ret5_pct": 1.1869,
-      "rsi14": 71.5334,
-      "sma20": 508.1285,
-      "sma50": 498.7812,
-      "zscore20": 1.2772
+      "ret5_pct": 1.1656,
+      "rsi14": 71.292,
+      "sma20": 508.1165,
+      "sma50": 498.7764,
+      "zscore20": 1.2706
     },
     "NVDA": {
       "news_headlines": [
-        "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
-        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "'Nvidia-Backed Firmus Is Set to Postpone IPO, Weigh Private Round' - Bloomberg News",
+        "What Is Going on With Super Micro Stock on Thursday?",
         "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
-        "Why Is AST SpaceMobile Stock Falling Thursday?",
-        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley"
+        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran"
       ],
-      "news_score": 0,
-      "price": 232.065,
+      "news_score": 1,
+      "price": 231.335,
       "prior20_high": 243.34,
-      "ret5_pct": -0.8269,
-      "rsi14": 63.1125,
-      "sma20": 226.2365,
-      "sma50": 221.4214,
-      "zscore20": 0.7223
+      "ret5_pct": -1.1389,
+      "rsi14": 62.7176,
+      "sma20": 226.225,
+      "sma50": 221.4168,
+      "zscore20": 0.6339
     }
   },
   "schema_version": 2,
@@ -328,6 +322,17 @@
       "reason": "negative news",
       "symbol": "MSFT",
       "timestamp": "2026-10-08T11:43:52.337037-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 338.235797,
+      "notional": 2534.51,
+      "qty": 7.4933309355,
+      "realized_pl": 34.51,
+      "reason": "negative news",
+      "symbol": "AAPL",
+      "timestamp": "2026-10-08T13:41:18.118258-04:00"
     }
   ]
 }
