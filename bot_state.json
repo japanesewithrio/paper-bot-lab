@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9743.35476096,
+      "last_equity": 9743.19424543,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9900.1539,
+      "last_equity": 9893.53260715,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -89,9 +89,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10044.36051915,
+      "last_equity": 10046.81833169,
       "last_exit_date": {},
-      "peak_equity": 10044.36051915,
+      "peak_equity": 10046.81833169,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -113,29 +113,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 341.03,
-    "AMD": 616.78,
-    "MSFT": 521.19,
-    "NVDA": 230.37
+    "AAPL": 341.44,
+    "AMD": 615.06,
+    "MSFT": 522.58,
+    "NVDA": 230.36
   },
-  "last_run": "2026-10-08T15:08:32.497175-04:00",
+  "last_run": "2026-10-08T15:40:57.880562-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Could Be the ‘Toll Collector’ of Consumer AI. Dan Ives Sees $75 More Per Share",
+        "Solana Tops NYSE Trade Count: Can Robinhood, Coinbase, Hyperliquid Keep Up?",
         "'Apple Names New M&A Chief in Latest Shake-Up Under CEO John Ternus' - Bloomberg News",
         "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
-        "'Apple fixed The Trade Desk’s Safari ad problem—but broader ad tech restrictions could be next'- AdAge",
-        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran",
-        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs"
+        "'Apple fixed The Trade Desk’s Safari ad problem—but broader ad tech restrictions could be next'- AdAge"
       ],
-      "news_score": -2,
-      "price": 341.03,
+      "news_score": -1,
+      "price": 341.44,
       "prior20_high": 345.28,
-      "ret5_pct": 2.1813,
-      "rsi14": 56.1918,
-      "sma20": 335.2175,
-      "sma50": 322.3421,
-      "zscore20": 1.7287
+      "ret5_pct": 2.3041,
+      "rsi14": 56.4453,
+      "sma20": 335.23,
+      "sma50": 322.3471,
+      "zscore20": 1.8349
     },
     "AMD": {
       "news_headlines": [
@@ -146,47 +146,47 @@
         "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran"
       ],
       "news_score": 1,
-      "price": 616.78,
+      "price": 615.06,
       "prior20_high": 658.45,
-      "ret5_pct": -2.6769,
-      "rsi14": 64.2228,
-      "sma20": 593.17025,
-      "sma50": 526.4328,
-      "zscore20": 0.4762
+      "ret5_pct": -2.9483,
+      "rsi14": 64.4708,
+      "sma20": 593.20725,
+      "sma50": 526.4476,
+      "zscore20": 0.4406
     },
     "MSFT": {
       "news_headlines": [
+        "Solana Tops NYSE Trade Count: Can Robinhood, Coinbase, Hyperliquid Keep Up?",
         "Anthropic Launches Cyber Mission To Equip Defenders With AI Tools, Research, And Resources To Strengthen Software And Systems Security",
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'",
         "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
-        "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
-        "Microsoft On U.S. Government Suspending Perm Program, Says \"We Look Forward To Providing The Administration With Additional Information\"; We Pay Our H-1B Employees The Same As Any Other Employees Doing Comparable Work; Vast Majority Of Microsoft Employees In The United States Are Americans; About 80% Of H-1B Visa Applications Co Submitted Last Fiscal Year Were To Extend/Change Status Of Existing Microsoft Employees"
+        "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields"
       ],
       "news_score": 0,
-      "price": 521.19,
+      "price": 522.58,
       "prior20_high": 535.69,
-      "ret5_pct": 0.7481,
-      "rsi14": 69.3328,
-      "sma20": 508.016,
-      "sma50": 498.7362,
-      "zscore20": 1.11
+      "ret5_pct": 1.0168,
+      "rsi14": 70.2841,
+      "sma20": 508.0655,
+      "sma50": 498.756,
+      "zscore20": 1.217
     },
     "NVDA": {
       "news_headlines": [
+        "Solana Tops NYSE Trade Count: Can Robinhood, Coinbase, Hyperliquid Keep Up?",
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'",
         "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
         "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "'Nvidia-Backed Firmus Is Set to Postpone IPO, Weigh Private Round' - Bloomberg News"
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session"
       ],
       "news_score": 0,
-      "price": 230.37,
+      "price": 230.36,
       "prior20_high": 243.34,
-      "ret5_pct": -1.5513,
-      "rsi14": 61.1457,
-      "sma20": 226.17775,
-      "sma50": 221.3979,
-      "zscore20": 0.5218
+      "ret5_pct": -1.5556,
+      "rsi14": 61.0244,
+      "sma20": 226.174,
+      "sma50": 221.3964,
+      "zscore20": 0.5212
     }
   },
   "schema_version": 2,
