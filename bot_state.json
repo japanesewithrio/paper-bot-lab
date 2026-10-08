@@ -2,9 +2,9 @@
   "bots": {
     "BOT_A": {
       "cash": 2500.0,
-      "day_start_equity": 10000.0,
+      "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9969.89986231,
+      "last_equity": 9901.4468591,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -31,7 +31,7 @@
         }
       },
       "realized_pl": 0.0,
-      "risk_date": "2026-10-07",
+      "risk_date": "2026-10-08",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -48,7 +48,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": 0.0,
-      "risk_date": "2026-10-07",
+      "risk_date": "2026-10-08",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -58,9 +58,9 @@
     },
     "BOT_C": {
       "cash": 4991.1540235,
-      "day_start_equity": 10000.0,
+      "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 10001.35453688,
+      "last_equity": 9963.33409837,
       "last_exit_date": {
         "MSFT": "2026-10-07",
         "NVDA": "2026-10-07"
@@ -83,7 +83,7 @@
         }
       },
       "realized_pl": -8.84597651,
-      "risk_date": "2026-10-07",
+      "risk_date": "2026-10-08",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -93,9 +93,9 @@
     },
     "BOT_D": {
       "cash": 8000.0,
-      "day_start_equity": 10000.0,
+      "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10012.91850254,
+      "last_equity": 10019.812367,
       "last_exit_date": {},
       "peak_equity": 10019.96223362,
       "positions": {
@@ -108,7 +108,7 @@
         }
       },
       "realized_pl": 0.0,
-      "risk_date": "2026-10-07",
+      "risk_date": "2026-10-08",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -119,80 +119,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 335.785,
-    "AMD": 647.875,
-    "MSFT": 529.275,
-    "NVDA": 236.94
+    "AAPL": 336.935,
+    "AMD": 635.76,
+    "MSFT": 530.84,
+    "NVDA": 234.145
   },
-  "last_run": "2026-10-07T15:39:46.042872-04:00",
+  "last_run": "2026-10-08T09:43:17.594589-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Global Bond Selloff Dents Market Bullishness — Treasury Auction To Test Sentiment",
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
-        "Most Undervalued Chip Stocks In October 2026: Four Are Cheaper Than The S&P 500",
-        "Reported Oct. 6: 'Apple to Launch Doorbell, Lock, Thermostat Developed With LG' - Bloomberg"
+        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
+        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
+        "What Is Going on With Palantir Tech Stock on Thursday?",
+        "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+        "Apple's Smart Home Ambitions Hammer REZI, ARLO and ALLE Stocks: Here's What's Happening"
       ],
       "news_score": 2,
-      "price": 335.785,
+      "price": 336.935,
       "prior20_high": 345.28,
-      "ret5_pct": 1.6175,
-      "rsi14": 48.0633,
-      "sma20": 334.446,
-      "sma50": 322.2658,
-      "zscore20": 0.3769
+      "ret5_pct": 0.9543,
+      "rsi14": 51.4698,
+      "sma20": 335.0085,
+      "sma50": 322.2585,
+      "zscore20": 0.6186
     },
     "AMD": {
       "news_headlines": [
-        "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why",
-        "Global Bond Selloff Dents Market Bullishness — Treasury Auction To Test Sentiment",
-        "Surging Over 200% in 2026: AMD Balances Near-Term Yield Pressures with Long-Term AI Growth",
-        "Nvidia Inside: Microsoft's New Laptop Runs AI Agents Without the Cloud",
-        "Jim Cramer Sees More AI Upside Ahead for Meta, Microsoft and AMD Despite Bubble Fears: ‘They Were Going to Figure Something Out’"
+        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
+        "What's Going On With Marvell Technology Stock Thursday?",
+        "Stock Market: Will S&P 500 Open Up or Down Today?",
+        "Elon Musk, Jensen Huang, Satya Nadella Reportedly to Be Awarded Medals By Trump — White House Says They Help America Lead 'the World in Innovation'",
+        "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why"
       ],
       "news_score": 3,
-      "price": 647.875,
+      "price": 635.76,
       "prior20_high": 658.45,
-      "ret5_pct": 5.2121,
-      "rsi14": 78.7637,
-      "sma20": 587.641,
-      "sma50": 522.7283,
-      "zscore20": 1.1375
+      "ret5_pct": 0.318,
+      "rsi14": 70.9454,
+      "sma20": 594.08175,
+      "sma50": 526.7974,
+      "zscore20": 0.8315
     },
     "MSFT": {
       "news_headlines": [
-        "OpenAI Introduces GPT‑6 And Intelligent UI For Everyone",
-        "Why Is BKV Stock Surging Wednesday?",
-        "Anthropic Introduces Claude Haiku 5.5: The Cheapest, Fastest, And Most Capable Small Model We’ve Ever Released",
-        "Microsoft Exec Says Surface Laptop Ultra Prices Range Up To $5,899 For Most Powerful Model",
-        "Microsoft Exec Says RTX Spark-Based Machines With NVIDIA Chips Will Begin Shipping Next Week"
+        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
+        "Microsoft Creates New XBOX Division XP; Appoints Kayleen Walters President Of XP",
+        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
+        "What Is Going on With Palantir Tech Stock on Thursday?",
+        "Senator Adam Schiff Warns Advanced AI Poses Growing National Security Threat, Calls for Guardrails Before It's Too Late: 'A Pinky Swear Won’t Cut It'"
       ],
       "news_score": 1,
-      "price": 529.275,
+      "price": 530.84,
       "prior20_high": 535.69,
-      "ret5_pct": 3.2309,
-      "rsi14": 72.7096,
-      "sma20": 506.544,
-      "sma50": 496.1176,
-      "zscore20": 1.9168
+      "ret5_pct": 2.6135,
+      "rsi14": 78.9151,
+      "sma20": 508.537,
+      "sma50": 498.9446,
+      "zscore20": 1.7635
     },
     "NVDA": {
       "news_headlines": [
-        "Dell Technologies Rolls Out Nvidia RTX Spark-Powered XPS 16 Creator Edition",
-        "Starlink Cash Can Carry SpaceX's $40 Billion AI Tab, Dan Ives Says",
-        "Intuitive Machines Stock Drops Wednesday: What's Going On?",
-        "Microsoft Exec Says RTX Spark-Based Machines With NVIDIA Chips Will Begin Shipping Next Week",
-        "Why Is AST SpaceMobile Stock Falling on Wednesday?"
+        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
+        "Elon Musk’s SpaceX Could Pay Off for Investors Before Tesla Ever Did, Says Jim Cramer — Top Investment Bank Sees Over 37% Upside for SPCX Investors (UPDATED)",
+        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
+        "'Nvidia’s big bet on physical AI aims for safer robotaxis, humanoid robots' - Ars Technica",
+        "What Is Going on With Palantir Tech Stock on Thursday?"
       ],
-      "news_score": -1,
-      "price": 236.94,
+      "news_score": 2,
+      "price": 234.145,
       "prior20_high": 243.34,
-      "ret5_pct": 2.5537,
-      "rsi14": 75.9196,
-      "sma20": 225.55125,
-      "sma50": 220.5819,
-      "zscore20": 1.4041
+      "ret5_pct": 0.062,
+      "rsi14": 67.5703,
+      "sma20": 226.357,
+      "sma50": 221.4696,
+      "zscore20": 0.9537
     }
   },
   "schema_version": 2,
