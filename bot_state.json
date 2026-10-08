@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9939.38135526,
+      "last_equity": 9918.57895803,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 2498.60380286,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9981.55206628,
+      "last_equity": 9968.66526421,
       "last_exit_date": {
         "MSFT": "2026-10-07",
         "NVDA": "2026-10-07"
@@ -102,9 +102,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10025.38740522,
+      "last_equity": 10025.62719181,
       "last_exit_date": {},
-      "peak_equity": 10025.38740522,
+      "peak_equity": 10025.62719181,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -126,29 +126,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 337.865,
-    "AMD": 638.475,
-    "MSFT": 530.84,
-    "NVDA": 236.775
+    "AAPL": 337.905,
+    "AMD": 634.47,
+    "MSFT": 531.315,
+    "NVDA": 236.045
   },
-  "last_run": "2026-10-08T10:43:39.980872-04:00",
+  "last_run": "2026-10-08T11:07:58.452100-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
         "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
         "What Is Going on With Palantir Tech Stock on Thursday?",
-        "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-        "Apple's Smart Home Ambitions Hammer REZI, ARLO and ALLE Stocks: Here's What's Happening"
+        "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
       ],
       "news_score": 2,
-      "price": 337.865,
+      "price": 337.905,
       "prior20_high": 345.28,
-      "ret5_pct": 1.233,
-      "rsi14": 52.5765,
-      "sma20": 335.05375,
-      "sma50": 322.2766,
-      "zscore20": 0.8932
+      "ret5_pct": 1.2449,
+      "rsi14": 52.4147,
+      "sma20": 335.047,
+      "sma50": 322.2739,
+      "zscore20": 0.9097
     },
     "AMD": {
       "news_headlines": [
@@ -159,47 +159,47 @@
         "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why"
       ],
       "news_score": 3,
-      "price": 638.475,
+      "price": 634.47,
       "prior20_high": 658.45,
-      "ret5_pct": 0.7464,
-      "rsi14": 73.1376,
-      "sma20": 594.34275,
-      "sma50": 526.9018,
-      "zscore20": 0.8767
+      "ret5_pct": 0.1144,
+      "rsi14": 72.0164,
+      "sma20": 594.21125,
+      "sma50": 526.8492,
+      "zscore20": 0.8016
     },
     "MSFT": {
       "news_headlines": [
+        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "OpenAI Says Recently Banned 2 IO One From Russia And One From Iran That Used Our Models In Combination With More Traditional Techniques And Technologies To Support Sophisticated “False Front” Entities",
         "U.S. Labor Secretary Says Is Suspending Some Of The Largest IT Sourcing Firms In The World From Labor Certification Program Including Microsoft, Adobe",
         "What Is Going on With Alphabet Stock on Thursday?",
-        "Vice President Vance Says U.S. Suspending Perm Program For Microsoft; Message To Microsoft Is You've Got To Hire American Workers; U.S. Is Reforming H-1B, J-1 Visa Programs",
-        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave"
+        "Vice President Vance Says U.S. Suspending Perm Program For Microsoft; Message To Microsoft Is You've Got To Hire American Workers; U.S. Is Reforming H-1B, J-1 Visa Programs"
       ],
       "news_score": 0,
-      "price": 530.84,
+      "price": 531.315,
       "prior20_high": 535.69,
-      "ret5_pct": 2.6135,
-      "rsi14": 78.6536,
-      "sma20": 508.496,
-      "sma50": 498.9282,
-      "zscore20": 1.7772
+      "ret5_pct": 2.7053,
+      "rsi14": 78.7179,
+      "sma20": 508.506,
+      "sma50": 498.9322,
+      "zscore20": 1.8116
     },
     "NVDA": {
       "news_headlines": [
+        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "Nvidia Announces Commitments Valued At $1B To Advance U.S. Science Over The Next Five Years",
         "Forget the AI Bubble: Jordi Visser Says the 'Bankpocalypse' Has Begun",
         "Why Is Planet Labs Stock Falling on Thursday?",
-        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
-        "Elon Musk’s SpaceX Could Pay Off for Investors Before Tesla Ever Did, Says Jim Cramer — Top Investment Bank Sees Over 37% Upside for SPCX Investors (UPDATED)"
+        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave"
       ],
       "news_score": 0,
-      "price": 236.775,
+      "price": 236.045,
       "prior20_high": 243.34,
-      "ret5_pct": 1.1859,
-      "rsi14": 73.7052,
-      "sma20": 226.499,
-      "sma50": 221.5264,
-      "zscore20": 1.2349
+      "ret5_pct": 0.8739,
+      "rsi14": 71.8896,
+      "sma20": 226.4595,
+      "sma50": 221.5106,
+      "zscore20": 1.1585
     }
   },
   "schema_version": 2,

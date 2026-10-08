@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-08T10:43:39.980872-04:00
+Updated: 2026-10-08T11:07:58.452100-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,10 +8,10 @@ Updated: 2026-10-08T10:43:39.980872-04:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,025.39 | 0.25% | $8,000.00 | $10,025.39 | $0.00 | $25.39 | AAPL |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,025.63 | 0.26% | $8,000.00 | $10,025.63 | $0.00 | $25.63 | AAPL |
 | 2 | BOT_B | ACTIVE | Dip / Mean Reversion | $10,000.00 | 0.00% | $10,000.00 | $10,000.00 | $0.00 | $0.00 | — |
-| 3 | BOT_C | ACTIVE | News + Momentum | $9,981.55 | -0.18% | $2,498.60 | $10,007.62 | $-8.85 | $-9.60 | AAPL, AMD, MSFT |
-| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,939.38 | -0.61% | $2,500.00 | $10,000.00 | $0.00 | $-60.62 | AMD, MSFT, NVDA |
+| 3 | BOT_C | ACTIVE | News + Momentum | $9,968.67 | -0.31% | $2,498.60 | $10,007.62 | $-8.85 | $-22.49 | AAPL, AMD, MSFT |
+| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,918.58 | -0.81% | $2,500.00 | $10,000.00 | $0.00 | $-81.42 | AMD, MSFT, NVDA |
 
 ## Portfolio risk rules
 
@@ -25,10 +25,10 @@ Updated: 2026-10-08T10:43:39.980872-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $337.87 | $335.05 | $322.28 | 52.6 | 1.23% | $345.28 | 0.89 | +2 |
-| NVDA | $236.77 | $226.50 | $221.53 | 73.7 | 1.19% | $243.34 | 1.23 | +0 |
-| AMD | $638.48 | $594.34 | $526.90 | 73.1 | 0.75% | $658.45 | 0.88 | +3 |
-| MSFT | $530.84 | $508.50 | $498.93 | 78.7 | 2.61% | $535.69 | 1.78 | +0 |
+| AAPL | $337.90 | $335.05 | $322.27 | 52.4 | 1.24% | $345.28 | 0.91 | +2 |
+| NVDA | $236.05 | $226.46 | $221.51 | 71.9 | 0.87% | $243.34 | 1.16 | +0 |
+| AMD | $634.47 | $594.21 | $526.85 | 72.0 | 0.11% | $658.45 | 0.80 | +3 |
+| MSFT | $531.32 | $508.51 | $498.93 | 78.7 | 2.71% | $535.69 | 1.81 | +0 |
 
 ## Actions this run
 
