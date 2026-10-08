@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9915.75680426,
+      "last_equity": 9896.08755554,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 4991.29171562,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9970.27394639,
+      "last_equity": 9961.75514016,
       "last_exit_date": {
         "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
@@ -95,9 +95,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10026.31657825,
+      "last_equity": 10028.32479094,
       "last_exit_date": {},
-      "peak_equity": 10026.31657825,
+      "peak_equity": 10028.32479094,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -119,12 +119,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 338.02,
-    "AMD": 635.415,
-    "MSFT": 530.965,
-    "NVDA": 235.585
+    "AAPL": 338.355,
+    "AMD": 632.55,
+    "MSFT": 529.545,
+    "NVDA": 235.4
   },
-  "last_run": "2026-10-08T11:43:52.337037-04:00",
+  "last_run": "2026-10-08T12:09:31.504824-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -135,13 +135,13 @@
         "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
       ],
       "news_score": 2,
-      "price": 338.02,
+      "price": 338.355,
       "prior20_high": 345.28,
-      "ret5_pct": 1.2794,
-      "rsi14": 52.9323,
-      "sma20": 335.06875,
-      "sma50": 322.2826,
-      "zscore20": 0.9337
+      "ret5_pct": 1.3798,
+      "rsi14": 53.2248,
+      "sma20": 335.08125,
+      "sma50": 322.2876,
+      "zscore20": 1.0317
     },
     "AMD": {
       "news_headlines": [
@@ -152,47 +152,47 @@
         "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why"
       ],
       "news_score": 3,
-      "price": 635.415,
+      "price": 632.55,
       "prior20_high": 658.45,
-      "ret5_pct": 0.2635,
-      "rsi14": 71.7634,
-      "sma20": 594.181,
-      "sma50": 526.8371,
-      "zscore20": 0.8214
+      "ret5_pct": -0.1886,
+      "rsi14": 70.8275,
+      "sma20": 594.06725,
+      "sma50": 526.7916,
+      "zscore20": 0.7679
     },
     "MSFT": {
       "news_headlines": [
+        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley",
         "Anthropic Is Deepening Its Support For American Scientific Research By Committing $150M Over Three Years To The Genesis Mission",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "OpenAI Says Recently Banned 2 IO One From Russia And One From Iran That Used Our Models In Combination With More Traditional Techniques And Technologies To Support Sophisticated “False Front” Entities",
-        "U.S. Labor Secretary Says Is Suspending Some Of The Largest IT Sourcing Firms In The World From Labor Certification Program Including Microsoft, Adobe",
-        "What Is Going on With Alphabet Stock on Thursday?"
+        "U.S. Labor Secretary Says Is Suspending Some Of The Largest IT Sourcing Firms In The World From Labor Certification Program Including Microsoft, Adobe"
       ],
       "news_score": -1,
-      "price": 530.965,
+      "price": 529.545,
       "prior20_high": 535.69,
-      "ret5_pct": 2.6376,
-      "rsi14": 78.6082,
-      "sma20": 508.489,
-      "sma50": 498.9254,
-      "zscore20": 1.7895
+      "ret5_pct": 2.3631,
+      "rsi14": 77.8955,
+      "sma20": 508.418,
+      "sma50": 498.897,
+      "zscore20": 1.6987
     },
     "NVDA": {
       "news_headlines": [
+        "Why Is AST SpaceMobile Stock Falling Thursday?",
+        "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley",
         "8 Of 11 Sectors Fall In Thursday Trading As Energy Leads",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
-        "Nvidia Announces Commitments Valued At $1B To Advance U.S. Science Over The Next Five Years",
-        "Forget the AI Bubble: Jordi Visser Says the 'Bankpocalypse' Has Begun",
-        "Why Is Planet Labs Stock Falling on Thursday?"
+        "Nvidia Announces Commitments Valued At $1B To Advance U.S. Science Over The Next Five Years"
       ],
-      "news_score": 1,
-      "price": 235.585,
+      "news_score": 2,
+      "price": 235.4,
       "prior20_high": 243.34,
-      "ret5_pct": 0.6774,
-      "rsi14": 70.645,
-      "sma20": 226.43125,
-      "sma50": 221.4993,
-      "zscore20": 1.1107
+      "ret5_pct": 0.5983,
+      "rsi14": 70.483,
+      "sma20": 226.4275,
+      "sma50": 221.4978,
+      "zscore20": 1.0892
     }
   },
   "schema_version": 2,
