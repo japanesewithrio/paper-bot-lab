@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9770.95514964,
+      "last_equity": 9735.37416093,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9907.46811884,
+      "last_equity": 9900.88532188,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -89,9 +89,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10028.62452418,
+      "last_equity": 10031.74174985,
       "last_exit_date": {},
-      "peak_equity": 10031.6818032,
+      "peak_equity": 10031.74174985,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -113,80 +113,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 338.405,
-    "AMD": 618.68,
-    "MSFT": 523.35,
-    "NVDA": 231.335
+    "AAPL": 338.925,
+    "AMD": 616.97,
+    "MSFT": 519.08,
+    "NVDA": 230.49
   },
-  "last_run": "2026-10-08T13:41:18.118258-04:00",
+  "last_run": "2026-10-08T14:07:17.492521-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "'Apple Names New M&A Chief in Latest Shake-Up Under CEO John Ternus' - Bloomberg News",
+        "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
         "'Apple fixed The Trade Desk’s Safari ad problem—but broader ad tech restrictions could be next'- AdAge",
         "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran",
-        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
-        "Bloomberg's Mark Gurman Posts On X \"t's official: Apple has sent out invitations for a \"Welcome home\" product launch on Oct. 13 in New York.\"",
-        "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street"
+        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs"
       ],
-      "news_score": -1,
-      "price": 338.405,
+      "news_score": -2,
+      "price": 338.925,
       "prior20_high": 345.28,
-      "ret5_pct": 1.3948,
-      "rsi14": 53.4043,
-      "sma20": 335.089,
-      "sma50": 322.2907,
-      "zscore20": 1.0423
+      "ret5_pct": 1.5506,
+      "rsi14": 53.9064,
+      "sma20": 335.111,
+      "sma50": 322.2995,
+      "zscore20": 1.1896
     },
     "AMD": {
       "news_headlines": [
+        "Micron Analyst Sees Stock Nearly Tripling to $3,000, Warns Short Sellers: 'You Have an Expiry'",
+        "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
         "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran",
         "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
-        "Here's How Much $100 Invested In Advanced Micro Devices 5 Years Ago Would Be Worth Today",
-        "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
-        "What's Going On With Marvell Technology Stock Thursday?"
+        "Here's How Much $100 Invested In Advanced Micro Devices 5 Years Ago Would Be Worth Today"
       ],
-      "news_score": 3,
-      "price": 618.68,
+      "news_score": 2,
+      "price": 616.97,
       "prior20_high": 658.45,
-      "ret5_pct": -2.3771,
-      "rsi14": 65.9998,
-      "sma20": 593.42925,
-      "sma50": 526.5364,
-      "zscore20": 0.5081
+      "ret5_pct": -2.647,
+      "rsi14": 65.5569,
+      "sma20": 593.366,
+      "sma50": 526.5111,
+      "zscore20": 0.4752
     },
     "MSFT": {
       "news_headlines": [
+        "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
         "Microsoft On U.S. Government Suspending Perm Program, Says \"We Look Forward To Providing The Administration With Additional Information\"; We Pay Our H-1B Employees The Same As Any Other Employees Doing Comparable Work; Vast Majority Of Microsoft Employees In The United States Are Americans; About 80% Of H-1B Visa Applications Co Submitted Last Fiscal Year Were To Extend/Change Status Of Existing Microsoft Employees",
         "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
         "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
-        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs",
-        "What's Going On With Microsoft Stock Thursday?"
+        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs"
       ],
-      "news_score": -2,
-      "price": 523.35,
+      "news_score": -1,
+      "price": 519.08,
       "prior20_high": 535.69,
-      "ret5_pct": 1.1656,
-      "rsi14": 71.292,
-      "sma20": 508.1165,
-      "sma50": 498.7764,
-      "zscore20": 1.2706
+      "ret5_pct": 0.3402,
+      "rsi14": 67.4829,
+      "sma20": 507.91575,
+      "sma50": 498.6961,
+      "zscore20": 0.9491
     },
     "NVDA": {
       "news_headlines": [
+        "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
         "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "'Nvidia-Backed Firmus Is Set to Postpone IPO, Weigh Private Round' - Bloomberg News",
         "What Is Going on With Super Micro Stock on Thursday?",
-        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
-        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran"
+        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times"
       ],
       "news_score": 1,
-      "price": 231.335,
+      "price": 230.49,
       "prior20_high": 243.34,
-      "ret5_pct": -1.1389,
-      "rsi14": 62.7176,
-      "sma20": 226.225,
-      "sma50": 221.4168,
-      "zscore20": 0.6339
+      "ret5_pct": -1.5,
+      "rsi14": 61.2513,
+      "sma20": 226.181,
+      "sma50": 221.3992,
+      "zscore20": 0.5362
     }
   },
   "schema_version": 2,
