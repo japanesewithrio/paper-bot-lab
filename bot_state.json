@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9901.4468591,
+      "last_equity": 9920.98706517,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -57,10 +57,10 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 4991.1540235,
+      "cash": 2498.60380286,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9963.33409837,
+      "last_equity": 9968.95523026,
       "last_exit_date": {
         "MSFT": "2026-10-07",
         "NVDA": "2026-10-07"
@@ -80,6 +80,13 @@
           "entry_time": "imported-from-colab",
           "imported": true,
           "qty": 3.8495888639
+        },
+        "MSFT": {
+          "avg_price": 530.670202,
+          "entry_notional": 2492.55,
+          "entry_time": "2026-10-08T10:09:31.819488-04:00",
+          "imported": false,
+          "qty": 4.6969854514
         }
       },
       "realized_pl": -8.84597651,
@@ -89,15 +96,15 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 6
+      "trade_count": 7
     },
     "BOT_D": {
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10019.812367,
+      "last_equity": 10021.0712466,
       "last_exit_date": {},
-      "peak_equity": 10019.96223362,
+      "peak_equity": 10021.0712466,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -119,12 +126,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 336.935,
-    "AMD": 635.76,
-    "MSFT": 530.84,
-    "NVDA": 234.145
+    "AAPL": 337.145,
+    "AMD": 637.135,
+    "MSFT": 530.405,
+    "NVDA": 235.705
   },
-  "last_run": "2026-10-08T09:43:17.594589-04:00",
+  "last_run": "2026-10-08T10:09:31.819488-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -135,13 +142,13 @@
         "Apple's Smart Home Ambitions Hammer REZI, ARLO and ALLE Stocks: Here's What's Happening"
       ],
       "news_score": 2,
-      "price": 336.935,
+      "price": 337.145,
       "prior20_high": 345.28,
-      "ret5_pct": 0.9543,
-      "rsi14": 51.4698,
-      "sma20": 335.0085,
-      "sma50": 322.2585,
-      "zscore20": 0.6186
+      "ret5_pct": 1.0172,
+      "rsi14": 51.8054,
+      "sma20": 335.022,
+      "sma50": 322.2639,
+      "zscore20": 0.6799
     },
     "AMD": {
       "news_headlines": [
@@ -152,13 +159,13 @@
         "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why"
       ],
       "news_score": 3,
-      "price": 635.76,
+      "price": 637.135,
       "prior20_high": 658.45,
-      "ret5_pct": 0.318,
-      "rsi14": 70.9454,
-      "sma20": 594.08175,
-      "sma50": 526.7974,
-      "zscore20": 0.8315
+      "ret5_pct": 0.5349,
+      "rsi14": 73.3242,
+      "sma20": 594.36425,
+      "sma50": 526.9104,
+      "zscore20": 0.8494
     },
     "MSFT": {
       "news_headlines": [
@@ -169,30 +176,30 @@
         "Senator Adam Schiff Warns Advanced AI Poses Growing National Security Threat, Calls for Guardrails Before It's Too Late: 'A Pinky Swear Won’t Cut It'"
       ],
       "news_score": 1,
-      "price": 530.84,
+      "price": 530.405,
       "prior20_high": 535.69,
-      "ret5_pct": 2.6135,
-      "rsi14": 78.9151,
-      "sma20": 508.537,
-      "sma50": 498.9446,
-      "zscore20": 1.7635
+      "ret5_pct": 2.5294,
+      "rsi14": 78.504,
+      "sma20": 508.473,
+      "sma50": 498.919,
+      "zscore20": 1.7501
     },
     "NVDA": {
       "news_headlines": [
+        "Why Is Planet Labs Stock Falling on Thursday?",
         "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
         "Elon Musk’s SpaceX Could Pay Off for Investors Before Tesla Ever Did, Says Jim Cramer — Top Investment Bank Sees Over 37% Upside for SPCX Investors (UPDATED)",
         "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
-        "'Nvidia’s big bet on physical AI aims for safer robotaxis, humanoid robots' - Ars Technica",
-        "What Is Going on With Palantir Tech Stock on Thursday?"
+        "'Nvidia’s big bet on physical AI aims for safer robotaxis, humanoid robots' - Ars Technica"
       ],
-      "news_score": 2,
-      "price": 234.145,
+      "news_score": 1,
+      "price": 235.705,
       "prior20_high": 243.34,
-      "ret5_pct": 0.062,
-      "rsi14": 67.5703,
-      "sma20": 226.357,
-      "sma50": 221.4696,
-      "zscore20": 0.9537
+      "ret5_pct": 0.7286,
+      "rsi14": 70.7209,
+      "sma20": 226.433,
+      "sma50": 221.5,
+      "zscore20": 1.1247
     }
   },
   "schema_version": 2,
@@ -306,6 +313,17 @@
       "reason": "negative news",
       "symbol": "MSFT",
       "timestamp": "2026-10-07T13:41:44.889767-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 530.670202,
+      "notional": 2492.55,
+      "qty": 4.6969854514,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "MSFT",
+      "timestamp": "2026-10-08T10:09:31.819488-04:00"
     }
   ]
 }
