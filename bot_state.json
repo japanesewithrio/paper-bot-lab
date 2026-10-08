@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9735.37416093,
+      "last_equity": 9745.26928727,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9900.88532188,
+      "last_equity": 9902.07869443,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -89,9 +89,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10031.74174985,
+      "last_equity": 10039.71465397,
       "last_exit_date": {},
-      "peak_equity": 10031.74174985,
+      "peak_equity": 10039.71465397,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -113,12 +113,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 338.925,
-    "AMD": 616.97,
-    "MSFT": 519.08,
-    "NVDA": 230.49
+    "AAPL": 340.255,
+    "AMD": 617.28,
+    "MSFT": 521.575,
+    "NVDA": 230.195
   },
-  "last_run": "2026-10-08T14:07:17.492521-04:00",
+  "last_run": "2026-10-08T14:46:02.200884-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -129,64 +129,64 @@
         "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs"
       ],
       "news_score": -2,
-      "price": 338.925,
+      "price": 340.255,
       "prior20_high": 345.28,
-      "ret5_pct": 1.5506,
-      "rsi14": 53.9064,
-      "sma20": 335.111,
-      "sma50": 322.2995,
-      "zscore20": 1.1896
+      "ret5_pct": 1.9491,
+      "rsi14": 55.3499,
+      "sma20": 335.177,
+      "sma50": 322.3259,
+      "zscore20": 1.5406
     },
     "AMD": {
       "news_headlines": [
+        "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'",
+        "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
         "Micron Analyst Sees Stock Nearly Tripling to $3,000, Warns Short Sellers: 'You Have an Expiry'",
         "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
-        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran",
-        "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
-        "Here's How Much $100 Invested In Advanced Micro Devices 5 Years Ago Would Be Worth Today"
+        "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran"
       ],
-      "news_score": 2,
-      "price": 616.97,
+      "news_score": 1,
+      "price": 617.28,
       "prior20_high": 658.45,
-      "ret5_pct": -2.647,
-      "rsi14": 65.5569,
-      "sma20": 593.366,
-      "sma50": 526.5111,
-      "zscore20": 0.4752
+      "ret5_pct": -2.598,
+      "rsi14": 64.9964,
+      "sma20": 593.28475,
+      "sma50": 526.4786,
+      "zscore20": 0.4835
     },
     "MSFT": {
       "news_headlines": [
+        "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'",
+        "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
         "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
         "Microsoft On U.S. Government Suspending Perm Program, Says \"We Look Forward To Providing The Administration With Additional Information\"; We Pay Our H-1B Employees The Same As Any Other Employees Doing Comparable Work; Vast Majority Of Microsoft Employees In The United States Are Americans; About 80% Of H-1B Visa Applications Co Submitted Last Fiscal Year Were To Extend/Change Status Of Existing Microsoft Employees",
-        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times",
-        "'Trump to Unveil $2.4B in AI Pledges to Boost Research'- Bloomberg",
-        "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs"
+        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times"
       ],
-      "news_score": -1,
-      "price": 519.08,
+      "news_score": 0,
+      "price": 521.575,
       "prior20_high": 535.69,
-      "ret5_pct": 0.3402,
-      "rsi14": 67.4829,
-      "sma20": 507.91575,
-      "sma50": 498.6961,
-      "zscore20": 0.9491
+      "ret5_pct": 0.8225,
+      "rsi14": 69.4848,
+      "sma20": 508.024,
+      "sma50": 498.7394,
+      "zscore20": 1.1409
     },
     "NVDA": {
       "news_headlines": [
+        "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'",
+        "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
         "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
         "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "'Nvidia-Backed Firmus Is Set to Postpone IPO, Weigh Private Round' - Bloomberg News",
-        "What Is Going on With Super Micro Stock on Thursday?",
-        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times"
+        "'Nvidia-Backed Firmus Is Set to Postpone IPO, Weigh Private Round' - Bloomberg News"
       ],
-      "news_score": 1,
-      "price": 230.49,
+      "news_score": 0,
+      "price": 230.195,
       "prior20_high": 243.34,
-      "ret5_pct": -1.5,
-      "rsi14": 61.2513,
-      "sma20": 226.181,
-      "sma50": 221.3992,
-      "zscore20": 0.5362
+      "ret5_pct": -1.6261,
+      "rsi14": 60.735,
+      "sma20": 226.165,
+      "sma50": 221.3928,
+      "zscore20": 0.502
     }
   },
   "schema_version": 2,
