@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9918.57895803,
+      "last_equity": 9915.75680426,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -57,12 +57,12 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 2498.60380286,
+      "cash": 4991.29171562,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9968.66526421,
+      "last_equity": 9970.27394639,
       "last_exit_date": {
-        "MSFT": "2026-10-07",
+        "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
@@ -80,31 +80,24 @@
           "entry_time": "imported-from-colab",
           "imported": true,
           "qty": 3.8495888639
-        },
-        "MSFT": {
-          "avg_price": 530.670202,
-          "entry_notional": 2492.55,
-          "entry_time": "2026-10-08T10:09:31.819488-04:00",
-          "imported": false,
-          "qty": 4.6969854514
         }
       },
-      "realized_pl": -8.84597651,
+      "realized_pl": -8.70828203,
       "risk_date": "2026-10-08",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 7
+      "trade_count": 8
     },
     "BOT_D": {
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10025.62719181,
+      "last_equity": 10026.31657825,
       "last_exit_date": {},
-      "peak_equity": 10025.62719181,
+      "peak_equity": 10026.31657825,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -126,12 +119,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 337.905,
-    "AMD": 634.47,
-    "MSFT": 531.315,
-    "NVDA": 236.045
+    "AAPL": 338.02,
+    "AMD": 635.415,
+    "MSFT": 530.965,
+    "NVDA": 235.585
   },
-  "last_run": "2026-10-08T11:07:58.452100-04:00",
+  "last_run": "2026-10-08T11:43:52.337037-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -142,13 +135,13 @@
         "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
       ],
       "news_score": 2,
-      "price": 337.905,
+      "price": 338.02,
       "prior20_high": 345.28,
-      "ret5_pct": 1.2449,
-      "rsi14": 52.4147,
-      "sma20": 335.047,
-      "sma50": 322.2739,
-      "zscore20": 0.9097
+      "ret5_pct": 1.2794,
+      "rsi14": 52.9323,
+      "sma20": 335.06875,
+      "sma50": 322.2826,
+      "zscore20": 0.9337
     },
     "AMD": {
       "news_headlines": [
@@ -159,47 +152,47 @@
         "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why"
       ],
       "news_score": 3,
-      "price": 634.47,
+      "price": 635.415,
       "prior20_high": 658.45,
-      "ret5_pct": 0.1144,
-      "rsi14": 72.0164,
-      "sma20": 594.21125,
-      "sma50": 526.8492,
-      "zscore20": 0.8016
+      "ret5_pct": 0.2635,
+      "rsi14": 71.7634,
+      "sma20": 594.181,
+      "sma50": 526.8371,
+      "zscore20": 0.8214
     },
     "MSFT": {
       "news_headlines": [
+        "Anthropic Is Deepening Its Support For American Scientific Research By Committing $150M Over Three Years To The Genesis Mission",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "OpenAI Says Recently Banned 2 IO One From Russia And One From Iran That Used Our Models In Combination With More Traditional Techniques And Technologies To Support Sophisticated “False Front” Entities",
         "U.S. Labor Secretary Says Is Suspending Some Of The Largest IT Sourcing Firms In The World From Labor Certification Program Including Microsoft, Adobe",
-        "What Is Going on With Alphabet Stock on Thursday?",
-        "Vice President Vance Says U.S. Suspending Perm Program For Microsoft; Message To Microsoft Is You've Got To Hire American Workers; U.S. Is Reforming H-1B, J-1 Visa Programs"
+        "What Is Going on With Alphabet Stock on Thursday?"
       ],
-      "news_score": 0,
-      "price": 531.315,
+      "news_score": -1,
+      "price": 530.965,
       "prior20_high": 535.69,
-      "ret5_pct": 2.7053,
-      "rsi14": 78.7179,
-      "sma20": 508.506,
-      "sma50": 498.9322,
-      "zscore20": 1.8116
+      "ret5_pct": 2.6376,
+      "rsi14": 78.6082,
+      "sma20": 508.489,
+      "sma50": 498.9254,
+      "zscore20": 1.7895
     },
     "NVDA": {
       "news_headlines": [
+        "8 Of 11 Sectors Fall In Thursday Trading As Energy Leads",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "Nvidia Announces Commitments Valued At $1B To Advance U.S. Science Over The Next Five Years",
         "Forget the AI Bubble: Jordi Visser Says the 'Bankpocalypse' Has Begun",
-        "Why Is Planet Labs Stock Falling on Thursday?",
-        "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave"
+        "Why Is Planet Labs Stock Falling on Thursday?"
       ],
-      "news_score": 0,
-      "price": 236.045,
+      "news_score": 1,
+      "price": 235.585,
       "prior20_high": 243.34,
-      "ret5_pct": 0.8739,
-      "rsi14": 71.8896,
-      "sma20": 226.4595,
-      "sma50": 221.5106,
-      "zscore20": 1.1585
+      "ret5_pct": 0.6774,
+      "rsi14": 70.645,
+      "sma20": 226.43125,
+      "sma50": 221.4993,
+      "zscore20": 1.1107
     }
   },
   "schema_version": 2,
@@ -324,6 +317,17 @@
       "reason": "News + Momentum entry rule satisfied",
       "symbol": "MSFT",
       "timestamp": "2026-10-08T10:09:31.819488-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 530.699517,
+      "notional": 2492.69,
+      "qty": 4.6969854514,
+      "realized_pl": 0.14,
+      "reason": "negative news",
+      "symbol": "MSFT",
+      "timestamp": "2026-10-08T11:43:52.337037-04:00"
     }
   ]
 }
