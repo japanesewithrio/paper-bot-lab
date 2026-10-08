@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9745.26928727,
+      "last_equity": 9743.35476096,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9902.07869443,
+      "last_equity": 9900.1539,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -89,9 +89,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10039.71465397,
+      "last_equity": 10044.36051915,
       "last_exit_date": {},
-      "peak_equity": 10039.71465397,
+      "peak_equity": 10044.36051915,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -113,12 +113,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 340.255,
-    "AMD": 617.28,
-    "MSFT": 521.575,
-    "NVDA": 230.195
+    "AAPL": 341.03,
+    "AMD": 616.78,
+    "MSFT": 521.19,
+    "NVDA": 230.37
   },
-  "last_run": "2026-10-08T14:46:02.200884-04:00",
+  "last_run": "2026-10-08T15:08:32.497175-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -129,13 +129,13 @@
         "AI Bubble Nearing a Breaking Point? Ray Dalio’s Warning Reveals a Risk Hiding in These ETFs"
       ],
       "news_score": -2,
-      "price": 340.255,
+      "price": 341.03,
       "prior20_high": 345.28,
-      "ret5_pct": 1.9491,
-      "rsi14": 55.3499,
-      "sma20": 335.177,
-      "sma50": 322.3259,
-      "zscore20": 1.5406
+      "ret5_pct": 2.1813,
+      "rsi14": 56.1918,
+      "sma20": 335.2175,
+      "sma50": 322.3421,
+      "zscore20": 1.7287
     },
     "AMD": {
       "news_headlines": [
@@ -146,30 +146,30 @@
         "EXCLUSIVE: TSMC Plans Up to $64 Billion in Capex and Still Isn’t ‘Building Enough,’ Says Applied Materials Veteran"
       ],
       "news_score": 1,
-      "price": 617.28,
+      "price": 616.78,
       "prior20_high": 658.45,
-      "ret5_pct": -2.598,
-      "rsi14": 64.9964,
-      "sma20": 593.28475,
-      "sma50": 526.4786,
-      "zscore20": 0.4835
+      "ret5_pct": -2.6769,
+      "rsi14": 64.2228,
+      "sma20": 593.17025,
+      "sma50": 526.4328,
+      "zscore20": 0.4762
     },
     "MSFT": {
       "news_headlines": [
+        "Anthropic Launches Cyber Mission To Equip Defenders With AI Tools, Research, And Resources To Strengthen Software And Systems Security",
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'",
         "OpenAI Revenue $20B Below Previous Reports, ORCL, NVDA Tumble",
         "Stock Reaction To Samsung And TSMC Earnings Is An Early Indicator Of A Market Character Shift—Watch Oil And Yields",
-        "Microsoft On U.S. Government Suspending Perm Program, Says \"We Look Forward To Providing The Administration With Additional Information\"; We Pay Our H-1B Employees The Same As Any Other Employees Doing Comparable Work; Vast Majority Of Microsoft Employees In The United States Are Americans; About 80% Of H-1B Visa Applications Co Submitted Last Fiscal Year Were To Extend/Change Status Of Existing Microsoft Employees",
-        "'OpenAI annualised revenues $20bn less than previously signalled' - Financial Times"
+        "Microsoft On U.S. Government Suspending Perm Program, Says \"We Look Forward To Providing The Administration With Additional Information\"; We Pay Our H-1B Employees The Same As Any Other Employees Doing Comparable Work; Vast Majority Of Microsoft Employees In The United States Are Americans; About 80% Of H-1B Visa Applications Co Submitted Last Fiscal Year Were To Extend/Change Status Of Existing Microsoft Employees"
       ],
       "news_score": 0,
-      "price": 521.575,
+      "price": 521.19,
       "prior20_high": 535.69,
-      "ret5_pct": 0.8225,
-      "rsi14": 69.4848,
-      "sma20": 508.024,
-      "sma50": 498.7394,
-      "zscore20": 1.1409
+      "ret5_pct": 0.7481,
+      "rsi14": 69.3328,
+      "sma20": 508.016,
+      "sma50": 498.7362,
+      "zscore20": 1.11
     },
     "NVDA": {
       "news_headlines": [
@@ -180,13 +180,13 @@
         "'Nvidia-Backed Firmus Is Set to Postpone IPO, Weigh Private Round' - Bloomberg News"
       ],
       "news_score": 0,
-      "price": 230.195,
+      "price": 230.37,
       "prior20_high": 243.34,
-      "ret5_pct": -1.6261,
-      "rsi14": 60.735,
-      "sma20": 226.165,
-      "sma50": 221.3928,
-      "zscore20": 0.502
+      "ret5_pct": -1.5513,
+      "rsi14": 61.1457,
+      "sma20": 226.17775,
+      "sma50": 221.3979,
+      "zscore20": 0.5218
     }
   },
   "schema_version": 2,
