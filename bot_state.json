@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9969.89986231,
       "entry_paused_date": null,
-      "last_equity": 9896.08755554,
+      "last_equity": 9881.12807577,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 4991.29171562,
       "day_start_equity": 10001.35453688,
       "entry_paused_date": null,
-      "last_equity": 9961.75514016,
+      "last_equity": 9959.68058584,
       "last_exit_date": {
         "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
@@ -95,9 +95,9 @@
       "cash": 8000.0,
       "day_start_equity": 10012.91850254,
       "entry_paused_date": null,
-      "last_equity": 10028.32479094,
+      "last_equity": 10029.88340378,
       "last_exit_date": {},
-      "peak_equity": 10028.32479094,
+      "peak_equity": 10029.88340378,
       "positions": {
         "AAPL": {
           "avg_price": 333.63,
@@ -119,63 +119,63 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 338.355,
-    "AMD": 632.55,
-    "MSFT": 529.545,
-    "NVDA": 235.4
+    "AAPL": 338.615,
+    "AMD": 631.505,
+    "MSFT": 528.745,
+    "NVDA": 234.715
   },
-  "last_run": "2026-10-08T12:09:31.504824-04:00",
+  "last_run": "2026-10-08T12:44:14.103685-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Bloomberg's Mark Gurman Posts On X \"t's official: Apple has sent out invitations for a \"Welcome home\" product launch on Oct. 13 in New York.\"",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
         "Nvidia Vs. CrowdStrike: How ETFs Are Positioned for Dan Ives’ $4T Tech Spending Wave",
         "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
-        "What Is Going on With Palantir Tech Stock on Thursday?",
-        "Competitor Analysis: Evaluating Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
+        "What Is Going on With Palantir Tech Stock on Thursday?"
       ],
-      "news_score": 2,
-      "price": 338.355,
+      "news_score": 3,
+      "price": 338.615,
       "prior20_high": 345.28,
-      "ret5_pct": 1.3798,
-      "rsi14": 53.2248,
-      "sma20": 335.08125,
-      "sma50": 322.2876,
-      "zscore20": 1.0317
+      "ret5_pct": 1.4577,
+      "rsi14": 53.2074,
+      "sma20": 335.0805,
+      "sma50": 322.2873,
+      "zscore20": 1.1141
     },
     "AMD": {
       "news_headlines": [
+        "Here's How Much $100 Invested In Advanced Micro Devices 5 Years Ago Would Be Worth Today",
         "Samsung’s $80B Quarterly Profit Tops Nvidia, AMD’s Lisa Su Shops In Seoul",
         "What's Going On With Marvell Technology Stock Thursday?",
         "Stock Market: Will S&P 500 Open Up or Down Today?",
-        "Elon Musk, Jensen Huang, Satya Nadella Reportedly to Be Awarded Medals By Trump — White House Says They Help America Lead 'the World in Innovation'",
-        "Hewlett Packard Enterprise Stock Hits 52-Week Highs - Here's Why"
+        "Elon Musk, Jensen Huang, Satya Nadella Reportedly to Be Awarded Medals By Trump — White House Says They Help America Lead 'the World in Innovation'"
       ],
       "news_score": 3,
-      "price": 632.55,
+      "price": 631.505,
       "prior20_high": 658.45,
-      "ret5_pct": -0.1886,
-      "rsi14": 70.8275,
-      "sma20": 594.06725,
-      "sma50": 526.7916,
-      "zscore20": 0.7679
+      "ret5_pct": -0.3535,
+      "rsi14": 70.621,
+      "sma20": 594.04175,
+      "sma50": 526.7814,
+      "zscore20": 0.7479
     },
     "MSFT": {
       "news_headlines": [
+        "What's Going On With Microsoft Stock Thursday?",
         "SpaceX’s $500 Billion AI Data Center Gamble Has Real Revenue Behind It, Says FT’s John Foley",
         "Anthropic Is Deepening Its Support For American Scientific Research By Committing $150M Over Three Years To The Genesis Mission",
         "70 Million Kids Just Got Trump Accounts. The Bigger Winner Could Be State Street",
-        "OpenAI Says Recently Banned 2 IO One From Russia And One From Iran That Used Our Models In Combination With More Traditional Techniques And Technologies To Support Sophisticated “False Front” Entities",
-        "U.S. Labor Secretary Says Is Suspending Some Of The Largest IT Sourcing Firms In The World From Labor Certification Program Including Microsoft, Adobe"
+        "OpenAI Says Recently Banned 2 IO One From Russia And One From Iran That Used Our Models In Combination With More Traditional Techniques And Technologies To Support Sophisticated “False Front” Entities"
       ],
-      "news_score": -1,
-      "price": 529.545,
+      "news_score": -2,
+      "price": 528.745,
       "prior20_high": 535.69,
-      "ret5_pct": 2.3631,
-      "rsi14": 77.8955,
-      "sma20": 508.418,
-      "sma50": 498.897,
-      "zscore20": 1.6987
+      "ret5_pct": 2.2085,
+      "rsi14": 76.7752,
+      "sma20": 508.3705,
+      "sma50": 498.878,
+      "zscore20": 1.6487
     },
     "NVDA": {
       "news_headlines": [
@@ -186,13 +186,13 @@
         "Nvidia Announces Commitments Valued At $1B To Advance U.S. Science Over The Next Five Years"
       ],
       "news_score": 2,
-      "price": 235.4,
+      "price": 234.715,
       "prior20_high": 243.34,
-      "ret5_pct": 0.5983,
-      "rsi14": 70.483,
-      "sma20": 226.4275,
-      "sma50": 221.4978,
-      "zscore20": 1.0892
+      "ret5_pct": 0.3056,
+      "rsi14": 69.2134,
+      "sma20": 226.3975,
+      "sma50": 221.4858,
+      "zscore20": 1.0136
     }
   },
   "schema_version": 2,
