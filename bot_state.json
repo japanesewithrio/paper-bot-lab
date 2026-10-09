@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9743.19424543,
       "entry_paused_date": null,
-      "last_equity": 9784.34768508,
+      "last_equity": 9781.07530248,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 9893.53260715,
       "entry_paused_date": null,
-      "last_equity": 9885.50621437,
+      "last_equity": 9881.13693101,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -107,12 +107,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 334.07,
-    "AMD": 612.975,
-    "MSFT": 532.395,
-    "NVDA": 230.63
+    "AAPL": 334.16,
+    "AMD": 611.84,
+    "MSFT": 534.01,
+    "NVDA": 230.005
   },
-  "last_run": "2026-10-09T11:07:59.680202-04:00",
+  "last_run": "2026-10-09T11:42:58.102091-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -123,13 +123,13 @@
         "Apple Is About to Change the MacBook Pro — Touchscreen, OLED and Dynamic Island Reportedly Coming"
       ],
       "news_score": 0,
-      "price": 334.07,
+      "price": 334.16,
       "prior20_high": 345.28,
-      "ret5_pct": 0.2882,
-      "rsi14": 44.6724,
-      "sma20": 335.28275,
-      "sma50": 322.3517,
-      "zscore20": -0.373
+      "ret5_pct": 0.3152,
+      "rsi14": 44.5741,
+      "sma20": 335.27775,
+      "sma50": 322.3497,
+      "zscore20": -0.3436
     },
     "AMD": {
       "news_headlines": [
@@ -140,30 +140,30 @@
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'"
       ],
       "news_score": 0,
-      "price": 612.975,
+      "price": 611.84,
       "prior20_high": 658.45,
-      "ret5_pct": -3.0041,
-      "rsi14": 49.5735,
-      "sma20": 598.404,
-      "sma50": 529.147,
-      "zscore20": 0.3127
+      "ret5_pct": -3.1837,
+      "rsi14": 48.7964,
+      "sma20": 598.29525,
+      "sma50": 529.1035,
+      "zscore20": 0.2909
     },
     "MSFT": {
       "news_headlines": [
+        "Google Could 'Eat OpenAI's Lunch,' Warns Cal Newport",
         "‘Dean of Valuation’ Warns of AI Cash Drain: 4 Ways to Play the Shift",
         "Wall Street Still Treats Micron Like a Commodity Stock — Analyst Says That's a Costly Mistake",
         "Bill Gates Says Aviation Is One of the Hardest Sectors to Decarbonize Amid Skyrocketing Fuel Costs—Here's His Solution",
-        "Elon Musk A ‘National Treasure,’ Says Trump: President Compares Tesla CEO With Edison As He Awards National Medal of Science",
-        "OpenAI Says Three Employees Violated Sensitive Information Policies, Denies Safety-Concern Firings, Will Announce Third-Party Safety Assessors In Coming Weeks"
+        "Elon Musk A ‘National Treasure,’ Says Trump: President Compares Tesla CEO With Edison As He Awards National Medal of Science"
       ],
       "news_score": 0,
-      "price": 532.395,
+      "price": 534.01,
       "prior20_high": 535.69,
-      "ret5_pct": 1.4066,
-      "rsi14": 71.2554,
-      "sma20": 509.94575,
-      "sma50": 500.3888,
-      "zscore20": 1.7633
+      "ret5_pct": 1.7143,
+      "rsi14": 71.5442,
+      "sma20": 509.983,
+      "sma50": 500.4037,
+      "zscore20": 1.8772
     },
     "NVDA": {
       "news_headlines": [
@@ -174,13 +174,13 @@
         "'Firmus Explores $3 Billion Private Round After IPO Flop' - Bloomberg"
       ],
       "news_score": 1,
-      "price": 230.63,
+      "price": 230.005,
       "prior20_high": 243.34,
-      "ret5_pct": -3.494,
-      "rsi14": 55.2388,
-      "sma20": 226.8105,
-      "sma50": 222.1136,
-      "zscore20": 0.485
+      "ret5_pct": -3.7555,
+      "rsi14": 53.9897,
+      "sma20": 226.772,
+      "sma50": 222.0982,
+      "zscore20": 0.4115
     }
   },
   "schema_version": 2,
