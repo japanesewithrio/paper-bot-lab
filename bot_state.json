@@ -1,20 +1,15 @@
 {
   "bots": {
     "BOT_A": {
-      "cash": 2500.0,
+      "cash": 4845.18972698,
       "day_start_equity": 9743.19424543,
       "entry_paused_date": null,
-      "last_equity": 9780.07197135,
-      "last_exit_date": {},
+      "last_equity": 9767.61241874,
+      "last_exit_date": {
+        "AMD": "2026-10-09"
+      },
       "peak_equity": 10000.0,
       "positions": {
-        "AMD": {
-          "avg_price": 649.42,
-          "entry_notional": 2500.0,
-          "entry_time": "imported-from-colab",
-          "imported": true,
-          "qty": 3.8495888639
-        },
         "MSFT": {
           "avg_price": 529.3,
           "entry_notional": 2500.0,
@@ -30,14 +25,14 @@
           "qty": 10.4497575656
         }
       },
-      "realized_pl": 0.0,
+      "realized_pl": -154.81027301,
       "risk_date": "2026-10-09",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Trend / Breakout",
-      "trade_count": 3
+      "trade_count": 4
     },
     "BOT_B": {
       "cash": 10000.0,
@@ -57,33 +52,26 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 7525.80448052,
+      "cash": 9870.9942075,
       "day_start_equity": 9893.53260715,
       "entry_paused_date": null,
-      "last_equity": 9877.13335859,
+      "last_equity": 9870.9942075,
       "last_exit_date": {
         "AAPL": "2026-10-08",
+        "AMD": "2026-10-09",
         "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {
-        "AMD": {
-          "avg_price": 649.42,
-          "entry_notional": 2500.0,
-          "entry_time": "imported-from-colab",
-          "imported": true,
-          "qty": 3.8495888639
-        }
-      },
-      "realized_pl": 25.80448286,
+      "positions": {},
+      "realized_pl": -129.00579015,
       "risk_date": "2026-10-09",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 9
+      "trade_count": 10
     },
     "BOT_D": {
       "cash": 9995.4349579,
@@ -107,29 +95,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 334.495,
-    "AMD": 610.8,
-    "MSFT": 535.32,
-    "NVDA": 229.7
+    "AAPL": 334.525,
+    "AMD": 609.51,
+    "MSFT": 534.9,
+    "NVDA": 229.285
   },
-  "last_run": "2026-10-09T12:08:18.545935-04:00",
+  "last_run": "2026-10-09T12:42:14.655691-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive",
+        "Apple's Next MacBook Pro Could Help Make OLED the New Premium Laptop Standard",
+        "If You Invested $1000 In Apple Stock 5 Years Ago, You Would Have This Much Today",
         "Apple Reportedly Cuts iPhone 18 Pro Component Orders 15% as AI Memory Crunch Bites",
-        "Apple Stock Falls on Reports It Cut iPhone 18 Pro Component Orders by 15% to 20%",
-        "Apple Has Rallied 2,848% Since Steve Jobs’ Death While the S&P 500 Gained 775%— Market Strategist Says the Rally Is ‘Incredible’",
-        "'Apple cuts iPhone 18 Pro orders due to soft demand' - Nikkei Asia Exclusive",
-        "Apple Is About to Change the MacBook Pro — Touchscreen, OLED and Dynamic Island Reportedly Coming"
+        "Apple Stock Falls on Reports It Cut iPhone 18 Pro Component Orders by 15% to 20%"
       ],
-      "news_score": 0,
-      "price": 334.495,
+      "news_score": 1,
+      "price": 334.525,
       "prior20_high": 345.28,
-      "ret5_pct": 0.4158,
-      "rsi14": 44.985,
-      "sma20": 335.2985,
-      "sma50": 322.358,
-      "zscore20": -0.2475
+      "ret5_pct": 0.4248,
+      "rsi14": 45.1757,
+      "sma20": 335.308,
+      "sma50": 322.3618,
+      "zscore20": -0.2413
     },
     "AMD": {
       "news_headlines": [
@@ -140,47 +128,47 @@
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'"
       ],
       "news_score": 0,
-      "price": 610.8,
+      "price": 609.51,
       "prior20_high": 658.45,
-      "ret5_pct": -3.3483,
-      "rsi14": 48.3728,
-      "sma20": 598.2345,
-      "sma50": 529.0792,
-      "zscore20": 0.2699
+      "ret5_pct": -3.5524,
+      "rsi14": 47.9446,
+      "sma20": 598.172,
+      "sma50": 529.0542,
+      "zscore20": 0.2437
     },
     "MSFT": {
       "news_headlines": [
+        "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive",
         "Google Could 'Eat OpenAI's Lunch,' Warns Cal Newport",
         "‘Dean of Valuation’ Warns of AI Cash Drain: 4 Ways to Play the Shift",
         "Wall Street Still Treats Micron Like a Commodity Stock — Analyst Says That's a Costly Mistake",
-        "Bill Gates Says Aviation Is One of the Hardest Sectors to Decarbonize Amid Skyrocketing Fuel Costs—Here's His Solution",
-        "Elon Musk A ‘National Treasure,’ Says Trump: President Compares Tesla CEO With Edison As He Awards National Medal of Science"
+        "Bill Gates Says Aviation Is One of the Hardest Sectors to Decarbonize Amid Skyrocketing Fuel Costs—Here's His Solution"
       ],
       "news_score": 0,
-      "price": 535.32,
+      "price": 534.9,
       "prior20_high": 535.69,
-      "ret5_pct": 1.9638,
-      "rsi14": 72.1452,
-      "sma20": 510.063,
-      "sma50": 500.4357,
-      "zscore20": 1.9502
+      "ret5_pct": 1.8838,
+      "rsi14": 72.027,
+      "sma20": 510.047,
+      "sma50": 500.4293,
+      "zscore20": 1.9236
     },
     "NVDA": {
       "news_headlines": [
+        "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive",
         "AWS CEO Says AI Spending Isn’t a Bubble Just Yet — Amazon’s Cloud Chief Says ‘We Feel Really Good’ as Ray Dalio Warns the Boom Is Near a Breaking Point",
         "EXCLUSIVE: MU Stock Could Soar 190% and Hit $3,000 In 24 Months — Wall Street Bull Says Math Is 'Pretty Simple, Frankly'",
         "‘Dean of Valuation’ Warns of AI Cash Drain: 4 Ways to Play the Shift",
-        "Why Is SpaceX Stock Surging Friday?",
-        "'Firmus Explores $3 Billion Private Round After IPO Flop' - Bloomberg"
+        "Why Is SpaceX Stock Surging Friday?"
       ],
       "news_score": 1,
-      "price": 229.7,
+      "price": 229.285,
       "prior20_high": 243.34,
-      "ret5_pct": -3.8832,
-      "rsi14": 53.7126,
-      "sma20": 226.7635,
-      "sma50": 222.0948,
-      "zscore20": 0.3739
+      "ret5_pct": -4.0568,
+      "rsi14": 52.9613,
+      "sma20": 226.74,
+      "sma50": 222.0854,
+      "zscore20": 0.3244
     }
   },
   "schema_version": 2,
@@ -338,6 +326,28 @@
       "reason": "price<SMA20",
       "symbol": "AAPL",
       "timestamp": "2026-10-09T09:43:31.382307-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_A",
+      "fill_price": 609.205245,
+      "notional": 2345.19,
+      "qty": 3.8495888639,
+      "realized_pl": -154.81,
+      "reason": "stop -6%",
+      "symbol": "AMD",
+      "timestamp": "2026-10-09T12:42:14.655691-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 609.205245,
+      "notional": 2345.19,
+      "qty": 3.8495888639,
+      "realized_pl": -154.81,
+      "reason": "stop -6%",
+      "symbol": "AMD",
+      "timestamp": "2026-10-09T12:42:14.655691-04:00"
     }
   ]
 }
