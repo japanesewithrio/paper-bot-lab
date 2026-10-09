@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9743.19424543,
       "entry_paused_date": null,
-      "last_equity": 9781.07530248,
+      "last_equity": 9780.07197135,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 9893.53260715,
       "entry_paused_date": null,
-      "last_equity": 9881.13693101,
+      "last_equity": 9877.13335859,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -107,12 +107,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 334.16,
-    "AMD": 611.84,
-    "MSFT": 534.01,
-    "NVDA": 230.005
+    "AAPL": 334.495,
+    "AMD": 610.8,
+    "MSFT": 535.32,
+    "NVDA": 229.7
   },
-  "last_run": "2026-10-09T11:42:58.102091-04:00",
+  "last_run": "2026-10-09T12:08:18.545935-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -123,13 +123,13 @@
         "Apple Is About to Change the MacBook Pro — Touchscreen, OLED and Dynamic Island Reportedly Coming"
       ],
       "news_score": 0,
-      "price": 334.16,
+      "price": 334.495,
       "prior20_high": 345.28,
-      "ret5_pct": 0.3152,
-      "rsi14": 44.5741,
-      "sma20": 335.27775,
-      "sma50": 322.3497,
-      "zscore20": -0.3436
+      "ret5_pct": 0.4158,
+      "rsi14": 44.985,
+      "sma20": 335.2985,
+      "sma50": 322.358,
+      "zscore20": -0.2475
     },
     "AMD": {
       "news_headlines": [
@@ -140,13 +140,13 @@
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'"
       ],
       "news_score": 0,
-      "price": 611.84,
+      "price": 610.8,
       "prior20_high": 658.45,
-      "ret5_pct": -3.1837,
-      "rsi14": 48.7964,
-      "sma20": 598.29525,
-      "sma50": 529.1035,
-      "zscore20": 0.2909
+      "ret5_pct": -3.3483,
+      "rsi14": 48.3728,
+      "sma20": 598.2345,
+      "sma50": 529.0792,
+      "zscore20": 0.2699
     },
     "MSFT": {
       "news_headlines": [
@@ -157,13 +157,13 @@
         "Elon Musk A ‘National Treasure,’ Says Trump: President Compares Tesla CEO With Edison As He Awards National Medal of Science"
       ],
       "news_score": 0,
-      "price": 534.01,
+      "price": 535.32,
       "prior20_high": 535.69,
-      "ret5_pct": 1.7143,
-      "rsi14": 71.5442,
-      "sma20": 509.983,
-      "sma50": 500.4037,
-      "zscore20": 1.8772
+      "ret5_pct": 1.9638,
+      "rsi14": 72.1452,
+      "sma20": 510.063,
+      "sma50": 500.4357,
+      "zscore20": 1.9502
     },
     "NVDA": {
       "news_headlines": [
@@ -174,13 +174,13 @@
         "'Firmus Explores $3 Billion Private Round After IPO Flop' - Bloomberg"
       ],
       "news_score": 1,
-      "price": 230.005,
+      "price": 229.7,
       "prior20_high": 243.34,
-      "ret5_pct": -3.7555,
-      "rsi14": 53.9897,
-      "sma20": 226.772,
-      "sma50": 222.0982,
-      "zscore20": 0.4115
+      "ret5_pct": -3.8832,
+      "rsi14": 53.7126,
+      "sma20": 226.7635,
+      "sma50": 222.0948,
+      "zscore20": 0.3739
     }
   },
   "schema_version": 2,
