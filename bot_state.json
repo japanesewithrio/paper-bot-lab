@@ -4,7 +4,7 @@
       "cash": 4845.18972698,
       "day_start_equity": 9743.19424543,
       "entry_paused_date": null,
-      "last_equity": 9768.08435965,
+      "last_equity": 9764.82178858,
       "last_exit_date": {
         "AMD": "2026-10-09"
       },
@@ -55,7 +55,7 @@
       "cash": 7403.24565562,
       "day_start_equity": 9893.53260715,
       "entry_paused_date": null,
-      "last_equity": 9869.76094986,
+      "last_equity": 9866.369076,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "AMD": "2026-10-09",
@@ -103,12 +103,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 335.11,
-    "AMD": 612.54,
-    "MSFT": 534.48,
-    "NVDA": 229.52
+    "AAPL": 335.075,
+    "AMD": 611.145,
+    "MSFT": 533.745,
+    "NVDA": 229.54
   },
-  "last_run": "2026-10-09T13:40:33.679776-04:00",
+  "last_run": "2026-10-09T14:07:30.762513-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -119,13 +119,13 @@
         "Apple Reportedly Cuts iPhone 18 Pro Component Orders 15% as AI Memory Crunch Bites"
       ],
       "news_score": 2,
-      "price": 335.11,
+      "price": 335.075,
       "prior20_high": 345.28,
-      "ret5_pct": 0.6004,
-      "rsi14": 45.6904,
-      "sma20": 335.33325,
-      "sma50": 322.3719,
-      "zscore20": -0.0689
+      "ret5_pct": 0.5899,
+      "rsi14": 45.8041,
+      "sma20": 335.33875,
+      "sma50": 322.3741,
+      "zscore20": -0.0814
     },
     "AMD": {
       "news_headlines": [
@@ -136,13 +136,13 @@
         "Elon Musk Hypes ‘Very Big Deal,’ but Cathie Wood Hits Sell on SpaceX Along With Meta, AMD and Google — Ark Loads Up on This Defense Stock"
       ],
       "news_score": 0,
-      "price": 612.54,
+      "price": 611.145,
       "prior20_high": 658.45,
-      "ret5_pct": -3.073,
-      "rsi14": 48.4143,
-      "sma20": 598.2405,
-      "sma50": 529.0816,
-      "zscore20": 0.3072
+      "ret5_pct": -3.2937,
+      "rsi14": 47.9905,
+      "sma20": 598.17875,
+      "sma50": 529.0569,
+      "zscore20": 0.2786
     },
     "MSFT": {
       "news_headlines": [
@@ -153,13 +153,13 @@
         "Wall Street Still Treats Micron Like a Commodity Stock — Analyst Says That's a Costly Mistake"
       ],
       "news_score": 1,
-      "price": 534.48,
+      "price": 533.745,
       "prior20_high": 535.69,
-      "ret5_pct": 1.8038,
-      "rsi14": 71.6588,
-      "sma20": 509.998,
-      "sma50": 500.4097,
-      "zscore20": 1.9086
+      "ret5_pct": 1.6638,
+      "rsi14": 71.6303,
+      "sma20": 509.99425,
+      "sma50": 500.4082,
+      "zscore20": 1.8526
     },
     "NVDA": {
       "news_headlines": [
@@ -170,13 +170,13 @@
         "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive"
       ],
       "news_score": 2,
-      "price": 229.52,
+      "price": 229.54,
       "prior20_high": 243.34,
-      "ret5_pct": -3.9585,
-      "rsi14": 53.3823,
-      "sma20": 226.75325,
-      "sma50": 222.0907,
-      "zscore20": 0.3524
+      "ret5_pct": -3.9501,
+      "rsi14": 53.2227,
+      "sma20": 226.74825,
+      "sma50": 222.0887,
+      "zscore20": 0.3557
     }
   },
   "schema_version": 2,
