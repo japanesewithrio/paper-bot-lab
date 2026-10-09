@@ -4,7 +4,7 @@
       "cash": 2500.0,
       "day_start_equity": 9743.19424543,
       "entry_paused_date": null,
-      "last_equity": 9765.09978282,
+      "last_equity": 9793.09015397,
       "last_exit_date": {},
       "peak_equity": 10000.0,
       "positions": {
@@ -60,7 +60,7 @@
       "cash": 7525.80448052,
       "day_start_equity": 9893.53260715,
       "entry_paused_date": null,
-      "last_equity": 9897.49768368,
+      "last_equity": 9893.49411126,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "MSFT": "2026-10-08",
@@ -107,29 +107,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 333.035,
-    "AMD": 616.09,
-    "MSFT": 524.0,
-    "NVDA": 231.435
+    "AAPL": 332.185,
+    "AMD": 615.05,
+    "MSFT": 530.995,
+    "NVDA": 231.335
   },
-  "last_run": "2026-10-09T09:43:31.382307-04:00",
+  "last_run": "2026-10-09T10:09:04.767435-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Reportedly Cuts iPhone 18 Pro Component Orders 15% as AI Memory Crunch Bites",
         "Apple Stock Falls on Reports It Cut iPhone 18 Pro Component Orders by 15% to 20%",
         "Apple Has Rallied 2,848% Since Steve Jobs’ Death While the S&P 500 Gained 775%— Market Strategist Says the Rally Is ‘Incredible’",
         "'Apple cuts iPhone 18 Pro orders due to soft demand' - Nikkei Asia Exclusive",
-        "Apple Is About to Change the MacBook Pro — Touchscreen, OLED and Dynamic Island Reportedly Coming",
-        "Exploring The Competitive Space: Apple Versus Industry Peers In Technology Hardware, Storage &amp; Peripherals"
+        "Apple Is About to Change the MacBook Pro — Touchscreen, OLED and Dynamic Island Reportedly Coming"
       ],
       "news_score": 0,
-      "price": 333.035,
+      "price": 332.185,
       "prior20_high": 345.28,
-      "ret5_pct": -0.0225,
-      "rsi14": 43.427,
-      "sma20": 335.21775,
-      "sma50": 322.3257,
-      "zscore20": -0.6643
+      "ret5_pct": -0.2777,
+      "rsi14": 42.8299,
+      "sma20": 335.18525,
+      "sma50": 322.3127,
+      "zscore20": -0.9058
     },
     "AMD": {
       "news_headlines": [
@@ -140,13 +140,13 @@
         "Microsoft's Visa Freeze Could Trigger an AI 'Brain Drain'"
       ],
       "news_score": 0,
-      "price": 616.09,
+      "price": 615.05,
       "prior20_high": 658.45,
-      "ret5_pct": -2.5112,
-      "rsi14": 50.5186,
-      "sma20": 598.53175,
-      "sma50": 529.1981,
-      "zscore20": 0.3764
+      "ret5_pct": -2.6758,
+      "rsi14": 50.1797,
+      "sma20": 598.4865,
+      "sma50": 529.18,
+      "zscore20": 0.3552
     },
     "MSFT": {
       "news_headlines": [
@@ -157,13 +157,13 @@
         "OpenAI Says Three Employees Violated Sensitive Information Policies, Denies Safety-Concern Firings, Will Announce Third-Party Safety Assessors In Coming Weeks"
       ],
       "news_score": 0,
-      "price": 524.0,
+      "price": 530.995,
       "prior20_high": 535.69,
-      "ret5_pct": -0.1924,
-      "rsi14": 69.0842,
-      "sma20": 509.688,
-      "sma50": 500.2857,
-      "zscore20": 1.1626
+      "ret5_pct": 1.14,
+      "rsi14": 69.8227,
+      "sma20": 509.7715,
+      "sma50": 500.3191,
+      "zscore20": 1.7064
     },
     "NVDA": {
       "news_headlines": [
@@ -174,13 +174,13 @@
         "'Firmus Explores $3 Billion Private Round After IPO Flop' - Bloomberg"
       ],
       "news_score": 1,
-      "price": 231.435,
+      "price": 231.335,
       "prior20_high": 243.34,
-      "ret5_pct": -3.1572,
-      "rsi14": 56.6159,
-      "sma20": 226.862,
-      "sma50": 222.1342,
-      "zscore20": 0.5786
+      "ret5_pct": -3.199,
+      "rsi14": 56.0979,
+      "sma20": 226.84225,
+      "sma50": 222.1263,
+      "zscore20": 0.5693
     }
   },
   "schema_version": 2,
