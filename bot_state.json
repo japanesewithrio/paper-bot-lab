@@ -4,7 +4,7 @@
       "cash": 4845.18972698,
       "day_start_equity": 9743.19424543,
       "entry_paused_date": null,
-      "last_equity": 9764.82178858,
+      "last_equity": 9776.1988797,
       "last_exit_date": {
         "AMD": "2026-10-09"
       },
@@ -52,10 +52,10 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 7403.24565562,
+      "cash": 4933.61915932,
       "day_start_equity": 9893.53260715,
       "entry_paused_date": null,
-      "last_equity": 9866.369076,
+      "last_equity": 9877.27178904,
       "last_exit_date": {
         "AAPL": "2026-10-08",
         "AMD": "2026-10-09",
@@ -64,6 +64,13 @@
       },
       "peak_equity": 10007.62053054,
       "positions": {
+        "AAPL": {
+          "avg_price": 337.013422,
+          "entry_notional": 2469.63,
+          "entry_time": "2026-10-09T14:44:33.023475-04:00",
+          "imported": false,
+          "qty": 7.3279766663
+        },
         "MSFT": {
           "avg_price": 534.74724,
           "entry_notional": 2467.75,
@@ -79,7 +86,7 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 11
+      "trade_count": 12
     },
     "BOT_D": {
       "cash": 9995.4349579,
@@ -103,12 +110,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 335.075,
-    "AMD": 611.145,
-    "MSFT": 533.745,
-    "NVDA": 229.54
+    "AAPL": 336.845,
+    "AMD": 612.11,
+    "MSFT": 536.375,
+    "NVDA": 229.44
   },
-  "last_run": "2026-10-09T14:07:30.762513-04:00",
+  "last_run": "2026-10-09T14:44:33.023475-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -119,13 +126,13 @@
         "Apple Reportedly Cuts iPhone 18 Pro Component Orders 15% as AI Memory Crunch Bites"
       ],
       "news_score": 2,
-      "price": 335.075,
+      "price": 336.845,
       "prior20_high": 345.28,
-      "ret5_pct": 0.5899,
-      "rsi14": 45.8041,
-      "sma20": 335.33875,
-      "sma50": 322.3741,
-      "zscore20": -0.0814
+      "ret5_pct": 1.1213,
+      "rsi14": 47.435,
+      "sma20": 335.41475,
+      "sma50": 322.4045,
+      "zscore20": 0.4391
     },
     "AMD": {
       "news_headlines": [
@@ -136,13 +143,13 @@
         "Elon Musk Hypes ‘Very Big Deal,’ but Cathie Wood Hits Sell on SpaceX Along With Meta, AMD and Google — Ark Loads Up on This Defense Stock"
       ],
       "news_score": 0,
-      "price": 611.145,
+      "price": 612.11,
       "prior20_high": 658.45,
-      "ret5_pct": -3.2937,
-      "rsi14": 47.9905,
-      "sma20": 598.17875,
-      "sma50": 529.0569,
-      "zscore20": 0.2786
+      "ret5_pct": -3.141,
+      "rsi14": 48.4837,
+      "sma20": 598.2505,
+      "sma50": 529.0856,
+      "zscore20": 0.2977
     },
     "MSFT": {
       "news_headlines": [
@@ -153,30 +160,30 @@
         "Wall Street Still Treats Micron Like a Commodity Stock — Analyst Says That's a Costly Mistake"
       ],
       "news_score": 1,
-      "price": 533.745,
-      "prior20_high": 535.69,
-      "ret5_pct": 1.6638,
-      "rsi14": 71.6303,
-      "sma20": 509.99425,
-      "sma50": 500.4082,
-      "zscore20": 1.8526
+      "price": 536.375,
+      "prior20_high": 536.595,
+      "ret5_pct": 2.1647,
+      "rsi14": 72.6383,
+      "sma20": 510.13125,
+      "sma50": 500.463,
+      "zscore20": 2.0055
     },
     "NVDA": {
       "news_headlines": [
+        "Nvidia-Backed Fermus Wanted $30 Billion Valuation on Just $51 Million in Revenue",
+        "NVIDIA's Rally in Trouble? Analyst Warns of Bull Trap",
         "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "Strategy Faces ‘Dilution Drag’ as TD Cowen Raises Bitcoin Forecast to $109,000",
-        "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%",
-        "What's Going On With Snap Stock Friday?",
-        "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive"
+        "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%"
       ],
       "news_score": 2,
-      "price": 229.54,
+      "price": 229.44,
       "prior20_high": 243.34,
-      "ret5_pct": -3.9501,
-      "rsi14": 53.2227,
-      "sma20": 226.74825,
-      "sma50": 222.0887,
-      "zscore20": 0.3557
+      "ret5_pct": -3.992,
+      "rsi14": 53.1115,
+      "sma20": 226.74475,
+      "sma50": 222.0873,
+      "zscore20": 0.3435
     }
   },
   "schema_version": 2,
@@ -367,6 +374,17 @@
       "reason": "News + Momentum entry rule satisfied",
       "symbol": "MSFT",
       "timestamp": "2026-10-09T13:40:33.679776-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 337.013422,
+      "notional": 2469.63,
+      "qty": 7.3279766663,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-10-09T14:44:33.023475-04:00"
     }
   ]
 }
