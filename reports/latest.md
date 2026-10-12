@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-12T11:12:03.686538-04:00
+Updated: 2026-10-12T11:45:03.759591-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -9,9 +9,9 @@ Updated: 2026-10-12T11:12:03.686538-04:00
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
 | 1 | BOT_B | ACTIVE | Dip / Mean Reversion | $10,000.00 | 0.00% | $10,000.00 | $10,000.00 | $0.00 | $0.00 | — |
-| 2 | BOT_D | ACTIVE | Conservative Confirmation | $9,994.44 | -0.06% | $7,996.35 | $10,046.82 | $-4.57 | $-1.00 | AAPL |
-| 3 | BOT_C | ACTIVE | News + Momentum | $9,924.64 | -0.75% | $7,428.79 | $10,007.62 | $-103.46 | $28.09 | MSFT |
-| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,754.60 | -2.45% | $7,200.12 | $10,000.00 | $-299.88 | $54.48 | MSFT |
+| 2 | BOT_D | ACTIVE | Conservative Confirmation | $9,988.81 | -0.11% | $7,996.35 | $10,046.82 | $-4.57 | $-6.63 | AAPL |
+| 3 | BOT_C | ACTIVE | News + Momentum | $9,932.11 | -0.68% | $7,428.79 | $10,007.62 | $-103.46 | $35.57 | MSFT |
+| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,762.25 | -2.38% | $7,200.12 | $10,000.00 | $-299.88 | $62.13 | MSFT |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,14 @@ Updated: 2026-10-12T11:12:03.686538-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $340.75 | $335.78 | $323.04 | 50.9 | 2.11% | $345.28 | 1.46 | +0 |
-| NVDA | $225.89 | $227.49 | $222.59 | 45.8 | -5.55% | $243.34 | -0.23 | +1 |
-| AMD | $586.66 | $602.81 | $531.26 | 38.4 | -9.68% | $658.45 | -0.40 | +2 |
-| MSFT | $540.84 | $511.81 | $501.96 | 77.5 | 2.16% | $542.06 | 2.00 | +2 |
+| AAPL | $339.78 | $335.73 | $323.02 | 49.9 | 1.82% | $345.28 | 1.22 | +0 |
+| NVDA | $225.99 | $227.49 | $222.59 | 46.0 | -5.51% | $243.34 | -0.22 | +1 |
+| AMD | $595.63 | $602.96 | $531.31 | 39.1 | -8.30% | $658.45 | -0.18 | +2 |
+| MSFT | $542.45 | $511.89 | $501.99 | 77.9 | 2.47% | $542.70 | 2.08 | +1 |
 
 ## Actions this run
 
-- BOT_D BUY AAPL @ 340.92 — Conservative Confirmation entry rule satisfied
+- No virtual trades this run.
 
 ## Notes
 

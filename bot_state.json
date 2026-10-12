@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9775.51278096,
       "entry_paused_date": null,
-      "last_equity": 9754.60084704,
+      "last_equity": 9762.25246238,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -49,7 +49,7 @@
       "cash": 7428.79275932,
       "day_start_equity": 9865.05944981,
       "entry_paused_date": null,
-      "last_equity": 9924.63507177,
+      "last_equity": 9932.11103865,
       "last_exit_date": {
         "AAPL": "2026-10-12",
         "AMD": "2026-10-09",
@@ -79,7 +79,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 9995.4349579,
       "entry_paused_date": null,
-      "last_equity": 9994.43591394,
+      "last_equity": 9988.80658869,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -105,12 +105,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 340.745,
-    "AMD": 586.665,
-    "MSFT": 540.835,
-    "NVDA": 225.895
+    "AAPL": 339.785,
+    "AMD": 595.63,
+    "MSFT": 542.455,
+    "NVDA": 225.99
   },
-  "last_run": "2026-10-12T11:12:03.686538-04:00",
+  "last_run": "2026-10-12T11:45:03.759591-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -121,13 +121,13 @@
         "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’"
       ],
       "news_score": 0,
-      "price": 340.745,
+      "price": 339.785,
       "prior20_high": 345.28,
-      "ret5_pct": 2.1051,
-      "rsi14": 50.8734,
-      "sma20": 335.78075,
-      "sma50": 323.0364,
-      "zscore20": 1.4627
+      "ret5_pct": 1.8174,
+      "rsi14": 49.8514,
+      "sma20": 335.7335,
+      "sma50": 323.0175,
+      "zscore20": 1.2161
     },
     "AMD": {
       "news_headlines": [
@@ -138,30 +138,30 @@
         "This Week in TSLA: FSD's Europe Rebrand, Elon Musk Receives Medal From Trump and More"
       ],
       "news_score": 2,
-      "price": 586.665,
+      "price": 595.63,
       "prior20_high": 658.45,
-      "ret5_pct": -9.6785,
-      "rsi14": 38.36,
-      "sma20": 602.8105,
-      "sma50": 531.2562,
-      "zscore20": -0.4039
+      "ret5_pct": -8.2983,
+      "rsi14": 39.1015,
+      "sma20": 602.957,
+      "sma50": 531.3148,
+      "zscore20": -0.1835
     },
     "MSFT": {
       "news_headlines": [
+        "Quantum Computing Is Eyeing a 2028 Breakthrough, 2 ETFs Could Capture It",
         "Cisco Announces Microsoft Moved Into Production On Systems Powered By Cisco Silicon One P200",
         "IREN Stock Is Rebounding on Anthropic News After a Brutal Week — Is $40 the Next Test?",
         "IREN Scores Major AI Cloud Deal With Anthropic: Report",
-        "Microsoft To Expand Azure Maia System To Multi-Gigawatt Deployments; Expect Maia 300 To Deliver 40% More Tokens Per Megawatt Compared To Leading GPU-Based Systems",
-        "Micron's Monster Rally Faces New Threat As Traders Pile Into Bearish Bets"
+        "Microsoft To Expand Azure Maia System To Multi-Gigawatt Deployments; Expect Maia 300 To Deliver 40% More Tokens Per Megawatt Compared To Leading GPU-Based Systems"
       ],
-      "news_score": 2,
-      "price": 540.835,
-      "prior20_high": 542.06,
-      "ret5_pct": 2.1629,
-      "rsi14": 77.5087,
-      "sma20": 511.81275,
-      "sma50": 501.956,
-      "zscore20": 1.9994
+      "news_score": 1,
+      "price": 542.455,
+      "prior20_high": 542.7,
+      "ret5_pct": 2.4689,
+      "rsi14": 77.9211,
+      "sma20": 511.88525,
+      "sma50": 501.985,
+      "zscore20": 2.0849
     },
     "NVDA": {
       "news_headlines": [
@@ -172,13 +172,13 @@
         "IREN Scores Major AI Cloud Deal With Anthropic: Report"
       ],
       "news_score": 1,
-      "price": 225.895,
+      "price": 225.99,
       "prior20_high": 243.34,
-      "ret5_pct": -5.5504,
-      "rsi14": 45.7864,
-      "sma20": 227.486,
-      "sma50": 222.589,
-      "zscore20": -0.2281
+      "ret5_pct": -5.5107,
+      "rsi14": 45.9677,
+      "sma20": 227.493,
+      "sma50": 222.5918,
+      "zscore20": -0.2155
     }
   },
   "schema_version": 2,
