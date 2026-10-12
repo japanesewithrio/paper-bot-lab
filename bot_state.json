@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9775.51278096,
       "entry_paused_date": null,
-      "last_equity": 9755.45102652,
+      "last_equity": 9753.49089049,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -49,7 +49,7 @@
       "cash": 7428.79275932,
       "day_start_equity": 9865.05944981,
       "entry_paused_date": null,
-      "last_equity": 9925.46573476,
+      "last_equity": 9923.55059509,
       "last_exit_date": {
         "AAPL": "2026-10-12",
         "AMD": "2026-10-09",
@@ -79,7 +79,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 9995.4349579,
       "entry_paused_date": null,
-      "last_equity": 9990.21392,
+      "last_equity": 9989.27569913,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -105,12 +105,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 340.025,
-    "AMD": 596.555,
-    "MSFT": 541.015,
-    "NVDA": 226.825
+    "AAPL": 339.865,
+    "AMD": 595.0,
+    "MSFT": 540.6,
+    "NVDA": 226.47
   },
-  "last_run": "2026-10-12T12:09:24.794582-04:00",
+  "last_run": "2026-10-12T12:42:36.035167-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -121,30 +121,30 @@
         "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’"
       ],
       "news_score": 0,
-      "price": 340.025,
+      "price": 339.865,
       "prior20_high": 345.28,
-      "ret5_pct": 1.8893,
-      "rsi14": 50.1859,
-      "sma20": 335.74875,
-      "sma50": 323.0236,
-      "zscore20": 1.2763
+      "ret5_pct": 1.8414,
+      "rsi14": 50.1477,
+      "sma20": 335.747,
+      "sma50": 323.0229,
+      "zscore20": 1.2299
     },
     "AMD": {
       "news_headlines": [
+        "Michael Burry's Big Short Gets Broader: Nvidia-Heavy Chip ETF, Nasdaq Now in Focus",
         "AMD Makes Big Agentic AI Push With Helion",
         "AMD Unveils Its Helion Agentic AI Rack To Provide Partners And Customers With Flexibility For Agentic AI Infrastructure",
         "AMD Rolls Out AMD Helion Agentic AI Rack",
-        "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’",
-        "This Week in TSLA: FSD's Europe Rebrand, Elon Musk Receives Medal From Trump and More"
+        "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’"
       ],
-      "news_score": 2,
-      "price": 596.555,
+      "news_score": 1,
+      "price": 595.0,
       "prior20_high": 658.45,
-      "ret5_pct": -8.1559,
-      "rsi14": 39.899,
-      "sma20": 603.1085,
-      "sma50": 531.3754,
-      "zscore20": -0.1643
+      "ret5_pct": -8.3953,
+      "rsi14": 39.6853,
+      "sma20": 603.0685,
+      "sma50": 531.3594,
+      "zscore20": -0.2023
     },
     "MSFT": {
       "news_headlines": [
@@ -155,30 +155,30 @@
         "IREN Scores Major AI Cloud Deal With Anthropic: Report"
       ],
       "news_score": 1,
-      "price": 541.015,
+      "price": 540.6,
       "prior20_high": 542.7,
-      "ret5_pct": 2.1969,
-      "rsi14": 77.7225,
-      "sma20": 511.85,
-      "sma50": 501.9709,
-      "zscore20": 1.999
+      "ret5_pct": 2.1185,
+      "rsi14": 77.5203,
+      "sma20": 511.81475,
+      "sma50": 501.9568,
+      "zscore20": 1.9826
     },
     "NVDA": {
       "news_headlines": [
+        "Broadcom CEO Says Many AI Investors Have ‘No Clue,’ Likens Boom to a Casino",
+        "Michael Burry's Big Short Gets Broader: Nvidia-Heavy Chip ETF, Nasdaq Now in Focus",
         "Why Is Super Micro Computer Stock Falling on Monday?",
         "9 Of 11 Sectors Rise Monday As Cyclicals Lead",
-        "NVIDIA And Cisco Unveil USFP Optical Module Technology Supporting 400Gb/s-per-Lane Connectivity For Next-Generation AI Factories",
-        "Steve Eisman Warns S&P 500 Is One Giant AI Bet: 'I Own NVDA and I Worry'",
-        "AMD Makes Big Agentic AI Push With Helion"
+        "NVIDIA And Cisco Unveil USFP Optical Module Technology Supporting 400Gb/s-per-Lane Connectivity For Next-Generation AI Factories"
       ],
       "news_score": 1,
-      "price": 226.825,
+      "price": 226.47,
       "prior20_high": 243.34,
-      "ret5_pct": -5.1616,
-      "rsi14": 47.1553,
-      "sma20": 227.5375,
-      "sma50": 222.6096,
-      "zscore20": -0.1023
+      "ret5_pct": -5.31,
+      "rsi14": 46.681,
+      "sma20": 227.52,
+      "sma50": 222.6026,
+      "zscore20": -0.1506
     }
   },
   "schema_version": 2,
