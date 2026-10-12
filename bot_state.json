@@ -2,9 +2,9 @@
   "bots": {
     "BOT_A": {
       "cash": 4845.18972698,
-      "day_start_equity": 9743.19424543,
+      "day_start_equity": 9775.51278096,
       "entry_paused_date": null,
-      "last_equity": 9775.51278096,
+      "last_equity": 9768.61552835,
       "last_exit_date": {
         "AMD": "2026-10-09"
       },
@@ -26,7 +26,7 @@
         }
       },
       "realized_pl": -154.81027301,
-      "risk_date": "2026-10-09",
+      "risk_date": "2026-10-12",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -43,7 +43,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": 0.0,
-      "risk_date": "2026-10-09",
+      "risk_date": "2026-10-12",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -52,25 +52,18 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 4933.61915932,
-      "day_start_equity": 9893.53260715,
+      "cash": 7428.79275932,
+      "day_start_equity": 9865.05944981,
       "entry_paused_date": null,
-      "last_equity": 9865.05944981,
+      "last_equity": 9915.17474331,
       "last_exit_date": {
-        "AAPL": "2026-10-08",
+        "AAPL": "2026-10-12",
         "AMD": "2026-10-09",
         "MSFT": "2026-10-08",
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
       "positions": {
-        "AAPL": {
-          "avg_price": 337.013422,
-          "entry_notional": 2469.63,
-          "entry_time": "2026-10-09T14:44:33.023475-04:00",
-          "imported": false,
-          "qty": 7.3279766663
-        },
         "MSFT": {
           "avg_price": 534.74724,
           "entry_notional": 2467.75,
@@ -79,18 +72,18 @@
           "qty": 4.6147943688
         }
       },
-      "realized_pl": -129.00579015,
-      "risk_date": "2026-10-09",
+      "realized_pl": -103.45868279,
+      "risk_date": "2026-10-12",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 12
+      "trade_count": 13
     },
     "BOT_D": {
       "cash": 9995.4349579,
-      "day_start_equity": 10046.81833169,
+      "day_start_equity": 9995.4349579,
       "entry_paused_date": null,
       "last_equity": 9995.4349579,
       "last_exit_date": {
@@ -99,7 +92,7 @@
       "peak_equity": 10046.81833169,
       "positions": {},
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-09",
+      "risk_date": "2026-10-12",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -110,80 +103,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 335.465,
-    "AMD": 607.18,
-    "MSFT": 535.92,
-    "NVDA": 229.58
+    "AAPL": 340.67,
+    "AMD": 594.315,
+    "MSFT": 538.785,
+    "NVDA": 227.625
   },
-  "last_run": "2026-10-09T15:40:35.337471-04:00",
+  "last_run": "2026-10-12T09:57:18.907379-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%",
-        "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive",
-        "Apple's Next MacBook Pro Could Help Make OLED the New Premium Laptop Standard",
-        "If You Invested $1000 In Apple Stock 5 Years Ago, You Would Have This Much Today",
-        "Apple Reportedly Cuts iPhone 18 Pro Component Orders 15% as AI Memory Crunch Bites"
+        "Tim Cook Meets China’s Vice Premier as Apple Doubles Down on Its Biggest Overseas Market — Beijing Calls for ‘Stable’ US Ties",
+        "AI Bubble Ready to Burst? Investor Raises Alarm Over Anthropic's Sky-High Valuation",
+        "Inquiry Into Apple's Competitor Dynamics In Technology Hardware, Storage &amp; Peripherals Industry",
+        "EXCLUSIVE: Ross Gerber Says Tesla May Make Just ‘a Few Hundred’ Roadsters: ‘Hovering Is a Gimmick’",
+        "China's AI Server Scheme, iPhone 18 Lead Times and More: This Week In Tech"
       ],
-      "news_score": 2,
-      "price": 335.465,
+      "news_score": -1,
+      "price": 340.67,
       "prior20_high": 345.28,
-      "ret5_pct": 0.707,
-      "rsi14": 47.3352,
-      "sma20": 335.41025,
-      "sma50": 322.4027,
-      "zscore20": 0.0168
+      "ret5_pct": 2.0826,
+      "rsi14": 50.958,
+      "sma20": 335.78475,
+      "sma50": 323.038,
+      "zscore20": 1.437
     },
     "AMD": {
       "news_headlines": [
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "Wall Street Still Treats Micron Like a Commodity Stock — Analyst Says That's a Costly Mistake",
-        "Ross Gerber Expects Micron to Buy Back 'Tons of Stock' in December — 'A Big Buyer Is Coming Soon'",
-        "Elon Musk A ‘National Treasure,’ Says Trump: President Compares Tesla CEO With Edison As He Awards National Medal of Science",
-        "Elon Musk Hypes ‘Very Big Deal,’ but Cathie Wood Hits Sell on SpaceX Along With Meta, AMD and Google — Ark Loads Up on This Defense Stock"
+        "AMD Unveils Its Helion Agentic AI Rack To Provide Partners And Customers With Flexibility For Agentic AI Infrastructure",
+        "AMD Rolls Out AMD Helion Agentic AI Rack",
+        "Wells Fargo, Arista Networks, Hewlett Packard Enterprise And A Health Care Stock On CNBC’s ‘Final Trades’",
+        "This Week in TSLA: FSD's Europe Rebrand, Elon Musk Receives Medal From Trump and More",
+        "SpaceX, Micron, AMD and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week"
       ],
-      "news_score": 0,
-      "price": 607.18,
+      "news_score": 2,
+      "price": 594.315,
       "prior20_high": 658.45,
-      "ret5_pct": -3.9211,
-      "rsi14": 46.8774,
-      "sma20": 598.01125,
-      "sma50": 528.9899,
-      "zscore20": 0.1972
+      "ret5_pct": -8.5008,
+      "rsi14": 40.8111,
+      "sma20": 603.2745,
+      "sma50": 531.4418,
+      "zscore20": -0.2248
     },
     "MSFT": {
       "news_headlines": [
-        "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%",
-        "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitive",
-        "Google Could 'Eat OpenAI's Lunch,' Warns Cal Newport",
-        "‘Dean of Valuation’ Warns of AI Cash Drain: 4 Ways to Play the Shift",
-        "Wall Street Still Treats Micron Like a Commodity Stock — Analyst Says That's a Costly Mistake"
+        "IREN Scores Major AI Cloud Deal With Anthropic: Report",
+        "Microsoft To Expand Azure Maia System To Multi-Gigawatt Deployments; Expect Maia 300 To Deliver 40% More Tokens Per Megawatt Compared To Leading GPU-Based Systems",
+        "Micron's Monster Rally Faces New Threat As Traders Pile Into Bearish Bets",
+        "AI Bubble Ready to Burst? Investor Raises Alarm Over Anthropic's Sky-High Valuation",
+        "Microsoft President Warns AI Is Less Regulated Than Milk, Washing Machines as He Pushes Governments Toward Tougher Safety Rules"
       ],
       "news_score": 1,
-      "price": 535.92,
-      "prior20_high": 537.17,
-      "ret5_pct": 2.0781,
-      "rsi14": 72.3605,
-      "sma20": 510.0925,
-      "sma50": 500.4475,
-      "zscore20": 1.9854
+      "price": 538.785,
+      "prior20_high": 542.06,
+      "ret5_pct": 1.7756,
+      "rsi14": 77.1824,
+      "sma20": 511.75725,
+      "sma50": 501.9338,
+      "zscore20": 1.8761
     },
     "NVDA": {
       "news_headlines": [
-        "Nvidia-Backed Fermus Wanted $30 Billion Valuation on Just $51 Million in Revenue",
-        "NVIDIA's Rally in Trouble? Analyst Warns of Bull Trap",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "Strategy Faces ‘Dilution Drag’ as TD Cowen Raises Bitcoin Forecast to $109,000",
-        "Stock Market Today: Nasdaq 100 Rebounds From OpenAI Scare, T-Mobile Tumbles 12%"
+        "IREN Scores Major AI Cloud Deal With Anthropic: Report",
+        "Ray Dalio Says the AI Bubble Is Close to Bursting. A Strategist Says Zombie Companies Are the Real Risk",
+        "Forget Chip Shortages: Intel, Broadcom CEOs Warn AI's Next Big Crisis Could Be Cash",
+        "Palantir CTO Blasts Silicon Valley’s ‘Doomsday Cult’ Over AI Safety — Says Pentagon Has 'Already Replaced' Anthropic",
+        "Bernie Sanders Slams Trump Over AI ‘Hoax’ Claims as He Questions Billions in Family Wealth Tied to Crypto and AI Investments"
       ],
-      "news_score": 2,
-      "price": 229.58,
+      "news_score": 1,
+      "price": 227.625,
       "prior20_high": 243.34,
-      "ret5_pct": -3.9334,
-      "rsi14": 53.4224,
-      "sma20": 226.7545,
-      "sma50": 222.0912,
-      "zscore20": 0.3599
+      "ret5_pct": -4.8271,
+      "rsi14": 48.1976,
+      "sma20": 227.57475,
+      "sma50": 222.6245,
+      "zscore20": 0.0072
     }
   },
   "schema_version": 2,
@@ -385,6 +378,17 @@
       "reason": "News + Momentum entry rule satisfied",
       "symbol": "AAPL",
       "timestamp": "2026-10-09T14:44:33.023475-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 340.499665,
+      "notional": 2495.17,
+      "qty": 7.3279766663,
+      "realized_pl": 25.55,
+      "reason": "negative news",
+      "symbol": "AAPL",
+      "timestamp": "2026-10-12T09:57:18.907379-04:00"
     }
   ]
 }
