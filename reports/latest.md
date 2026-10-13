@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-13T11:45:59.275993-04:00
+Updated: 2026-10-13T12:09:57.100000-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,10 +8,10 @@ Updated: 2026-10-13T11:45:59.275993-04:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,021.56 | 0.22% | $7,996.35 | $10,046.82 | $-4.57 | $26.12 | AAPL |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,017.16 | 0.17% | $7,996.35 | $10,046.82 | $-4.57 | $21.72 | AAPL |
 | 2 | BOT_B | ACTIVE | Dip / Mean Reversion | $10,000.00 | 0.00% | $10,000.00 | $10,000.00 | $0.00 | $0.00 | — |
-| 3 | BOT_C | ACTIVE | News + Momentum | $9,955.74 | -0.44% | $4,937.89 | $10,007.62 | $-103.46 | $59.20 | AAPL, MSFT |
-| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,776.12 | -2.24% | $7,200.12 | $10,000.00 | $-299.88 | $76.00 | MSFT |
+| 3 | BOT_C | ACTIVE | News + Momentum | $9,952.95 | -0.47% | $7,457.39 | $10,007.62 | $-51.71 | $4.66 | AAPL |
+| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,780.11 | -2.20% | $7,200.12 | $10,000.00 | $-299.88 | $79.99 | MSFT |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,14 @@ Updated: 2026-10-13T11:45:59.275993-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $345.37 | $336.48 | $323.87 | 58.4 | 2.61% | $348.11 | 2.34 | +0 |
-| NVDA | $225.05 | $228.16 | $222.97 | 49.1 | -5.20% | $243.34 | -0.51 | +2 |
-| AMD | $583.22 | $607.30 | $533.46 | 40.7 | -9.70% | $658.45 | -0.73 | +1 |
-| MSFT | $545.39 | $514.26 | $503.12 | 78.1 | 2.96% | $551.08 | 1.96 | +0 |
+| AAPL | $344.62 | $336.47 | $323.87 | 58.3 | 2.39% | $348.11 | 2.16 | +0 |
+| NVDA | $225.98 | $228.20 | $222.98 | 50.4 | -4.81% | $243.34 | -0.37 | +1 |
+| AMD | $593.71 | $607.53 | $533.55 | 42.0 | -8.08% | $658.45 | -0.42 | +1 |
+| MSFT | $546.24 | $514.29 | $503.14 | 78.3 | 3.12% | $551.08 | 2.00 | -1 |
 
 ## Actions this run
 
-- No virtual trades this run.
+- BOT_C SELL MSFT @ 545.96 — negative news
 
 ## Notes
 
