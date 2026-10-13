@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9749.92485988,
       "entry_paused_date": null,
-      "last_equity": 9774.17859123,
+      "last_equity": 9782.3261446,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -46,40 +46,32 @@
       "trade_count": 0
     },
     "BOT_C": {
-      "cash": 7457.38705921,
+      "cash": 9940.26794266,
       "day_start_equity": 9920.06642534,
       "entry_paused_date": null,
-      "last_equity": 9947.7014836,
+      "last_equity": 9940.26794266,
       "last_exit_date": {
-        "AAPL": "2026-10-12",
+        "AAPL": "2026-10-13",
         "AMD": "2026-10-09",
         "MSFT": "2026-10-13",
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {
-        "AAPL": {
-          "avg_price": 343.976902,
-          "entry_notional": 2490.91,
-          "entry_time": "2026-10-13T09:49:54.809199-04:00",
-          "imported": false,
-          "qty": 7.2414964579
-        }
-      },
-      "realized_pl": -51.70541373,
+      "positions": {},
+      "realized_pl": -59.73204772,
       "risk_date": "2026-10-13",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 15
+      "trade_count": 16
     },
     "BOT_D": {
       "cash": 7996.34796632,
       "day_start_equity": 9996.81078552,
       "entry_paused_date": null,
-      "last_equity": 10012.90713739,
+      "last_equity": 10007.89351959,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -105,29 +97,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 343.895,
-    "AMD": 598.39,
-    "MSFT": 544.98,
-    "NVDA": 227.355
+    "AAPL": 343.04,
+    "AMD": 595.0,
+    "MSFT": 546.705,
+    "NVDA": 227.18
   },
-  "last_run": "2026-10-13T13:08:39.296549-04:00",
+  "last_run": "2026-10-13T13:43:18.811774-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "Samsung, SK Hynix Fall In Seoul On China Memory Threat—Broadcom CEO Compares AI Investors To Casino Gamblers—JPM Whipsaws",
         "Google, Amazon and Apple Are in AI's Inner Circle. These 15 Domains Made the Cut",
         "Apple Stock Rises to New 52-Week High: What's Happening?",
-        "Apple Home Collection Available Starting December, Select Accessories Early 2027; LG Video Doorbell Wired Starts At $249.95, Floodlight Cam At $399.95, Outdoor Cam At $299.95; LG Indoor Cam Plug-In Starts At $199.95 In U.S., Canada, And UK; Retail Offers Third-Party Installation From ADT In U.S. Starting This Fall; LG Smart Thermostat Starts At $199.95, Temperature Sensor At $39.95 In U.S. And Canada; LG Smart Deadbolt Lock Starts At $349.95 In U.S. And Canada",
-        "SpaceX's Wireless Push Sparks Wall Street Skepticism: Is the Stock Getting Ahead of Itself?"
+        "Apple Home Collection Available Starting December, Select Accessories Early 2027; LG Video Doorbell Wired Starts At $249.95, Floodlight Cam At $399.95, Outdoor Cam At $299.95; LG Indoor Cam Plug-In Starts At $199.95 In U.S., Canada, And UK; Retail Offers Third-Party Installation From ADT In U.S. Starting This Fall; LG Smart Thermostat Starts At $199.95, Temperature Sensor At $39.95 In U.S. And Canada; LG Smart Deadbolt Lock Starts At $349.95 In U.S. And Canada"
       ],
-      "news_score": 0,
-      "price": 343.895,
+      "news_score": -1,
+      "price": 343.04,
       "prior20_high": 348.11,
-      "ret5_pct": 2.1733,
-      "rsi14": 57.5153,
-      "sma20": 336.427,
-      "sma50": 323.8534,
-      "zscore20": 2.0263
+      "ret5_pct": 1.9193,
+      "rsi14": 56.811,
+      "sma20": 336.389,
+      "sma50": 323.8382,
+      "zscore20": 1.8415
     },
     "AMD": {
       "news_headlines": [
@@ -138,47 +130,47 @@
         "Fermi Inks Credit Support Agreement With AMD To Support Lease For Phase 1 Of Its Project Matador Energy And AI Buiildout In Texas"
       ],
       "news_score": 1,
-      "price": 598.39,
+      "price": 595.0,
       "prior20_high": 658.45,
-      "ret5_pct": -7.3563,
-      "rsi14": 43.9283,
-      "sma20": 607.792,
-      "sma50": 533.6538,
-      "zscore20": -0.2859
+      "ret5_pct": -7.8812,
+      "rsi14": 43.6352,
+      "sma20": 607.755,
+      "sma50": 533.639,
+      "zscore20": -0.3878
     },
     "MSFT": {
       "news_headlines": [
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "Barclays Maintains Overweight on Microsoft, Raises Price Target to $600",
         "Oracle Stock Moves Higher: What's Happening?",
         "Samsung, SK Hynix Fall In Seoul On China Memory Threat—Broadcom CEO Compares AI Investors To Casino Gamblers—JPM Whipsaws",
-        "Cerebras Stock Braces for 19.4 Million-Share Unlock After Record Low",
-        "Google, Amazon and Apple Are in AI's Inner Circle. These 15 Domains Made the Cut"
+        "Cerebras Stock Braces for 19.4 Million-Share Unlock After Record Low"
       ],
-      "news_score": 1,
-      "price": 544.98,
+      "news_score": 2,
+      "price": 546.705,
       "prior20_high": 551.08,
-      "ret5_pct": 2.8847,
-      "rsi14": 78.1038,
-      "sma20": 514.24825,
-      "sma50": 503.1208,
-      "zscore20": 1.9375
+      "ret5_pct": 3.2103,
+      "rsi14": 78.4896,
+      "sma20": 514.31975,
+      "sma50": 503.1494,
+      "zscore20": 2.0236
     },
     "NVDA": {
       "news_headlines": [
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "'Nvidia Acquires A Stake In Doctolib; No Terms Disclosed; Doctolib Was Valued At €3.6 Billion Last April. NVIDIA Will Not Sit On Doctolib's Board Of Directors' - Le Figaro",
         "Samsung, SK Hynix Fall In Seoul On China Memory Threat—Broadcom CEO Compares AI Investors To Casino Gamblers—JPM Whipsaws",
         "Cerebras Stock Braces for 19.4 Million-Share Unlock After Record Low",
-        "NVIDIA Says Will Announce $2B Of AI Investments In Europe This Week",
-        "NVIDIA Founder And CEO Jensen Huang Says Open Models A 'Great Advantage' For Europe"
+        "NVIDIA Says Will Announce $2B Of AI Investments In Europe This Week"
       ],
       "news_score": 1,
-      "price": 227.355,
+      "price": 227.18,
       "prior20_high": 243.34,
-      "ret5_pct": -4.2313,
+      "ret5_pct": -4.305,
       "rsi14": 52.4684,
       "sma20": 228.26875,
       "sma50": 223.011,
-      "zscore20": -0.1518
+      "zscore20": -0.1808
     }
   },
   "schema_version": 2,
@@ -435,6 +427,17 @@
       "reason": "negative news",
       "symbol": "MSFT",
       "timestamp": "2026-10-13T12:09:57.100000-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 342.86848,
+      "notional": 2482.88,
+      "qty": 7.2414964579,
+      "realized_pl": -8.03,
+      "reason": "negative news",
+      "symbol": "AAPL",
+      "timestamp": "2026-10-13T13:43:18.811774-04:00"
     }
   ]
 }
