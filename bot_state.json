@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9749.92485988,
       "entry_paused_date": null,
-      "last_equity": 9794.51205051,
+      "last_equity": 9792.03236036,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -49,7 +49,7 @@
       "cash": 4937.88523827,
       "day_start_equity": 9920.06642534,
       "entry_paused_date": null,
-      "last_equity": 9962.38525284,
+      "last_equity": 9974.44547872,
       "last_exit_date": {
         "AAPL": "2026-10-12",
         "AMD": "2026-10-09",
@@ -86,7 +86,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 9996.81078552,
       "entry_paused_date": null,
-      "last_equity": 10012.37938815,
+      "last_equity": 10024.10714907,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -112,29 +112,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 343.805,
-    "AMD": 596.715,
-    "MSFT": 549.285,
-    "NVDA": 224.875
+    "AAPL": 345.805,
+    "AMD": 591.32,
+    "MSFT": 548.76,
+    "NVDA": 226.38
   },
-  "last_run": "2026-10-13T09:49:54.809199-04:00",
+  "last_run": "2026-10-13T10:12:27.665451-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Stock Rises to New 52-Week High: What's Happening?",
         "Apple Home Collection Available Starting December, Select Accessories Early 2027; LG Video Doorbell Wired Starts At $249.95, Floodlight Cam At $399.95, Outdoor Cam At $299.95; LG Indoor Cam Plug-In Starts At $199.95 In U.S., Canada, And UK; Retail Offers Third-Party Installation From ADT In U.S. Starting This Fall; LG Smart Thermostat Starts At $199.95, Temperature Sensor At $39.95 In U.S. And Canada; LG Smart Deadbolt Lock Starts At $349.95 In U.S. And Canada",
         "SpaceX's Wireless Push Sparks Wall Street Skepticism: Is the Stock Getting Ahead of Itself?",
         "Apple Unveils The New Apple TV 4K, Supercharged By Siri Apple Intelligence; Available For $299; Pre-Orders Start Today; Available In Stores November 13",
-        "Apple Introduces Apple HomeView For Entertainment And Smart Home Management; Pre-Orders For Apple HomeView Start Today, Available November 13; HomeView Not Available For Sale In European Union; Wall Mounted Model Available For Pre-Order At $299",
-        "JPMorgan Earnings Prediction Market Preview: What Will Jamie Dimon Say?"
+        "Apple Introduces Apple HomeView For Entertainment And Smart Home Management; Pre-Orders For Apple HomeView Start Today, Available November 13; HomeView Not Available For Sale In European Union; Wall Mounted Model Available For Pre-Order At $299"
       ],
       "news_score": 1,
-      "price": 343.805,
+      "price": 345.805,
       "prior20_high": 348.11,
-      "ret5_pct": 2.1466,
-      "rsi14": 57.0545,
-      "sma20": 336.402,
-      "sma50": 323.8434,
-      "zscore20": 2.0359
+      "ret5_pct": 2.7408,
+      "rsi14": 58.9297,
+      "sma20": 336.50725,
+      "sma50": 323.8855,
+      "zscore20": 2.4086
     },
     "AMD": {
       "news_headlines": [
@@ -145,13 +145,13 @@
         "Why Is Oracle Stock Falling on Monday?"
       ],
       "news_score": 1,
-      "price": 596.715,
+      "price": 591.32,
       "prior20_high": 658.45,
-      "ret5_pct": -7.6157,
-      "rsi14": 40.5487,
-      "sma20": 607.2745,
-      "sma50": 533.4468,
-      "zscore20": -0.3188
+      "ret5_pct": -8.4509,
+      "rsi14": 41.5813,
+      "sma20": 607.456,
+      "sma50": 533.5194,
+      "zscore20": -0.4887
     },
     "MSFT": {
       "news_headlines": [
@@ -162,30 +162,30 @@
         "Reported October 12, Anthropic Says AI Models May Be Capable Of Self-Replicating Without Access To A Data Center"
       ],
       "news_score": 1,
-      "price": 549.285,
-      "prior20_high": 551.01,
-      "ret5_pct": 3.6974,
-      "rsi14": 79.1597,
-      "sma20": 514.45025,
-      "sma50": 503.2016,
-      "zscore20": 2.1401
+      "price": 548.76,
+      "prior20_high": 551.08,
+      "ret5_pct": 3.5983,
+      "rsi14": 78.9968,
+      "sma20": 514.41775,
+      "sma50": 503.1886,
+      "zscore20": 2.1189
     },
     "NVDA": {
       "news_headlines": [
+        "Nvidia Is 'Too Big to Fail,' Semafor Editor Warns: 'The Government Would Step In'",
         "Why Is Super Micro Computer Stock Falling on Tuesday?",
         "SpaceX's Wireless Push Sparks Wall Street Skepticism: Is the Stock Getting Ahead of Itself?",
         "Nvidia Loses Ground in China as Huawei's AI Chip Shipments Nearly Double, Capturing 28% Market Share: Report",
-        "Reported October 12, Anthropic Says AI Models May Be Capable Of Self-Replicating Without Access To A Data Center",
-        "Jim Cramer Likes This Tech Stock, Recommends Sticking With Applied Aerospace"
+        "Reported October 12, Anthropic Says AI Models May Be Capable Of Self-Replicating Without Access To A Data Center"
       ],
       "news_score": 2,
-      "price": 224.875,
+      "price": 226.38,
       "prior20_high": 243.34,
-      "ret5_pct": -5.2759,
-      "rsi14": 48.6377,
-      "sma20": 228.14325,
-      "sma50": 222.9608,
-      "zscore20": -0.5387
+      "ret5_pct": -4.642,
+      "rsi14": 51.1331,
+      "sma20": 228.22475,
+      "sma50": 222.9934,
+      "zscore20": -0.3059
     }
   },
   "schema_version": 2,
