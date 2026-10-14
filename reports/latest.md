@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-14T11:28:18.412557-04:00
+Updated: 2026-10-14T12:05:32.243752-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,10 +8,10 @@ Updated: 2026-10-14T11:28:18.412557-04:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,024.17 | 0.24% | $7,996.35 | $10,046.82 | $-4.57 | $28.73 | AAPL |
-| 2 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,998.75 | -0.01% | $7,500.00 | $10,000.00 | $0.00 | $-1.25 | AMD |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,017.69 | 0.18% | $7,996.35 | $10,046.82 | $-4.57 | $22.25 | AAPL |
+| 2 | BOT_B | ACTIVE | Dip / Mean Reversion | $10,009.55 | 0.10% | $7,500.00 | $10,009.55 | $0.00 | $9.55 | AMD |
 | 3 | BOT_C | ACTIVE | News + Momentum | $9,940.27 | -0.60% | $9,940.27 | $10,007.62 | $-59.73 | $0.00 | — |
-| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,741.99 | -2.58% | $7,200.12 | $10,000.00 | $-299.88 | $41.87 | MSFT |
+| 4 | BOT_A | ACTIVE | Trend / Breakout | $9,735.97 | -2.64% | $7,200.12 | $10,000.00 | $-299.88 | $35.85 | MSFT |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,14 @@ Updated: 2026-10-14T11:28:18.412557-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $345.81 | $336.98 | $324.54 | 60.7 | 1.58% | $348.11 | 2.23 | -3 |
-| NVDA | $223.14 | $228.80 | $223.26 | 48.2 | -3.22% | $243.34 | -1.09 | +0 |
-| AMD | $581.00 | $611.58 | $534.92 | 35.0 | -6.42% | $658.45 | -1.20 | +1 |
-| MSFT | $538.16 | $516.54 | $503.99 | 75.3 | 2.96% | $551.08 | 1.39 | -1 |
+| AAPL | $344.71 | $336.90 | $324.50 | 59.3 | 1.26% | $348.11 | 2.07 | -3 |
+| NVDA | $222.46 | $228.76 | $223.25 | 47.3 | -3.52% | $243.34 | -1.21 | +2 |
+| AMD | $583.51 | $611.38 | $534.84 | 34.1 | -6.01% | $658.45 | -1.08 | +1 |
+| MSFT | $536.89 | $516.47 | $503.96 | 74.1 | 2.71% | $551.08 | 1.32 | -2 |
 
 ## Actions this run
 
-- BOT_B BUY AMD @ 581.29 — Dip / Mean Reversion entry rule satisfied
+- No virtual trades this run.
 
 ## Notes
 
