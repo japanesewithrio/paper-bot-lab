@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9768.81773727,
       "entry_paused_date": null,
-      "last_equity": 9735.96774672,
+      "last_equity": 9730.72497324,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -32,7 +32,7 @@
       "cash": 7500.0,
       "day_start_equity": 10000.0,
       "entry_paused_date": null,
-      "last_equity": 10009.54557146,
+      "last_equity": 9952.04420167,
       "last_exit_date": {},
       "peak_equity": 10009.54557146,
       "positions": {
@@ -79,7 +79,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 9997.8369646,
       "entry_paused_date": null,
-      "last_equity": 10017.68619996,
+      "last_equity": 10014.49038511,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -105,29 +105,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 344.71,
-    "AMD": 583.51,
-    "MSFT": 536.89,
-    "NVDA": 222.46
+    "AAPL": 344.165,
+    "AMD": 570.14,
+    "MSFT": 535.78,
+    "NVDA": 222.64
   },
-  "last_run": "2026-10-14T12:05:32.243752-04:00",
+  "last_run": "2026-10-14T13:00:00.253526-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "ASML Earnings Signal Strong AI Demand Yet Stock Falls, Emphasizing Market Character Shift—CPI Squashes Hopium",
         "Apple Has a $299 Smart-Home Bet: The Real Money May Be in Subscriptions",
         "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today",
         "Apple Has Found No Evidence To Support OpenAI's Allegations; Says Apple Has Searched For The One File That OpenAI Has Identified, But Has Not Found It On Any Apple System; Co Has Strict Policies & Procedures In Place To Help Ensure That New Employees Don't Use Any Confidential Information From Prior Employer; Says OpenAI Has Failed To Respond To Apple’s Request For More Information That Would Aid In Its Investigation",
-        "OpenAI Brief In Apple Vs OpenAI Lawsuit Say Files Leaked Include Detailed Unreleased Device Images, Engineering Data, Supplier Info; Says Apple Has Not Assured It Is Not In Possession Of & Has Not Used OpenAI Confidential Data; Files Leaked By Employee Also Include Manufacturing Data About Devices",
-        "OpenAI Brief In Apple Vs OpenAI Lawsuit Say OpenAI Employee Who Left For Apple Sent Over 100 Files About Unrelased OpenAI Product To Personal Accounts; Employee Who Left For Apple Gave Senior Apple Leaders Presentation About Unreleased OpenAI Product"
+        "OpenAI Brief In Apple Vs OpenAI Lawsuit Say Files Leaked Include Detailed Unreleased Device Images, Engineering Data, Supplier Info; Says Apple Has Not Assured It Is Not In Possession Of & Has Not Used OpenAI Confidential Data; Files Leaked By Employee Also Include Manufacturing Data About Devices"
       ],
-      "news_score": -3,
-      "price": 344.71,
+      "news_score": -1,
+      "price": 344.165,
       "prior20_high": 348.11,
-      "ret5_pct": 1.2572,
-      "rsi14": 59.2769,
-      "sma20": 336.89775,
-      "sma50": 324.5048,
-      "zscore20": 2.0707
+      "ret5_pct": 1.0971,
+      "rsi14": 59.0642,
+      "sma20": 336.88575,
+      "sma50": 324.5,
+      "zscore20": 1.9417
     },
     "AMD": {
       "news_headlines": [
@@ -138,47 +138,47 @@
         "Credo Technology Group To Unveil Its OmniConnect Weaver Memory Fanout Gearbox On AMD Versal AI Edge Series Gen 2 Adaptive SoC Evaluation Board"
       ],
       "news_score": 1,
-      "price": 583.51,
+      "price": 570.14,
       "prior20_high": 658.45,
-      "ret5_pct": -6.0113,
-      "rsi14": 34.1343,
-      "sma20": 611.384,
-      "sma50": 534.8358,
-      "zscore20": -1.0847
+      "ret5_pct": -8.1649,
+      "rsi14": 33.5741,
+      "sma20": 611.2465,
+      "sma50": 534.7808,
+      "zscore20": -1.5878
     },
     "MSFT": {
       "news_headlines": [
+        "ASML Earnings Signal Strong AI Demand Yet Stock Falls, Emphasizing Market Character Shift—CPI Squashes Hopium",
         "'OpenAI Names Uday Ruddarraju to Lead Data Center, Computing Unit' - Bloomberg",
         "Apple Has Found No Evidence To Support OpenAI's Allegations; Says Apple Has Searched For The One File That OpenAI Has Identified, But Has Not Found It On Any Apple System; Co Has Strict Policies & Procedures In Place To Help Ensure That New Employees Don't Use Any Confidential Information From Prior Employer; Says OpenAI Has Failed To Respond To Apple’s Request For More Information That Would Aid In Its Investigation",
         "OpenAI Brief In Apple Vs OpenAI Lawsuit Say Files Leaked Include Detailed Unreleased Device Images, Engineering Data, Supplier Info; Says Apple Has Not Assured It Is Not In Possession Of & Has Not Used OpenAI Confidential Data; Files Leaked By Employee Also Include Manufacturing Data About Devices",
-        "OpenAI Brief In Apple Vs OpenAI Lawsuit Say OpenAI Employee Who Left For Apple Sent Over 100 Files About Unrelased OpenAI Product To Personal Accounts; Employee Who Left For Apple Gave Senior Apple Leaders Presentation About Unreleased OpenAI Product",
-        "U.S. Diplomat In Riyadh, Microsoft Arabia President Ayman Al-Ghamdi Discussion Expansion Of U.S.-Saudi Partnership In Super Intelligence, Cloud Computing"
+        "OpenAI Brief In Apple Vs OpenAI Lawsuit Say OpenAI Employee Who Left For Apple Sent Over 100 Files About Unrelased OpenAI Product To Personal Accounts; Employee Who Left For Apple Gave Senior Apple Leaders Presentation About Unreleased OpenAI Product"
       ],
       "news_score": -2,
-      "price": 536.89,
+      "price": 535.78,
       "prior20_high": 551.08,
-      "ret5_pct": 2.7128,
-      "rsi14": 74.1082,
-      "sma20": 516.47175,
-      "sma50": 503.9626,
-      "zscore20": 1.3235
+      "ret5_pct": 2.5004,
+      "rsi14": 73.4274,
+      "sma20": 516.434,
+      "sma50": 503.9475,
+      "zscore20": 1.258
     },
     "NVDA": {
       "news_headlines": [
+        "ASML Earnings Signal Strong AI Demand Yet Stock Falls, Emphasizing Market Character Shift—CPI Squashes Hopium",
+        "NVIDIA Expands CUDA-X AI Tools For Semiconductor Manufacturing, Delivering 2–3x Faster Atom-Level Simulations And 30x Faster Chipmaking Simulations",
         "Why Is Super Micro Computer Stock Falling on Wednesday?",
         "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today",
-        "8 Of 11 Sectors Fall Wednesday As Defensives Lead",
-        "'Nvidia and ChipAgents Launch Evaluation For AI-Powered Chip Design' - The Information Exclusive",
-        "Bitcoin, Nvidia And Tesla ETFs Lead Wall Street’s Most Traded Funds"
+        "8 Of 11 Sectors Fall Wednesday As Defensives Lead"
       ],
       "news_score": 2,
-      "price": 222.46,
+      "price": 222.64,
       "prior20_high": 243.34,
-      "ret5_pct": -3.5174,
-      "rsi14": 47.3214,
-      "sma20": 228.76125,
-      "sma50": 223.2476,
-      "zscore20": -1.2051
+      "ret5_pct": -3.4393,
+      "rsi14": 47.4196,
+      "sma20": 228.76525,
+      "sma50": 223.2492,
+      "zscore20": -1.1725
     }
   },
   "schema_version": 2,
