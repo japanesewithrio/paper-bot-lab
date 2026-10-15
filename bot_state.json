@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9718.32652246,
       "entry_paused_date": null,
-      "last_equity": 9749.31084137,
+      "last_equity": 9749.57061843,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -73,7 +73,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10002.8799018,
       "entry_paused_date": null,
-      "last_equity": 10009.97519716,
+      "last_equity": 10012.73122097,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -99,80 +99,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 343.395,
-    "AMD": 546.385,
-    "MSFT": 539.715,
-    "NVDA": 216.865
+    "AAPL": 343.865,
+    "AMD": 548.505,
+    "MSFT": 539.77,
+    "NVDA": 217.2
   },
-  "last_run": "2026-10-15T12:19:28.539514-04:00",
+  "last_run": "2026-10-15T13:00:56.438752-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks",
         "Defensives Lead Sectors In Thursday Trading As Technology Trails",
         "Apple Intelligence Reportedly Nears China Debut After Delays. What to Expect",
         "Micron Stock Slides Again Thursday: What's Going On?",
-        "Assessing Apple's Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-        "Apple Intelligence Finally Coming to China After 2-Year Wait — But AI Siri and Genmoji Are Missing"
+        "Assessing Apple's Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
       ],
-      "news_score": -2,
-      "price": 343.395,
+      "news_score": -1,
+      "price": 343.865,
       "prior20_high": 348.11,
-      "ret5_pct": 2.0581,
-      "rsi14": 52.9515,
-      "sma20": 337.14025,
-      "sma50": 325.1248,
-      "zscore20": 1.5996
+      "ret5_pct": 2.1978,
+      "rsi14": 53.4981,
+      "sma20": 337.16375,
+      "sma50": 325.1342,
+      "zscore20": 1.697
     },
     "AMD": {
       "news_headlines": [
+        "AI Financing Fears Hammer Chip Stocks: These 2 ETFs Are Cashing In on the Sell-Off",
         "Why Is AMD Stock Falling on Wednesday?",
         "ASML Says AI Boom Is Boosting Pricing Power as Chipmakers Agree to Pay More",
         "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today",
-        "AMD Challenges Nvidia's AI Inference Lead, SemiAnalysis Finds",
-        "Chip Stocks Slide as South Korea's KOSPI Plunges, J&J Sinks 6%: Stock Market Today"
+        "AMD Challenges Nvidia's AI Inference Lead, SemiAnalysis Finds"
       ],
-      "news_score": 2,
-      "price": 546.385,
+      "news_score": 1,
+      "price": 548.505,
       "prior20_high": 658.45,
-      "ret5_pct": -10.1133,
-      "rsi14": 28.7627,
-      "sma20": 611.3315,
-      "sma50": 536.0838,
-      "zscore20": -2.544
+      "ret5_pct": -9.7646,
+      "rsi14": 28.2343,
+      "sma20": 611.15325,
+      "sma50": 536.0125,
+      "zscore20": -2.4125
     },
     "MSFT": {
       "news_headlines": [
+        "Jefferies Maintains Buy on Microsoft, Raises Price Target to $650",
         "FTC Spokesman Says President Trump Task Force On AI To Meet Thursday",
         "TD Cowen Maintains Buy on Microsoft, Raises Price Target to $625",
         "Politico Reported Microsoft President Warned White House Against Crackdown On Skilled Immigration",
-        "Iran Media Outlet Says Google, Meta, Microsoft, Amazon Should Pay Fees for Hormuz Undersea Cables (UPDATED)",
-        "'Eight U.S. States Sue OpenAI, Claiming ChatGPT Harms Children' - Reuters News"
+        "Iran Media Outlet Says Google, Meta, Microsoft, Amazon Should Pay Fees for Hormuz Undersea Cables (UPDATED)"
       ],
-      "news_score": 1,
-      "price": 539.715,
+      "news_score": 2,
+      "price": 539.77,
       "prior20_high": 551.08,
-      "ret5_pct": 0.8446,
-      "rsi14": 66.4537,
-      "sma20": 518.4275,
-      "sma50": 504.9491,
-      "zscore20": 1.3801
+      "ret5_pct": 0.8548,
+      "rsi14": 66.4042,
+      "sma20": 518.42225,
+      "sma50": 504.947,
+      "zscore20": 1.3846
     },
     "NVDA": {
       "news_headlines": [
+        "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks",
+        "AI Financing Fears Hammer Chip Stocks: These 2 ETFs Are Cashing In on the Sell-Off",
         "Why Is SMCI Stock Falling on Thursday?",
         "SOXX Vs. SMH: Which ETF Faces More Risk as CoreWeave Debt Crisis Rattles AI Stocks?",
-        "'Nvidia CEO Huang Says CoreWeave Improving, No Backstop Needed' - Bloomberg",
-        "NVIDIA Unveils 120B-Parameter Nemotron 3.5 Super VL For Enterprise AI Agents",
-        "Hyperliquid Looks Beyond Bitcoin to Nvidia and Oil: Can PURR Benefit?"
+        "'Nvidia CEO Huang Says CoreWeave Improving, No Backstop Needed' - Bloomberg"
       ],
-      "news_score": -1,
-      "price": 216.865,
+      "news_score": 0,
+      "price": 217.2,
       "prior20_high": 243.34,
-      "ret5_pct": -5.4436,
-      "rsi14": 40.6685,
-      "sma20": 228.58325,
-      "sma50": 223.1812,
-      "zscore20": -2.115
+      "ret5_pct": -5.2976,
+      "rsi14": 40.9864,
+      "sma20": 228.60025,
+      "sma50": 223.188,
+      "zscore20": -2.0709
     }
   },
   "schema_version": 2,
