@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9718.32652246,
       "entry_paused_date": null,
-      "last_equity": 9751.41267398,
+      "last_equity": 9754.1521412,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -73,7 +73,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10002.8799018,
       "entry_paused_date": null,
-      "last_equity": 10003.78880327,
+      "last_equity": 10003.75948387,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -99,29 +99,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 342.34,
-    "AMD": 555.05,
-    "MSFT": 540.16,
-    "NVDA": 217.2
+    "AAPL": 342.335,
+    "AMD": 557.5,
+    "MSFT": 540.74,
+    "NVDA": 217.77
   },
-  "last_run": "2026-10-15T14:19:16.839662-04:00",
+  "last_run": "2026-10-15T15:06:26.294262-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Anthropic Needs Nearly $2.7B in Additional Monthly Revenue to Reach $100B Run Rate by Year-End",
         "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
         "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark",
         "'Apple and Meta team up to make Muse AI model run on Mac computers' - CNBC",
-        "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks",
-        "Defensives Lead Sectors In Thursday Trading As Technology Trails"
+        "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks"
       ],
       "news_score": 0,
-      "price": 342.34,
+      "price": 342.335,
       "prior20_high": 348.11,
-      "ret5_pct": 1.7446,
-      "rsi14": 51.5745,
-      "sma20": 337.08575,
-      "sma50": 325.103,
-      "zscore20": 1.372
+      "ret5_pct": 1.7431,
+      "rsi14": 51.7477,
+      "sma20": 337.0925,
+      "sma50": 325.1057,
+      "zscore20": 1.3656
     },
     "AMD": {
       "news_headlines": [
@@ -132,47 +132,47 @@
         "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today"
       ],
       "news_score": 2,
-      "price": 555.05,
+      "price": 557.5,
       "prior20_high": 658.45,
-      "ret5_pct": -8.6879,
-      "rsi14": 28.9825,
-      "sma20": 611.40375,
-      "sma50": 536.1127,
-      "zscore20": -2.2225
+      "ret5_pct": -8.2848,
+      "rsi14": 30.326,
+      "sma20": 611.8225,
+      "sma50": 536.2802,
+      "zscore20": -2.2258
     },
     "MSFT": {
       "news_headlines": [
+        "Anthropic Needs Nearly $2.7B in Additional Monthly Revenue to Reach $100B Run Rate by Year-End",
+        "'OpenAI’s Accelerates Ad Sprint With Meta Hires, Slashed Prices' - The Information",
         "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
         "Mizuho Maintains Outperform on Microsoft, Raises Price Target to $600",
-        "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark",
-        "Google Undercuts Some AI Rivals on Price as Gemini 4 Argon Reaches Enterprises",
-        "'Apple and Meta team up to make Muse AI model run on Mac computers' - CNBC"
+        "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark"
       ],
-      "news_score": -1,
-      "price": 540.16,
+      "news_score": 0,
+      "price": 540.74,
       "prior20_high": 551.08,
-      "ret5_pct": 0.9277,
-      "rsi14": 66.319,
-      "sma20": 518.41325,
-      "sma50": 504.9434,
-      "zscore20": 1.4116
+      "ret5_pct": 1.0361,
+      "rsi14": 66.9525,
+      "sma20": 518.48125,
+      "sma50": 504.9706,
+      "zscore20": 1.436
     },
     "NVDA": {
       "news_headlines": [
+        "CoreWeave Stock Snaps Back as Nvidia CEO Signals Support",
+        "Anthropic Needs Nearly $2.7B in Additional Monthly Revenue to Reach $100B Run Rate by Year-End",
+        "AI Stocks Plunge, but Jensen Huang Says Nvidia Gets New Chip Orders Almost Daily",
         "Nike, Moderna, Walmart Get a Lift as Traders Flee AI Stocks",
-        "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "'German Government Planning Extensive Cooperation With Nvidia Over AI' - Handelsblatt",
-        "Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump"
+        "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain"
       ],
-      "news_score": 0,
-      "price": 217.2,
+      "news_score": -1,
+      "price": 217.77,
       "prior20_high": 243.34,
-      "ret5_pct": -5.2976,
-      "rsi14": 40.8643,
-      "sma20": 228.59375,
-      "sma50": 223.1854,
-      "zscore20": -2.0646
+      "ret5_pct": -5.0491,
+      "rsi14": 41.4439,
+      "sma20": 228.62425,
+      "sma50": 223.1976,
+      "zscore20": -1.9894
     }
   },
   "schema_version": 2,
