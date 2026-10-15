@@ -104,17 +104,17 @@
     "MSFT": 539.77,
     "NVDA": 217.2
   },
-  "last_run": "2026-10-15T13:00:56.438752-04:00",
+  "last_run": "2026-10-15T13:54:02.599242-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark",
+        "'Apple and Meta team up to make Muse AI model run on Mac computers' - CNBC",
         "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks",
         "Defensives Lead Sectors In Thursday Trading As Technology Trails",
-        "Apple Intelligence Reportedly Nears China Debut After Delays. What to Expect",
-        "Micron Stock Slides Again Thursday: What's Going On?",
-        "Assessing Apple's Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
+        "Apple Intelligence Reportedly Nears China Debut After Delays. What to Expect"
       ],
-      "news_score": -1,
+      "news_score": 0,
       "price": 343.865,
       "prior20_high": 348.11,
       "ret5_pct": 2.1978,
@@ -125,13 +125,13 @@
     },
     "AMD": {
       "news_headlines": [
+        "Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump",
         "AI Financing Fears Hammer Chip Stocks: These 2 ETFs Are Cashing In on the Sell-Off",
         "Why Is AMD Stock Falling on Wednesday?",
         "ASML Says AI Boom Is Boosting Pricing Power as Chipmakers Agree to Pay More",
-        "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today",
-        "AMD Challenges Nvidia's AI Inference Lead, SemiAnalysis Finds"
+        "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today"
       ],
-      "news_score": 1,
+      "news_score": 2,
       "price": 548.505,
       "prior20_high": 658.45,
       "ret5_pct": -9.7646,
@@ -142,13 +142,13 @@
     },
     "MSFT": {
       "news_headlines": [
-        "Jefferies Maintains Buy on Microsoft, Raises Price Target to $650",
-        "FTC Spokesman Says President Trump Task Force On AI To Meet Thursday",
-        "TD Cowen Maintains Buy on Microsoft, Raises Price Target to $625",
-        "Politico Reported Microsoft President Warned White House Against Crackdown On Skilled Immigration",
-        "Iran Media Outlet Says Google, Meta, Microsoft, Amazon Should Pay Fees for Hormuz Undersea Cables (UPDATED)"
+        "Mizuho Maintains Outperform on Microsoft, Raises Price Target to $600",
+        "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark",
+        "Google Undercuts Some AI Rivals on Price as Gemini 4 Argon Reaches Enterprises",
+        "'Apple and Meta team up to make Muse AI model run on Mac computers' - CNBC",
+        "Microsoft Stock Heads into Earnings with Azure Growth, Copilot Momentum in Focus"
       ],
-      "news_score": 2,
+      "news_score": 1,
       "price": 539.77,
       "prior20_high": 551.08,
       "ret5_pct": 0.8548,
@@ -159,13 +159,13 @@
     },
     "NVDA": {
       "news_headlines": [
-        "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks",
-        "AI Financing Fears Hammer Chip Stocks: These 2 ETFs Are Cashing In on the Sell-Off",
-        "Why Is SMCI Stock Falling on Thursday?",
-        "SOXX Vs. SMH: Which ETF Faces More Risk as CoreWeave Debt Crisis Rattles AI Stocks?",
-        "'Nvidia CEO Huang Says CoreWeave Improving, No Backstop Needed' - Bloomberg"
+        "10 Information Technology Stocks Whale Activity In Today’s Session",
+        "'German Government Planning Extensive Cooperation With Nvidia Over AI' - Handelsblatt",
+        "Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump",
+        "Adobe And Nvidia Expand Partnership To Optimize Photoshop, Premiere, Substance 3D, Frame.io And Brand Concierge With Faster AI-Powered Creation, Production And Personalization",
+        "Microsoft Stock Heads into Earnings with Azure Growth, Copilot Momentum in Focus"
       ],
-      "news_score": 0,
+      "news_score": 3,
       "price": 217.2,
       "prior20_high": 243.34,
       "ret5_pct": -5.2976,
