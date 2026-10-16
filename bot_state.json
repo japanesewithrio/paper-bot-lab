@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9751.01120033,
       "entry_paused_date": null,
-      "last_equity": 9756.39567039,
+      "last_equity": 9735.73158575,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -29,15 +29,30 @@
       "trade_count": 5
     },
     "BOT_B": {
-      "cash": 9821.25761561,
+      "cash": 4910.93556873,
       "day_start_equity": 9821.25761561,
       "entry_paused_date": null,
-      "last_equity": 9821.25761561,
+      "last_equity": 9818.80368157,
       "last_exit_date": {
         "AMD": "2026-10-15"
       },
       "peak_equity": 10009.54557146,
-      "positions": {},
+      "positions": {
+        "AMD": {
+          "avg_price": 558.524122,
+          "entry_notional": 2455.01,
+          "entry_time": "2026-10-16T10:21:14.696833-04:00",
+          "imported": false,
+          "qty": 4.3955266104
+        },
+        "NVDA": {
+          "avg_price": 216.92841,
+          "entry_notional": 2455.31,
+          "entry_time": "2026-10-16T10:21:14.696833-04:00",
+          "imported": false,
+          "qty": 11.3185469985
+        }
+      },
       "realized_pl": -178.7423844,
       "risk_date": "2026-10-16",
       "starting_cash": 10000.0,
@@ -45,13 +60,13 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Dip / Mean Reversion",
-      "trade_count": 2
+      "trade_count": 4
     },
     "BOT_C": {
-      "cash": 9940.26794266,
+      "cash": 7455.200957,
       "day_start_equity": 9940.26794266,
       "entry_paused_date": null,
-      "last_equity": 9940.26794266,
+      "last_equity": 9939.02603014,
       "last_exit_date": {
         "AAPL": "2026-10-13",
         "AMD": "2026-10-09",
@@ -59,7 +74,15 @@
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {},
+      "positions": {
+        "AAPL": {
+          "avg_price": 345.227528,
+          "entry_notional": 2485.07,
+          "entry_time": "2026-10-16T10:21:14.696833-04:00",
+          "imported": false,
+          "qty": 7.1983454033
+        }
+      },
       "realized_pl": -59.73204772,
       "risk_date": "2026-10-16",
       "starting_cash": 10000.0,
@@ -67,13 +90,13 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 16
+      "trade_count": 17
     },
     "BOT_D": {
       "cash": 7996.34796632,
       "day_start_equity": 10005.25477339,
       "entry_paused_date": null,
-      "last_equity": 10027.24432511,
+      "last_equity": 10019.70923872,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -99,12 +122,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 346.34,
-    "AMD": 563.025,
-    "MSFT": 541.215,
-    "NVDA": 215.52
+    "AAPL": 345.055,
+    "AMD": 558.245,
+    "MSFT": 536.84,
+    "NVDA": 216.82
   },
-  "last_run": "2026-10-16T09:30:35.558835-04:00",
+  "last_run": "2026-10-16T10:21:14.696833-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -115,13 +138,13 @@
         "'iPhone Duo sells out moments after pre-orders begin' - Apple Insider"
       ],
       "news_score": 3,
-      "price": 346.34,
+      "price": 345.055,
       "prior20_high": 348.11,
-      "ret5_pct": 2.9334,
-      "rsi14": 51.0931,
-      "sma20": 337.06675,
-      "sma50": 325.0954,
-      "zscore20": 2.4373
+      "ret5_pct": 1.1758,
+      "rsi14": 58.0136,
+      "sma20": 337.53025,
+      "sma50": 325.7464,
+      "zscore20": 1.8082
     },
     "AMD": {
       "news_headlines": [
@@ -132,47 +155,47 @@
         "ASML Says AI Boom Is Boosting Pricing Power as Chipmakers Agree to Pay More"
       ],
       "news_score": 2,
-      "price": 563.025,
+      "price": 558.245,
       "prior20_high": 658.45,
-      "ret5_pct": -7.3759,
-      "rsi14": 30.7999,
-      "sma20": 611.9615,
-      "sma50": 536.3358,
-      "zscore20": -2.0294
+      "ret5_pct": -6.07,
+      "rsi14": 31.6687,
+      "sma20": 611.19975,
+      "sma50": 537.4381,
+      "zscore20": -2.0426
     },
     "MSFT": {
       "news_headlines": [
+        "NVDA-Led AI Boom Looks a Lot Like the Railroad Bubble of 1873, Pulitzer-Winning Historian Warns",
+        "StoneX Maintains Buy on Microsoft, Raises Price Target to $600",
         "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report",
         "Reported October 15, 'DeepSeek offers user refunds after suffering another major outage' - SCMP",
-        "Nvidia Announces RTX Spark AI Laptops Available Today From ASUS, Dell, HP, Lenovo, Microsoft, And MSI",
-        "CMA Proposes Designating Microsoft With Strategic Market Status In Business Software, Publishes Intervention Roadmap; Microsoft, Amazon Taking Material Steps To Promote Cloud Choice",
-        "Anthropic IPO Could Come in ‘Weeks, Not Months’ — Top Hedge Fund Manager Sees $500 Billion Demand, Draws Parallels With SpaceX"
+        "Nvidia Announces RTX Spark AI Laptops Available Today From ASUS, Dell, HP, Lenovo, Microsoft, And MSI"
       ],
       "news_score": 2,
-      "price": 541.215,
+      "price": 536.84,
       "prior20_high": 551.08,
-      "ret5_pct": 1.1248,
-      "rsi14": 66.3427,
-      "sma20": 518.41575,
-      "sma50": 504.9444,
-      "zscore20": 1.4796
+      "ret5_pct": -0.7845,
+      "rsi14": 71.5153,
+      "sma20": 520.64575,
+      "sma50": 505.6977,
+      "zscore20": 1.0943
     },
     "NVDA": {
       "news_headlines": [
+        "NVDA-Led AI Boom Looks a Lot Like the Railroad Bubble of 1873, Pulitzer-Winning Historian Warns",
+        "Nvidia GPUs Become Wall Street Collateral As AI Financing Expands",
         "TSLA, MU, CRWV and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week (CORRECTED)",
         "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report",
-        "Zeta Global Stock Hits 52-Week High - Here's Why",
-        "Nvidia Announces RTX Spark AI Laptops Available Today From ASUS, Dell, HP, Lenovo, Microsoft, And MSI",
-        "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’"
+        "Zeta Global Stock Hits 52-Week High - Here's Why"
       ],
-      "news_score": 3,
-      "price": 215.52,
+      "news_score": 2,
+      "price": 216.82,
       "prior20_high": 243.34,
-      "ret5_pct": -6.0301,
-      "rsi14": 41.1093,
-      "sma20": 228.60675,
-      "sma50": 223.1906,
-      "zscore20": -2.383
+      "ret5_pct": -4.2568,
+      "rsi14": 34.9026,
+      "sma20": 228.34475,
+      "sma50": 223.1508,
+      "zscore20": -1.9507
     }
   },
   "schema_version": 2,
@@ -462,6 +485,39 @@
       "reason": "stop -7%",
       "symbol": "AMD",
       "timestamp": "2026-10-15T10:23:41.573111-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_B",
+      "fill_price": 216.92841,
+      "notional": 2455.31,
+      "qty": 11.3185469985,
+      "realized_pl": 0.0,
+      "reason": "Dip / Mean Reversion entry rule satisfied",
+      "symbol": "NVDA",
+      "timestamp": "2026-10-16T10:21:14.696833-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_B",
+      "fill_price": 558.524122,
+      "notional": 2455.01,
+      "qty": 4.3955266104,
+      "realized_pl": 0.0,
+      "reason": "Dip / Mean Reversion entry rule satisfied",
+      "symbol": "AMD",
+      "timestamp": "2026-10-16T10:21:14.696833-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 345.227528,
+      "notional": 2485.07,
+      "qty": 7.1983454033,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-10-16T10:21:14.696833-04:00"
     }
   ]
 }
