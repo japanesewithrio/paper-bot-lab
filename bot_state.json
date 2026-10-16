@@ -2,9 +2,9 @@
   "bots": {
     "BOT_A": {
       "cash": 7200.11851188,
-      "day_start_equity": 9718.32652246,
+      "day_start_equity": 9751.01120033,
       "entry_paused_date": null,
-      "last_equity": 9751.01120033,
+      "last_equity": 9756.39567039,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -20,7 +20,7 @@
         }
       },
       "realized_pl": -299.88148811,
-      "risk_date": "2026-10-15",
+      "risk_date": "2026-10-16",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -30,7 +30,7 @@
     },
     "BOT_B": {
       "cash": 9821.25761561,
-      "day_start_equity": 9940.69015408,
+      "day_start_equity": 9821.25761561,
       "entry_paused_date": null,
       "last_equity": 9821.25761561,
       "last_exit_date": {
@@ -39,7 +39,7 @@
       "peak_equity": 10009.54557146,
       "positions": {},
       "realized_pl": -178.7423844,
-      "risk_date": "2026-10-15",
+      "risk_date": "2026-10-16",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -61,7 +61,7 @@
       "peak_equity": 10007.62053054,
       "positions": {},
       "realized_pl": -59.73204772,
-      "risk_date": "2026-10-15",
+      "risk_date": "2026-10-16",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -71,9 +71,9 @@
     },
     "BOT_D": {
       "cash": 7996.34796632,
-      "day_start_equity": 10002.8799018,
+      "day_start_equity": 10005.25477339,
       "entry_paused_date": null,
-      "last_equity": 10005.25477339,
+      "last_equity": 10027.24432511,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -88,7 +88,7 @@
         }
       },
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-15",
+      "risk_date": "2026-10-16",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -99,80 +99,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 342.59,
-    "AMD": 556.99,
-    "MSFT": 540.075,
-    "NVDA": 217.68
+    "AAPL": 346.34,
+    "AMD": 563.025,
+    "MSFT": 541.215,
+    "NVDA": 215.52
   },
-  "last_run": "2026-10-15T15:54:41.039327-04:00",
+  "last_run": "2026-10-16T09:30:35.558835-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Anthropic Needs Nearly $2.7B in Additional Monthly Revenue to Reach $100B Run Rate by Year-End",
-        "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
-        "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark",
-        "'Apple and Meta team up to make Muse AI model run on Mac computers' - CNBC",
-        "Apple Hits $5 Trillion Market Cap as Nvidia's Lead Shrinks"
+        "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report",
+        "Apple Stock Hits Record High as iPhone Duo Pre-Orders Sell Out in Minutes",
+        "October Rate-Hike Odds Collapse as Warsh Keeps His Cards Close but AI Transition Looms",
+        "Apple’s $1,999 iPhone Duo Preorders Begin Today: Trade-Ins, Monthly Payments and Deals to Cut the Hefty Price",
+        "'iPhone Duo sells out moments after pre-orders begin' - Apple Insider"
       ],
-      "news_score": 0,
-      "price": 342.59,
+      "news_score": 3,
+      "price": 346.34,
       "prior20_high": 348.11,
-      "ret5_pct": 1.8189,
-      "rsi14": 51.3707,
-      "sma20": 337.07775,
-      "sma50": 325.0998,
-      "zscore20": 1.4434
+      "ret5_pct": 2.9334,
+      "rsi14": 51.0931,
+      "sma20": 337.06675,
+      "sma50": 325.0954,
+      "zscore20": 2.4373
     },
     "AMD": {
       "news_headlines": [
+        "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity",
         "Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump",
         "AI Financing Fears Hammer Chip Stocks: These 2 ETFs Are Cashing In on the Sell-Off",
         "Why Is AMD Stock Falling on Wednesday?",
-        "ASML Says AI Boom Is Boosting Pricing Power as Chipmakers Agree to Pay More",
-        "Nasdaq 100 Drops 1% on Hot CPI, SOXX Falls 7th Day: Stock Market Today"
+        "ASML Says AI Boom Is Boosting Pricing Power as Chipmakers Agree to Pay More"
       ],
       "news_score": 2,
-      "price": 556.99,
+      "price": 563.025,
       "prior20_high": 658.45,
-      "ret5_pct": -8.3687,
-      "rsi14": 31.024,
-      "sma20": 612.02575,
-      "sma50": 536.3615,
-      "zscore20": -2.2949
+      "ret5_pct": -7.3759,
+      "rsi14": 30.7999,
+      "sma20": 611.9615,
+      "sma50": 536.3358,
+      "zscore20": -2.0294
     },
     "MSFT": {
       "news_headlines": [
-        "Anthropic Needs Nearly $2.7B in Additional Monthly Revenue to Reach $100B Run Rate by Year-End",
-        "'OpenAI’s Accelerates Ad Sprint With Meta Hires, Slashed Prices' - The Information",
-        "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain",
-        "Mizuho Maintains Outperform on Microsoft, Raises Price Target to $600",
-        "Meta Announces Release Of Muse Spark Open, The Open Weights Version Of Muse Spark"
+        "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report",
+        "Reported October 15, 'DeepSeek offers user refunds after suffering another major outage' - SCMP",
+        "Nvidia Announces RTX Spark AI Laptops Available Today From ASUS, Dell, HP, Lenovo, Microsoft, And MSI",
+        "CMA Proposes Designating Microsoft With Strategic Market Status In Business Software, Publishes Intervention Roadmap; Microsoft, Amazon Taking Material Steps To Promote Cloud Choice",
+        "Anthropic IPO Could Come in ‘Weeks, Not Months’ — Top Hedge Fund Manager Sees $500 Billion Demand, Draws Parallels With SpaceX"
       ],
-      "news_score": 0,
-      "price": 540.075,
+      "news_score": 2,
+      "price": 541.215,
       "prior20_high": 551.08,
-      "ret5_pct": 0.9118,
-      "rsi14": 66.3806,
-      "sma20": 518.41975,
-      "sma50": 504.946,
-      "zscore20": 1.4049
+      "ret5_pct": 1.1248,
+      "rsi14": 66.3427,
+      "sma20": 518.41575,
+      "sma50": 504.9444,
+      "zscore20": 1.4796
     },
     "NVDA": {
       "news_headlines": [
-        "CoreWeave Stock Snaps Back as Nvidia CEO Signals Support",
-        "Anthropic Needs Nearly $2.7B in Additional Monthly Revenue to Reach $100B Run Rate by Year-End",
-        "AI Stocks Plunge, but Jensen Huang Says Nvidia Gets New Chip Orders Almost Daily",
-        "Nike, Moderna, Walmart Get a Lift as Traders Flee AI Stocks",
-        "Michael Burry's 'Red October' Warning: Why QQQ and SMH Could Face More Pain"
+        "TSLA, MU, CRWV and More: 5 Stocks Investors Couldn't Stop Buzzing About This Week (CORRECTED)",
+        "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report",
+        "Zeta Global Stock Hits 52-Week High - Here's Why",
+        "Nvidia Announces RTX Spark AI Laptops Available Today From ASUS, Dell, HP, Lenovo, Microsoft, And MSI",
+        "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’"
       ],
-      "news_score": -1,
-      "price": 217.68,
+      "news_score": 3,
+      "price": 215.52,
       "prior20_high": 243.34,
-      "ret5_pct": -5.0883,
-      "rsi14": 41.3861,
-      "sma20": 228.62125,
-      "sma50": 223.1964,
-      "zscore20": -2.0031
+      "ret5_pct": -6.0301,
+      "rsi14": 41.1093,
+      "sma20": 228.60675,
+      "sma50": 223.1906,
+      "zscore20": -2.383
     }
   },
   "schema_version": 2,
