@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9689.91635809,
       "entry_paused_date": null,
-      "last_equity": 9725.64751244,
+      "last_equity": 9719.97964923,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -32,7 +32,7 @@
       "cash": 4910.93556873,
       "day_start_equity": 9656.35310956,
       "entry_paused_date": null,
-      "last_equity": 9772.50178767,
+      "last_equity": 9717.77252882,
       "last_exit_date": {
         "AMD": "2026-10-15"
       },
@@ -66,7 +66,7 @@
       "cash": 7455.200957,
       "day_start_equity": 9926.06900841,
       "entry_paused_date": null,
-      "last_equity": 9925.02524833,
+      "last_equity": 9924.26942206,
       "last_exit_date": {
         "AAPL": "2026-10-13",
         "AMD": "2026-10-09",
@@ -96,7 +96,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10009.15425389,
       "entry_paused_date": null,
-      "last_equity": 10008.30399123,
+      "last_equity": 10007.68828378,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -122,12 +122,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 343.11,
-    "AMD": 546.385,
-    "MSFT": 534.705,
-    "NVDA": 217.335
+    "AAPL": 343.005,
+    "AMD": 534.23,
+    "MSFT": 533.505,
+    "NVDA": 217.22
   },
-  "last_run": "2026-10-19T15:07:26.252120-04:00",
+  "last_run": "2026-10-19T15:58:46.047072-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -138,13 +138,13 @@
         "Putin’s Proposed Trump-Xi Summit In China Could Hurt US Stocks Long Term; Meta And Tesla Earnings Ahead"
       ],
       "news_score": 1,
-      "price": 343.11,
+      "price": 343.005,
       "prior20_high": 348.11,
-      "ret5_pct": 0.5215,
-      "rsi14": 71.8246,
-      "sma20": 337.65575,
-      "sma50": 326.3108,
-      "zscore20": 1.297
+      "ret5_pct": 0.4907,
+      "rsi14": 71.7321,
+      "sma20": 337.65375,
+      "sma50": 326.31,
+      "zscore20": 1.2733
     },
     "AMD": {
       "news_headlines": [
@@ -155,13 +155,13 @@
         "Nasdaq Tumbles Over 2%, Records Weekly Loss: Investor Sentiment Weakens, Fear & Greed Index Moves to ‘Extreme Fear’ Zone"
       ],
       "news_score": 1,
-      "price": 546.385,
+      "price": 534.23,
       "prior20_high": 658.45,
-      "ret5_pct": -9.7585,
-      "rsi14": 33.3873,
-      "sma20": 606.6885,
-      "sma50": 538.2789,
-      "zscore20": -1.8935
+      "ret5_pct": -11.7661,
+      "rsi14": 32.7794,
+      "sma20": 606.59775,
+      "sma50": 538.2426,
+      "zscore20": -2.2589
     },
     "MSFT": {
       "news_headlines": [
@@ -172,30 +172,30 @@
         "\"Anthropic Readies Model That Reads Users' Intentions Better\" - The Information"
       ],
       "news_score": 2,
-      "price": 534.705,
+      "price": 533.505,
       "prior20_high": 551.08,
-      "ret5_pct": -1.62,
-      "rsi14": 66.0917,
-      "sma20": 521.857,
-      "sma50": 506.2175,
-      "zscore20": 0.9128
+      "ret5_pct": -1.8408,
+      "rsi14": 65.6958,
+      "sma20": 521.811,
+      "sma50": 506.1991,
+      "zscore20": 0.8332
     },
     "NVDA": {
       "news_headlines": [
+        "NVIDIA CEO Jensen Huang Announces New Planned Investments In Germany's Agile Robots, Avelios Medical, Mirelo And Reflex Aerospace",
+        "'Nscale, Anthropic in Talks for $45 Billion Cloud Computing Deal' - Bloomberg News",
+        "‘CoreWeave Is the Canary in the Coal Mine’: Expert Warns More AI Debt Will Slide into Distress",
         "Microsoft Walks Away From AI Data Center Deal, but SemiAnalysis Predicts 50-GW Boom in 2027",
-        "Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "'DeepSeek Working With Huawei Technologies To Shape Design Of Future AI Chips' - The Information",
-        "Putin’s Proposed Trump-Xi Summit In China Could Hurt US Stocks Long Term; Meta And Tesla Earnings Ahead"
+        "Nvidia Researchers Using Supercomputer Jupiter For Fault-Tolerant Computing Simulation"
       ],
-      "news_score": 1,
-      "price": 217.335,
+      "news_score": 2,
+      "price": 217.22,
       "prior20_high": 243.34,
-      "ret5_pct": -4.8862,
-      "rsi14": 38.8255,
-      "sma20": 227.713,
-      "sma50": 222.9655,
-      "zscore20": -1.5654
+      "ret5_pct": -4.9365,
+      "rsi14": 38.8669,
+      "sma20": 227.7145,
+      "sma50": 222.9661,
+      "zscore20": -1.5835
     }
   },
   "schema_version": 2,
