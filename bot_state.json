@@ -2,9 +2,9 @@
   "bots": {
     "BOT_A": {
       "cash": 7200.11851188,
-      "day_start_equity": 9751.01120033,
+      "day_start_equity": 9689.91635809,
       "entry_paused_date": null,
-      "last_equity": 9689.91635809,
+      "last_equity": 9710.48597834,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -20,7 +20,7 @@
         }
       },
       "realized_pl": -299.88148811,
-      "risk_date": "2026-10-16",
+      "risk_date": "2026-10-19",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -30,9 +30,9 @@
     },
     "BOT_B": {
       "cash": 4910.93556873,
-      "day_start_equity": 9821.25761561,
+      "day_start_equity": 9656.35310956,
       "entry_paused_date": null,
-      "last_equity": 9656.35310956,
+      "last_equity": 9836.14178746,
       "last_exit_date": {
         "AMD": "2026-10-15"
       },
@@ -54,7 +54,7 @@
         }
       },
       "realized_pl": -178.7423844,
-      "risk_date": "2026-10-16",
+      "risk_date": "2026-10-19",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -64,9 +64,9 @@
     },
     "BOT_C": {
       "cash": 7455.200957,
-      "day_start_equity": 9940.26794266,
+      "day_start_equity": 9926.06900841,
       "entry_paused_date": null,
-      "last_equity": 9926.06900841,
+      "last_equity": 9939.09801359,
       "last_exit_date": {
         "AAPL": "2026-10-13",
         "AMD": "2026-10-09",
@@ -84,7 +84,7 @@
         }
       },
       "realized_pl": -59.73204772,
-      "risk_date": "2026-10-16",
+      "risk_date": "2026-10-19",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -94,9 +94,9 @@
     },
     "BOT_D": {
       "cash": 7996.34796632,
-      "day_start_equity": 10005.25477339,
+      "day_start_equity": 10009.15425389,
       "entry_paused_date": null,
-      "last_equity": 10009.15425389,
+      "last_equity": 10019.76787753,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -111,7 +111,7 @@
         }
       },
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-16",
+      "risk_date": "2026-10-19",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -122,80 +122,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 343.255,
-    "AMD": 527.145,
-    "MSFT": 527.14,
-    "NVDA": 214.545
+    "AAPL": 345.065,
+    "AMD": 564.095,
+    "MSFT": 531.495,
+    "NVDA": 216.08
   },
-  "last_run": "2026-10-16T15:51:34.510564-04:00",
+  "last_run": "2026-10-19T09:34:54.086342-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "'Apple Set For UK Legal Fight Over iPhone Tap-To-Pay Rules' - Financial Times",
-        "'PayPal And Epic Games Have Discussed Concerns With The Justice Department That A Settlement With Apple Could Fail To Meaningfully Curb Its Restrictions On Rival Apps And Devices' - The Information",
-        "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report (UPDATED)",
-        "Apple Stock Hits Record High as iPhone Duo Pre-Orders Sell Out in Minutes",
-        "October Rate-Hike Odds Collapse as Warsh Keeps His Cards Close but AI Transition Looms"
+        "Analyzing Apple In Comparison To Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+        "What's Going On With Intel Stock Monday?",
+        "Trump’s Russia Tariff Waiver Helps Apple, Eliminates Tariff Advantage for CF and CVR Partners",
+        "iPhone Duo Preorders, AAPL Crosses $5 Trillion and More: This Week in Appleverse",
+        "Benzinga Bulls and Bears: Palantir, Apple, Six Flags"
       ],
-      "news_score": 2,
-      "price": 343.255,
+      "news_score": 1,
+      "price": 345.065,
       "prior20_high": 348.11,
-      "ret5_pct": 0.648,
-      "rsi14": 56.829,
-      "sma20": 337.47375,
-      "sma50": 325.7238,
-      "zscore20": 1.4218
+      "ret5_pct": 1.0942,
+      "rsi14": 71.2049,
+      "sma20": 337.64225,
+      "sma50": 326.3054,
+      "zscore20": 1.7724
     },
     "AMD": {
       "news_headlines": [
+        "Where Trump’s Portfolio Meets His Power: Nvidia, Palantir, Dell and More",
+        "Why Is Credo Technology Stock Gaining Monday?",
+        "Nasdaq Tumbles Over 2%, Records Weekly Loss: Investor Sentiment Weakens, Fear & Greed Index Moves to ‘Extreme Fear’ Zone",
         "SemiAnalysis Pots On X \"SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives feel NVIDIA has been using high-pressure tactics to keep them NVIDIA-only....\"",
-        "What's Going On With Fermi Stock Friday?",
-        "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity",
-        "Rate Pressure vs. AI Demand: Rising Treasury Yields Trigger Nvidia, AMD Slump",
-        "AI Financing Fears Hammer Chip Stocks: These 2 ETFs Are Cashing In on the Sell-Off"
+        "What's Going On With Fermi Stock Friday?"
       ],
       "news_score": 0,
-      "price": 527.145,
+      "price": 564.095,
       "prior20_high": 658.45,
-      "ret5_pct": -11.3028,
-      "rsi14": 28.8596,
-      "sma20": 610.35775,
-      "sma50": 537.1013,
-      "zscore20": -2.9457
+      "ret5_pct": -6.8335,
+      "rsi14": 36.2583,
+      "sma20": 607.1405,
+      "sma50": 538.4597,
+      "zscore20": -1.3902
     },
     "MSFT": {
       "news_headlines": [
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "9 Of 11 Sectors Rise In Friday Trading As Cyclicals Lead",
-        "Rep. David Taylor Has Bought Up to $45K Worth Of AT&T Stock: Here’s What You Should Know",
-        "NiSource Lands Major Microsoft Power Deal",
-        "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report (UPDATED)"
+        "Microsoft Expands Project Perception, CEO Satya Nadella Announces",
+        "Goldman Sachs Upgrades CoreWeave Despite 15% Bond Yields as Stock Jumps 6%",
+        "Microsoft To Rally Around 25%? Here Are 10 Top Analyst Forecasts For Monday",
+        "Bernstein Maintains Outperform on Microsoft, Raises Price Target to $662",
+        "AI Boom Hits a Power Wall: Microsoft Walks Away From Nscale's UK Data Center Deal"
       ],
       "news_score": 3,
-      "price": 527.14,
+      "price": 531.495,
       "prior20_high": 551.08,
-      "ret5_pct": -2.5772,
-      "rsi14": 61.9818,
-      "sma20": 520.13925,
-      "sma50": 505.4951,
-      "zscore20": 0.4871
+      "ret5_pct": -2.2106,
+      "rsi14": 64.4108,
+      "sma20": 521.66875,
+      "sma50": 506.1422,
+      "zscore20": 0.7055
     },
     "NVDA": {
       "news_headlines": [
-        "Super Micro Finally Names a CFO, Nearly Two Years After an Accounting Review Prompted the Search",
-        "SemiAnalysis Pots On X \"SHOCKING: We have confirmed that multiple Neoclouds have been refused access to GTC Berlin due to them adding AMD GPUs, TPUs, and other chips to their cloud offerings. Note that this doesn't apply to hyperscalers, as they have more buying power. But for neoclouds, executives feel NVIDIA has been using high-pressure tactics to keep them NVIDIA-only....\"",
-        "Nvidia, Micron and Broadcom Already Trade Like Cisco Post Dot-Com Burst: Bank of America",
-        "CoreWeave Has ‘Darwin Moment’ As Credit Markets Price In 60% Default Odds",
-        "Trump’s $330 Million White House Ballroom Donor List Reveals Nvidia, Apple and Google Among Top Tech Contributors: Report (UPDATED)"
+        "Are Companies Reducing AI Spending? Chip Orders Say Otherwise",
+        "Dan Ives Says Meta, SpaceX and Tesla Face Big Questions This Week — His 3 'Big Focus Points' Ahead of Tech Earnings",
+        "Santander Builds AI Capabilities That Improve Performance And Lower Costs Using NVIDIA AI Infrastructure",
+        "Siemens Partners With NVIDIA To Advance AI-Driven, Autonomous Factories",
+        "Why Is Nebius Group Stock Surging Monday?"
       ],
-      "news_score": -2,
-      "price": 214.545,
+      "news_score": 0,
+      "price": 216.08,
       "prior20_high": 243.34,
-      "ret5_pct": -5.2614,
-      "rsi14": 32.9521,
-      "sma20": 228.22625,
-      "sma50": 223.1034,
-      "zscore20": -2.2221
+      "ret5_pct": -5.4354,
+      "rsi14": 37.0921,
+      "sma20": 227.652,
+      "sma50": 222.9411,
+      "zscore20": -1.7196
     }
   },
   "schema_version": 2,
