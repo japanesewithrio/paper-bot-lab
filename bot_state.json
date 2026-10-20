@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9719.97964923,
       "entry_paused_date": null,
-      "last_equity": 9713.91031237,
+      "last_equity": 9711.59593489,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -32,7 +32,7 @@
       "cash": 4910.93556873,
       "day_start_equity": 9717.77252882,
       "entry_paused_date": null,
-      "last_equity": 9736.87700285,
+      "last_equity": 9705.85626409,
       "last_exit_date": {
         "AMD": "2026-10-15"
       },
@@ -66,7 +66,7 @@
       "cash": 7455.200957,
       "day_start_equity": 9924.26942206,
       "entry_paused_date": null,
-      "last_equity": 9916.02731657,
+      "last_equity": 9917.57496083,
       "last_exit_date": {
         "AAPL": "2026-10-13",
         "AMD": "2026-10-09",
@@ -96,7 +96,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10007.68828378,
       "entry_paused_date": null,
-      "last_equity": 10000.97414065,
+      "last_equity": 10002.23487495,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -122,29 +122,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 341.86,
-    "AMD": 543.765,
-    "MSFT": 532.22,
-    "NVDA": 215.205
+    "AAPL": 342.075,
+    "AMD": 531.21,
+    "MSFT": 531.73,
+    "NVDA": 217.34
   },
-  "last_run": "2026-10-20T09:31:40.680570-04:00",
+  "last_run": "2026-10-20T10:23:00.541173-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Stock in Focus as iPhone Duo Launch, U.S. Expansion and Earnings Loom",
         "Occidental Petroleum To Rally Over 18%? Here Are 10 Top Analyst Forecasts For Tuesday",
         "This Apple Analyst Is No Longer Bullish; Here Are Top 5 Downgrades For Tuesday",
         "Apple Commits Up To $100M Over Three Years With American Manufacturing Program Partner Perryman For iPhone Duo Titanium; Expands Qnity Electronics Partnership For iPhone 18 Pro Camera",
-        "UK CMA Outlines Proposals To Unlock Contactless Technology On Apple iPhone; Apple’s Fees And Rules Are Blocking UJ Fintechs And Other Businesses From Innovating And Growing",
-        "Comparing Apple With Industry Competitors In Technology Hardware, Storage &amp; Peripherals Industry"
+        "UK CMA Outlines Proposals To Unlock Contactless Technology On Apple iPhone; Apple’s Fees And Rules Are Blocking UJ Fintechs And Other Businesses From Innovating And Growing"
       ],
-      "news_score": 0,
-      "price": 341.86,
+      "news_score": 1,
+      "price": 342.075,
       "prior20_high": 348.11,
-      "ret5_pct": -0.3353,
-      "rsi14": 62.5524,
-      "sma20": 337.6915,
-      "sma50": 326.9587,
-      "zscore20": 0.9871
+      "ret5_pct": -0.2726,
+      "rsi14": 65.8313,
+      "sma20": 337.76575,
+      "sma50": 326.9884,
+      "zscore20": 1.005
     },
     "AMD": {
       "news_headlines": [
@@ -155,13 +155,13 @@
         "Why Is Credo Technology Stock Gaining Monday?"
       ],
       "news_score": 2,
-      "price": 543.765,
+      "price": 531.21,
       "prior20_high": 658.45,
-      "ret5_pct": -4.763,
-      "rsi14": 30.0256,
-      "sma20": 601.9315,
-      "sma50": 539.4613,
-      "zscore20": -1.6277
+      "ret5_pct": -6.962,
+      "rsi14": 32.1242,
+      "sma20": 602.393,
+      "sma50": 539.6459,
+      "zscore20": -2.0409
     },
     "MSFT": {
       "news_headlines": [
@@ -172,13 +172,13 @@
         "Eric Schmidt Wrote a Check to Anthropic Before the AI Boom: Here’s How Big the Payoff Could Get"
       ],
       "news_score": 1,
-      "price": 532.22,
+      "price": 531.73,
       "prior20_high": 551.08,
-      "ret5_pct": -0.3408,
-      "rsi14": 63.5511,
-      "sma20": 523.5745,
-      "sma50": 506.7415,
-      "zscore20": 0.659
+      "ret5_pct": -0.4326,
+      "rsi14": 61.8397,
+      "sma20": 523.4705,
+      "sma50": 506.6999,
+      "zscore20": 0.6329
     },
     "NVDA": {
       "news_headlines": [
@@ -189,13 +189,13 @@
         "Eric Schmidt Wrote a Check to Anthropic Before the AI Boom: Here’s How Big the Payoff Could Get"
       ],
       "news_score": 0,
-      "price": 215.205,
+      "price": 217.34,
       "prior20_high": 243.34,
-      "ret5_pct": -2.8376,
-      "rsi14": 35.7376,
-      "sma20": 227.0385,
-      "sma50": 222.9229,
-      "zscore20": -1.6567
+      "ret5_pct": -1.8737,
+      "rsi14": 37.3467,
+      "sma20": 227.12525,
+      "sma50": 222.9576,
+      "zscore20": -1.3954
     }
   },
   "schema_version": 2,
