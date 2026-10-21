@@ -4,7 +4,7 @@
       "cash": 7200.11851188,
       "day_start_equity": 9714.90218843,
       "entry_paused_date": null,
-      "last_equity": 9698.86685875,
+      "last_equity": 9705.26682096,
       "last_exit_date": {
         "AMD": "2026-10-09",
         "NVDA": "2026-10-12"
@@ -32,7 +32,7 @@
       "cash": 4910.93556873,
       "day_start_equity": 9746.42802543,
       "entry_paused_date": null,
-      "last_equity": 9789.41640763,
+      "last_equity": 9797.21959725,
       "last_exit_date": {
         "AMD": "2026-10-15"
       },
@@ -88,7 +88,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 9984.73119177,
       "entry_paused_date": null,
-      "last_equity": 9990.24323941,
+      "last_equity": 10006.86734051,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -114,12 +114,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 340.03,
-    "AMD": 546.95,
-    "MSFT": 529.035,
-    "NVDA": 218.61
+    "AAPL": 342.865,
+    "AMD": 547.515,
+    "MSFT": 530.39,
+    "NVDA": 219.08
   },
-  "last_run": "2026-10-21T10:23:52.652500-04:00",
+  "last_run": "2026-10-21T10:59:15.981232-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -130,30 +130,30 @@
         "Analysts Adjust Outlook on Apple Stock"
       ],
       "news_score": 0,
-      "price": 340.03,
+      "price": 342.865,
       "prior20_high": 348.11,
-      "ret5_pct": -0.5499,
-      "rsi14": 66.9007,
-      "sma20": 337.79975,
-      "sma50": 327.6417,
-      "zscore20": 0.5284
+      "ret5_pct": 0.2793,
+      "rsi14": 69.6443,
+      "sma20": 337.9285,
+      "sma50": 327.6932,
+      "zscore20": 1.1412
     },
     "AMD": {
       "news_headlines": [
+        "Ken Griffin Calls AI a Bubble After Citadel Bought the Dip",
         "Why Is Advanced Micro Devices Stock Trending Wednesday?",
         "Susquehanna Adjusts Price Target on Advanced Micro Devices to $620 From $550",
         "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $620",
-        "AMD and Vultr Expand AI Computing Capacity in India",
-        "Vultr Expands AMD Collaboration With 20 MW Chennai MI355X Supercluster For In-Country AI Workloads, Plans 2027 MI455X And Helios Expansion"
+        "AMD and Vultr Expand AI Computing Capacity in India"
       ],
-      "news_score": 1,
-      "price": 546.95,
+      "news_score": 2,
+      "price": 547.515,
       "prior20_high": 658.45,
-      "ret5_pct": -2.7056,
-      "rsi14": 32.1707,
-      "sma20": 598.48825,
-      "sma50": 540.9011,
-      "zscore20": -1.3722
+      "ret5_pct": -2.6051,
+      "rsi14": 32.764,
+      "sma20": 598.5775,
+      "sma50": 540.9368,
+      "zscore20": -1.3642
     },
     "MSFT": {
       "news_headlines": [
@@ -164,30 +164,30 @@
         "CAS Announces Availability of CAS Connections in Microsoft Copilot"
       ],
       "news_score": 2,
-      "price": 529.035,
+      "price": 530.39,
       "prior20_high": 551.08,
-      "ret5_pct": -1.9143,
-      "rsi14": 59.9009,
-      "sma20": 524.9055,
-      "sma50": 507.2109,
-      "zscore20": 0.3441
+      "ret5_pct": -1.6631,
+      "rsi14": 61.4736,
+      "sma20": 525.0075,
+      "sma50": 507.2517,
+      "zscore20": 0.447
     },
     "NVDA": {
       "news_headlines": [
+        "CrowdStrike Stock Climbs: What's Going On?",
+        "Nvidia Stock ‘Still Underappreciated by Investors’: Gene Munster Sees Growth Opportunities from GTC Berlin",
         "Why Is Dell Stock Surging Wednesday?",
         "Super Micro Squeeze Watch: Revenue Guide Jumps, Margins Widen",
-        "Meta Earnings Prediction Market Preview: What Will Mark Zuckerberg Say?",
-        "Amadeus And NVIDIA Sign MoU To Accelerate AI-Powered Flight Search And Optimize Computing Efficiency",
-        "SpaceX Lifts All Boats: Chip Stocks Claw Back $274 Billion After a $1.6 Trillion Rout"
+        "Meta Earnings Prediction Market Preview: What Will Mark Zuckerberg Say?"
       ],
-      "news_score": 2,
-      "price": 218.61,
+      "news_score": 3,
+      "price": 219.08,
       "prior20_high": 243.34,
-      "ret5_pct": 0.589,
-      "rsi14": 35.3968,
-      "sma20": 226.72175,
-      "sma50": 222.9596,
-      "zscore20": -1.108
+      "ret5_pct": 0.8052,
+      "rsi14": 37.66,
+      "sma20": 226.79975,
+      "sma50": 222.9908,
+      "zscore20": -1.0662
     }
   },
   "schema_version": 2,
