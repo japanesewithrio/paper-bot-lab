@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-22T09:34:34.574773-04:00
+Updated: 2026-10-22T10:25:12.059864-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,10 +8,10 @@ Updated: 2026-10-22T09:34:34.574773-04:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,025.10 | 0.25% | $7,996.35 | $10,046.82 | $-4.57 | $29.67 | AAPL |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,013.70 | 0.14% | $7,996.35 | $10,046.82 | $-4.57 | $18.26 | AAPL |
 | 2 | BOT_C | ACTIVE | News + Momentum | $9,908.25 | -0.92% | $9,908.25 | $10,007.62 | $-91.75 | $0.00 | — |
-| 3 | BOT_A | ACTIVE | Trend / Breakout | $9,708.27 | -2.92% | $7,200.12 | $10,000.00 | $-299.88 | $8.15 | MSFT |
-| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,624.18 | -3.76% | $7,153.40 | $10,009.55 | $-391.29 | $15.47 | NVDA |
+| 3 | BOT_A | ACTIVE | Trend / Breakout | $9,674.23 | -3.26% | $9,674.23 | $10,000.00 | $-325.77 | $0.00 | — |
+| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,593.74 | -4.06% | $7,153.40 | $10,009.55 | $-391.29 | $-14.98 | NVDA |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,14 @@ Updated: 2026-10-22T09:34:34.574773-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $345.98 | $338.48 | $328.59 | 69.4 | 0.75% | $348.11 | 1.60 | +1 |
-| NVDA | $218.30 | $226.57 | $222.91 | 33.2 | 1.95% | $243.34 | -1.12 | -1 |
-| AMD | $510.43 | $593.61 | $541.87 | 25.1 | -3.47% | $658.45 | -2.09 | +2 |
-| MSFT | $531.02 | $526.81 | $508.08 | 59.6 | 0.38% | $551.08 | 0.41 | -1 |
+| AAPL | $344.03 | $338.41 | $328.56 | 67.8 | 0.19% | $348.11 | 1.23 | +1 |
+| NVDA | $215.61 | $226.44 | $222.85 | 31.4 | 0.69% | $243.34 | -1.43 | -1 |
+| AMD | $518.46 | $593.44 | $541.80 | 24.7 | -1.95% | $658.45 | -1.87 | +2 |
+| MSFT | $524.08 | $526.43 | $507.92 | 53.9 | -0.93% | $551.08 | -0.23 | -1 |
 
 ## Actions this run
 
-- BOT_B SELL AMD @ 510.17 — stop -7%
+- BOT_A SELL MSFT @ 523.82 — price<SMA20
 
 ## Notes
 
