@@ -25,7 +25,7 @@
       "cash": 7153.40044551,
       "day_start_equity": 9857.0758722,
       "entry_paused_date": null,
-      "last_equity": 9550.66869979,
+      "last_equity": 9552.81922372,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -52,7 +52,7 @@
       "cash": 7431.18726324,
       "day_start_equity": 9908.24968432,
       "entry_paused_date": null,
-      "last_equity": 9910.65143106,
+      "last_equity": 9915.18316334,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -82,7 +82,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10013.024415,
       "entry_paused_date": null,
-      "last_equity": 10033.63595482,
+      "last_equity": 10037.35951891,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -108,29 +108,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 347.43,
-    "AMD": 502.845,
-    "MSFT": 520.675,
-    "NVDA": 211.8
+    "AAPL": 348.065,
+    "AMD": 507.21,
+    "MSFT": 520.88,
+    "NVDA": 211.99
   },
-  "last_run": "2026-10-22T15:07:18.938262-04:00",
+  "last_run": "2026-10-22T15:58:34.370116-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain",
         "Apple Reportedly Testing Second-Generation iPhone Duo Prototypes",
         "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "Warren Buffett Who? Berkshire Stock Hits Records as These Holdings Drive Gains Under Greg Abel",
-        "Orangetheory Fitness Launches OTconnect for Apple Watch",
-        "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors"
+        "Orangetheory Fitness Launches OTconnect for Apple Watch"
       ],
       "news_score": 2,
-      "price": 347.43,
-      "prior20_high": 348.11,
-      "ret5_pct": 1.1765,
-      "rsi14": 70.904,
-      "sma20": 338.564,
-      "sma50": 328.621,
-      "zscore20": 1.8414
+      "price": 348.065,
+      "prior20_high": 348.28,
+      "ret5_pct": 1.3614,
+      "rsi14": 71.6604,
+      "sma20": 338.60725,
+      "sma50": 328.6383,
+      "zscore20": 1.9316
     },
     "AMD": {
       "news_headlines": [
@@ -141,30 +141,30 @@
         "Why Is Advanced Micro Devices Stock Trending Wednesday?"
       ],
       "news_score": 2,
-      "price": 502.845,
+      "price": 507.21,
       "prior20_high": 658.45,
-      "ret5_pct": -4.9029,
-      "rsi14": 23.3359,
-      "sma20": 592.76875,
-      "sma50": 541.5365,
-      "zscore20": -2.1701
+      "ret5_pct": -4.0774,
+      "rsi14": 23.5834,
+      "sma20": 592.89475,
+      "sma50": 541.5869,
+      "zscore20": -2.081
     },
     "MSFT": {
       "news_headlines": [
+        "OpenAI Makes The Decisions API Generally Available",
         "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
         "Uber Brings ChatGPT Work To All Employees With OpenAI",
         "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
-        "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs",
-        "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform"
+        "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs"
       ],
       "news_score": 2,
-      "price": 520.675,
+      "price": 520.88,
       "prior20_high": 551.08,
-      "ret5_pct": -1.5719,
-      "rsi14": 52.3846,
-      "sma20": 526.30725,
-      "sma50": 507.8743,
-      "zscore20": -0.5423
+      "ret5_pct": -1.5331,
+      "rsi14": 52.0495,
+      "sma20": 526.28025,
+      "sma50": 507.8635,
+      "zscore20": -0.5193
     },
     "NVDA": {
       "news_headlines": [
@@ -175,13 +175,13 @@
         "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It"
       ],
       "news_score": 0,
-      "price": 211.8,
+      "price": 211.99,
       "prior20_high": 243.34,
-      "ret5_pct": -1.0858,
-      "rsi14": 29.1865,
-      "sma20": 226.2465,
-      "sma50": 222.7789,
-      "zscore20": -1.831
+      "ret5_pct": -0.9971,
+      "rsi14": 29.3809,
+      "sma20": 226.26425,
+      "sma50": 222.786,
+      "zscore20": -1.8167
     }
   },
   "schema_version": 2,
