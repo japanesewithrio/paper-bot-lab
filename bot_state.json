@@ -25,7 +25,7 @@
       "cash": 7153.40044551,
       "day_start_equity": 9857.0758722,
       "entry_paused_date": null,
-      "last_equity": 9571.89097541,
+      "last_equity": 9566.45807286,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -74,7 +74,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10013.024415,
       "entry_paused_date": null,
-      "last_equity": 10016.8652567,
+      "last_equity": 10016.22022985,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -100,12 +100,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 344.57,
-    "AMD": 513.08,
-    "MSFT": 525.545,
-    "NVDA": 213.675
+    "AAPL": 344.46,
+    "AMD": 509.41,
+    "MSFT": 524.06,
+    "NVDA": 213.195
   },
-  "last_run": "2026-10-22T11:00:13.014232-04:00",
+  "last_run": "2026-10-22T11:32:41.047018-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -116,13 +116,13 @@
         "‘Ergonomically Terrible’ — Steve Jobs Said Touchscreen MacBook Wouldn’t Work, but Apple Is Finally Doing It Anyway"
       ],
       "news_score": 1,
-      "price": 344.57,
+      "price": 344.46,
       "prior20_high": 348.11,
-      "ret5_pct": 0.3436,
+      "ret5_pct": 0.3116,
       "rsi14": 68.1419,
       "sma20": 338.4235,
       "sma50": 328.5648,
-      "zscore20": 1.338
+      "zscore20": 1.3141
     },
     "AMD": {
       "news_headlines": [
@@ -133,47 +133,47 @@
         "AMD and Vultr Expand AI Computing Capacity in India"
       ],
       "news_score": 2,
-      "price": 513.08,
+      "price": 509.41,
       "prior20_high": 658.45,
-      "ret5_pct": -2.9673,
-      "rsi14": 24.1318,
-      "sma20": 593.16475,
-      "sma50": 541.6949,
-      "zscore20": -1.971
+      "ret5_pct": -3.6613,
+      "rsi14": 23.7856,
+      "sma20": 592.99575,
+      "sma50": 541.6273,
+      "zscore20": -2.0402
     },
     "MSFT": {
       "news_headlines": [
+        "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
+        "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs",
+        "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform",
         "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'",
-        "Infragistics Announces Collaboration with Microsoft to Advance Blazor",
-        "Ted Lieu Pushes Congress to Act as NSA Warns of Critical Cyber Vulnerabilities: ‘We Need More Cybersecurity Personnel’",
-        "NextDC's 40% Crash Is the Warning Shot for Data Center Trade",
-        "Anthropic Could Take Major IPO Step as Soon as Friday: What Investors Need to Know"
+        "Infragistics Announces Collaboration with Microsoft to Advance Blazor"
       ],
-      "news_score": -1,
-      "price": 525.545,
+      "news_score": 1,
+      "price": 524.06,
       "prior20_high": 551.08,
-      "ret5_pct": -0.6512,
-      "rsi14": 55.3129,
-      "sma20": 526.52925,
-      "sma50": 507.9631,
-      "zscore20": -0.0953
+      "ret5_pct": -0.932,
+      "rsi14": 54.8707,
+      "sma20": 526.49725,
+      "sma50": 507.9503,
+      "zscore20": -0.236
     },
     "NVDA": {
       "news_headlines": [
-        "Palantir Makes Sovereignty Its Selling Point After Ukraine's Starlink Disruptions",
-        "Nvidia CEO Jensen Huang Says US Must Take China ‘Seriously,’ Warns Against Underestimating Its AI and Chipmaking Prowess: ‘If There's One Country That Could Manufacture Things at Scale’",
-        "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'",
-        "Zadara Achieves NVIDIA AI Cloud Ready Validation",
-        "Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry ‘Really High’ Residual Value: ‘Lowest Risk’ Assets for Lenders"
+        "Jensen Huang Downplays Memory Glut Fears: Will Micron Rebound Next?",
+        "Cathie Wood’s 1,100% Tesla Stock Forecast Puts These 3 Robotics ETFs in Focus",
+        "Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did",
+        "Rockwell Automation Adds Support for NVIDIA Nemotron Models",
+        "Defensives Lead Sectors In Thursday Trading As Growth Trails"
       ],
-      "news_score": -1,
-      "price": 213.675,
+      "news_score": 1,
+      "price": 213.195,
       "prior20_high": 243.34,
-      "ret5_pct": -0.2102,
-      "rsi14": 30.185,
-      "sma20": 226.33525,
-      "sma50": 222.8144,
-      "zscore20": -1.637
+      "ret5_pct": -0.4343,
+      "rsi14": 30.0518,
+      "sma20": 226.32375,
+      "sma50": 222.8098,
+      "zscore20": -1.6934
     }
   },
   "schema_version": 2,
