@@ -74,7 +74,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10013.024415,
       "entry_paused_date": null,
-      "last_equity": 10023.52076102,
+      "last_equity": 10025.8369938,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -100,12 +100,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 345.705,
-    "AMD": 515.5,
-    "MSFT": 525.37,
+    "AAPL": 346.1,
+    "AMD": 512.5,
+    "MSFT": 524.96,
     "NVDA": 212.65
   },
-  "last_run": "2026-10-22T12:59:43.678037-04:00",
+  "last_run": "2026-10-22T13:26:53.037429-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -116,64 +116,64 @@
         "Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2"
       ],
       "news_score": 2,
-      "price": 345.705,
+      "price": 346.1,
       "prior20_high": 348.11,
-      "ret5_pct": 0.6742,
-      "rsi14": 69.4327,
-      "sma20": 338.486,
-      "sma50": 328.5898,
-      "zscore20": 1.5414
+      "ret5_pct": 0.7892,
+      "rsi14": 69.7466,
+      "sma20": 338.502,
+      "sma50": 328.5962,
+      "zscore20": 1.6136
     },
     "AMD": {
       "news_headlines": [
+        "AMD Stock Drops 7% in Chip Sell-Off - Here's Why",
         "Ken Griffin Calls AI a Bubble After Citadel Bought the Dip",
         "Why Is Advanced Micro Devices Stock Trending Wednesday?",
         "Susquehanna Adjusts Price Target on Advanced Micro Devices to $620 From $550",
-        "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $620",
-        "AMD and Vultr Expand AI Computing Capacity in India"
+        "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $620"
       ],
-      "news_score": 2,
-      "price": 515.5,
+      "news_score": 3,
+      "price": 512.5,
       "prior20_high": 658.45,
-      "ret5_pct": -2.5096,
-      "rsi14": 23.8931,
-      "sma20": 593.04875,
-      "sma50": 541.6485,
-      "zscore20": -1.8978
+      "ret5_pct": -3.077,
+      "rsi14": 23.7503,
+      "sma20": 592.97825,
+      "sma50": 541.6203,
+      "zscore20": -1.9627
     },
     "MSFT": {
       "news_headlines": [
+        "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
         "Uber Brings ChatGPT Work To All Employees With OpenAI",
         "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
         "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs",
-        "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform",
-        "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'"
+        "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform"
       ],
-      "news_score": 1,
-      "price": 525.37,
+      "news_score": 2,
+      "price": 524.96,
       "prior20_high": 551.08,
-      "ret5_pct": -0.6843,
-      "rsi14": 54.96,
-      "sma20": 526.50375,
-      "sma50": 507.9529,
-      "zscore20": -0.1098
+      "ret5_pct": -0.7618,
+      "rsi14": 54.1472,
+      "sma20": 526.44375,
+      "sma50": 507.9289,
+      "zscore20": -0.1435
     },
     "NVDA": {
       "news_headlines": [
+        "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
         "Stock Drops 5% After Big Rally: Super Micro Computer Pulls Back During AI Supply Fears",
         "Dell Stock Drops in Tech Sell-Off: Profit-Taking Hits AI Server Giant",
         "Jensen Huang Downplays Memory Glut Fears: Will Micron Rebound Next?",
-        "Cathie Wood’s 1,100% Tesla Stock Forecast Puts These 3 Robotics ETFs in Focus",
-        "Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did"
+        "Cathie Wood’s 1,100% Tesla Stock Forecast Puts These 3 Robotics ETFs in Focus"
       ],
-      "news_score": 2,
+      "news_score": 3,
       "price": 212.65,
       "prior20_high": 243.34,
       "ret5_pct": -0.6888,
-      "rsi14": 29.9943,
-      "sma20": 226.31875,
-      "sma50": 222.8078,
-      "zscore20": -1.7611
+      "rsi14": 30.0,
+      "sma20": 226.31925,
+      "sma50": 222.808,
+      "zscore20": -1.7614
     }
   },
   "schema_version": 2,
