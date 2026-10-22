@@ -25,7 +25,7 @@
       "cash": 7153.40044551,
       "day_start_equity": 9857.0758722,
       "entry_paused_date": null,
-      "last_equity": 9566.45807286,
+      "last_equity": 9575.22994678,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -74,7 +74,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10013.024415,
       "entry_paused_date": null,
-      "last_equity": 10016.22022985,
+      "last_equity": 10026.56997886,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -100,29 +100,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 344.46,
-    "AMD": 509.41,
-    "MSFT": 524.06,
-    "NVDA": 213.195
+    "AAPL": 346.225,
+    "AMD": 522.25,
+    "MSFT": 526.215,
+    "NVDA": 213.97
   },
-  "last_run": "2026-10-22T11:32:41.047018-04:00",
+  "last_run": "2026-10-22T12:23:47.695366-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Warren Buffett Who? Berkshire Stock Hits Records as These Holdings Drive Gains Under Greg Abel",
         "Orangetheory Fitness Launches OTconnect for Apple Watch",
         "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors",
         "Reported Earlier, Australian Court Orders Apple To Allow Alternative App Distribution, Payments For Australian Users From March 1, 2027; Rejects Epic’s Global Relief",
-        "Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2",
-        "‘Ergonomically Terrible’ — Steve Jobs Said Touchscreen MacBook Wouldn’t Work, but Apple Is Finally Doing It Anyway"
+        "Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2"
       ],
-      "news_score": 1,
-      "price": 344.46,
+      "news_score": 2,
+      "price": 346.225,
       "prior20_high": 348.11,
-      "ret5_pct": 0.3116,
-      "rsi14": 68.1419,
-      "sma20": 338.4235,
-      "sma50": 328.5648,
-      "zscore20": 1.3141
+      "ret5_pct": 0.8256,
+      "rsi14": 69.795,
+      "sma20": 338.5045,
+      "sma50": 328.5972,
+      "zscore20": 1.6382
     },
     "AMD": {
       "news_headlines": [
@@ -133,30 +133,30 @@
         "AMD and Vultr Expand AI Computing Capacity in India"
       ],
       "news_score": 2,
-      "price": 509.41,
+      "price": 522.25,
       "prior20_high": 658.45,
-      "ret5_pct": -3.6613,
-      "rsi14": 23.7856,
-      "sma20": 592.99575,
-      "sma50": 541.6273,
-      "zscore20": -2.0402
+      "ret5_pct": -1.2331,
+      "rsi14": 24.3721,
+      "sma20": 593.27925,
+      "sma50": 541.7407,
+      "zscore20": -1.7577
     },
     "MSFT": {
       "news_headlines": [
+        "Uber Brings ChatGPT Work To All Employees With OpenAI",
         "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
         "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs",
         "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform",
-        "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'",
-        "Infragistics Announces Collaboration with Microsoft to Advance Blazor"
+        "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'"
       ],
       "news_score": 1,
-      "price": 524.06,
+      "price": 526.215,
       "prior20_high": 551.08,
-      "ret5_pct": -0.932,
-      "rsi14": 54.8707,
-      "sma20": 526.49725,
-      "sma50": 507.9503,
-      "zscore20": -0.236
+      "ret5_pct": -0.5246,
+      "rsi14": 55.6774,
+      "sma20": 526.55525,
+      "sma50": 507.9735,
+      "zscore20": -0.033
     },
     "NVDA": {
       "news_headlines": [
@@ -167,13 +167,13 @@
         "Defensives Lead Sectors In Thursday Trading As Growth Trails"
       ],
       "news_score": 1,
-      "price": 213.195,
+      "price": 213.97,
       "prior20_high": 243.34,
-      "ret5_pct": -0.4343,
-      "rsi14": 30.0518,
-      "sma20": 226.32375,
-      "sma50": 222.8098,
-      "zscore20": -1.6934
+      "ret5_pct": -0.0724,
+      "rsi14": 30.583,
+      "sma20": 226.369,
+      "sma50": 222.8279,
+      "zscore20": -1.6148
     }
   },
   "schema_version": 2,
