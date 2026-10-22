@@ -25,7 +25,7 @@
       "cash": 7153.40044551,
       "day_start_equity": 9857.0758722,
       "entry_paused_date": null,
-      "last_equity": 9564.19436346,
+      "last_equity": 9550.66869979,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -52,7 +52,7 @@
       "cash": 7431.18726324,
       "day_start_equity": 9908.24968432,
       "entry_paused_date": null,
-      "last_equity": 9907.01177206,
+      "last_equity": 9910.65143106,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -82,7 +82,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10013.024415,
       "entry_paused_date": null,
-      "last_equity": 10030.64537578,
+      "last_equity": 10033.63595482,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -108,29 +108,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 346.92,
-    "AMD": 514.95,
-    "MSFT": 524.325,
-    "NVDA": 212.995
+    "AAPL": 347.43,
+    "AMD": 502.845,
+    "MSFT": 520.675,
+    "NVDA": 211.8
   },
-  "last_run": "2026-10-22T14:21:09.986260-04:00",
+  "last_run": "2026-10-22T15:07:18.938262-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Reportedly Testing Second-Generation iPhone Duo Prototypes",
         "10 Information Technology Stocks With Whale Alerts In Today’s Session",
         "Warren Buffett Who? Berkshire Stock Hits Records as These Holdings Drive Gains Under Greg Abel",
         "Orangetheory Fitness Launches OTconnect for Apple Watch",
-        "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors",
-        "Reported Earlier, Australian Court Orders Apple To Allow Alternative App Distribution, Payments For Australian Users From March 1, 2027; Rejects Epic’s Global Relief"
+        "Investigating Apple's Standing In Technology Hardware, Storage &amp; Peripherals Industry Compared To Competitors"
       ],
       "news_score": 2,
-      "price": 346.92,
+      "price": 347.43,
       "prior20_high": 348.11,
-      "ret5_pct": 1.028,
-      "rsi14": 70.5405,
-      "sma20": 338.544,
-      "sma50": 328.613,
-      "zscore20": 1.7526
+      "ret5_pct": 1.1765,
+      "rsi14": 70.904,
+      "sma20": 338.564,
+      "sma50": 328.621,
+      "zscore20": 1.8414
     },
     "AMD": {
       "news_headlines": [
@@ -141,13 +141,13 @@
         "Why Is Advanced Micro Devices Stock Trending Wednesday?"
       ],
       "news_score": 2,
-      "price": 514.95,
+      "price": 502.845,
       "prior20_high": 658.45,
-      "ret5_pct": -2.6136,
-      "rsi14": 23.9012,
-      "sma20": 593.05275,
-      "sma50": 541.6501,
-      "zscore20": -1.9117
+      "ret5_pct": -4.9029,
+      "rsi14": 23.3359,
+      "sma20": 592.76875,
+      "sma50": 541.5365,
+      "zscore20": -2.1701
     },
     "MSFT": {
       "news_headlines": [
@@ -158,30 +158,30 @@
         "ModelOp Integrates Microsoft Agent 365 and Copilot Studio into AI Governance Platform"
       ],
       "news_score": 2,
-      "price": 524.325,
+      "price": 520.675,
       "prior20_high": 551.08,
-      "ret5_pct": -0.8819,
-      "rsi14": 54.2274,
-      "sma20": 526.44975,
-      "sma50": 507.9313,
-      "zscore20": -0.2056
+      "ret5_pct": -1.5719,
+      "rsi14": 52.3846,
+      "sma20": 526.30725,
+      "sma50": 507.8743,
+      "zscore20": -0.5423
     },
     "NVDA": {
       "news_headlines": [
-        "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It",
-        "Bloom Energy’s October Stock Slump Deepens: Options Signal Post-Earnings Bounce to $230",
-        "CoreWeave Debt Stress Mounts: Bond Yield Hits Record as Stock Suffers $44 Billion Wipeout",
-        "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today",
-        "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings"
+        "Nutanix Announces Collaboration with NVIDIA, Supermicro, and Netris to Simplify AI Infrastructure",
+        "Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge",
+        "Cipher Digital Stock Sinks To 52-Week Low - Here's Why",
+        "Why Is Lucid Stock Surging on Thursday?",
+        "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It"
       ],
-      "news_score": 3,
-      "price": 212.995,
+      "news_score": 0,
+      "price": 211.8,
       "prior20_high": 243.34,
-      "ret5_pct": -0.5277,
-      "rsi14": 29.9598,
-      "sma20": 226.31575,
-      "sma50": 222.8066,
-      "zscore20": -1.7151
+      "ret5_pct": -1.0858,
+      "rsi14": 29.1865,
+      "sma20": 226.2465,
+      "sma50": 222.7789,
+      "zscore20": -1.831
     }
   },
   "schema_version": 2,
