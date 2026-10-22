@@ -25,7 +25,7 @@
       "cash": 7153.40044551,
       "day_start_equity": 9857.0758722,
       "entry_paused_date": null,
-      "last_equity": 9575.22994678,
+      "last_equity": 9560.28946474,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -74,7 +74,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10013.024415,
       "entry_paused_date": null,
-      "last_equity": 10026.56997886,
+      "last_equity": 10023.52076102,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -100,12 +100,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 346.225,
-    "AMD": 522.25,
-    "MSFT": 526.215,
-    "NVDA": 213.97
+    "AAPL": 345.705,
+    "AMD": 515.5,
+    "MSFT": 525.37,
+    "NVDA": 212.65
   },
-  "last_run": "2026-10-22T12:23:47.695366-04:00",
+  "last_run": "2026-10-22T12:59:43.678037-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -116,13 +116,13 @@
         "Apple Confirms Apple Pencil Support for iPhone Duo via iOS 27.2"
       ],
       "news_score": 2,
-      "price": 346.225,
+      "price": 345.705,
       "prior20_high": 348.11,
-      "ret5_pct": 0.8256,
-      "rsi14": 69.795,
-      "sma20": 338.5045,
-      "sma50": 328.5972,
-      "zscore20": 1.6382
+      "ret5_pct": 0.6742,
+      "rsi14": 69.4327,
+      "sma20": 338.486,
+      "sma50": 328.5898,
+      "zscore20": 1.5414
     },
     "AMD": {
       "news_headlines": [
@@ -133,13 +133,13 @@
         "AMD and Vultr Expand AI Computing Capacity in India"
       ],
       "news_score": 2,
-      "price": 522.25,
+      "price": 515.5,
       "prior20_high": 658.45,
-      "ret5_pct": -1.2331,
-      "rsi14": 24.3721,
-      "sma20": 593.27925,
-      "sma50": 541.7407,
-      "zscore20": -1.7577
+      "ret5_pct": -2.5096,
+      "rsi14": 23.8931,
+      "sma20": 593.04875,
+      "sma50": 541.6485,
+      "zscore20": -1.8978
     },
     "MSFT": {
       "news_headlines": [
@@ -150,30 +150,30 @@
         "Jensen Huang on Keeping AI Under Control: 'You Contain the Baby and You Monitor It'"
       ],
       "news_score": 1,
-      "price": 526.215,
+      "price": 525.37,
       "prior20_high": 551.08,
-      "ret5_pct": -0.5246,
-      "rsi14": 55.6774,
-      "sma20": 526.55525,
-      "sma50": 507.9735,
-      "zscore20": -0.033
+      "ret5_pct": -0.6843,
+      "rsi14": 54.96,
+      "sma20": 526.50375,
+      "sma50": 507.9529,
+      "zscore20": -0.1098
     },
     "NVDA": {
       "news_headlines": [
+        "Stock Drops 5% After Big Rally: Super Micro Computer Pulls Back During AI Supply Fears",
+        "Dell Stock Drops in Tech Sell-Off: Profit-Taking Hits AI Server Giant",
         "Jensen Huang Downplays Memory Glut Fears: Will Micron Rebound Next?",
         "Cathie Wood’s 1,100% Tesla Stock Forecast Puts These 3 Robotics ETFs in Focus",
-        "Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did",
-        "Rockwell Automation Adds Support for NVIDIA Nemotron Models",
-        "Defensives Lead Sectors In Thursday Trading As Growth Trails"
+        "Eric Schmidt Rejects AI Bubble Fears, Says Anthropic Is Growing Twice as Fast as Google Did"
       ],
-      "news_score": 1,
-      "price": 213.97,
+      "news_score": 2,
+      "price": 212.65,
       "prior20_high": 243.34,
-      "ret5_pct": -0.0724,
-      "rsi14": 30.583,
-      "sma20": 226.369,
-      "sma50": 222.8279,
-      "zscore20": -1.6148
+      "ret5_pct": -0.6888,
+      "rsi14": 29.9943,
+      "sma20": 226.31875,
+      "sma50": 222.8078,
+      "zscore20": -1.7611
     }
   },
   "schema_version": 2,
