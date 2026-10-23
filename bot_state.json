@@ -22,15 +22,22 @@
       "trade_count": 6
     },
     "BOT_B": {
-      "cash": 7153.40044551,
+      "cash": 4762.77630016,
       "day_start_equity": 9552.81922372,
       "entry_paused_date": null,
-      "last_equity": 9534.20021391,
+      "last_equity": 9561.30186667,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
       "peak_equity": 10009.54557146,
       "positions": {
+        "AMD": {
+          "avg_price": 523.986863,
+          "entry_notional": 2390.62,
+          "entry_time": "2026-10-23T10:11:52.917876-04:00",
+          "imported": false,
+          "qty": 4.5623742052
+        },
         "NVDA": {
           "avg_price": 216.92841,
           "entry_notional": 2455.31,
@@ -46,13 +53,13 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Dip / Mean Reversion",
-      "trade_count": 5
+      "trade_count": 6
     },
     "BOT_C": {
       "cash": 7431.18726324,
       "day_start_equity": 9915.18316334,
       "entry_paused_date": null,
-      "last_equity": 9932.52506798,
+      "last_equity": 9914.00562661,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -82,7 +89,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10037.35951891,
       "entry_paused_date": null,
-      "last_equity": 10051.60874843,
+      "last_equity": 10036.39197863,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -108,12 +115,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 350.495,
-    "AMD": 522.25,
-    "MSFT": 518.24,
-    "NVDA": 210.345
+    "AAPL": 347.9,
+    "AMD": 523.725,
+    "MSFT": 524.06,
+    "NVDA": 212.845
   },
-  "last_run": "2026-10-23T09:30:22.498076-04:00",
+  "last_run": "2026-10-23T10:11:52.917876-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -124,13 +131,13 @@
         "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain"
       ],
       "news_score": 0,
-      "price": 350.495,
-      "prior20_high": 348.34,
-      "ret5_pct": 2.0691,
-      "rsi14": 71.8087,
-      "sma20": 338.616,
-      "sma50": 328.6418,
-      "zscore20": 2.4177
+      "price": 347.9,
+      "prior20_high": 351.68,
+      "ret5_pct": 1.4315,
+      "rsi14": 72.5023,
+      "sma20": 338.966,
+      "sma50": 329.4961,
+      "zscore20": 1.6838
     },
     "AMD": {
       "news_headlines": [
@@ -141,30 +148,30 @@
         "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today"
       ],
       "news_score": 0,
-      "price": 522.25,
+      "price": 523.725,
       "prior20_high": 658.45,
-      "ret5_pct": -1.2331,
-      "rsi14": 23.5769,
-      "sma20": 592.8915,
-      "sma50": 541.5856,
-      "zscore20": -1.7154
+      "ret5_pct": -2.6208,
+      "rsi14": 26.4115,
+      "sma20": 587.2005,
+      "sma50": 542.2592,
+      "zscore20": -1.4626
     },
     "MSFT": {
       "news_headlines": [
+        "Microsoft's Earnings Are Days Away: Here’s What Investors Need to Know",
         "Microsoft Researchers Develop AI Tool for Sequential Medical Diagnosis",
         "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
         "OpenAI Signs Agreement With Poland’s NASK To Explore Collaboration On AI Safety, Security And Technical Research, Strengthening Safeguards Against Emerging Risks",
-        "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
-        "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'"
+        "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC"
       ],
-      "news_score": -1,
-      "price": 518.24,
+      "news_score": 0,
+      "price": 524.06,
       "prior20_high": 551.08,
-      "ret5_pct": -2.0322,
-      "rsi14": 52.5601,
-      "sma20": 526.32125,
-      "sma50": 507.8799,
-      "zscore20": -0.7786
+      "ret5_pct": -1.7961,
+      "rsi14": 48.2952,
+      "sma20": 526.63325,
+      "sma50": 508.3916,
+      "zscore20": -0.2532
     },
     "NVDA": {
       "news_headlines": [
@@ -175,13 +182,13 @@
         "Pony AI, NVIDIA, and inDrive Collaborate on Autonomous Vehicles in Kazakhstan"
       ],
       "news_score": 1,
-      "price": 210.345,
+      "price": 212.845,
       "prior20_high": 243.34,
-      "ret5_pct": -1.7653,
-      "rsi14": 29.5193,
-      "sma20": 226.27675,
-      "sma50": 222.791,
-      "zscore20": -2.0335
+      "ret5_pct": -1.9532,
+      "rsi14": 23.0579,
+      "sma20": 225.6645,
+      "sma50": 222.5397,
+      "zscore20": -1.532
     }
   },
   "schema_version": 2,
@@ -548,6 +555,17 @@
       "reason": "News + Momentum entry rule satisfied",
       "symbol": "AAPL",
       "timestamp": "2026-10-22T14:21:09.986260-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_B",
+      "fill_price": 523.986863,
+      "notional": 2390.62,
+      "qty": 4.5623742052,
+      "realized_pl": 0.0,
+      "reason": "Dip / Mean Reversion entry rule satisfied",
+      "symbol": "AMD",
+      "timestamp": "2026-10-23T10:11:52.917876-04:00"
     }
   ]
 }
