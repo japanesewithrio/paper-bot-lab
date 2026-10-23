@@ -25,7 +25,7 @@
       "cash": 4762.77630016,
       "day_start_equity": 9552.81922372,
       "entry_paused_date": null,
-      "last_equity": 9532.95767998,
+      "last_equity": 9510.42045338,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -59,7 +59,7 @@
       "cash": 7431.18726324,
       "day_start_equity": 9915.18316334,
       "entry_paused_date": null,
-      "last_equity": 9911.61487021,
+      "last_equity": 9904.87079618,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -89,7 +89,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10037.35951891,
       "entry_paused_date": null,
-      "last_equity": 10034.42757868,
+      "last_equity": 10028.88621164,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -115,29 +115,29 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 347.565,
-    "AMD": 517.5,
-    "MSFT": 525.135,
-    "NVDA": 212.85
+    "AAPL": 346.62,
+    "AMD": 515.5,
+    "MSFT": 525.495,
+    "NVDA": 211.665
   },
-  "last_run": "2026-10-23T12:03:18.470247-04:00",
+  "last_run": "2026-10-23T13:00:10.889249-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
         "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
         "Apple Insider Sells Shares Worth $814,748",
         "Assessing Apple's Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
-        "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain"
+        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter"
       ],
       "news_score": 0,
-      "price": 347.565,
+      "price": 346.62,
       "prior20_high": 351.68,
-      "ret5_pct": 1.3339,
-      "rsi14": 71.5307,
-      "sma20": 338.9435,
-      "sma50": 329.4871,
-      "zscore20": 1.6365
+      "ret5_pct": 1.0583,
+      "rsi14": 69.5023,
+      "sma20": 338.8945,
+      "sma50": 329.4675,
+      "zscore20": 1.488
     },
     "AMD": {
       "news_headlines": [
@@ -148,47 +148,47 @@
         "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today"
       ],
       "news_score": 0,
-      "price": 517.5,
+      "price": 515.5,
       "prior20_high": 658.45,
-      "ret5_pct": -3.7782,
-      "rsi14": 27.7622,
-      "sma20": 587.429,
-      "sma50": 542.3506,
-      "zscore20": -1.6248
+      "ret5_pct": -4.1501,
+      "rsi14": 26.1759,
+      "sma20": 587.1615,
+      "sma50": 542.2436,
+      "zscore20": -1.6488
     },
     "MSFT": {
       "news_headlines": [
+        "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
         "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
         "8 Of 11 Sectors Fall In Friday Trading As Energy Leads",
         "Microsoft's Earnings Are Days Away: Here’s What Investors Need to Know",
-        "Microsoft Researchers Develop AI Tool for Sequential Medical Diagnosis",
-        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter"
+        "Microsoft Researchers Develop AI Tool for Sequential Medical Diagnosis"
       ],
       "news_score": 1,
-      "price": 525.135,
+      "price": 525.495,
       "prior20_high": 551.08,
-      "ret5_pct": -1.5947,
-      "rsi14": 50.1634,
-      "sma20": 526.777,
-      "sma50": 508.4491,
-      "zscore20": -0.1622
+      "ret5_pct": -1.5272,
+      "rsi14": 50.2509,
+      "sma20": 526.784,
+      "sma50": 508.4519,
+      "zscore20": -0.1274
     },
     "NVDA": {
       "news_headlines": [
+        "Stellantis Stock Drops to New 52-Week Low: What's Happening?",
+        "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
         "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
         "EXCLUSIVE: Korea's Chip Selloff Flashes Rare 'Capitulation' Signal Ahead of SK Hynix Earnings, Analyst Says",
-        "EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars",
-        "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
-        "Newegg Announces Availability OF Nvidia RTX Spark Laptops In U.S., Canada"
+        "EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars"
       ],
       "news_score": 0,
-      "price": 212.85,
+      "price": 211.665,
       "prior20_high": 243.34,
-      "ret5_pct": -1.9508,
-      "rsi14": 23.334,
-      "sma20": 225.67325,
-      "sma50": 222.5432,
-      "zscore20": -1.5349
+      "ret5_pct": -2.4967,
+      "rsi14": 21.9212,
+      "sma20": 225.60575,
+      "sma50": 222.5162,
+      "zscore20": -1.6475
     }
   },
   "schema_version": 2,
