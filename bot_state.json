@@ -25,7 +25,7 @@
       "cash": 4762.77630016,
       "day_start_equity": 9552.81922372,
       "entry_paused_date": null,
-      "last_equity": 9523.62240951,
+      "last_equity": 9511.72208628,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -59,7 +59,7 @@
       "cash": 7431.18726324,
       "day_start_equity": 9915.18316334,
       "entry_paused_date": null,
-      "last_equity": 9900.94567373,
+      "last_equity": 9902.58708858,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -89,7 +89,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10037.35951891,
       "entry_paused_date": null,
-      "last_equity": 10025.66107739,
+      "last_equity": 10027.0097699,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -115,80 +115,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 346.07,
-    "AMD": 518.22,
-    "MSFT": 524.805,
-    "NVDA": 211.735
+    "AAPL": 346.3,
+    "AMD": 515.5,
+    "MSFT": 522.24,
+    "NVDA": 211.78
   },
-  "last_run": "2026-10-23T13:27:35.350944-04:00",
+  "last_run": "2026-10-23T13:56:17.713811-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Time To Start Deploying Cash In The AI Trade?",
         "S&P 500 Near Record Highs, But 60% of Stocks Are in a Bear Market. Is SPY Hiding a Bigger Problem?",
         "Michael Burry Warns Washington Has Little Room Left to Fight the Next Crisis",
         "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
-        "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
-        "Apple Insider Sells Shares Worth $814,748"
+        "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key"
       ],
       "news_score": 0,
-      "price": 346.07,
+      "price": 346.3,
       "prior20_high": 351.68,
-      "ret5_pct": 0.898,
-      "rsi14": 68.1805,
-      "sma20": 338.861,
-      "sma50": 329.4541,
-      "zscore20": 1.4015
+      "ret5_pct": 0.965,
+      "rsi14": 68.9635,
+      "sma20": 338.881,
+      "sma50": 329.4621,
+      "zscore20": 1.4344
     },
     "AMD": {
       "news_headlines": [
+        "What's Going On With AMD Stock Friday?",
         "Nvidia’s China Market Has Effectively Vanished: ‘Every Restriction Also Gives Chinese Suppliers a Larger Captive Market,’ Says Shay Boloor",
         "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To ‘Extreme Fear’ Zone",
         "SOAR AI, Inc. Announces Contracted GPU Deployments Featuring AMD Instinct™ Accelerators",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today"
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session"
       ],
       "news_score": 0,
-      "price": 518.22,
+      "price": 515.5,
       "prior20_high": 658.45,
-      "ret5_pct": -3.6443,
-      "rsi14": 26.0058,
-      "sma20": 587.1335,
-      "sma50": 542.2324,
-      "zscore20": -1.5839
+      "ret5_pct": -4.1501,
+      "rsi14": 26.4341,
+      "sma20": 587.20425,
+      "sma50": 542.2607,
+      "zscore20": -1.6524
     },
     "MSFT": {
       "news_headlines": [
+        "Time To Start Deploying Cash In The AI Trade?",
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
         "Oil Tops $100 on Iran Fears, Energy ETF XLE Hits New Record: Stock Market Today",
-        "S&P 500 Near Record Highs, But 60% of Stocks Are in a Bear Market. Is SPY Hiding a Bigger Problem?",
-        "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
-        "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
-        "8 Of 11 Sectors Fall In Friday Trading As Energy Leads"
+        "S&P 500 Near Record Highs, But 60% of Stocks Are in a Bear Market. Is SPY Hiding a Bigger Problem?"
       ],
-      "news_score": 2,
-      "price": 524.805,
+      "news_score": 3,
+      "price": 522.24,
       "prior20_high": 551.08,
-      "ret5_pct": -1.6565,
-      "rsi14": 49.8704,
-      "sma20": 526.75375,
-      "sma50": 508.4398,
-      "zscore20": -0.1925
+      "ret5_pct": -2.1372,
+      "rsi14": 49.5002,
+      "sma20": 526.72475,
+      "sma50": 508.4282,
+      "zscore20": -0.4427
     },
     "NVDA": {
       "news_headlines": [
+        "Time To Start Deploying Cash In The AI Trade?",
+        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
         "S&P 500 Near Record Highs, But 60% of Stocks Are in a Bear Market. Is SPY Hiding a Bigger Problem?",
         "Stellantis Stock Drops to New 52-Week Low: What's Happening?",
-        "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built",
-        "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
-        "EXCLUSIVE: Korea's Chip Selloff Flashes Rare 'Capitulation' Signal Ahead of SK Hynix Earnings, Analyst Says"
+        "Nvidia Analyst Warns 45% of AI Data Center Capacity Planned for 2027 May Not Get Built"
       ],
-      "news_score": 1,
-      "price": 211.735,
+      "news_score": 2,
+      "price": 211.78,
       "prior20_high": 243.34,
-      "ret5_pct": -2.4645,
-      "rsi14": 21.9392,
-      "sma20": 225.60775,
-      "sma50": 222.517,
-      "zscore20": -1.6401
+      "ret5_pct": -2.4437,
+      "rsi14": 22.0161,
+      "sma20": 225.61625,
+      "sma50": 222.5204,
+      "zscore20": -1.6385
     }
   },
   "schema_version": 2,
