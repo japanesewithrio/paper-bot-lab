@@ -2,7 +2,7 @@
   "bots": {
     "BOT_A": {
       "cash": 9674.22563449,
-      "day_start_equity": 9718.23205807,
+      "day_start_equity": 9674.22563449,
       "entry_paused_date": null,
       "last_equity": 9674.22563449,
       "last_exit_date": {
@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-10-22",
+      "risk_date": "2026-10-23",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -23,9 +23,9 @@
     },
     "BOT_B": {
       "cash": 7153.40044551,
-      "day_start_equity": 9857.0758722,
+      "day_start_equity": 9552.81922372,
       "entry_paused_date": null,
-      "last_equity": 9552.81922372,
+      "last_equity": 9534.20021391,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -40,7 +40,7 @@
         }
       },
       "realized_pl": -391.28514842,
-      "risk_date": "2026-10-22",
+      "risk_date": "2026-10-23",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -50,9 +50,9 @@
     },
     "BOT_C": {
       "cash": 7431.18726324,
-      "day_start_equity": 9908.24968432,
+      "day_start_equity": 9915.18316334,
       "entry_paused_date": null,
-      "last_equity": 9915.18316334,
+      "last_equity": 9932.52506798,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -70,7 +70,7 @@
         }
       },
       "realized_pl": -91.75030967,
-      "risk_date": "2026-10-22",
+      "risk_date": "2026-10-23",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -80,13 +80,13 @@
     },
     "BOT_D": {
       "cash": 7996.34796632,
-      "day_start_equity": 10013.024415,
+      "day_start_equity": 10037.35951891,
       "entry_paused_date": null,
-      "last_equity": 10037.35951891,
+      "last_equity": 10051.60874843,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
-      "peak_equity": 10046.81833169,
+      "peak_equity": 10051.60874843,
       "positions": {
         "AAPL": {
           "avg_price": 340.915372,
@@ -97,7 +97,7 @@
         }
       },
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-22",
+      "risk_date": "2026-10-23",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -108,80 +108,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 348.065,
-    "AMD": 507.21,
-    "MSFT": 520.88,
-    "NVDA": 211.99
+    "AAPL": 350.495,
+    "AMD": 522.25,
+    "MSFT": 518.24,
+    "NVDA": 210.345
   },
-  "last_run": "2026-10-22T15:58:34.370116-04:00",
+  "last_run": "2026-10-23T09:30:22.498076-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain",
-        "Apple Reportedly Testing Second-Generation iPhone Duo Prototypes",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "Warren Buffett Who? Berkshire Stock Hits Records as These Holdings Drive Gains Under Greg Abel",
-        "Orangetheory Fitness Launches OTconnect for Apple Watch"
+        "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
+        "Apple Insider Sells Shares Worth $814,748",
+        "Assessing Apple's Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
+        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
+        "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain"
       ],
-      "news_score": 2,
-      "price": 348.065,
-      "prior20_high": 348.28,
-      "ret5_pct": 1.3614,
-      "rsi14": 71.6604,
-      "sma20": 338.60725,
-      "sma50": 328.6383,
-      "zscore20": 1.9316
+      "news_score": 0,
+      "price": 350.495,
+      "prior20_high": 348.34,
+      "ret5_pct": 2.0691,
+      "rsi14": 71.8087,
+      "sma20": 338.616,
+      "sma50": 328.6418,
+      "zscore20": 2.4177
     },
     "AMD": {
       "news_headlines": [
+        "Nvidia’s China Market Has Effectively Vanished: ‘Every Restriction Also Gives Chinese Suppliers a Larger Captive Market,’ Says Shay Boloor",
+        "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To ‘Extreme Fear’ Zone",
+        "SOAR AI, Inc. Announces Contracted GPU Deployments Featuring AMD Instinct™ Accelerators",
         "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today",
-        "AMD Stock Drops 7% in Chip Sell-Off - Here's Why",
-        "Ken Griffin Calls AI a Bubble After Citadel Bought the Dip",
-        "Why Is Advanced Micro Devices Stock Trending Wednesday?"
+        "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today"
       ],
-      "news_score": 2,
-      "price": 507.21,
+      "news_score": 0,
+      "price": 522.25,
       "prior20_high": 658.45,
-      "ret5_pct": -4.0774,
-      "rsi14": 23.5834,
-      "sma20": 592.89475,
-      "sma50": 541.5869,
-      "zscore20": -2.081
+      "ret5_pct": -1.2331,
+      "rsi14": 23.5769,
+      "sma20": 592.8915,
+      "sma50": 541.5856,
+      "zscore20": -1.7154
     },
     "MSFT": {
       "news_headlines": [
-        "OpenAI Makes The Decisions API Generally Available",
-        "Is A War Imminent? Concerns Overshadow Strong Meta, Tesla Earnings",
-        "Uber Brings ChatGPT Work To All Employees With OpenAI",
-        "Microsoft and Boehringer Ingelheim Announce Strategic AI Collaboration",
-        "Merck Collaborates with Microsoft, NVIDIA, and Dawn Health on Patient Support Programs"
+        "Microsoft Researchers Develop AI Tool for Sequential Medical Diagnosis",
+        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
+        "OpenAI Signs Agreement With Poland’s NASK To Explore Collaboration On AI Safety, Security And Technical Research, Strengthening Safeguards Against Emerging Risks",
+        "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC",
+        "Michael Burry Shares Chilling Song on AI: 'Watching Trillion-Dollar Monuments Become Obsolete'"
       ],
-      "news_score": 2,
-      "price": 520.88,
+      "news_score": -1,
+      "price": 518.24,
       "prior20_high": 551.08,
-      "ret5_pct": -1.5331,
-      "rsi14": 52.0495,
-      "sma20": 526.28025,
-      "sma50": 507.8635,
-      "zscore20": -0.5193
+      "ret5_pct": -2.0322,
+      "rsi14": 52.5601,
+      "sma20": 526.32125,
+      "sma50": 507.8799,
+      "zscore20": -0.7786
     },
     "NVDA": {
       "news_headlines": [
-        "Nutanix Announces Collaboration with NVIDIA, Supermicro, and Netris to Simplify AI Infrastructure",
-        "Meta Bulls Beware: Bond Market Sends Its Loudest Warning on Zuckerberg's Borrowing Binge",
-        "Cipher Digital Stock Sinks To 52-Week Low - Here's Why",
-        "Why Is Lucid Stock Surging on Thursday?",
-        "Blackstone CEO Sounds Alarm on AI Supply Crunch: 'Seldom in My Career Have I Seen' Anything Like It"
+        "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
+        "Newegg Announces Availability OF Nvidia RTX Spark Laptops In U.S., Canada",
+        "The Average Stock Is Beating the S&P 500 by the Most Since April 2009: Is the Rotation Now Over?",
+        "Pony AI, NVIDIA Take Their Robotaxi Ambitions to a New Market",
+        "Pony AI, NVIDIA, and inDrive Collaborate on Autonomous Vehicles in Kazakhstan"
       ],
-      "news_score": 0,
-      "price": 211.99,
+      "news_score": 1,
+      "price": 210.345,
       "prior20_high": 243.34,
-      "ret5_pct": -0.9971,
-      "rsi14": 29.3809,
-      "sma20": 226.26425,
-      "sma50": 222.786,
-      "zscore20": -1.8167
+      "ret5_pct": -1.7653,
+      "rsi14": 29.5193,
+      "sma20": 226.27675,
+      "sma50": 222.791,
+      "zscore20": -2.0335
     }
   },
   "schema_version": 2,
