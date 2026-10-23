@@ -25,7 +25,7 @@
       "cash": 4762.77630016,
       "day_start_equity": 9552.81922372,
       "entry_paused_date": null,
-      "last_equity": 9566.90038781,
+      "last_equity": 9532.95767998,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -59,7 +59,7 @@
       "cash": 7431.18726324,
       "day_start_equity": 9915.18316334,
       "entry_paused_date": null,
-      "last_equity": 9910.75847985,
+      "last_equity": 9911.61487021,
       "last_exit_date": {
         "AAPL": "2026-10-20",
         "AMD": "2026-10-09",
@@ -89,7 +89,7 @@
       "cash": 7996.34796632,
       "day_start_equity": 10037.35951891,
       "entry_paused_date": null,
-      "last_equity": 10033.72391302,
+      "last_equity": 10034.42757868,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -115,12 +115,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 347.445,
-    "AMD": 525.225,
-    "MSFT": 524.78,
-    "NVDA": 212.735
+    "AAPL": 347.565,
+    "AMD": 517.5,
+    "MSFT": 525.135,
+    "NVDA": 212.85
   },
-  "last_run": "2026-10-23T11:03:04.865774-04:00",
+  "last_run": "2026-10-23T12:03:18.470247-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -131,13 +131,13 @@
         "Meta Analysts Revise Price Target After Q3 Core Ad Strength, Muse Concerns Remain"
       ],
       "news_score": 0,
-      "price": 347.445,
+      "price": 347.565,
       "prior20_high": 351.68,
-      "ret5_pct": 1.2989,
-      "rsi14": 71.7658,
-      "sma20": 338.949,
-      "sma50": 329.4893,
-      "zscore20": 1.6099
+      "ret5_pct": 1.3339,
+      "rsi14": 71.5307,
+      "sma20": 338.9435,
+      "sma50": 329.4871,
+      "zscore20": 1.6365
     },
     "AMD": {
       "news_headlines": [
@@ -148,47 +148,47 @@
         "Meta Tumbles 6% on AI Spending Fears, 10-Year Yield Falls Below 5%: Stock Market Today"
       ],
       "news_score": 0,
-      "price": 525.225,
+      "price": 517.5,
       "prior20_high": 658.45,
-      "ret5_pct": -2.3419,
-      "rsi14": 27.5731,
-      "sma20": 587.3965,
-      "sma50": 542.3376,
-      "zscore20": -1.4429
+      "ret5_pct": -3.7782,
+      "rsi14": 27.7622,
+      "sma20": 587.429,
+      "sma50": 542.3506,
+      "zscore20": -1.6248
     },
     "MSFT": {
       "news_headlines": [
+        "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
+        "8 Of 11 Sectors Fall In Friday Trading As Energy Leads",
         "Microsoft's Earnings Are Days Away: Here’s What Investors Need to Know",
         "Microsoft Researchers Develop AI Tool for Sequential Medical Diagnosis",
-        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter",
-        "OpenAI Signs Agreement With Poland’s NASK To Explore Collaboration On AI Safety, Security And Technical Research, Strengthening Safeguards Against Emerging Risks",
-        "'OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors'- CNBC"
+        "Anthropic’s Path to $1.5 Trillion Demands 30% Margins: Plausible, but Delivering Is Another Matter"
       ],
-      "news_score": 0,
-      "price": 524.78,
+      "news_score": 1,
+      "price": 525.135,
       "prior20_high": 551.08,
-      "ret5_pct": -1.6612,
-      "rsi14": 49.9242,
-      "sma20": 526.758,
-      "sma50": 508.4415,
-      "zscore20": -0.1954
+      "ret5_pct": -1.5947,
+      "rsi14": 50.1634,
+      "sma20": 526.777,
+      "sma50": 508.4491,
+      "zscore20": -0.1622
     },
     "NVDA": {
       "news_headlines": [
+        "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
         "EXCLUSIVE: Korea's Chip Selloff Flashes Rare 'Capitulation' Signal Ahead of SK Hynix Earnings, Analyst Says",
         "EXCLUSIVE: Paul Kedrosky Warns AI Data Center Boom Could Fail Even as AI Adoption Soars",
         "Can Apple Top Nvidia? iPhone Duo and Nov. 2 Earnings Hold the Key",
-        "Newegg Announces Availability OF Nvidia RTX Spark Laptops In U.S., Canada",
-        "The Average Stock Is Beating the S&P 500 by the Most Since April 2009: Is the Rotation Now Over?"
+        "Newegg Announces Availability OF Nvidia RTX Spark Laptops In U.S., Canada"
       ],
-      "news_score": 1,
-      "price": 212.735,
+      "news_score": 0,
+      "price": 212.85,
       "prior20_high": 243.34,
-      "ret5_pct": -2.0038,
-      "rsi14": 23.05,
-      "sma20": 225.66425,
-      "sma50": 222.5396,
-      "zscore20": -1.5451
+      "ret5_pct": -1.9508,
+      "rsi14": 23.334,
+      "sma20": 225.67325,
+      "sma50": 222.5432,
+      "zscore20": -1.5349
     }
   },
   "schema_version": 2,
