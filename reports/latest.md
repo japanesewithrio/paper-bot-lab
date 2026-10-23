@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-23T14:20:11.781692-04:00
+Updated: 2026-10-23T15:06:03.174877-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,10 +8,10 @@ Updated: 2026-10-23T14:20:11.781692-04:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,027.01 | 0.27% | $7,996.35 | $10,051.61 | $-4.57 | $31.57 | AAPL |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,028.30 | 0.28% | $7,996.35 | $10,051.61 | $-4.57 | $32.86 | AAPL |
 | 2 | BOT_C | ACTIVE | News + Momentum | $9,901.35 | -0.99% | $9,901.35 | $10,007.62 | $-98.65 | $0.00 | — |
 | 3 | BOT_A | ACTIVE | Trend / Breakout | $9,674.23 | -3.26% | $9,674.23 | $10,000.00 | $-325.77 | $0.00 | — |
-| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,511.67 | -4.88% | $4,762.78 | $10,009.55 | $-391.29 | $-97.05 | AMD, NVDA |
+| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,509.23 | -4.91% | $4,762.78 | $10,009.55 | $-391.29 | $-99.48 | AMD, NVDA |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,14 @@ Updated: 2026-10-23T14:20:11.781692-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $346.30 | $338.88 | $329.46 | 68.9 | 0.97% | $351.68 | 1.44 | -1 |
-| NVDA | $211.77 | $225.61 | $222.52 | 22.0 | -2.45% | $243.34 | -1.64 | +2 |
-| AMD | $515.50 | $587.28 | $542.29 | 26.9 | -4.15% | $658.45 | -1.66 | +0 |
-| MSFT | $524.53 | $526.74 | $508.43 | 49.7 | -1.71% | $551.08 | -0.22 | +3 |
+| AAPL | $346.52 | $338.90 | $329.47 | 69.9 | 1.03% | $351.68 | 1.46 | +1 |
+| NVDA | $211.56 | $225.60 | $222.52 | 21.9 | -2.55% | $243.34 | -1.66 | +2 |
+| AMD | $515.50 | $587.20 | $542.26 | 26.4 | -4.15% | $658.45 | -1.65 | +0 |
+| MSFT | $524.04 | $526.72 | $508.42 | 49.4 | -1.80% | $551.08 | -0.26 | +2 |
 
 ## Actions this run
 
-- BOT_C SELL AAPL @ 346.13 — negative news
+- No virtual trades this run.
 
 ## Notes
 
