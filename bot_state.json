@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-10-23",
+      "risk_date": "2026-10-26",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -23,9 +23,9 @@
     },
     "BOT_B": {
       "cash": 4762.77630016,
-      "day_start_equity": 9552.81922372,
+      "day_start_equity": 9495.72165261,
       "entry_paused_date": null,
-      "last_equity": 9495.72165261,
+      "last_equity": 9654.54930049,
       "last_exit_date": {
         "AMD": "2026-10-22"
       },
@@ -47,7 +47,7 @@
         }
       },
       "realized_pl": -391.28514842,
-      "risk_date": "2026-10-23",
+      "risk_date": "2026-10-26",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -56,10 +56,10 @@
       "trade_count": 6
     },
     "BOT_C": {
-      "cash": 9901.35138866,
-      "day_start_equity": 9915.18316334,
+      "cash": 7426.0135415,
+      "day_start_equity": 9901.35138866,
       "entry_paused_date": null,
-      "last_equity": 9901.35138866,
+      "last_equity": 9900.11433827,
       "last_exit_date": {
         "AAPL": "2026-10-23",
         "AMD": "2026-10-09",
@@ -67,21 +67,29 @@
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {},
+      "positions": {
+        "AAPL": {
+          "avg_price": 347.308567,
+          "entry_notional": 2475.34,
+          "entry_time": "2026-10-26T11:07:13.892038-04:00",
+          "imported": false,
+          "qty": 7.1272006475
+        }
+      },
       "realized_pl": -98.64860532,
-      "risk_date": "2026-10-23",
+      "risk_date": "2026-10-26",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 20
+      "trade_count": 21
     },
     "BOT_D": {
       "cash": 7996.34796632,
-      "day_start_equity": 10037.35951891,
+      "day_start_equity": 10034.13438465,
       "entry_paused_date": null,
-      "last_equity": 10034.13438465,
+      "last_equity": 10031.90611008,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -96,7 +104,7 @@
         }
       },
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-23",
+      "risk_date": "2026-10-26",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -107,80 +115,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 347.515,
-    "AMD": 512.7,
-    "MSFT": 523.86,
-    "NVDA": 211.495
+    "AAPL": 347.135,
+    "AMD": 531.97,
+    "MSFT": 529.575,
+    "NVDA": 217.76
   },
-  "last_run": "2026-10-23T15:53:57.774769-04:00",
+  "last_run": "2026-10-26T11:07:13.892038-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "The AI Boom Isn't 1999—and Big Tech Could Cushion a Market Crash, This CEO Says",
-        "Apple Launches First Foldable Smartphone, the iPhone Duo",
-        "Cybersecurity Warning Issued Regarding Fraudulent iPhone Duo Sales",
-        "Time To Start Deploying Cash In The AI Trade?",
-        "S&P 500 Near Record Highs, But 60% of Stocks Are in a Bear Market. Is SPY Hiding a Bigger Problem?"
+        "Apple Unveils Redesigned iPad mini With OLED Display",
+        "Apple Unveils All-New iPad mini With 8.5-Inch OLED Display, A20 Pro Chip, Apple Intelligence",
+        "Jefferies Raises Apple Price Target",
+        "Apple's $2,000 Foldable iPhone Sparks Buying Frenzy",
+        "Apollo's Torsten Slok Warns AI Gains Are Concentrated in Mag 7 as S&P 493 Sees ‘No Signs’ of Productivity Boost: 'Zero Financial Payoff'"
       ],
       "news_score": 1,
-      "price": 347.515,
+      "price": 347.135,
       "prior20_high": 351.68,
-      "ret5_pct": 1.3193,
-      "rsi14": 71.4987,
-      "sma20": 338.94275,
-      "sma50": 329.4868,
-      "zscore20": 1.6275
+      "ret5_pct": 2.2007,
+      "rsi14": 69.6415,
+      "sma20": 339.37575,
+      "sma50": 330.3092,
+      "zscore20": 1.3972
     },
     "AMD": {
       "news_headlines": [
-        "What's Going On With AMD Stock Friday?",
-        "Nvidia’s China Market Has Effectively Vanished: ‘Every Restriction Also Gives Chinese Suppliers a Larger Captive Market,’ Says Shay Boloor",
-        "Nasdaq Records Worst Session Since June: Investor Sentiment Weakens, Greed Index Moves To ‘Extreme Fear’ Zone",
-        "SOAR AI, Inc. Announces Contracted GPU Deployments Featuring AMD Instinct™ Accelerators",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session"
+        "$1000 Invested In Advanced Micro Devices 15 Years Ago Would Be Worth This Much Today",
+        "Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits",
+        "Zuckerberg Is Raising the Stakes: Meta Plans $95 Billion Funding Push to Fuel AI Dreams",
+        "AMD Named as Cornerstone Investor in Meta Platforms Offering",
+        "AMD Joins Fermilab-Led Genesis Mission for AI-Accelerated Chip Design"
       ],
-      "news_score": 0,
-      "price": 512.7,
+      "news_score": 2,
+      "price": 531.97,
       "prior20_high": 658.45,
-      "ret5_pct": -4.6707,
-      "rsi14": 26.0667,
-      "sma20": 587.1435,
-      "sma50": 542.2364,
-      "zscore20": -1.7116
+      "ret5_pct": -0.4398,
+      "rsi14": 24.7474,
+      "sma20": 583.25725,
+      "sma50": 542.5516,
+      "zscore20": -1.1424
     },
     "MSFT": {
       "news_headlines": [
-        "Texas Attorney General Paxton Sues OpenAI, CEO Altman Over Alleged Imposition Of Negative Side Effects On Clients",
-        "OpenAI Says It Expects That Future Models Will Be Able To Identify & Exploit Vulnerabilities Of Which It Is Not Yet Aware",
-        "The AI Boom Isn't 1999—and Big Tech Could Cushion a Market Crash, This CEO Says",
-        "Time To Start Deploying Cash In The AI Trade?",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session"
+        "Truist Securities Reiterates Buy on Microsoft, Raises Price Target to $600",
+        "Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits",
+        "‘Hire the Robot, Fire the Human And Don't Look Back’: Bill Gates’s Chilling Warning of a Jobs Crisis Governments Aren't Ready For",
+        "'Anthropic Targets IPO Week Of November 16' - WSJ Live",
+        "Scotiabank Maintains Sector Outperform on Microsoft, Raises Price Target to $625"
       ],
-      "news_score": 0,
-      "price": 523.86,
+      "news_score": 1,
+      "price": 529.575,
       "prior20_high": 551.08,
-      "ret5_pct": -1.8336,
-      "rsi14": 49.8229,
-      "sma20": 526.75,
-      "sma50": 508.4383,
-      "zscore20": -0.2854
+      "ret5_pct": -0.4596,
+      "rsi14": 49.4293,
+      "sma20": 527.68875,
+      "sma50": 509.094,
+      "zscore20": 0.2025
     },
     "NVDA": {
       "news_headlines": [
-        "The AI Boom Isn't 1999—and Big Tech Could Cushion a Market Crash, This CEO Says",
-        "Amazon CEO Andy Jassy Says AI Inference Is Still 10 Times Too Expensive, Claims Amazon Chips Offer Answer",
-        "Time To Start Deploying Cash In The AI Trade?",
-        "Nvidia Growth Could Slow to 20% But Its Stock Can Still Double, Expert Says",
-        "S&P 500 Near Record Highs, But 60% of Stocks Are in a Bear Market. Is SPY Hiding a Bigger Problem?"
+        "NVIDIA Expresses Interest in Meta Platforms Equity Offering",
+        "Growth Leads Sectors In Monday Trading As Defensives Trail",
+        "Nvidia Is Now Cheaper Than the Average S&P 500 Stock: Wall Street Still Sees Record Profits",
+        "Honeywell Teams up With NVIDIA, Dell To Chase Massive Oil Refinery Savings",
+        "SpaceX Signs $40 Billion Apollo AI Chip Deal as Debt Market Concerns Mount"
       ],
-      "news_score": 2,
-      "price": 211.495,
+      "news_score": 3,
+      "price": 217.76,
       "prior20_high": 243.34,
-      "ret5_pct": -2.575,
-      "rsi14": 21.901,
-      "sma20": 225.6035,
-      "sma50": 222.5153,
-      "zscore20": -1.6666
+      "ret5_pct": 0.6238,
+      "rsi14": 30.591,
+      "sma20": 225.00925,
+      "sma50": 222.3522,
+      "zscore20": -0.8382
     }
   },
   "schema_version": 2,
@@ -569,6 +577,17 @@
       "reason": "negative news",
       "symbol": "AAPL",
       "timestamp": "2026-10-23T14:20:11.781692-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 347.308567,
+      "notional": 2475.34,
+      "qty": 7.1272006475,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-10-26T11:07:13.892038-04:00"
     }
   ]
 }
