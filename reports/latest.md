@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-10-27T14:30:01.863631-04:00
+Updated: 2026-10-28T14:35:49.153455-04:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,9 +8,9 @@ Updated: 2026-10-27T14:30:01.863631-04:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,022.70 | 0.23% | $7,996.35 | $10,051.61 | $-4.57 | $27.26 | AAPL |
-| 2 | BOT_C | ACTIVE | News + Momentum | $9,888.92 | -1.11% | $7,426.01 | $10,007.62 | $-98.65 | $-12.43 | AAPL |
-| 3 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,804.76 | -1.95% | $4,762.78 | $10,009.55 | $-391.29 | $196.05 | AMD, NVDA |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $10,019.74 | 0.20% | $7,996.35 | $10,051.61 | $-4.57 | $24.30 | AAPL |
+| 2 | BOT_C | ACTIVE | News + Momentum | $9,884.10 | -1.16% | $9,884.10 | $10,007.62 | $-115.90 | $0.00 | — |
+| 3 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,804.24 | -1.96% | $7,350.95 | $10,009.55 | $-193.74 | $-2.02 | NVDA |
 | 4 | BOT_A | ACTIVE | Trend / Breakout | $9,674.23 | -3.26% | $9,674.23 | $10,000.00 | $-325.77 | $0.00 | — |
 
 ## Portfolio risk rules
@@ -25,14 +25,15 @@ Updated: 2026-10-27T14:30:01.863631-04:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $345.56 | $340.03 | $331.05 | 62.7 | 0.47% | $351.68 | 1.09 | +1 |
-| NVDA | $217.54 | $224.45 | $222.17 | 31.6 | -1.96% | $243.34 | -0.78 | +0 |
-| AMD | $565.44 | $580.98 | $543.67 | 33.8 | 2.33% | $658.45 | -0.35 | +1 |
-| MSFT | $530.65 | $528.98 | $510.18 | 50.6 | -0.40% | $551.08 | 0.20 | +1 |
+| AAPL | $345.06 | $340.68 | $331.77 | 56.0 | -0.94% | $351.68 | 0.88 | -1 |
+| NVDA | $216.75 | $223.90 | $222.12 | 35.9 | 2.11% | $243.34 | -0.80 | -1 |
+| AMD | $567.57 | $579.07 | $545.45 | 40.6 | 11.70% | $658.45 | -0.26 | +1 |
+| MSFT | $529.10 | $529.81 | $511.13 | 53.8 | 1.44% | $551.08 | -0.10 | -1 |
 
 ## Actions this run
 
-- No virtual trades this run.
+- BOT_B SELL AMD @ 567.29 — take +8%
+- BOT_C SELL AAPL @ 344.89 — negative news
 
 ## Notes
 
