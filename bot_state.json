@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-10-28",
+      "risk_date": "2026-10-29",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -23,9 +23,9 @@
     },
     "BOT_B": {
       "cash": 7350.94829444,
-      "day_start_equity": 9804.7618848,
+      "day_start_equity": 9804.24335636,
       "entry_paused_date": null,
-      "last_equity": 9804.24335636,
+      "last_equity": 9758.12027735,
       "last_exit_date": {
         "AMD": "2026-10-28"
       },
@@ -40,7 +40,7 @@
         }
       },
       "realized_pl": -193.73730175,
-      "risk_date": "2026-10-28",
+      "risk_date": "2026-10-29",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -50,7 +50,7 @@
     },
     "BOT_C": {
       "cash": 9884.095741,
-      "day_start_equity": 9888.92463325,
+      "day_start_equity": 9884.095741,
       "entry_paused_date": null,
       "last_equity": 9884.095741,
       "last_exit_date": {
@@ -62,7 +62,7 @@
       "peak_equity": 10007.62053054,
       "positions": {},
       "realized_pl": -115.90424943,
-      "risk_date": "2026-10-28",
+      "risk_date": "2026-10-29",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -72,9 +72,9 @@
     },
     "BOT_D": {
       "cash": 7996.34796632,
-      "day_start_equity": 10022.69981776,
+      "day_start_equity": 10019.73855812,
       "entry_paused_date": null,
-      "last_equity": 10019.73855812,
+      "last_equity": 10048.7061276,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -89,7 +89,7 @@
         }
       },
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-28",
+      "risk_date": "2026-10-29",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -100,80 +100,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 345.06,
-    "AMD": 567.57,
-    "MSFT": 529.095,
-    "NVDA": 216.75
+    "AAPL": 350.0,
+    "AMD": 566.25,
+    "MSFT": 527.315,
+    "NVDA": 212.675
   },
-  "last_run": "2026-10-28T14:35:49.153455-04:00",
+  "last_run": "2026-10-29T14:45:17.333563-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Apple Announces Redesigned MacBook Pro with Touchscreen and OLED Display",
-        "Apple New 14-Inch,  16-Inch MacBook Pro With PROLED XDR Display, Tandem OLED Technology, M5 Pro Chip, Starting At $2,899, $3,399, Respectively",
-        "Apple Introduced New 14-Inch, 16-Inch MacBook Pro With PROLED XDR Display Featuring Breakthrough Tandem OLED Technology",
-        "High-Yield ETFs for Retirement: Why JEPI, QQQI Could Come with a Catch",
-        "Microsoft And Google Face Monetization Test Amid Expected Fed Pause— Seagate And Oil Cloud AI Trade"
+        "Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31",
+        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
+        "Alphabet Sinks 11.8%, Small Caps Rally on Strong GDP Growth: Stock Market Today",
+        "Apple Stock Heads Toward All-Time High: What's Going On?",
+        "Intel Earnings Prediction Market Preview: What Will Lip-Bu Tan Say?"
       ],
       "news_score": -1,
-      "price": 345.06,
+      "price": 350.0,
       "prior20_high": 351.68,
-      "ret5_pct": -0.9416,
-      "rsi14": 56.0034,
-      "sma20": 340.676,
-      "sma50": 331.7688,
-      "zscore20": 0.8762
+      "ret5_pct": 0.6644,
+      "rsi14": 67.7775,
+      "sma20": 341.6235,
+      "sma50": 332.4186,
+      "zscore20": 1.7454
     },
     "AMD": {
       "news_headlines": [
+        "Hinduja Global Solutions Selects Rackspace Technology for AI Infrastructure Powered by AMD",
+        "Cathie Wood Piles Into Archer, Joby for Third Straight Day as Ark Dumps AMD, TSMC Shares",
         "10 Information Technology Stocks Whale Activity In Today’s Session",
         "Michael Burry Finds a $537 Billion Hole in Anthropic’s IPO Story",
-        "Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say?",
-        "Susquehanna Adjusts Price Target on Advanced Micro Devices to $650 From $620",
-        "Susquehanna Maintains Positive on Advanced Micro Devices, Raises Price Target to $650"
+        "Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say?"
       ],
-      "news_score": 1,
-      "price": 567.57,
+      "news_score": 0,
+      "price": 566.25,
       "prior20_high": 658.45,
-      "ret5_pct": 11.6967,
-      "rsi14": 40.602,
-      "sma20": 579.0745,
-      "sma50": 545.4521,
-      "zscore20": -0.2608
+      "ret5_pct": 9.5579,
+      "rsi14": 41.2351,
+      "sma20": 576.6385,
+      "sma50": 547.4687,
+      "zscore20": -0.2392
     },
     "MSFT": {
       "news_headlines": [
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "High-Yield ETFs for Retirement: Why JEPI, QQQI Could Come with a Catch",
-        "SK Hynix, Vertiv Rescue AI Trade As Oil Tops $102 Before Fed: Stock Market Today",
-        "Microsoft And Google Face Monetization Test Amid Expected Fed Pause— Seagate And Oil Cloud AI Trade",
-        "Microsoft Earnings Top Item to Watch for AI Stocks: Dan Ives Says 'Most Important Print of the Week'"
+        "Why Is Micron Stock Falling on Thursday?",
+        "Microsoft And Alphabet's Two Different Market Stories—AI Keeps Building",
+        "Microsoft Stock Slips Despite Strong Azure Growth: Analysts Debate AI Spending",
+        "Microsoft Stock Has More Upside: Analyst Says Q1 Validation of ‘AI-Led Growth Opportunity’",
+        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business"
       ],
-      "news_score": -1,
-      "price": 529.095,
+      "news_score": 3,
+      "price": 527.315,
       "prior20_high": 551.08,
-      "ret5_pct": 1.4369,
-      "rsi14": 53.7639,
-      "sma20": 529.81175,
-      "sma50": 511.1304,
-      "zscore20": -0.0961
+      "ret5_pct": 0.5607,
+      "rsi14": 43.998,
+      "sma20": 530.69625,
+      "sma50": 512.05,
+      "zscore20": -0.5286
     },
     "NVDA": {
       "news_headlines": [
-        "'U.S. DOJ Examining NVIDIA Acquisition Of AI Platform Hugging Face, Two People Say' - Reuters Exclusive",
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "High-Yield ETFs for Retirement: Why JEPI, QQQI Could Come with a Catch",
-        "Live On CNBC, Bill Baruch Announces Trimmed Nvidia Position; Trimmed Micron Technology; Trimmed Broadcom",
-        "Microsoft And Google Face Monetization Test Amid Expected Fed Pause— Seagate And Oil Cloud AI Trade"
+        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
+        "'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News",
+        "Eclypsium Partners with NVIDIA to Advance Infrastructure Assurance",
+        "Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say?",
+        "QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value"
       ],
-      "news_score": -1,
-      "price": 216.75,
+      "news_score": 0,
+      "price": 212.675,
       "prior20_high": 243.34,
-      "ret5_pct": 2.1105,
-      "rsi14": 35.9415,
-      "sma20": 223.89925,
-      "sma50": 222.1221,
-      "zscore20": -0.8003
+      "ret5_pct": 0.7843,
+      "rsi14": 33.7223,
+      "sma20": 222.8945,
+      "sma50": 221.9894,
+      "zscore20": -1.1157
     }
   },
   "schema_version": 2,
