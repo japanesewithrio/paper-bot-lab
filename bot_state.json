@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-10-29",
+      "risk_date": "2026-10-30",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -22,31 +22,32 @@
       "trade_count": 6
     },
     "BOT_B": {
-      "cash": 7350.94829444,
-      "day_start_equity": 9804.24335636,
+      "cash": 7223.97438482,
+      "day_start_equity": 9758.12027735,
       "entry_paused_date": null,
-      "last_equity": 9758.12027735,
+      "last_equity": 9630.7624524,
       "last_exit_date": {
-        "AMD": "2026-10-28"
+        "AMD": "2026-10-28",
+        "NVDA": "2026-10-30"
       },
       "peak_equity": 10009.54557146,
       "positions": {
-        "NVDA": {
-          "avg_price": 216.92841,
-          "entry_notional": 2455.31,
-          "entry_time": "2026-10-16T10:21:14.696833-04:00",
+        "AMD": {
+          "avg_price": 497.358555,
+          "entry_notional": 2407.99,
+          "entry_time": "2026-10-30T14:21:15.305877-04:00",
           "imported": false,
-          "qty": 11.3185469985
+          "qty": 4.841560354
         }
       },
-      "realized_pl": -193.73730175,
-      "risk_date": "2026-10-29",
+      "realized_pl": -368.03415365,
+      "risk_date": "2026-10-30",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Dip / Mean Reversion",
-      "trade_count": 7
+      "trade_count": 9
     },
     "BOT_C": {
       "cash": 9884.095741,
@@ -62,7 +63,7 @@
       "peak_equity": 10007.62053054,
       "positions": {},
       "realized_pl": -115.90424943,
-      "risk_date": "2026-10-29",
+      "risk_date": "2026-10-30",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -72,9 +73,9 @@
     },
     "BOT_D": {
       "cash": 7996.34796632,
-      "day_start_equity": 10019.73855812,
+      "day_start_equity": 10048.7061276,
       "entry_paused_date": null,
-      "last_equity": 10048.7061276,
+      "last_equity": 10007.36577035,
       "last_exit_date": {
         "AAPL": "2026-10-09"
       },
@@ -89,7 +90,7 @@
         }
       },
       "realized_pl": -4.56504211,
-      "risk_date": "2026-10-29",
+      "risk_date": "2026-10-30",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -100,80 +101,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 350.0,
-    "AMD": 566.25,
-    "MSFT": 527.315,
-    "NVDA": 212.675
+    "AAPL": 342.95,
+    "AMD": 497.11,
+    "MSFT": 520.225,
+    "NVDA": 201.63
   },
-  "last_run": "2026-10-29T14:45:17.333563-04:00",
+  "last_run": "2026-10-30T14:21:15.305877-04:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Apple Cuts Taiwan App Store Commission Rate In Taiwan From 30% To 26%, Effective Oct. 31",
-        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
-        "Alphabet Sinks 11.8%, Small Caps Rally on Strong GDP Growth: Stock Market Today",
-        "Apple Stock Heads Toward All-Time High: What's Going On?",
-        "Intel Earnings Prediction Market Preview: What Will Lip-Bu Tan Say?"
+        "Apple Acquires Data-Management Startup Ascend.io",
+        "Trial Date Set for Apple's Trade Secret Lawsuit Against OpenAI",
+        "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+        "Intel’s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+        "'Apple Acquires Ascend.io' - MacRumors"
       ],
       "news_score": -1,
-      "price": 350.0,
+      "price": 342.95,
       "prior20_high": 351.68,
-      "ret5_pct": 0.6644,
-      "rsi14": 67.7775,
-      "sma20": 341.6235,
-      "sma50": 332.4186,
-      "zscore20": 1.7454
+      "ret5_pct": -0.2849,
+      "rsi14": 52.5543,
+      "sma20": 342.0345,
+      "sma50": 333.0322,
+      "zscore20": 0.2098
     },
     "AMD": {
       "news_headlines": [
-        "Hinduja Global Solutions Selects Rackspace Technology for AI Infrastructure Powered by AMD",
-        "Cathie Wood Piles Into Archer, Joby for Third Straight Day as Ark Dumps AMD, TSMC Shares",
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "Michael Burry Finds a $537 Billion Hole in Anthropic’s IPO Story",
-        "Microsoft Earnings Prediction Market Preview: What Will Satya Nadella Say?"
+        "AMD Shares Decline Amid Market Reaction to Intel Earnings",
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+        "Chip Stocks Wipe Out $1 Trillion in Friday Bloodbath: 5 Stocks Alone Account for 60% of the Damage",
+        "QUICK SPARK: Intel Stock Drops 28%, Eyes Worst Day Since July 1974"
       ],
-      "news_score": 0,
-      "price": 566.25,
+      "news_score": -3,
+      "price": 497.11,
       "prior20_high": 658.45,
-      "ret5_pct": 9.5579,
-      "rsi14": 41.2351,
-      "sma20": 576.6385,
-      "sma50": 547.4687,
-      "zscore20": -0.2392
+      "ret5_pct": -6.4457,
+      "rsi14": 34.5247,
+      "sma20": 570.037,
+      "sma50": 548.1152,
+      "zscore20": -1.6338
     },
     "MSFT": {
       "news_headlines": [
-        "Why Is Micron Stock Falling on Thursday?",
-        "Microsoft And Alphabet's Two Different Market Stories—AI Keeps Building",
-        "Microsoft Stock Slips Despite Strong Azure Growth: Analysts Debate AI Spending",
-        "Microsoft Stock Has More Upside: Analyst Says Q1 Validation of ‘AI-Led Growth Opportunity’",
-        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business"
+        "Why Is IREN Stock Falling on Friday?",
+        "Why Is Nebius Stock Falling on Friday?",
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "Intel’s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+        "Why Is CoreWeave Stock Falling on Friday?"
       ],
-      "news_score": 3,
-      "price": 527.315,
+      "news_score": 1,
+      "price": 520.225,
       "prior20_high": 551.08,
-      "ret5_pct": 0.5607,
-      "rsi14": 43.998,
-      "sma20": 530.69625,
-      "sma50": 512.05,
-      "zscore20": -0.5286
+      "ret5_pct": -2.3125,
+      "rsi14": 35.2799,
+      "sma20": 531.029,
+      "sma50": 512.9054,
+      "zscore20": -1.7907
     },
     "NVDA": {
       "news_headlines": [
-        "Alphabet Stock Down 12% As AI Hits Google's Core Search Business",
-        "'Canada, Nvidia Back Cohere in Round at Over $20 Billion Value' - Bloomberg News",
-        "Eclypsium Partners with NVIDIA to Advance Infrastructure Assurance",
-        "Amazon Earnings Prediction Market Preview: What Will Andy Jassy Say?",
-        "QUICK SPARK: Alphabet Stock Eyes Worst Day in Company's History, Wipes Out $500 Billion in Value"
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "Nasdaq Tumbles Over 3%, Chip Stocks Sink: Stock Market Today",
+        "Chip Stocks Wipe Out $1 Trillion in Friday Bloodbath: 5 Stocks Alone Account for 60% of the Damage",
+        "Intel’s Agentic AI Overshadowed By Weak PC Sales; Soft Retail Overshadows Amazon AI; Record Crypto Heist",
+        "Intel Stock Rout Wipes $12 Billion Off Uncle Sam’s Stake"
       ],
-      "news_score": 0,
-      "price": 212.675,
+      "news_score": -2,
+      "price": 201.63,
       "prior20_high": 243.34,
-      "ret5_pct": 0.7843,
-      "rsi14": 33.7223,
-      "sma20": 222.8945,
-      "sma50": 221.9894,
-      "zscore20": -1.1157
+      "ret5_pct": -6.6571,
+      "rsi14": 29.1698,
+      "sma20": 221.33375,
+      "sma50": 221.7073,
+      "zscore20": -2.0036
     }
   },
   "schema_version": 2,
@@ -595,6 +596,28 @@
       "reason": "negative news",
       "symbol": "AAPL",
       "timestamp": "2026-10-28T14:35:49.153455-04:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_B",
+      "fill_price": 201.529185,
+      "notional": 2281.02,
+      "qty": 11.3185469985,
+      "realized_pl": -174.3,
+      "reason": "stop -7%",
+      "symbol": "NVDA",
+      "timestamp": "2026-10-30T14:21:15.305877-04:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_B",
+      "fill_price": 497.358555,
+      "notional": 2407.99,
+      "qty": 4.841560354,
+      "realized_pl": 0.0,
+      "reason": "Dip / Mean Reversion entry rule satisfied",
+      "symbol": "AMD",
+      "timestamp": "2026-10-30T14:21:15.305877-04:00"
     }
   ]
 }
