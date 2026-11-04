@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-11-03",
+      "risk_date": "2026-11-04",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -23,9 +23,9 @@
     },
     "BOT_B": {
       "cash": 7223.97438482,
-      "day_start_equity": 9630.7624524,
+      "day_start_equity": 9574.14040406,
       "entry_paused_date": null,
-      "last_equity": 9574.14040406,
+      "last_equity": 9553.99951298,
       "last_exit_date": {
         "AMD": "2026-10-28",
         "NVDA": "2026-10-30"
@@ -41,7 +41,7 @@
         }
       },
       "realized_pl": -368.03415365,
-      "risk_date": "2026-11-03",
+      "risk_date": "2026-11-04",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -50,10 +50,10 @@
       "trade_count": 9
     },
     "BOT_C": {
-      "cash": 9884.095741,
+      "cash": 7413.07180575,
       "day_start_equity": 9884.095741,
       "entry_paused_date": null,
-      "last_equity": 9884.095741,
+      "last_equity": 9882.86084646,
       "last_exit_date": {
         "AAPL": "2026-10-28",
         "AMD": "2026-10-09",
@@ -61,19 +61,27 @@
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {},
+      "positions": {
+        "MSFT": {
+          "avg_price": 558.31902,
+          "entry_notional": 2471.02,
+          "entry_time": "2026-11-04T15:11:31.207363-05:00",
+          "imported": false,
+          "qty": 4.4258279706
+        }
+      },
       "realized_pl": -115.90424943,
-      "risk_date": "2026-11-03",
+      "risk_date": "2026-11-04",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 22
+      "trade_count": 23
     },
     "BOT_D": {
       "cash": 9932.01412947,
-      "day_start_equity": 10007.36577035,
+      "day_start_equity": 9932.01412947,
       "entry_paused_date": null,
       "last_equity": 9932.01412947,
       "last_exit_date": {
@@ -82,7 +90,7 @@
       "peak_equity": 10051.60874843,
       "positions": {},
       "realized_pl": -67.98586762,
-      "risk_date": "2026-11-03",
+      "risk_date": "2026-11-04",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -93,80 +101,80 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 330.265,
-    "AMD": 485.415,
-    "MSFT": 521.31,
-    "NVDA": 206.345
+    "AAPL": 352.005,
+    "AMD": 481.255,
+    "MSFT": 558.04,
+    "NVDA": 202.4
   },
-  "last_run": "2026-11-03T14:54:45.528042-05:00",
+  "last_run": "2026-11-04T15:11:31.207363-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Apple Releases First Betas of iOS 27.3 and macOS Golden Gate 27.3",
-        "Apple Stock at ‘Extreme Overvaluation’: Analysts See Slowing Revenue Growth",
-        "Apple Announces Redesigned Health App Expands Language Support",
-        "JP Morgan Maintains Overweight on Apple, Lowers Price Target to $355",
-        "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple’s AI Agent Problem"
+        "'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive",
+        "Apple, Tesla Supplier Is Taking on 3M: Here's What Investors Should Know",
+        "Apple Updates App Store Age-Rating Requirements for Dating and AI Companion Apps",
+        "CNBC Halftime Report Final Trades: Coeur Mining, Amazon, FTAI Aviation, Apple",
+        "What's Going on With Microsoft Stock on Wednesday?"
       ],
-      "news_score": 0,
-      "price": 330.265,
-      "prior20_high": 351.68,
-      "ret5_pct": -4.0095,
-      "rsi14": 37.4205,
-      "sma20": 342.253,
-      "sma50": 334.0631,
-      "zscore20": -2.7638
+      "news_score": -1,
+      "price": 352.005,
+      "prior20_high": 354.47,
+      "ret5_pct": 0.8668,
+      "rsi14": 57.5509,
+      "sma20": 343.07375,
+      "sma50": 334.9251,
+      "zscore20": 1.9844
     },
     "AMD": {
       "news_headlines": [
-        "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple’s AI Agent Problem",
-        "What's Going on with Intel Stock on Tuesday?",
-        "Nasdaq 100 Gets a Lift As Nvidia Overtakes Apple: Stock Market Today",
-        "Micron Tech Gains as Tech Giants Scramble to Lock in Multiyear Supply",
-        "AMD Earnings Prediction Market Preview: What Will Lisa Su Say?"
+        "AMD Sets the Bar High for 2027, Analysts Say It Can Clear It",
+        "JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575",
+        "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
+        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550"
       ],
-      "news_score": -2,
-      "price": 485.415,
-      "prior20_high": 648.31,
-      "ret5_pct": -16.0813,
-      "rsi14": 36.6673,
-      "sma20": 554.01825,
-      "sma50": 548.7361,
-      "zscore20": -1.5126
+      "news_score": 3,
+      "price": 481.255,
+      "prior20_high": 643.44,
+      "ret5_pct": -15.0514,
+      "rsi14": 36.9371,
+      "sma20": 545.6705,
+      "sma50": 548.734,
+      "zscore20": -1.4993
     },
     "MSFT": {
       "news_headlines": [
-        "'Jill Hazelbaker Jumps To OpenAI As Chief Corporate Affairs Officer' - Axios",
-        "SpaceX Could Be Biggest Loser From Successful Anthropic IPO, Finance Professor Warns",
-        "'Hollywood backs NYT in AI copyright battle versus OpenAI, Microsoft' - Axios",
-        "What Is Going on With Meta Platforms Stock on Tuesday?",
-        "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple’s AI Agent Problem"
+        "Above Security Joins Microsoft for Startups Pegasus Program",
+        "PowerDMARC Launches on Microsoft Marketplace",
+        "QUICK SPARK: Microsoft Stock Hits Record High as Midterm Results Boost AI Infrastructure Bets",
+        "What's Going on With Microsoft Stock on Wednesday?",
+        "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today"
       ],
-      "news_score": -2,
-      "price": 521.31,
-      "prior20_high": 551.08,
-      "ret5_pct": -2.0517,
-      "rsi14": 42.8811,
-      "sma20": 529.8235,
-      "sma50": 514.0981,
-      "zscore20": -1.0587
+      "news_score": 2,
+      "price": 558.04,
+      "prior20_high": 558.35,
+      "ret5_pct": 5.2131,
+      "rsi14": 57.7689,
+      "sma20": 531.1705,
+      "sma50": 515.3999,
+      "zscore20": 2.6606
     },
     "NVDA": {
       "news_headlines": [
-        "Nvidia Stock Climbs Amid Oil Price Drop",
-        "SpaceX Could Be Biggest Loser From Successful Anthropic IPO, Finance Professor Warns",
-        "AMD Earnings To Test Whether PC Weakness Is Intel-Specific, Apple’s AI Agent Problem",
-        "What's Going on with Microsoft Stock on Tuesday?",
-        "What's Going on with Intel Stock on Tuesday?"
+        "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
+        "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+        "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
+        "ModelOp Integrates AI Governance with NVIDIA OpenShell",
+        "Intel Stock Implodes, Sheds $434 Billion in 4 Months"
       ],
       "news_score": 0,
-      "price": 206.345,
-      "prior20_high": 239.08,
-      "ret5_pct": -4.1771,
-      "rsi14": 36.2371,
-      "sma20": 218.01775,
-      "sma50": 221.4797,
-      "zscore20": -1.3225
+      "price": 202.4,
+      "prior20_high": 237.05,
+      "ret5_pct": -5.2878,
+      "rsi14": 36.0271,
+      "sma20": 216.252,
+      "sma50": 221.2622,
+      "zscore20": -1.6713
     }
   },
   "schema_version": 2,
@@ -621,6 +629,17 @@
       "reason": "price<SMA20",
       "symbol": "AAPL",
       "timestamp": "2026-11-03T14:54:45.528042-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 558.31902,
+      "notional": 2471.02,
+      "qty": 4.4258279706,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "MSFT",
+      "timestamp": "2026-11-04T15:11:31.207363-05:00"
     }
   ]
 }

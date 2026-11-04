@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-11-03T14:54:45.528042-05:00
+Updated: 2026-11-04T15:11:31.207363-05:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -9,9 +9,9 @@ Updated: 2026-11-03T14:54:45.528042-05:00
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
 | 1 | BOT_D | ACTIVE | Conservative Confirmation | $9,932.01 | -0.68% | $9,932.01 | $10,051.61 | $-67.99 | $0.00 | — |
-| 2 | BOT_C | ACTIVE | News + Momentum | $9,884.10 | -1.16% | $9,884.10 | $10,007.62 | $-115.90 | $0.00 | — |
+| 2 | BOT_C | ACTIVE | News + Momentum | $9,882.86 | -1.17% | $7,413.07 | $10,007.62 | $-115.90 | $-1.23 | MSFT |
 | 3 | BOT_A | ACTIVE | Trend / Breakout | $9,674.23 | -3.26% | $9,674.23 | $10,000.00 | $-325.77 | $0.00 | — |
-| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,574.14 | -4.26% | $7,223.97 | $10,009.55 | $-368.03 | $-57.83 | AMD |
+| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $9,554.00 | -4.46% | $7,223.97 | $10,009.55 | $-368.03 | $-77.97 | AMD |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,14 @@ Updated: 2026-11-03T14:54:45.528042-05:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $330.26 | $342.25 | $334.06 | 37.4 | -4.01% | $351.68 | -2.76 | +0 |
-| NVDA | $206.35 | $218.02 | $221.48 | 36.2 | -4.18% | $239.08 | -1.32 | +0 |
-| AMD | $485.41 | $554.02 | $548.74 | 36.7 | -16.08% | $648.31 | -1.51 | -2 |
-| MSFT | $521.31 | $529.82 | $514.10 | 42.9 | -2.05% | $551.08 | -1.06 | -2 |
+| AAPL | $352.00 | $343.07 | $334.93 | 57.6 | 0.87% | $354.47 | 1.98 | -1 |
+| NVDA | $202.40 | $216.25 | $221.26 | 36.0 | -5.29% | $237.05 | -1.67 | +0 |
+| AMD | $481.25 | $545.67 | $548.73 | 36.9 | -15.05% | $643.44 | -1.50 | +3 |
+| MSFT | $558.04 | $531.17 | $515.40 | 57.8 | 5.21% | $558.35 | 2.66 | +2 |
 
 ## Actions this run
 
-- BOT_D SELL AAPL @ 330.10 — price<SMA20
+- BOT_C BUY MSFT @ 558.32 — News + Momentum entry rule satisfied
 
 ## Notes
 
