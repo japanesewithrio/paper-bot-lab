@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-11-04",
+      "risk_date": "2026-11-05",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -22,159 +22,159 @@
       "trade_count": 6
     },
     "BOT_B": {
-      "cash": 7223.97438482,
-      "day_start_equity": 9574.14040406,
+      "cash": 6918.64636185,
+      "day_start_equity": 9553.99951298,
       "entry_paused_date": null,
-      "last_equity": 9553.99951298,
+      "last_equity": 9223.70928433,
       "last_exit_date": {
-        "AMD": "2026-10-28",
+        "AMD": "2026-11-05",
         "NVDA": "2026-10-30"
       },
       "peak_equity": 10009.54557146,
       "positions": {
-        "AMD": {
-          "avg_price": 497.358555,
-          "entry_notional": 2407.99,
-          "entry_time": "2026-10-30T14:21:15.305877-04:00",
+        "NVDA": {
+          "avg_price": 183.501705,
+          "entry_notional": 2306.22,
+          "entry_time": "2026-11-05T15:25:13.626473-05:00",
           "imported": false,
-          "qty": 4.841560354
+          "qty": 12.5678148546
         }
       },
-      "realized_pl": -368.03415365,
-      "risk_date": "2026-11-04",
+      "realized_pl": -775.13818428,
+      "risk_date": "2026-11-05",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Dip / Mean Reversion",
-      "trade_count": 9
+      "trade_count": 11
     },
     "BOT_C": {
-      "cash": 7413.07180575,
-      "day_start_equity": 9884.095741,
+      "cash": 9780.67905635,
+      "day_start_equity": 9882.86084646,
       "entry_paused_date": null,
-      "last_equity": 9882.86084646,
+      "last_equity": 9780.67905635,
       "last_exit_date": {
         "AAPL": "2026-10-28",
         "AMD": "2026-10-09",
-        "MSFT": "2026-10-13",
+        "MSFT": "2026-11-05",
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {
-        "MSFT": {
-          "avg_price": 558.31902,
-          "entry_notional": 2471.02,
-          "entry_time": "2026-11-04T15:11:31.207363-05:00",
-          "imported": false,
-          "qty": 4.4258279706
-        }
-      },
-      "realized_pl": -115.90424943,
-      "risk_date": "2026-11-04",
+      "positions": {},
+      "realized_pl": -219.32093406,
+      "risk_date": "2026-11-05",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 23
+      "trade_count": 24
     },
     "BOT_D": {
-      "cash": 9932.01412947,
+      "cash": 7945.61130358,
       "day_start_equity": 9932.01412947,
       "entry_paused_date": null,
-      "last_equity": 9932.01412947,
+      "last_equity": 9931.02142441,
       "last_exit_date": {
         "AAPL": "2026-11-03"
       },
       "peak_equity": 10051.60874843,
-      "positions": {},
+      "positions": {
+        "AAPL": {
+          "avg_price": 345.037432,
+          "entry_notional": 1986.4,
+          "entry_time": "2026-11-05T15:25:13.626473-05:00",
+          "imported": false,
+          "qty": 5.7570647089
+        }
+      },
       "realized_pl": -67.98586762,
-      "risk_date": "2026-11-04",
+      "risk_date": "2026-11-05",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Conservative Confirmation",
-      "trade_count": 4
+      "trade_count": 5
     }
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 352.005,
-    "AMD": 481.255,
-    "MSFT": 558.04,
-    "NVDA": 202.4
+    "AAPL": 344.865,
+    "AMD": 413.48,
+    "MSFT": 535.22,
+    "NVDA": 183.41
   },
-  "last_run": "2026-11-04T15:11:31.207363-05:00",
+  "last_run": "2026-11-05T15:25:13.626473-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "'Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending' - Bloomberg Exclusive",
-        "Apple, Tesla Supplier Is Taking on 3M: Here's What Investors Should Know",
-        "Apple Updates App Store Age-Rating Requirements for Dating and AI Companion Apps",
-        "CNBC Halftime Report Final Trades: Coeur Mining, Amazon, FTAI Aviation, Apple",
-        "What's Going on With Microsoft Stock on Wednesday?"
+        "'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg",
+        "Market Bets On Democrats' Magic Wands—Why You Should Be Skeptical",
+        "Dan Ives Rides the Blue Tidal Wave of 2026 Midterm Election by Being Selective: Here’s His 10 Stock Picks",
+        "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
+        "Apple Launches Seven-Part US Dollar High-Grade Bond Offering"
       ],
-      "news_score": -1,
-      "price": 352.005,
-      "prior20_high": 354.47,
-      "ret5_pct": 0.8668,
-      "rsi14": 57.5509,
-      "sma20": 343.07375,
-      "sma50": 334.9251,
-      "zscore20": 1.9844
+      "news_score": 2,
+      "price": 344.865,
+      "prior20_high": 355.29,
+      "ret5_pct": 0.0276,
+      "rsi14": 51.464,
+      "sma20": 343.19625,
+      "sma50": 335.5132,
+      "zscore20": 0.3907
     },
     "AMD": {
       "news_headlines": [
-        "AMD Sets the Bar High for 2027, Analysts Say It Can Clear It",
-        "JP Morgan Maintains Neutral on Advanced Micro Devices, Raises Price Target to $575",
-        "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
-        "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "Morgan Stanley Maintains Equal-Weight on Advanced Micro Devices, Raises Price Target to $550"
+        "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
+        "From Micron to AMD, AI Stocks Crater — And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+        "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+        "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
+        "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday"
       ],
-      "news_score": 3,
-      "price": 481.255,
-      "prior20_high": 643.44,
-      "ret5_pct": -15.0514,
-      "rsi14": 36.9371,
-      "sma20": 545.6705,
-      "sma50": 548.734,
-      "zscore20": -1.4993
+      "news_score": -1,
+      "price": 413.48,
+      "prior20_high": 626.98,
+      "ret5_pct": -18.1552,
+      "rsi14": 33.8998,
+      "sma20": 535.78075,
+      "sma50": 547.5779,
+      "zscore20": -2.5674
     },
     "MSFT": {
       "news_headlines": [
-        "Above Security Joins Microsoft for Startups Pegasus Program",
-        "PowerDMARC Launches on Microsoft Marketplace",
-        "QUICK SPARK: Microsoft Stock Hits Record High as Midterm Results Boost AI Infrastructure Bets",
-        "What's Going on With Microsoft Stock on Wednesday?",
-        "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today"
+        "Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations",
+        "'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity?",
+        "From Micron to AMD, AI Stocks Crater — And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+        "Market Bets On Democrats' Magic Wands—Why You Should Be Skeptical",
+        "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff"
       ],
-      "news_score": 2,
-      "price": 558.04,
-      "prior20_high": 558.35,
-      "ret5_pct": 5.2131,
-      "rsi14": 57.7689,
-      "sma20": 531.1705,
-      "sma50": 515.3999,
-      "zscore20": 2.6606
+      "news_score": -2,
+      "price": 535.22,
+      "prior20_high": 559.12,
+      "ret5_pct": 2.5385,
+      "rsi14": 52.5962,
+      "sma20": 531.73775,
+      "sma50": 516.1538,
+      "zscore20": 0.3567
     },
     "NVDA": {
       "news_headlines": [
-        "AMD's AI Data Center Guarantees Reach $8.5 Billion as It Challenges Nvidia",
-        "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
-        "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
-        "ModelOp Integrates AI Governance with NVIDIA OpenShell",
-        "Intel Stock Implodes, Sheds $434 Billion in 4 Months"
+        "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
+        "'NVIDIA Explores Retrofitting Old Telecom Buildings For AI Data Centers' - The Information",
+        "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows",
+        "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
+        "NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China"
       ],
-      "news_score": 0,
-      "price": 202.4,
-      "prior20_high": 237.05,
-      "ret5_pct": -5.2878,
-      "rsi14": 36.0271,
-      "sma20": 216.252,
-      "sma50": 221.2622,
-      "zscore20": -1.6713
+      "news_score": 1,
+      "price": 183.41,
+      "prior20_high": 233.89,
+      "ret5_pct": -10.4268,
+      "rsi14": 28.0157,
+      "sma20": 213.7915,
+      "sma50": 220.694,
+      "zscore20": -2.9011
     }
   },
   "schema_version": 2,
@@ -640,6 +640,50 @@
       "reason": "News + Momentum entry rule satisfied",
       "symbol": "MSFT",
       "timestamp": "2026-11-04T15:11:31.207363-05:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_B",
+      "fill_price": 413.27326,
+      "notional": 2000.89,
+      "qty": 4.841560354,
+      "realized_pl": -407.1,
+      "reason": "stop -7%",
+      "symbol": "AMD",
+      "timestamp": "2026-11-05T15:25:13.626473-05:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_C",
+      "fill_price": 534.95239,
+      "notional": 2367.61,
+      "qty": 4.4258279706,
+      "realized_pl": -103.42,
+      "reason": "negative news",
+      "symbol": "MSFT",
+      "timestamp": "2026-11-05T15:25:13.626473-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_B",
+      "fill_price": 183.501705,
+      "notional": 2306.22,
+      "qty": 12.5678148546,
+      "realized_pl": 0.0,
+      "reason": "Dip / Mean Reversion entry rule satisfied",
+      "symbol": "NVDA",
+      "timestamp": "2026-11-05T15:25:13.626473-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_D",
+      "fill_price": 345.037432,
+      "notional": 1986.4,
+      "qty": 5.7570647089,
+      "realized_pl": 0.0,
+      "reason": "Conservative Confirmation entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-11-05T15:25:13.626473-05:00"
     }
   ]
 }
