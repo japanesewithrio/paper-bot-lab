@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-11-05",
+      "risk_date": "2026-11-06",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -23,9 +23,9 @@
     },
     "BOT_B": {
       "cash": 6918.64636185,
-      "day_start_equity": 9553.99951298,
+      "day_start_equity": 9223.70928433,
       "entry_paused_date": null,
-      "last_equity": 9223.70928433,
+      "last_equity": 9273.41499208,
       "last_exit_date": {
         "AMD": "2026-11-05",
         "NVDA": "2026-10-30"
@@ -41,7 +41,7 @@
         }
       },
       "realized_pl": -775.13818428,
-      "risk_date": "2026-11-05",
+      "risk_date": "2026-11-06",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -51,7 +51,7 @@
     },
     "BOT_C": {
       "cash": 9780.67905635,
-      "day_start_equity": 9882.86084646,
+      "day_start_equity": 9780.67905635,
       "entry_paused_date": null,
       "last_equity": 9780.67905635,
       "last_exit_date": {
@@ -63,7 +63,7 @@
       "peak_equity": 10007.62053054,
       "positions": {},
       "realized_pl": -219.32093406,
-      "risk_date": "2026-11-05",
+      "risk_date": "2026-11-06",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -72,109 +72,101 @@
       "trade_count": 24
     },
     "BOT_D": {
-      "cash": 7945.61130358,
-      "day_start_equity": 9932.01412947,
+      "cash": 9922.0591715,
+      "day_start_equity": 9931.02142441,
       "entry_paused_date": null,
-      "last_equity": 9931.02142441,
+      "last_equity": 9922.0591715,
       "last_exit_date": {
-        "AAPL": "2026-11-03"
+        "AAPL": "2026-11-06"
       },
       "peak_equity": 10051.60874843,
-      "positions": {
-        "AAPL": {
-          "avg_price": 345.037432,
-          "entry_notional": 1986.4,
-          "entry_time": "2026-11-05T15:25:13.626473-05:00",
-          "imported": false,
-          "qty": 5.7570647089
-        }
-      },
-      "realized_pl": -67.98586762,
-      "risk_date": "2026-11-05",
+      "positions": {},
+      "realized_pl": -77.94082272,
+      "risk_date": "2026-11-06",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Conservative Confirmation",
-      "trade_count": 5
+      "trade_count": 6
     }
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 344.865,
-    "AMD": 413.48,
-    "MSFT": 535.22,
-    "NVDA": 183.41
+    "AAPL": 343.48,
+    "AMD": 444.775,
+    "MSFT": 528.725,
+    "NVDA": 187.365
   },
-  "last_run": "2026-11-05T15:25:13.626473-05:00",
+  "last_run": "2026-11-06T14:46:28.821331-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "'Apple Draws $31 Billion of Orders for High-Grade Bond Sale' - Bloomberg",
-        "Market Bets On Democrats' Magic Wands—Why You Should Be Skeptical",
-        "Dan Ives Rides the Blue Tidal Wave of 2026 Midterm Election by Being Selective: Here’s His 10 Stock Picks",
-        "Amazon and Google Could Outperform Nvidia as AI Trade Enters New Phase, Says Joseph Carlson",
-        "Apple Launches Seven-Part US Dollar High-Grade Bond Offering"
+        "Jobs Report Boosts December Fed Rate Hike Bets",
+        "Apple Captures Record Share of Global Smartphone Revenue in Q3",
+        "Researcher Finds Apple Predictive Text Restrictions Include Political Terms",
+        "Deka-ImmobilienGlobal Fund Acquires Property Fully Leased to Apple",
+        "Phillip Securities Adjusts Price Target on Apple to $310 From $300"
       ],
-      "news_score": 2,
-      "price": 344.865,
+      "news_score": 0,
+      "price": 343.48,
       "prior20_high": 355.29,
-      "ret5_pct": 0.0276,
-      "rsi14": 51.464,
-      "sma20": 343.19625,
-      "sma50": 335.5132,
-      "zscore20": 0.3907
+      "ret5_pct": 1.4113,
+      "rsi14": 50.6658,
+      "sma20": 343.52975,
+      "sma50": 336.0852,
+      "zscore20": -0.0125
     },
     "AMD": {
       "news_headlines": [
-        "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
-        "From Micron to AMD, AI Stocks Crater — And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-        "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
-        "Nvidia, Micron, 8 Other AI Stocks Just Broke Below a Key Technical Support",
-        "QUICK SPARK: 10 US Tech Stocks Wipe Out $1.7 Trillion on Thursday"
+        "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
+        "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
+        "Chip Stocks Are Now Cheaper Than the S&P 500 — Something Unseen During the Entire AI Boom",
+        "Moderna, JFrog, TransMedics, Ubiquiti And Other Big Stocks Moving Higher On Friday",
+        "Micron, AMD, SanDisk Lead AI Stock Bounce as Investors Buy the Dip"
       ],
-      "news_score": -1,
-      "price": 413.48,
-      "prior20_high": 626.98,
-      "ret5_pct": -18.1552,
-      "rsi14": 33.8998,
-      "sma20": 535.78075,
-      "sma50": 547.5779,
-      "zscore20": -2.5674
+      "news_score": 0,
+      "price": 444.775,
+      "prior20_high": 606.19,
+      "ret5_pct": -4.7071,
+      "rsi14": 38.2569,
+      "sma20": 527.03225,
+      "sma50": 546.702,
+      "zscore20": -1.6462
     },
     "MSFT": {
       "news_headlines": [
-        "Scout Clean Energy's Nimbus Wind Farm Achieves Commercial Operations",
-        "'GTA 6' Preorder Sales Hit $751 Million 2 Weeks Ahead of Release. Are Investors Ignoring Take-Two Stock Opportunity?",
-        "From Micron to AMD, AI Stocks Crater — And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
-        "Market Bets On Democrats' Magic Wands—Why You Should Be Skeptical",
-        "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff"
+        "Oracle Stock Slides as Microsoft Reportedly Pulls Back From AI Computing Deal",
+        "AI Stocks Got Hammered After Midterms, but This Analyst Says the Panic Is Overblown",
+        "OpenAI Announces Partnering With Hacktron To Find Vulnerabilities In OpenAI’s Systems",
+        "'In Recent Months, Microsoft Has Been Turning Off Rented Computing Capacity From Oracle After Declining To Renew The Contract' - Bloomberg News",
+        "'Microsoft Is Winding Down Oracle Deal To Rent AI Cloud Capacity' - Bloomberg News"
       ],
-      "news_score": -2,
-      "price": 535.22,
+      "news_score": 3,
+      "price": 528.725,
       "prior20_high": 559.12,
-      "ret5_pct": 2.5385,
-      "rsi14": 52.5962,
-      "sma20": 531.73775,
-      "sma50": 516.1538,
-      "zscore20": 0.3567
+      "ret5_pct": 4.285,
+      "rsi14": 49.5504,
+      "sma20": 531.64325,
+      "sma50": 516.7203,
+      "zscore20": -0.2993
     },
     "NVDA": {
       "news_headlines": [
-        "'NVIDIA Has Approached Apollo About Creating A Network Of Small AI Data Centers Potentially Spanning 20 States Across The U.S.' - The Information",
-        "'NVIDIA Explores Retrofitting Old Telecom Buildings For AI Data Centers' - The Information",
-        "Nvidia Stock Is Now Cheaper Than a Toilet-Paper Company, Data Shows",
-        "SanDisk Leads Memory Stocks Lower: A Look Inside the Rout",
-        "NVIDIA Faces Logistics and Regulatory Challenges for H200 Chips in China"
+        "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
+        "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
+        "Chip Stocks Are Now Cheaper Than the S&P 500 — Something Unseen During the Entire AI Boom",
+        "Live On CNBC, Malcolm Ethridge Announces Trimmed Nvidia Position",
+        "Why Is Nebius Stock Surging on Friday?"
       ],
-      "news_score": 1,
-      "price": 183.41,
-      "prior20_high": 233.89,
-      "ret5_pct": -10.4268,
-      "rsi14": 28.0157,
-      "sma20": 213.7915,
-      "sma50": 220.694,
-      "zscore20": -2.9011
+      "news_score": 0,
+      "price": 187.365,
+      "prior20_high": 228.795,
+      "ret5_pct": -7.3391,
+      "rsi14": 30.0288,
+      "sma20": 211.6045,
+      "sma50": 219.8428,
+      "zscore20": -2.1005
     }
   },
   "schema_version": 2,
@@ -684,6 +676,17 @@
       "reason": "Conservative Confirmation entry rule satisfied",
       "symbol": "AAPL",
       "timestamp": "2026-11-05T15:25:13.626473-05:00"
+    },
+    {
+      "action": "SELL",
+      "bot": "BOT_D",
+      "fill_price": 343.30826,
+      "notional": 1976.45,
+      "qty": 5.7570647089,
+      "realized_pl": -9.95,
+      "reason": "price<SMA20",
+      "symbol": "AAPL",
+      "timestamp": "2026-11-06T14:46:28.821331-05:00"
     }
   ]
 }
