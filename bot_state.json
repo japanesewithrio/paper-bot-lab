@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-11-10",
+      "risk_date": "2026-11-11",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -22,30 +22,38 @@
       "trade_count": 6
     },
     "BOT_B": {
-      "cash": 9017.61537547,
-      "day_start_equity": 9273.41499208,
+      "cash": 6763.2115316,
+      "day_start_equity": 9017.61537547,
       "entry_paused_date": null,
-      "last_equity": 9017.61537547,
+      "last_equity": 9016.48873686,
       "last_exit_date": {
         "AMD": "2026-11-05",
         "NVDA": "2026-11-10"
       },
       "peak_equity": 10009.54557146,
-      "positions": {},
+      "positions": {
+        "NVDA": {
+          "avg_price": 175.737825,
+          "entry_notional": 2254.4,
+          "entry_time": "2026-11-11T14:57:04.412350-05:00",
+          "imported": false,
+          "qty": 12.8282220624
+        }
+      },
       "realized_pl": -982.38462461,
-      "risk_date": "2026-11-10",
+      "risk_date": "2026-11-11",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Dip / Mean Reversion",
-      "trade_count": 12
+      "trade_count": 13
     },
     "BOT_C": {
-      "cash": 9780.67905635,
+      "cash": 4890.64502165,
       "day_start_equity": 9780.67905635,
       "entry_paused_date": null,
-      "last_equity": 9780.67905635,
+      "last_equity": 9778.23526122,
       "last_exit_date": {
         "AAPL": "2026-10-28",
         "AMD": "2026-10-09",
@@ -53,112 +61,135 @@
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {},
+      "positions": {
+        "AAPL": {
+          "avg_price": 354.932377,
+          "entry_notional": 2445.17,
+          "entry_time": "2026-11-11T14:57:04.412350-05:00",
+          "imported": false,
+          "qty": 6.8891144316
+        },
+        "AMD": {
+          "avg_price": 559.55964,
+          "entry_notional": 2444.86,
+          "entry_time": "2026-11-11T14:57:04.412350-05:00",
+          "imported": false,
+          "qty": 4.3692648573
+        }
+      },
       "realized_pl": -219.32093406,
-      "risk_date": "2026-11-10",
+      "risk_date": "2026-11-11",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 24
+      "trade_count": 26
     },
     "BOT_D": {
-      "cash": 9922.0591715,
+      "cash": 7937.6473372,
       "day_start_equity": 9922.0591715,
       "entry_paused_date": null,
-      "last_equity": 9922.0591715,
+      "last_equity": 9921.06746142,
       "last_exit_date": {
         "AAPL": "2026-11-06"
       },
       "peak_equity": 10051.60874843,
-      "positions": {},
+      "positions": {
+        "AAPL": {
+          "avg_price": 354.932377,
+          "entry_notional": 1984.41,
+          "entry_time": "2026-11-11T14:57:04.412350-05:00",
+          "imported": false,
+          "qty": 5.5909574896
+        }
+      },
       "realized_pl": -77.94082272,
-      "risk_date": "2026-11-10",
+      "risk_date": "2026-11-11",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "Conservative Confirmation",
-      "trade_count": 6
+      "trade_count": 7
     }
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 348.275,
-    "AMD": 513.5,
-    "MSFT": 532.9,
-    "NVDA": 167.095
+    "AAPL": 354.755,
+    "AMD": 559.28,
+    "MSFT": 520.415,
+    "NVDA": 175.65
   },
-  "last_run": "2026-11-10T15:07:44.223380-05:00",
+  "last_run": "2026-11-11T14:57:04.412350-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "ShiftCam ProRig Filmmaker Kit Launches at Apple Stores",
-        "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
-        "Apple TV Series Named Finalists for 65th Rose d'Or Awards",
-        "Citic Securities Adjusts Apple Price Target",
-        "Apple Receives Regulatory Clearance for AI Services in China"
+        "Nvidia’s Earnings Day Is ‘Earnings Day for Your 401(k).’ Here’s Why",
+        "Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves",
+        "What's Going On With Apple Stock Wednesday?",
+        "This Apple Analyst Turns Bullish; Here Are Top 5 Upgrades For Wednesday",
+        "China Renaissance Upgrades Apple to Buy, Announces $425 Price Target"
       ],
       "news_score": 2,
-      "price": 348.275,
-      "prior20_high": 355.29,
-      "ret5_pct": -0.3662,
-      "rsi14": 53.1464,
-      "sma20": 344.2875,
-      "sma50": 337.3014,
-      "zscore20": 0.9305
+      "price": 354.755,
+      "prior20_high": 355.33,
+      "ret5_pct": 2.9469,
+      "rsi14": 54.2709,
+      "sma20": 344.87075,
+      "sma50": 337.8899,
+      "zscore20": 2.046
     },
     "AMD": {
       "news_headlines": [
-        "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is ‘at Her Best’",
-        "AMD and Cornelis Networks Launch Joint Go-to-Market Program for HPC and AI",
-        "AMD Announces General Availability of 6th Gen EPYC Server Processors",
-        "What's Going on With Alphabet Stock on Tuesday?",
-        "Nvidia Has No Obvious Jensen Huang Successor. That’s Becoming a Bigger Problem"
+        "POET Stock Soars After CoreWeave's Strong Q3 Results and FY26 Guidance",
+        "Supermicro and AMD Collaborate on Helios and Helion Rack-Scale AI Solutions",
+        "EXCLUSIVE: Jensen Huang Drama Puts Q3 Financials on Backburner, Expert Says ‘No One Cares About Their Record Revenues’",
+        "What Is Going on With Super Micro Stock on Wednesday?",
+        "What Is Going on With AMD Stock on Wednesday?"
       ],
       "news_score": 2,
-      "price": 513.5,
-      "prior20_high": 591.065,
-      "ret5_pct": 5.0725,
-      "rsi14": 45.7973,
-      "sma20": 518.37475,
-      "sma50": 548.5094,
-      "zscore20": -0.1122
+      "price": 559.28,
+      "prior20_high": 578.89,
+      "ret5_pct": 38.6347,
+      "rsi14": 55.7304,
+      "sma20": 517.78025,
+      "sma50": 550.4961,
+      "zscore20": 0.9692
     },
     "MSFT": {
       "news_headlines": [
-        "The Ohio State University and Microsoft Announce Five-Year Strategic Partnership",
-        "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
-        "10 Information Technology Stocks Whale Activity In Today’s Session",
-        "AvePoint Expands Strategic Partnership with Microsoft for AI Governance",
-        "IBM and Microsoft Announce New AI Agent Platform"
+        "Nvidia’s Earnings Day Is ‘Earnings Day for Your 401(k).’ Here’s Why",
+        "Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves",
+        "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+        "Microsoft Stock Slides After Anthropic Launches Productivity Tools: What to Know",
+        "What's Going On With Microsoft Stock Wednesday?"
       ],
-      "news_score": 3,
-      "price": 532.9,
+      "news_score": -1,
+      "price": 520.415,
       "prior20_high": 559.12,
-      "ret5_pct": -4.1667,
-      "rsi14": 49.9105,
-      "sma20": 531.2035,
-      "sma50": 517.8239,
-      "zscore20": 0.1763
+      "ret5_pct": -2.9602,
+      "rsi14": 49.6374,
+      "sma20": 530.559,
+      "sma50": 518.2231,
+      "zscore20": -1.0266
     },
     "NVDA": {
       "news_headlines": [
-        "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
-        "Wall Street Hasn't Ignored Earnings Beats Like This Since the Dot-Com Bust",
-        "'House Republicans Consider Issuing Subpoena To NVIDIA CEO Jensen Huang' - ABC News",
-        "AMD Gains 25% Against NVDA in 2 Days: Chip Analyst Says Lisa Su Is ‘at Her Best’",
-        "'UK data centre pioneer considers delaying $35bn listing after AI sell-off' - The Telegraph"
+        "EXCLUSIVE: Jensen Huang Drama Puts Q3 Financials on Backburner, Expert Says ‘No One Cares About Their Record Revenues’",
+        "Nvidia’s Earnings Day Is ‘Earnings Day for Your 401(k).’ Here’s Why",
+        "James Altucher Posts On X \"My first patent, on a critical piece of infrastructure to make $NVDA GPUs faster. All credit to the amazing optical engineers at $FABC and $KOPN who let me put my name on it.\"",
+        "What Is Going On With Snap Stock on Wednesday?",
+        "Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves"
       ],
-      "news_score": -1,
-      "price": 167.095,
-      "prior20_high": 225.975,
-      "ret5_pct": -16.5235,
-      "rsi14": 18.5223,
-      "sma20": 206.0805,
-      "sma50": 217.9643,
-      "zscore20": -2.5422
+      "news_score": 1,
+      "price": 175.65,
+      "prior20_high": 222.18,
+      "ret5_pct": -3.2711,
+      "rsi14": 27.9024,
+      "sma20": 203.90425,
+      "sma50": 217.1738,
+      "zscore20": -1.7662
     }
   },
   "schema_version": 2,
@@ -690,6 +721,50 @@
       "reason": "stop -7%",
       "symbol": "NVDA",
       "timestamp": "2026-11-10T15:07:44.223380-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_B",
+      "fill_price": 175.737825,
+      "notional": 2254.4,
+      "qty": 12.8282220624,
+      "realized_pl": 0.0,
+      "reason": "Dip / Mean Reversion entry rule satisfied",
+      "symbol": "NVDA",
+      "timestamp": "2026-11-11T14:57:04.412350-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 354.932377,
+      "notional": 2445.17,
+      "qty": 6.8891144316,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-11-11T14:57:04.412350-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 559.55964,
+      "notional": 2444.86,
+      "qty": 4.3692648573,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "AMD",
+      "timestamp": "2026-11-11T14:57:04.412350-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_D",
+      "fill_price": 354.932377,
+      "notional": 1984.41,
+      "qty": 5.5909574896,
+      "realized_pl": 0.0,
+      "reason": "Conservative Confirmation entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-11-11T14:57:04.412350-05:00"
     }
   ]
 }
