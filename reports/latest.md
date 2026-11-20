@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-11-13T15:12:15.489625-05:00
+Updated: 2026-11-20T15:52:05.563367-05:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,10 +8,10 @@ Updated: 2026-11-13T15:12:15.489625-05:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $9,933.45 | -0.67% | $7,937.65 | $10,051.61 | $-77.94 | $11.39 | AAPL |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $9,858.08 | -1.42% | $9,858.08 | $10,051.61 | $-141.92 | $0.00 | — |
 | 2 | BOT_A | ACTIVE | Trend / Breakout | $9,674.23 | -3.26% | $9,674.23 | $10,000.00 | $-325.77 | $0.00 | — |
-| 3 | BOT_C | ACTIVE | News + Momentum | $9,666.97 | -3.33% | $7,336.95 | $10,007.62 | $-218.18 | $-114.84 | AMD |
-| 4 | BOT_B | ACTIVE | Dip / Mean Reversion | $8,856.03 | -11.44% | $6,642.86 | $10,009.55 | $-1,142.86 | $-1.11 | NVDA |
+| 3 | BOT_C | ACTIVE | News + Momentum | $9,198.20 | -8.02% | $9,198.20 | $10,007.62 | $-801.80 | $0.00 | — |
+| 4 | BOT_B | STOPPED | Dip / Mean Reversion | $8,374.65 | -16.25% | $8,374.65 | $10,009.55 | $-1,625.35 | $0.00 | — |
 
 ## Portfolio risk rules
 
@@ -25,14 +25,17 @@ Updated: 2026-11-13T15:12:15.489625-05:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $356.97 | $346.25 | $339.08 | 58.8 | 1.84% | $360.81 | 1.83 | +0 |
-| NVDA | $162.93 | $198.70 | $214.66 | 19.1 | -8.79% | $222.18 | -1.85 | +0 |
-| AMD | $533.28 | $518.92 | $554.52 | 50.3 | 4.84% | $593.93 | 0.33 | +1 |
-| MSFT | $524.37 | $529.53 | $519.04 | 47.2 | -3.82% | $559.12 | -0.52 | -1 |
+| AAPL | $343.66 | $347.57 | $341.85 | 53.6 | -2.59% | $360.81 | -0.66 | +1 |
+| NVDA | $127.56 | $181.56 | $207.05 | 14.0 | -18.31% | $219.91 | -2.05 | -2 |
+| AMD | $426.20 | $509.14 | $553.11 | 46.0 | -15.46% | $593.93 | -1.75 | -2 |
+| MSFT | $484.78 | $523.03 | $519.87 | 42.8 | -6.45% | $559.12 | -2.38 | +2 |
 
 ## Actions this run
 
-- BOT_B BUY NVDA @ 163.01 — Dip / Mean Reversion entry rule satisfied
+- BOT_B SELL NVDA @ 127.49 — stop -7%
+- BOT_C SELL AMD @ 425.99 — negative news, price<SMA20, stop -6%
+- BOT_D SELL AAPL @ 343.49 — price<SMA20
+- BOT_B STOPPED — peak drawdown >= 15%
 
 ## Notes
 
