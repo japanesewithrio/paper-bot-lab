@@ -15,7 +15,7 @@ concurrency:
 jobs:
   run-paper-bots:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 355
 
     steps:
       - name: Checkout repository
@@ -92,7 +92,7 @@ jobs:
         run: |
           if grep -nE \
             'submit_order|MarketOrderRequest|LimitOrderRequest|StopOrderRequest|StopLimitOrderRequest' \
-            bot_runner.py
+            bot_runner.py market_clock.py
           then
             echo "Broker order code detected. Stopping."
             exit 1
@@ -104,27 +104,38 @@ jobs:
         if: steps.secrets.outputs.ready == 'true'
         run: python -m pytest -q
 
-      - name: Run Paper Bot Lab
+      # GitHub drops or delays most scheduled runs (11/2026: 1-2 of 20 a day, often after the close).
+      # So one run stays alive through the trading session and runs the bots itself every 30 minutes.
+      # Extra scheduled runs that arrive meanwhile wait (concurrency group) and simply continue after it.
+      - name: Run Paper Bot Lab through the trading session
         if: steps.secrets.outputs.ready == 'true'
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
-        run: python bot_runner.py
-
-      - name: Save bot state
-        if: steps.secrets.outputs.ready == 'true'
         shell: bash
         run: |
-          if git diff --quiet -- bot_state.json reports/latest.md; then
-            echo "No bot-state changes."
-            exit 0
-          fi
-
           git config user.name "paper-bot-lab[bot]"
           git config user.email "paper-bot-lab[bot]@users.noreply.github.com"
-
-          git add bot_state.json reports/latest.md
-          git commit -m "Update Paper Bot Lab state [skip ci]"
-
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          end=$(( $(date +%s) + 340 * 60 ))
+          runs=0
+          while [ "$(date +%s)" -lt "$end" ]; do
+            status="$(python market_clock.py || echo ERROR)"
+            echo "$(date -u +%H:%M) market: $status"
+            case "$status" in
+              OPEN) ;;
+              SOON*) sleep "$(( ${status#SOON } + 60 ))"; continue ;;
+              ERROR) sleep 120; continue ;;
+              *) break ;;
+            esac
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+            python bot_runner.py || echo "bot_runner failed (will try again next round)"
+            runs=$((runs + 1))
+            if ! git diff --quiet -- bot_state.json reports/latest.md; then
+              git add bot_state.json reports/latest.md
+              git commit -q -m "Update Paper Bot Lab state [skip ci]"
+              git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" || echo "push failed"
+            fi
+            now=$(date +%s)
+            sleep $(( 1800 - now % 1800 + 30 ))     # next :00 / :30 (+30 s)
+          done
+          echo "bot rounds this session: $runs"
