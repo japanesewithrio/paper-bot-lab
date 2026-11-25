@@ -86,12 +86,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 347.975,
-    "AMD": 375.485,
-    "MSFT": 480.525,
-    "NVDA": 141.82
+    "AAPL": 348.995,
+    "AMD": 375.465,
+    "MSFT": 482.525,
+    "NVDA": 142.075
   },
-  "last_run": "2026-11-25T11:31:49.822026-05:00",
+  "last_run": "2026-11-25T12:00:33.276262-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -102,13 +102,13 @@
         "Apple Plans Return of (PRODUCT)RED Lineup"
       ],
       "news_score": 1,
-      "price": 347.975,
+      "price": 348.995,
       "prior20_high": 360.815,
-      "ret5_pct": -0.318,
-      "rsi14": 53.3207,
-      "sma20": 348.4,
-      "sma50": 342.9504,
-      "zscore20": -0.0713
+      "ret5_pct": -0.0258,
+      "rsi14": 54.5226,
+      "sma20": 348.45825,
+      "sma50": 342.9737,
+      "zscore20": 0.09
     },
     "AMD": {
       "news_headlines": [
@@ -117,13 +117,13 @@
         "TrendForce Reports Growing Demand for AMD Helios AI Server Systems"
       ],
       "news_score": 1,
-      "price": 375.485,
+      "price": 375.465,
       "prior20_high": 593.93,
-      "ret5_pct": -23.2827,
-      "rsi14": 47.1935,
-      "sma20": 487.56925,
-      "sma50": 547.6777,
-      "zscore20": -2.069
+      "ret5_pct": -23.2868,
+      "rsi14": 47.2769,
+      "sma20": 487.61375,
+      "sma50": 547.6955,
+      "zscore20": -2.0737
     },
     "MSFT": {
       "news_headlines": [
@@ -134,13 +134,13 @@
         "Atos and Microsoft Extend Partnership for Digital Sovereignty"
       ],
       "news_score": 2,
-      "price": 480.525,
+      "price": 482.525,
       "prior20_high": 559.12,
-      "ret5_pct": -3.5961,
-      "rsi14": 26.5695,
-      "sma20": 516.79425,
-      "sma50": 519.433,
-      "zscore20": -1.8829
+      "ret5_pct": -3.1949,
+      "rsi14": 27.0658,
+      "sma20": 516.90275,
+      "sma50": 519.4764,
+      "zscore20": -1.8032
     },
     "NVDA": {
       "news_headlines": [
@@ -151,13 +151,13 @@
         "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model"
       ],
       "news_score": 0,
-      "price": 141.82,
+      "price": 142.075,
       "prior20_high": 215.32,
-      "ret5_pct": -2.853,
-      "rsi14": 35.7806,
-      "sma20": 172.1375,
-      "sma50": 203.5263,
-      "zscore20": -1.2807
+      "ret5_pct": -2.6784,
+      "rsi14": 35.7909,
+      "sma20": 172.1395,
+      "sma50": 203.5271,
+      "zscore20": -1.2701
     }
   },
   "schema_version": 2,
