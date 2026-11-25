@@ -43,10 +43,10 @@
       "trade_count": 16
     },
     "BOT_C": {
-      "cash": 9198.20097811,
+      "cash": 6898.65073358,
       "day_start_equity": 9198.20097811,
       "entry_paused_date": null,
-      "last_equity": 9198.20097811,
+      "last_equity": 9197.05177757,
       "last_exit_date": {
         "AAPL": "2026-11-12",
         "AMD": "2026-11-20",
@@ -54,7 +54,15 @@
         "NVDA": "2026-10-07"
       },
       "peak_equity": 10007.62053054,
-      "positions": {},
+      "positions": {
+        "AAPL": {
+          "avg_price": 353.186505,
+          "entry_notional": 2299.55,
+          "entry_time": "2026-11-25T13:00:31.562203-05:00",
+          "imported": false,
+          "qty": 6.5108666723
+        }
+      },
       "realized_pl": -801.79900885,
       "risk_date": "2026-11-25",
       "starting_cash": 10000.0,
@@ -62,13 +70,13 @@
       "stop_reason": null,
       "stopped_at": null,
       "strategy": "News + Momentum",
-      "trade_count": 28
+      "trade_count": 29
     },
     "BOT_D": {
       "cash": 7886.46007508,
       "day_start_equity": 9858.07509385,
       "entry_paused_date": null,
-      "last_equity": 9857.08977901,
+      "last_equity": 9866.73845415,
       "last_exit_date": {
         "AAPL": "2026-11-20"
       },
@@ -94,12 +102,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 351.29,
-    "AMD": 384.1,
-    "MSFT": 485.545,
-    "NVDA": 144.095
+    "AAPL": 353.01,
+    "AMD": 390.655,
+    "MSFT": 488.18,
+    "NVDA": 145.425
   },
-  "last_run": "2026-11-25T12:30:32.227462-05:00",
+  "last_run": "2026-11-25T13:00:31.562203-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -110,13 +118,13 @@
         "Apple Plans Return of (PRODUCT)RED Lineup"
       ],
       "news_score": 1,
-      "price": 351.29,
+      "price": 353.01,
       "prior20_high": 360.815,
-      "ret5_pct": 0.6317,
-      "rsi14": 56.7802,
-      "sma20": 348.561,
-      "sma50": 343.0148,
-      "zscore20": 0.4554
+      "ret5_pct": 1.1244,
+      "rsi14": 58.9047,
+      "sma20": 348.6505,
+      "sma50": 343.0506,
+      "zscore20": 0.721
     },
     "AMD": {
       "news_headlines": [
@@ -125,13 +133,13 @@
         "TrendForce Reports Growing Demand for AMD Helios AI Server Systems"
       ],
       "news_score": 1,
-      "price": 384.1,
+      "price": 390.655,
       "prior20_high": 593.93,
-      "ret5_pct": -21.5226,
-      "rsi14": 47.9886,
-      "sma20": 487.98725,
-      "sma50": 547.8449,
-      "zscore20": -1.948
+      "ret5_pct": -20.1833,
+      "rsi14": 48.5137,
+      "sma20": 488.25575,
+      "sma50": 547.9523,
+      "zscore20": -1.848
     },
     "MSFT": {
       "news_headlines": [
@@ -142,13 +150,13 @@
         "Atos and Microsoft Extend Partnership for Digital Sovereignty"
       ],
       "news_score": 2,
-      "price": 485.545,
+      "price": 488.18,
       "prior20_high": 559.12,
-      "ret5_pct": -2.589,
-      "rsi14": 27.564,
-      "sma20": 517.00775,
-      "sma50": 519.5184,
-      "zscore20": -1.6662
+      "ret5_pct": -2.0604,
+      "rsi14": 28.2957,
+      "sma20": 517.15525,
+      "sma50": 519.5774,
+      "zscore20": -1.5542
     },
     "NVDA": {
       "news_headlines": [
@@ -159,13 +167,13 @@
         "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model"
       ],
       "news_score": 0,
-      "price": 144.095,
+      "price": 145.425,
       "prior20_high": 215.32,
-      "ret5_pct": -1.2947,
-      "rsi14": 36.2318,
-      "sma20": 172.224,
-      "sma50": 203.5609,
-      "zscore20": -1.1936
+      "ret5_pct": -0.3836,
+      "rsi14": 36.7243,
+      "sma20": 172.316,
+      "sma50": 203.5977,
+      "zscore20": -1.1464
     }
   },
   "schema_version": 2,
@@ -818,6 +826,17 @@
       "reason": "Conservative Confirmation entry rule satisfied",
       "symbol": "AAPL",
       "timestamp": "2026-11-25T12:30:32.227462-05:00"
+    },
+    {
+      "action": "BUY",
+      "bot": "BOT_C",
+      "fill_price": 353.186505,
+      "notional": 2299.55,
+      "qty": 6.5108666723,
+      "realized_pl": 0.0,
+      "reason": "News + Momentum entry rule satisfied",
+      "symbol": "AAPL",
+      "timestamp": "2026-11-25T13:00:31.562203-05:00"
     }
   ]
 }
