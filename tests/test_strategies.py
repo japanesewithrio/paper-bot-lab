@@ -32,3 +32,13 @@ def test_same_day_reentry_and_max_positions():
 def test_slippage_is_adverse():
     assert simulated_fill(100, "BUY") > 100
     assert simulated_fill(100, "SELL") < 100
+
+
+def test_cooldown_then_resume():
+    from bot_runner import maybe_resume
+    bot = {"status": "STOPPED", "stopped_at": "2026-11-20T15:52:05-05:00", "positions": {}}
+    acts = []
+    maybe_resume("BOT_B", bot, 8000.0, "2026-12-01", acts)
+    assert bot["status"] == "COOLDOWN" and bot["resume_on"] == "2026-12-18"
+    maybe_resume("BOT_B", bot, 8000.0, "2026-12-18", acts)
+    assert bot["status"] == "ACTIVE" and bot["risk_base"] == 8000.0 and bot["peak_equity"] == 8000.0

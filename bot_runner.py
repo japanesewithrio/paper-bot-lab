@@ -44,9 +44,12 @@ SLIPPAGE_BPS = 5.0
 MAX_POSITIONS = 3
 
 # Portfolio-level risk controls. These apply independently to every virtual bot.
-HARD_FLOOR_PCT = 0.80          # Permanently stop at 80% of starting equity (-20%).
-MAX_PEAK_DRAWDOWN_PCT = 0.15  # Permanently stop after a 15% drawdown from peak equity.
+HARD_FLOOR_PCT = 0.80          # Cooldown at 80% of the equity at the last (re)start (-20%).
+MAX_PEAK_DRAWDOWN_PCT = 0.15  # Cooldown after a 15% drawdown from peak equity.
 DAILY_PAUSE_LOSS_PCT = 0.05   # Pause NEW entries for the rest of the day after a 5% daily equity loss.
+# 11/2026 backtest (reports/backtest.md): stopping a bot FOREVER after a -15%/-20% drawdown cut long-run results
+# sharply for every bot. Now a stopped bot sits out ~20 trading days, then restarts from its current equity.
+COOLDOWN_CALENDAR_DAYS = 28
 
 POS_WORDS = {
     "beat", "beats", "growth", "strong", "record", "upgrade", "upgraded",
@@ -422,8 +425,8 @@ def refresh_daily_risk(bot: dict[str, Any], equity: float, today: str) -> None:
 
 
 def portfolio_stop_reason(bot: dict[str, Any], equity: float) -> str | None:
-    """Return a permanent-stop reason, or None when portfolio risk remains valid."""
-    start = _f(bot.get("starting_cash"), 10000.0)
+    """Return a stop (cooldown) reason, or None when portfolio risk remains valid."""
+    start = _f(bot.get("risk_base"), _f(bot.get("starting_cash"), 10000.0))   # equity at the last (re)start
     peak = max(_f(bot.get("peak_equity"), start), equity)
     bot["peak_equity"] = peak
 
@@ -452,7 +455,7 @@ def liquidate_virtual_bot(
     now_et: datetime,
     actions: list[str],
 ) -> None:
-    """Close every virtual position and permanently stop one bot. No broker order is sent."""
+    """Close every virtual position and put one bot in a cooldown break. No broker order is sent."""
     today = now_et.date().isoformat()
     for symbol in list(bot["positions"].keys()):
         pos = bot["positions"][symbol]
@@ -485,13 +488,29 @@ def liquidate_virtual_bot(
         )
         actions.append(f"{bot_name} SELL {symbol} @ {fill:.2f} — portfolio stop: {reason}")
 
-    # Mark STOPPED only when every virtual position has been safely closed.
+    # Start the break only when every virtual position has been safely closed.
     if not bot["positions"]:
-        bot["status"] = "STOPPED"
+        resume = (now_et.date() + timedelta(days=COOLDOWN_CALENDAR_DAYS)).isoformat()
+        bot["status"] = "COOLDOWN"
         bot["stop_reason"] = reason
         bot["stopped_at"] = now_et.isoformat()
+        bot["resume_on"] = resume
         bot["entry_paused_date"] = today
-        actions.append(f"{bot_name} STOPPED — {reason}")
+        actions.append(f"{bot_name} COOLDOWN until {resume} — {reason}")
+
+
+def maybe_resume(bot_name: str, bot: dict[str, Any], equity: float, today: str, actions: list[str]) -> None:
+    """End a cooldown break: restart from the current equity (new floor and new peak)."""
+    if bot.get("status") == "STOPPED":            # bots stopped under the old forever-rule get a break too
+        stopped = str(bot.get("stopped_at") or today)[:10]
+        bot["status"] = "COOLDOWN"
+        bot["resume_on"] = (datetime.fromisoformat(stopped).date() + timedelta(days=COOLDOWN_CALENDAR_DAYS)).isoformat()
+    if bot.get("status") == "COOLDOWN" and not bot["positions"] and today >= str(bot.get("resume_on") or today):
+        bot["status"] = "ACTIVE"
+        bot["risk_base"] = round(equity, 8)
+        bot["peak_equity"] = round(equity, 8)
+        bot["stop_reason"] = None
+        actions.append(f"{bot_name} RESUMED after cooldown at ${equity:,.2f}")
 
 
 def write_report(
@@ -535,8 +554,8 @@ def write_report(
         "",
         "## Portfolio risk rules",
         "",
-        f"- Permanent stop at {HARD_FLOOR_PCT:.0%} of starting equity (20% total loss).",
-        f"- Permanent stop after a {MAX_PEAK_DRAWDOWN_PCT:.0%} drawdown from the bot's peak equity.",
+        f"- Stop at {HARD_FLOOR_PCT:.0%} of the equity at the last (re)start, or after a {MAX_PEAK_DRAWDOWN_PCT:.0%} drawdown from the peak.",
+        f"- A stopped bot sells everything and sits out {COOLDOWN_CALENDAR_DAYS} calendar days (COOLDOWN), then restarts from its current equity.",
         f"- Pause new entries for the rest of the trading day after a {DAILY_PAUSE_LOSS_PCT:.0%} daily equity loss.",
         "- No profit ceiling: active bots may continue compounding.",
         "- New position sizes are a percentage of current equity: A/B/C 25%, D 20%.",
@@ -646,6 +665,7 @@ def run() -> int:
         m = mark_bot(bot, prices)
         equity = m["equity"]
         refresh_daily_risk(bot, equity, today)
+        maybe_resume(bot_name, bot, equity, today, actions)
 
         if bot.get("status", "ACTIVE") == "ACTIVE":
             reason = portfolio_stop_reason(bot, equity)

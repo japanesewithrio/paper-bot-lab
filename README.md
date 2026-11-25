@@ -13,6 +13,13 @@ This project **does not submit Alpaca brokerage orders**. Alpaca is used only fo
 
 This is an experimental simulation, not financial advice. Simulated fills include a small slippage assumption but still do not reproduce all real-world liquidity, latency, fees, market impact, halts, or execution behavior.
 
+## Backtest
+
+`backtest.py` (workflow **Paper Bot Lab backtest**, run by hand) replays the same rules on daily bars since 2016,
+for the 4-stock watchlist and for the 28 largest US companies of early 2016. Results: `reports/backtest.md`.
+It showed that stopping a bot forever after a drawdown hurt every strategy, so the live rule is now a
+28-day cooldown followed by a restart.
+
 ## Required repository secrets
 
 Add these under **Settings → Secrets and variables → Actions**:
