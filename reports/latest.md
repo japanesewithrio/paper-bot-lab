@@ -1,6 +1,6 @@
 # Paper Bot Lab — Latest Report
 
-Updated: 2026-11-25T13:00:31.562203-05:00
+Updated: 2026-11-25T13:30:32.862976-05:00
 
 > Simulation only. No Alpaca brokerage orders are submitted.
 
@@ -8,9 +8,9 @@ Updated: 2026-11-25T13:00:31.562203-05:00
 
 | Rank | Bot | Status | Strategy | Equity | Return | Cash | Peak | Realized P/L | Unrealized P/L | Open positions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|---|
-| 1 | BOT_D | ACTIVE | Conservative Confirmation | $9,866.74 | -1.33% | $7,886.46 | $10,051.61 | $-141.92 | $8.66 | AAPL |
+| 1 | BOT_D | ACTIVE | Conservative Confirmation | $9,875.91 | -1.24% | $7,886.46 | $10,051.61 | $-141.92 | $17.84 | AAPL |
 | 2 | BOT_A | ACTIVE | Trend / Breakout | $9,674.23 | -3.26% | $9,674.23 | $10,000.00 | $-325.77 | $0.00 | — |
-| 3 | BOT_C | ACTIVE | News + Momentum | $9,197.05 | -8.03% | $6,898.65 | $10,007.62 | $-801.80 | $-1.15 | AAPL |
+| 3 | BOT_C | ACTIVE | News + Momentum | $9,207.70 | -7.92% | $6,898.65 | $10,007.62 | $-801.80 | $9.50 | AAPL |
 | 4 | BOT_B | COOLDOWN | Dip / Mean Reversion | $8,374.65 | -16.25% | $8,374.65 | $10,009.55 | $-1,625.35 | $0.00 | — |
 
 ## Portfolio risk rules
@@ -25,14 +25,14 @@ Updated: 2026-11-25T13:00:31.562203-05:00
 
 | Symbol | Price | SMA20 | SMA50 | RSI14 | 5D % | Prior 20D High | Z20 | News |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| AAPL | $353.01 | $348.65 | $343.05 | 58.9 | 1.12% | $360.81 | 0.72 | +1 |
-| NVDA | $145.43 | $172.32 | $203.60 | 36.7 | -0.38% | $215.32 | -1.15 | +0 |
-| AMD | $390.65 | $488.26 | $547.95 | 48.5 | -20.18% | $593.93 | -1.85 | +1 |
-| MSFT | $488.18 | $517.16 | $519.58 | 28.3 | -2.06% | $559.12 | -1.55 | +2 |
+| AAPL | $354.64 | $348.74 | $343.08 | 60.8 | 1.59% | $360.81 | 0.97 | +1 |
+| NVDA | $147.32 | $172.41 | $203.63 | 37.2 | 0.92% | $215.32 | -1.07 | +0 |
+| AMD | $394.25 | $488.60 | $548.09 | 49.2 | -19.45% | $593.93 | -1.81 | +1 |
+| MSFT | $489.12 | $517.25 | $519.62 | 28.8 | -1.87% | $559.12 | -1.52 | +2 |
 
 ## Actions this run
 
-- BOT_C BUY AAPL @ 353.19 — News + Momentum entry rule satisfied
+- No virtual trades this run.
 
 ## Notes
 
