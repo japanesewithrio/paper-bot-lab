@@ -1,41 +1,54 @@
 # Paper Bot Lab — Backtest
 
-Generated: 2026-11-25 00:04 UTC · data: Alpaca daily bars (DataFeed.SIP, split/dividend adjusted) · 2016-03-23 → 2026-11-23
+Generated: 2026-11-25 01:23 UTC · data: Alpaca daily bars (DataFeed.SIP, split/dividend adjusted)
 
 > Simulation only. Past results do not predict future results. Not financial advice.
 
-| Bot / benchmark | Strategy | Total return | CAGR | Max drawdown | Sharpe | Trades | Win rate | Status | Stopped on |
-|---|---|---:|---:|---:|---:|---:|---:|---|---|
-| BOT_A | Trend / Breakout | +86.3% | +6.0% | -16.0% | 0.78 | 118 | 53% | STOPPED | 2021-02-25 |
-| BOT_B | Dip / Mean Reversion | +13.2% | +1.2% | -15.3% | 0.26 | 48 | 71% | STOPPED | 2018-11-16 |
-| BOT_C | News + Momentum | +203.7% | +11.0% | -15.3% | 0.97 | 273 | 42% | STOPPED | 2021-01-29 |
-| BOT_D | Conservative Confirmation | +53.8% | +4.1% | -14.6% | 0.70 | 313 | 44% | ACTIVE |  |
-| BOT_A (no permanent stop) | Trend / Breakout | +188.5% | +10.4% | -18.1% | 0.97 | 223 | 48% | - |  |
-| BOT_B (no permanent stop) | Dip / Mean Reversion | +68.6% | +5.0% | -23.4% | 0.47 | 206 | 67% | - |  |
-| BOT_C (no permanent stop) | News + Momentum | +490.9% | +18.1% | -25.8% | 1.08 | 609 | 39% | - |  |
-| BOT_D (no permanent stop) | Conservative Confirmation | +53.8% | +4.1% | -14.6% | 0.70 | 313 | 44% | - |  |
-| Buy & hold 4 stocks | benchmark | +9661.8% | +53.6% | -60.7% | 1.21 | 0 | - | - |  |
-| Buy & hold SPY (S&P 500) | benchmark | +318.6% | +14.4% | -33.8% | 0.86 | 0 | - | - |  |
+## Live watchlist (4 stocks) · 2016-03-23 → 2026-11-23
 
-## Return by year (%, strategies without the permanent stop)
+Stocks: AAPL, NVDA, AMD, MSFT
 
-|      |   BOT_A |   BOT_B |   BOT_C |   BOT_D |   Buy & hold 4 stocks |   Buy & hold SPY (S&P 500) |
-|-----:|--------:|--------:|--------:|--------:|----------------------:|---------------------------:|
-| 2016 |    22.7 |     9.2 |    10.4 |     3.2 |                 140.9 |                       11.8 |
-| 2017 |     7   |    15   |    24.8 |     4.8 |                  33   |                       21.7 |
-| 2018 |    10.7 |   -10.9 |    14.9 |     0.1 |                  12.2 |                       -5   |
-| 2019 |    15.2 |    -0.4 |    41.3 |    11.1 |                 109.8 |                       31.1 |
-| 2020 |    17.5 |    19.2 |    44   |    24.5 |                  97.4 |                       18.5 |
-| 2021 |     5.6 |    14.2 |    21.9 |    -2   |                  72.4 |                       28.6 |
-| 2022 |    -5.3 |   -12.8 |   -18.4 |    -5.3 |                 -49.6 |                      -18.2 |
-| 2023 |    23.9 |    18.2 |    37.9 |     7.1 |                 150.2 |                       26.2 |
-| 2024 |    20.4 |     9.6 |    24   |     4.4 |                  72.7 |                       24.9 |
-| 2025 |     7.8 |    15.4 |     2.9 |     4.9 |                  44.4 |                       17.7 |
-| 2026 |    -8.9 |   -14.7 |     4.9 |    -5.7 |                  21   |                        6.8 |
+| Bot / benchmark | Portfolio stop rule | Total return | CAGR | Max drawdown | Sharpe | Trades | Win rate | End status | Stops hit |
+|---|---|---:|---:|---:|---:|---:|---:|---|---:|
+| BOT_A | live rule: stop forever | +194.2% | +10.6% | -15.2% | 0.99 | 221 | 49% | STOPPED | 1 |
+| BOT_B | live rule: stop forever | +13.2% | +1.2% | -15.3% | 0.26 | 48 | 71% | STOPPED | 1 |
+| BOT_C | live rule: stop forever | +221.5% | +11.6% | -15.3% | 1.01 | 270 | 44% | STOPPED | 1 |
+| BOT_D | live rule: stop forever | +54.1% | +4.1% | -14.6% | 0.70 | 314 | 44% | ACTIVE | 0 |
+| BOT_A | stop → 20-day break → restart | +191.5% | +10.5% | -16.0% | 0.98 | 222 | 49% | ACTIVE | 1 |
+| BOT_B | stop → 20-day break → restart | +62.0% | +4.6% | -22.0% | 0.46 | 200 | 66% | ACTIVE | 2 |
+| BOT_C | stop → 20-day break → restart | +514.3% | +18.5% | -29.0% | 1.11 | 592 | 40% | ACTIVE | 4 |
+| BOT_D | stop → 20-day break → restart | +54.1% | +4.1% | -14.6% | 0.70 | 314 | 44% | ACTIVE | 0 |
+| BOT_A | no portfolio stop | +184.2% | +10.3% | -18.1% | 0.96 | 224 | 48% | ACTIVE | 0 |
+| BOT_B | no portfolio stop | +62.0% | +4.6% | -23.4% | 0.45 | 205 | 67% | ACTIVE | 0 |
+| BOT_C | no portfolio stop | +546.4% | +19.1% | -25.8% | 1.13 | 608 | 40% | ACTIVE | 0 |
+| BOT_D | no portfolio stop | +54.1% | +4.1% | -14.6% | 0.70 | 314 | 44% | ACTIVE | 0 |
+| Buy & hold these 4 stocks | benchmark | +9661.8% | +53.6% | -60.7% | 1.21 | 0 | - | - | 0 |
+| Buy & hold SPY (S&P 500) | benchmark | +318.6% | +14.4% | -33.8% | 0.86 | 0 | - | - | 0 |
+
+## 28 biggest US companies of early 2016 · 2016-03-23 → 2026-11-23
+
+Stocks: AAPL, GOOGL, MSFT, XOM, BRK.B, AMZN, GE, META, JNJ, WFC, JPM, PG, T, PFE, WMT, VZ, CVX, KO, PEP, INTC, ORCL, MRK, HD, DIS, CSCO, IBM, BAC, C
+
+| Bot / benchmark | Portfolio stop rule | Total return | CAGR | Max drawdown | Sharpe | Trades | Win rate | End status | Stops hit |
+|---|---|---:|---:|---:|---:|---:|---:|---|---:|
+| BOT_A | live rule: stop forever | +11.7% | +1.0% | -15.5% | 0.26 | 100 | 45% | STOPPED | 1 |
+| BOT_B | live rule: stop forever | +13.6% | +1.2% | -20.8% | 0.20 | 216 | 68% | STOPPED | 1 |
+| BOT_C | live rule: stop forever | +10.6% | +1.0% | -15.1% | 0.22 | 138 | 38% | STOPPED | 1 |
+| BOT_D | live rule: stop forever | +16.6% | +1.5% | -15.7% | 0.24 | 607 | 41% | STOPPED | 1 |
+| BOT_A | stop → 20-day break → restart | +11.3% | +1.0% | -25.1% | 0.15 | 431 | 40% | ACTIVE | 4 |
+| BOT_B | stop → 20-day break → restart | +122.7% | +7.8% | -21.3% | 0.66 | 592 | 69% | ACTIVE | 2 |
+| BOT_C | stop → 20-day break → restart | +143.1% | +8.7% | -21.7% | 0.66 | 628 | 39% | ACTIVE | 3 |
+| BOT_D | stop → 20-day break → restart | +32.0% | +2.6% | -19.5% | 0.34 | 1009 | 40% | ACTIVE | 1 |
+| BOT_A | no portfolio stop | +20.6% | +1.8% | -22.3% | 0.21 | 445 | 40% | ACTIVE | 0 |
+| BOT_B | no portfolio stop | +156.6% | +9.2% | -29.4% | 0.68 | 612 | 69% | ACTIVE | 0 |
+| BOT_C | no portfolio stop | +197.7% | +10.8% | -18.5% | 0.79 | 645 | 39% | ACTIVE | 0 |
+| BOT_D | no portfolio stop | +31.3% | +2.6% | -19.8% | 0.33 | 1017 | 40% | ACTIVE | 0 |
+| Buy & hold these 28 stocks | benchmark | +330.4% | +14.7% | -30.4% | 0.88 | 0 | - | - | 0 |
+| Buy & hold SPY (S&P 500) | benchmark | +318.6% | +14.4% | -33.8% | 0.86 | 0 | - | - | 0 |
 
 ## How this test works
 
-- One decision per trading day at the close, same rules as `bot_runner.py`, 5 bps slippage on every fill.
+- One decision per trading day at the close, same entry/exit rules as `bot_runner.py`, 5 bps slippage on every fill, max 3 positions.
+- When several stocks qualify on the same day: BOT_B takes the most oversold first, the others the strongest 5-day move first.
 - BOT_C: the news filter cannot be replayed, so only its price rules are tested (news treated as positive).
-- "With live stops" rows apply the live rules (stop forever at -20% or -15% from peak). The "no permanent stop" rows show the strategy itself.
-- The 4 stocks were chosen after they became big winners (selection bias), so buy & hold of these 4 looks better than it would have looked in advance.
+- The 28-stock universe is the largest US companies at the start of 2016, so it includes later losers (GE, INTC, IBM, T ...) and is a fairer test than the 4 hand-picked winners.
