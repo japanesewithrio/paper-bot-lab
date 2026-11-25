@@ -46,7 +46,7 @@
       "cash": 6898.65073358,
       "day_start_equity": 9198.20097811,
       "entry_paused_date": null,
-      "last_equity": 9208.41323991,
+      "last_equity": 9203.04177491,
       "last_exit_date": {
         "AAPL": "2026-11-12",
         "AMD": "2026-11-20",
@@ -76,7 +76,7 @@
       "cash": 7886.46007508,
       "day_start_equity": 9858.07509385,
       "entry_paused_date": null,
-      "last_equity": 9876.52737166,
+      "last_equity": 9871.89937341,
       "last_exit_date": {
         "AAPL": "2026-11-20"
       },
@@ -102,12 +102,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 354.755,
-    "AMD": 403.365,
-    "MSFT": 489.85,
-    "NVDA": 147.99
+    "AAPL": 353.93,
+    "AMD": 400.34,
+    "MSFT": 489.16,
+    "NVDA": 147.605
   },
-  "last_run": "2026-11-25T15:00:31.986700-05:00",
+  "last_run": "2026-11-25T15:30:32.369387-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -118,13 +118,13 @@
         "Apple Plans Return of (PRODUCT)RED Lineup"
       ],
       "news_score": 1,
-      "price": 354.755,
+      "price": 353.93,
       "prior20_high": 360.815,
-      "ret5_pct": 1.6242,
-      "rsi14": 60.7203,
-      "sma20": 348.7305,
-      "sma50": 343.0826,
-      "zscore20": 0.9852
+      "ret5_pct": 1.3879,
+      "rsi14": 60.4015,
+      "sma20": 348.7115,
+      "sma50": 343.075,
+      "zscore20": 0.8559
     },
     "AMD": {
       "news_headlines": [
@@ -133,13 +133,13 @@
         "TrendForce Reports Growing Demand for AMD Helios AI Server Systems"
       ],
       "news_score": 1,
-      "price": 403.365,
+      "price": 400.34,
       "prior20_high": 593.93,
-      "ret5_pct": -17.5864,
-      "rsi14": 49.9654,
-      "sma20": 488.96875,
-      "sma50": 548.2375,
-      "zscore20": -1.6607
+      "ret5_pct": -18.2045,
+      "rsi14": 49.8336,
+      "sma20": 488.90575,
+      "sma50": 548.2123,
+      "zscore20": -1.7146
     },
     "MSFT": {
       "news_headlines": [
@@ -150,13 +150,13 @@
         "Atos and Microsoft Extend Partnership for Digital Sovereignty"
       ],
       "news_score": 2,
-      "price": 489.85,
+      "price": 489.16,
       "prior20_high": 559.12,
-      "ret5_pct": -1.7253,
-      "rsi14": 28.7169,
-      "sma20": 517.23675,
-      "sma50": 519.61,
-      "zscore20": -1.4789
+      "ret5_pct": -1.8638,
+      "rsi14": 28.6828,
+      "sma20": 517.23025,
+      "sma50": 519.6074,
+      "zscore20": -1.515
     },
     "NVDA": {
       "news_headlines": [
@@ -167,13 +167,13 @@
         "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model"
       ],
       "news_score": 0,
-      "price": 147.99,
+      "price": 147.605,
       "prior20_high": 215.32,
-      "ret5_pct": 1.3734,
-      "rsi14": 37.3254,
-      "sma20": 172.425,
-      "sma50": 203.6413,
-      "zscore20": -1.047
+      "ret5_pct": 1.1097,
+      "rsi14": 37.4294,
+      "sma20": 172.4435,
+      "sma50": 203.6487,
+      "zscore20": -1.0652
     }
   },
   "schema_version": 2,
