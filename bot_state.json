@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-11-20",
+      "risk_date": "2026-11-25",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -23,8 +23,8 @@
     },
     "BOT_B": {
       "cash": 8374.64763137,
-      "day_start_equity": 8856.03439881,
-      "entry_paused_date": "2026-11-20",
+      "day_start_equity": 8374.64763137,
+      "entry_paused_date": null,
       "last_equity": 8374.64763137,
       "last_exit_date": {
         "AMD": "2026-11-05",
@@ -33,9 +33,10 @@
       "peak_equity": 10009.54557146,
       "positions": {},
       "realized_pl": -1625.3523687,
-      "risk_date": "2026-11-20",
+      "resume_on": "2026-12-18",
+      "risk_date": "2026-11-25",
       "starting_cash": 10000.0,
-      "status": "STOPPED",
+      "status": "COOLDOWN",
       "stop_reason": "peak drawdown >= 15%",
       "stopped_at": "2026-11-20T15:52:05.563367-05:00",
       "strategy": "Dip / Mean Reversion",
@@ -43,7 +44,7 @@
     },
     "BOT_C": {
       "cash": 9198.20097811,
-      "day_start_equity": 9666.97110305,
+      "day_start_equity": 9198.20097811,
       "entry_paused_date": null,
       "last_equity": 9198.20097811,
       "last_exit_date": {
@@ -55,7 +56,7 @@
       "peak_equity": 10007.62053054,
       "positions": {},
       "realized_pl": -801.79900885,
-      "risk_date": "2026-11-20",
+      "risk_date": "2026-11-25",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -65,7 +66,7 @@
     },
     "BOT_D": {
       "cash": 9858.07509385,
-      "day_start_equity": 9933.45143226,
+      "day_start_equity": 9858.07509385,
       "entry_paused_date": null,
       "last_equity": 9858.07509385,
       "last_exit_date": {
@@ -74,7 +75,7 @@
       "peak_equity": 10051.60874843,
       "positions": {},
       "realized_pl": -141.92489756,
-      "risk_date": "2026-11-20",
+      "risk_date": "2026-11-25",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -85,80 +86,78 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 343.66,
-    "AMD": 426.2,
-    "MSFT": 484.785,
-    "NVDA": 127.555
+    "AAPL": 347.975,
+    "AMD": 375.485,
+    "MSFT": 480.525,
+    "NVDA": 141.82
   },
-  "last_run": "2026-11-20T15:52:05.563367-05:00",
+  "last_run": "2026-11-25T11:31:49.822026-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
-        "Apple Developer Academy Showcase in Pohang",
-        "Apple Developing Autonomous AI Agent",
-        "U.K. Tribunal Orders Government to Confirm Secret Demand for Apple Customer Data",
-        "Apple Camera and Photos Software Chief Jon McCormack Departs",
-        "Apple Announces 2026 Black Friday Shopping Event"
+        "Apple Participates in Korea-US AI Infrastructure Roundtable",
+        "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
+        "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple",
+        "Apple Announces Fifth Season of 'Ted Lasso'",
+        "Apple Plans Return of (PRODUCT)RED Lineup"
       ],
       "news_score": 1,
-      "price": 343.66,
+      "price": 347.975,
       "prior20_high": 360.815,
-      "ret5_pct": -2.5852,
-      "rsi14": 53.5856,
-      "sma20": 347.5675,
-      "sma50": 341.8521,
-      "zscore20": -0.6598
+      "ret5_pct": -0.318,
+      "rsi14": 53.3207,
+      "sma20": 348.4,
+      "sma50": 342.9504,
+      "zscore20": -0.0713
     },
     "AMD": {
       "news_headlines": [
-        "Law Firms Announce Securities Investigations into Advanced Micro Devices, Inc.",
-        "Advanced Micro Devices Shares Decline Following Hunterbrook Media Report on China Ties",
-        "AMD CEO Lisa Su Comments on Nvidia Leadership Transition",
-        "AMD Insider Executes Significant Share Sale",
-        "OpenAI Integrates Frontier Model Feedback Tools with AMD Hardware"
+        "BNP Paribas Adjusts Price Target for AMD",
+        "Bernstein Initiates Coverage on AMD with Buy Rating",
+        "TrendForce Reports Growing Demand for AMD Helios AI Server Systems"
       ],
-      "news_score": -2,
-      "price": 426.2,
+      "news_score": 1,
+      "price": 375.485,
       "prior20_high": 593.93,
-      "ret5_pct": -15.4566,
-      "rsi14": 46.0429,
-      "sma20": 509.13875,
-      "sma50": 553.1148,
-      "zscore20": -1.7464
+      "ret5_pct": -23.2827,
+      "rsi14": 47.1935,
+      "sma20": 487.56925,
+      "sma50": 547.6777,
+      "zscore20": -2.069
     },
     "MSFT": {
       "news_headlines": [
-        "Danaher Collaborates with Microsoft to Advance AI-Powered Scientific Instrument Connectivity",
-        "Profound Launches Integrations for Microsoft Teams and Microsoft 365",
-        "Microsoft Integrates IDEMIA Mobile Driver's License Verification into Entra",
-        "Microsoft Announces AI Innovations and Salesforce Partnership at Ignite",
-        "Splashtop Joins Microsoft Virus Initiative"
+        "The AA Deploys Microsoft Dynamics 365 and Azure for Digital Workflow",
+        "Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot",
+        "Microsoft Declares 'Code Red' Following Historic Outage",
+        "Microsoft Secures 51MW Geothermal Energy Contract in New Zealand",
+        "Atos and Microsoft Extend Partnership for Digital Sovereignty"
       ],
       "news_score": 2,
-      "price": 484.785,
+      "price": 480.525,
       "prior20_high": 559.12,
-      "ret5_pct": -6.4537,
-      "rsi14": 42.844,
-      "sma20": 523.034,
-      "sma50": 519.8674,
-      "zscore20": -2.3804
+      "ret5_pct": -3.5961,
+      "rsi14": 26.5695,
+      "sma20": 516.79425,
+      "sma50": 519.433,
+      "zscore20": -1.8829
     },
     "NVDA": {
       "news_headlines": [
-        "Compute Exchange Announces Live GPU Capacity Auction at NVIDIA GTC DC",
-        "NVIDIA Subject to Congressional Probe Regarding China Sales",
-        "California Attorney General Launches Investigation into NVIDIA",
-        "5C Group Joins NVIDIA Partner Network as Data Center Partner",
-        "Democrats Open Probe Into Nvidia Influence on US Megaspeed Investigation"
+        "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy",
+        "NVIDIA Reinstates Jensen Huang as President and CEO",
+        "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
+        "Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO",
+        "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model"
       ],
-      "news_score": -2,
-      "price": 127.555,
-      "prior20_high": 219.915,
-      "ret5_pct": -18.3099,
-      "rsi14": 14.015,
-      "sma20": 181.557,
-      "sma50": 207.0518,
-      "zscore20": -2.0475
+      "news_score": 0,
+      "price": 141.82,
+      "prior20_high": 215.32,
+      "ret5_pct": -2.853,
+      "rsi14": 35.7806,
+      "sma20": 172.1375,
+      "sma50": 203.5263,
+      "zscore20": -1.2807
     }
   },
   "schema_version": 2,
