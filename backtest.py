@@ -10,6 +10,7 @@ Simplifications, stated in the report:
 """
 from __future__ import annotations
 
+import dataclasses
 import os
 import sys
 from datetime import datetime, timezone
@@ -57,11 +58,35 @@ def fetch(symbols=None):
     raise SystemExit("no historical data")
 
 
+_SIG = {}
+
+
+def signal(bars, s, day, price):
+    """signals depend only on the stock and the day, so compute them once for all bots and rule variants"""
+    k = (s, day)
+    if k not in _SIG:
+        b = bars[s]
+        hist = b.loc[:day].iloc[:-1].tail(220)
+        _SIG[k] = B.calculate_signal(hist, price) if len(hist) >= 55 else None
+    return _SIG[k]
+
+
+_REGIME = {}
+
+
+def risk_on(bars, day):
+    """market filter: S&P 500 (SPY) above its 200-day average, using completed bars only"""
+    if day not in _REGIME:
+        c = bars[BENCH]["close"].loc[:day].iloc[:-1]
+        _REGIME[day] = len(c) < 200 or float(c.iloc[-1]) > float(c.tail(200).mean())
+    return _REGIME[day]
+
+
 def rank_key(bot, sg):
     return sg.zscore20 if bot == "BOT_B" else -sg.ret5_pct      # most oversold first for B, strongest move first for others
 
 
-def simulate(bars, bot, mode="permanent", symbols=None):
+def simulate(bars, bot, mode="permanent", symbols=None, regime=False):
     """mode: permanent = live rule (stop forever) · cooldown = sit out COOLDOWN_DAYS, then restart from current equity · none"""
     symbols = [s for s in (symbols or SYMBOLS) if s in bars]
     frac = B.BOT_CONFIG[bot]["position_fraction"]
@@ -75,9 +100,9 @@ def simulate(bars, bot, mode="permanent", symbols=None):
             b = bars[s]
             if day in b.index:
                 price[s] = float(b.loc[day, "close"])
-                hist = b.loc[:day].iloc[:-1].tail(220)
-                if len(hist) >= 55:
-                    sig[s] = B.calculate_signal(hist, price[s], news_score=1 if bot == "BOT_C" else 0)
+                sg = signal(bars, s, day, price[s])
+                if sg is not None:
+                    sig[s] = dataclasses.replace(sg, news_score=1) if bot == "BOT_C" else sg
         if status == "COOLDOWN" and i >= resume:
             status = "ACTIVE"
         exited = set()
@@ -108,7 +133,7 @@ def simulate(bars, bot, mode="permanent", symbols=None):
                 status = "STOPPED"
             else:
                 status, resume, peak, base = "COOLDOWN", i + COOLDOWN_DAYS, equity, equity
-        if status == "ACTIVE":
+        if status == "ACTIVE" and (not regime or risk_on(bars, day)):
             cands = sorted((s for s in sig if s not in pos and s not in exited and B.should_enter(bot, sig[s])), key=lambda s: rank_key(bot, sig[s]))
             for s in cands:
                 if len(pos) >= B.MAX_POSITIONS:
@@ -138,15 +163,16 @@ def run_universe(bars, symbols, title):
     days = sorted(set.union(*[set(bars[x].index) for x in symbols]))[55:]
     first = days[0]
     rows, curves = [], {}
-    for mode, tag in (("permanent", "live rule: stop forever"), ("cooldown", "stop → %d-day break → restart" % COOLDOWN_DAYS), ("none", "no portfolio stop")):
+    for mode, tag, reg in (("permanent", "live rule: stop forever (old)", False), ("cooldown", "cooldown (live now)", False),
+                           ("cooldown", "cooldown + market filter (SPY > 200-day avg)", True), ("none", "no portfolio stop", False)):
         for bot in B.BOT_CONFIG:
-            c, tr, st, n = simulate(bars, bot, mode, symbols)
+            c, tr, st, n = simulate(bars, bot, mode, symbols, reg)
             c = c.loc[first:]
             sells = [t for t in tr if t[2] == "SELL"]
             wins = sum(1 for t in sells if t[4] > 0)
             tot, cagr, dd, sh = stats(c)
             rows.append([bot, tag, tot, cagr, dd, sh, len(sells), wins / len(sells) if sells else 0, st, n])
-            curves[(bot, mode)] = c
+            curves[(bot, mode + ("+regime" if reg else ""))] = c
     ew = None
     for x in symbols:
         sr = bars[x]["close"].loc[first:]
@@ -169,7 +195,7 @@ def main():
           "> Simulation only. Past results do not predict future results. Not financial advice.", ""]
     for title, syms, first, last, rows, curves in results:
         md += ["## %s · %s → %s" % (title, first.date(), last.date()), "", "Stocks: " + ", ".join(syms), "",
-               "| Bot / benchmark | Portfolio stop rule | Total return | CAGR | Max drawdown | Sharpe | Trades | Win rate | End status | Stops hit |",
+               "| Bot / benchmark | Rules | Total return | CAGR | Max drawdown | Sharpe | Trades | Win rate | End status | Stops hit |",
                "|---|---|---:|---:|---:|---:|---:|---:|---|---:|"]
         for r in rows:
             md.append("| %s | %s | %s | %s | %s | %.2f | %d | %s | %s | %d |" % (r[0], r[1], pct(r[2]), pct(r[3]), pct(r[4]), r[5], r[6],
