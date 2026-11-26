@@ -31,6 +31,6 @@ Use a fresh Alpaca paper/data key pair. Never commit keys to this repository.
 
 ## Automation
 
-GitHub's scheduler drops or delays most scheduled runs, so the workflow does not rely on it for timing: once a run starts during (or up to 45 minutes before) the regular U.S. session, it stays alive and runs the bots every 30 minutes until the market closes (up to ~5h40m per run; a queued run continues after that). `market_clock.py` only reads Alpaca's market clock, which handles weekends, holidays, and DST changes.
+GitHub's scheduler drops most scheduled runs (some days none at all), so the workflow keeps itself alive as a relay: each run trades every 30 minutes while the market is open, or waits for the next open, for up to ~5h40m, then starts the next run itself. The schedule only restarts the relay if it ever breaks. `market_clock.py` only reads Alpaca's market clock, which handles weekends, holidays, and DST changes.
 
 State is persisted in `bot_state.json`; the human-readable latest status is in `reports/latest.md`.

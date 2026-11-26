@@ -1,5 +1,5 @@
 """Market clock helper for the session loop (read-only: only asks Alpaca for the clock).
-Prints one of: OPEN / SOON <seconds-until-open> / CLOSED"""
+Prints one of: OPEN / WAIT <seconds-until-next-open>"""
 import os
 from datetime import datetime, timezone
 
@@ -10,4 +10,4 @@ if c.is_open:
     print("OPEN")
 else:
     wait = (c.next_open - datetime.now(timezone.utc)).total_seconds()
-    print("SOON %d" % wait if 0 < wait <= 45 * 60 else "CLOSED")
+    print("WAIT %d" % max(wait, 60))
