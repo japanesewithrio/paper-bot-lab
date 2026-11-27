@@ -46,7 +46,7 @@
       "cash": 6898.65073358,
       "day_start_equity": 9203.04177491,
       "entry_paused_date": null,
-      "last_equity": 9231.9174686,
+      "last_equity": 9219.15616992,
       "last_exit_date": {
         "AAPL": "2026-11-12",
         "AMD": "2026-11-20",
@@ -76,7 +76,7 @@
       "cash": 7886.46007508,
       "day_start_equity": 9871.89937341,
       "entry_paused_date": null,
-      "last_equity": 9896.77837007,
+      "last_equity": 9885.78336817,
       "last_exit_date": {
         "AAPL": "2026-11-20"
       },
@@ -102,40 +102,39 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 358.365,
-    "AMD": 418.465,
-    "MSFT": 486.58,
-    "NVDA": 149.675
+    "AAPL": 356.405,
+    "AMD": 400.8,
+    "MSFT": 490.335,
+    "NVDA": 146.14
   },
-  "last_run": "2026-11-27T09:31:00.996719-05:00",
+  "last_run": "2026-11-27T10:00:31.754533-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
         "Apple Removes Talkie AI App from App Store Worldwide",
         "Apple to Open New Retail Store in Hyderabad, India",
         "Apple Participates in Korea-US AI Infrastructure Roundtable",
-        "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
-        "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple"
+        "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership"
       ],
       "news_score": 1,
-      "price": 358.365,
+      "price": 356.405,
       "prior20_high": 360.815,
-      "ret5_pct": 4.3579,
-      "rsi14": 66.3372,
-      "sma20": 349.2385,
-      "sma50": 343.5236,
-      "zscore20": 1.4042
+      "ret5_pct": 3.7871,
+      "rsi14": 64.5912,
+      "sma20": 349.11875,
+      "sma50": 343.4757,
+      "zscore20": 1.147
     },
     "AMD": {
       "news_headlines": [],
       "news_score": 0,
-      "price": 418.465,
+      "price": 400.8,
       "prior20_high": 593.93,
-      "ret5_pct": -1.3752,
-      "rsi14": 46.6119,
-      "sma20": 481.653,
-      "sma50": 545.7445,
-      "zscore20": -1.2549
+      "ret5_pct": -5.5385,
+      "rsi14": 44.7211,
+      "sma20": 480.8585,
+      "sma50": 545.4267,
+      "zscore20": -1.5554
     },
     "MSFT": {
       "news_headlines": [
@@ -146,13 +145,13 @@
         "Microsoft Declares 'Code Red' Following Historic Outage"
       ],
       "news_score": -1,
-      "price": 486.58,
+      "price": 490.335,
       "prior20_high": 559.12,
-      "ret5_pct": 0.2555,
-      "rsi14": 36.0201,
-      "sma20": 515.68775,
-      "sma50": 519.6448,
-      "zscore20": -1.5615
+      "ret5_pct": 1.0292,
+      "rsi14": 30.5151,
+      "sma20": 515.24175,
+      "sma50": 519.4664,
+      "zscore20": -1.3018
     },
     "NVDA": {
       "news_headlines": [
@@ -163,13 +162,13 @@
         "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy"
       ],
       "news_score": -1,
-      "price": 149.675,
+      "price": 146.14,
       "prior20_high": 209.965,
-      "ret5_pct": 19.1206,
-      "rsi14": 35.4387,
-      "sma20": 169.3005,
-      "sma50": 202.2775,
-      "zscore20": -0.9034
+      "ret5_pct": 16.3072,
+      "rsi14": 34.4189,
+      "sma20": 169.1305,
+      "sma50": 202.2095,
+      "zscore20": -1.0503
     }
   },
   "schema_version": 2,
