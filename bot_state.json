@@ -13,7 +13,7 @@
       "peak_equity": 10000.0,
       "positions": {},
       "realized_pl": -325.7743655,
-      "risk_date": "2026-11-25",
+      "risk_date": "2026-11-27",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -34,7 +34,7 @@
       "positions": {},
       "realized_pl": -1625.3523687,
       "resume_on": "2026-12-18",
-      "risk_date": "2026-11-25",
+      "risk_date": "2026-11-27",
       "starting_cash": 10000.0,
       "status": "COOLDOWN",
       "stop_reason": "peak drawdown >= 15%",
@@ -44,9 +44,9 @@
     },
     "BOT_C": {
       "cash": 6898.65073358,
-      "day_start_equity": 9198.20097811,
+      "day_start_equity": 9203.04177491,
       "entry_paused_date": null,
-      "last_equity": 9203.04177491,
+      "last_equity": 9231.9174686,
       "last_exit_date": {
         "AAPL": "2026-11-12",
         "AMD": "2026-11-20",
@@ -64,7 +64,7 @@
         }
       },
       "realized_pl": -801.79900885,
-      "risk_date": "2026-11-25",
+      "risk_date": "2026-11-27",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -74,9 +74,9 @@
     },
     "BOT_D": {
       "cash": 7886.46007508,
-      "day_start_equity": 9858.07509385,
+      "day_start_equity": 9871.89937341,
       "entry_paused_date": null,
-      "last_equity": 9871.89937341,
+      "last_equity": 9896.77837007,
       "last_exit_date": {
         "AAPL": "2026-11-20"
       },
@@ -91,7 +91,7 @@
         }
       },
       "realized_pl": -141.92489756,
-      "risk_date": "2026-11-25",
+      "risk_date": "2026-11-27",
       "starting_cash": 10000.0,
       "status": "ACTIVE",
       "stop_reason": null,
@@ -102,78 +102,74 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 353.93,
-    "AMD": 400.34,
-    "MSFT": 489.16,
-    "NVDA": 147.605
+    "AAPL": 358.365,
+    "AMD": 418.465,
+    "MSFT": 486.58,
+    "NVDA": 149.675
   },
-  "last_run": "2026-11-25T15:30:32.369387-05:00",
+  "last_run": "2026-11-27T09:31:00.996719-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
+        "Apple Removes Talkie AI App from App Store Worldwide",
+        "Apple to Open New Retail Store in Hyderabad, India",
         "Apple Participates in Korea-US AI Infrastructure Roundtable",
         "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership",
-        "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple",
-        "Apple Announces Fifth Season of 'Ted Lasso'",
-        "Apple Plans Return of (PRODUCT)RED Lineup"
+        "J.P. Morgan Maintains Buy Rating and $355 Price Target for Apple"
       ],
       "news_score": 1,
-      "price": 353.93,
+      "price": 358.365,
       "prior20_high": 360.815,
-      "ret5_pct": 1.3879,
-      "rsi14": 60.4015,
-      "sma20": 348.7115,
-      "sma50": 343.075,
-      "zscore20": 0.8559
+      "ret5_pct": 4.3579,
+      "rsi14": 66.3372,
+      "sma20": 349.2385,
+      "sma50": 343.5236,
+      "zscore20": 1.4042
     },
     "AMD": {
-      "news_headlines": [
-        "BNP Paribas Adjusts Price Target for AMD",
-        "Bernstein Initiates Coverage on AMD with Buy Rating",
-        "TrendForce Reports Growing Demand for AMD Helios AI Server Systems"
-      ],
-      "news_score": 1,
-      "price": 400.34,
+      "news_headlines": [],
+      "news_score": 0,
+      "price": 418.465,
       "prior20_high": 593.93,
-      "ret5_pct": -18.2045,
-      "rsi14": 49.8336,
-      "sma20": 488.90575,
-      "sma50": 548.2123,
-      "zscore20": -1.7146
+      "ret5_pct": -1.3752,
+      "rsi14": 46.6119,
+      "sma20": 481.653,
+      "sma50": 545.7445,
+      "zscore20": -1.2549
     },
     "MSFT": {
       "news_headlines": [
+        "Microsoft AI CEO Mustafa Suleyman Issues Warning on AI Safety Thresholds",
+        "BNY and Microsoft Complete AI Agent Pilot for Treasury Trading",
         "The AA Deploys Microsoft Dynamics 365 and Azure for Digital Workflow",
         "Maverick Medical AI Integrates CodeAgent with Microsoft Dragon Copilot",
-        "Microsoft Declares 'Code Red' Following Historic Outage",
-        "Microsoft Secures 51MW Geothermal Energy Contract in New Zealand",
-        "Atos and Microsoft Extend Partnership for Digital Sovereignty"
+        "Microsoft Declares 'Code Red' Following Historic Outage"
       ],
-      "news_score": 2,
-      "price": 489.16,
+      "news_score": -1,
+      "price": 486.58,
       "prior20_high": 559.12,
-      "ret5_pct": -1.8638,
-      "rsi14": 28.6828,
-      "sma20": 517.23025,
-      "sma50": 519.6074,
-      "zscore20": -1.515
+      "ret5_pct": 0.2555,
+      "rsi14": 36.0201,
+      "sma20": 515.68775,
+      "sma50": 519.6448,
+      "zscore20": -1.5615
     },
     "NVDA": {
       "news_headlines": [
-        "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy",
-        "NVIDIA Reinstates Jensen Huang as President and CEO",
-        "NVIDIA Former CEO Jensen Huang Agrees to Senate Testimony",
-        "Trump Administration Pushes for Reinstatement of Jensen Huang as NVIDIA CEO",
-        "NVIDIA Launches Alpamayo 2 Edge Vision-Language-Action Model"
+        "NVIDIA Faces New U.S. Export Controls and Regional Market Shifts",
+        "NVIDIA and Kioxia Announce Collaboration to Extend GPU Memory Capacity",
+        "NVIDIA Orders Partners to Stop Server Shipments to ASEAN States",
+        "S&P Global Ratings Places NVIDIA on CreditWatch Negative",
+        "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy"
       ],
-      "news_score": 0,
-      "price": 147.605,
-      "prior20_high": 215.32,
-      "ret5_pct": 1.1097,
-      "rsi14": 37.4294,
-      "sma20": 172.4435,
-      "sma50": 203.6487,
-      "zscore20": -1.0652
+      "news_score": -1,
+      "price": 149.675,
+      "prior20_high": 209.965,
+      "ret5_pct": 19.1206,
+      "rsi14": 35.4387,
+      "sma20": 169.3005,
+      "sma50": 202.2775,
+      "zscore20": -0.9034
     }
   },
   "schema_version": 2,
