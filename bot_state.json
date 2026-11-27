@@ -46,7 +46,7 @@
       "cash": 6898.65073358,
       "day_start_equity": 9203.04177491,
       "entry_paused_date": null,
-      "last_equity": 9226.35067759,
+      "last_equity": 9228.85736126,
       "last_exit_date": {
         "AAPL": "2026-11-12",
         "AMD": "2026-11-20",
@@ -76,7 +76,7 @@
       "cash": 7886.46007508,
       "day_start_equity": 9871.89937341,
       "entry_paused_date": null,
-      "last_equity": 9891.98208098,
+      "last_equity": 9894.14181349,
       "last_exit_date": {
         "AAPL": "2026-11-20"
       },
@@ -102,12 +102,12 @@
   },
   "created_at": "2026-10-07T00:00:00Z",
   "last_prices": {
-    "AAPL": 357.51,
-    "AMD": 419.875,
-    "MSFT": 491.425,
-    "NVDA": 148.93
+    "AAPL": 357.895,
+    "AMD": 418.155,
+    "MSFT": 491.7,
+    "NVDA": 149.23
   },
-  "last_run": "2026-11-27T12:00:31.339464-05:00",
+  "last_run": "2026-11-27T12:30:31.191471-05:00",
   "last_signals": {
     "AAPL": {
       "news_headlines": [
@@ -117,24 +117,24 @@
         "Apple to Host Special Event at SoHo Store Marking 20 Years of (RED) Partnership"
       ],
       "news_score": 1,
-      "price": 357.51,
+      "price": 357.895,
       "prior20_high": 360.815,
-      "ret5_pct": 4.1089,
-      "rsi14": 66.1421,
-      "sma20": 349.2245,
-      "sma50": 343.518,
-      "zscore20": 1.2786
+      "ret5_pct": 4.221,
+      "rsi14": 66.114,
+      "sma20": 349.2225,
+      "sma50": 343.5172,
+      "zscore20": 1.3388
     },
     "AMD": {
       "news_headlines": [],
       "news_score": 0,
-      "price": 419.875,
+      "price": 418.155,
       "prior20_high": 593.93,
-      "ret5_pct": -1.0429,
-      "rsi14": 46.6385,
-      "sma20": 481.664,
-      "sma50": 545.7489,
-      "zscore20": -1.2275
+      "ret5_pct": -1.4483,
+      "rsi14": 46.7132,
+      "sma20": 481.695,
+      "sma50": 545.7613,
+      "zscore20": -1.2632
     },
     "MSFT": {
       "news_headlines": [
@@ -145,13 +145,13 @@
         "Microsoft Declares 'Code Red' Following Historic Outage"
       ],
       "news_score": -1,
-      "price": 491.425,
+      "price": 491.7,
       "prior20_high": 559.12,
-      "ret5_pct": 1.2538,
-      "rsi14": 31.1526,
-      "sma20": 515.28975,
-      "sma50": 519.4856,
-      "zscore20": -1.2514
+      "ret5_pct": 1.3104,
+      "rsi14": 31.4279,
+      "sma20": 515.31075,
+      "sma50": 519.494,
+      "zscore20": -1.2398
     },
     "NVDA": {
       "news_headlines": [
@@ -162,13 +162,13 @@
         "NVIDIA CEO Jensen Huang Reportedly Apologizes to Staff and Enters Therapy"
       ],
       "news_score": -1,
-      "price": 148.93,
+      "price": 149.23,
       "prior20_high": 209.965,
-      "ret5_pct": 18.5277,
-      "rsi14": 35.1015,
-      "sma20": 169.2565,
-      "sma50": 202.2599,
-      "zscore20": -0.9339
+      "ret5_pct": 18.7664,
+      "rsi14": 35.2577,
+      "sma20": 169.28275,
+      "sma50": 202.2704,
+      "zscore20": -0.9224
     }
   },
   "schema_version": 2,
